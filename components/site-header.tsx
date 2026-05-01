@@ -6,11 +6,11 @@ import { Menu, Search, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 const nav = [
-  { label: "Brasileirão", href: "#brasileirao" },
-  { label: "Campeonatos", href: "#campeonatos" },
-  { label: "Histórico", href: "#historico" },
-  { label: "Metodologia", href: "#metodologia" },
-  { label: "Editorial", href: "#editorial" },
+  { label: "Brasileirão", href: "/#brasileirao" },
+  { label: "Campeonatos", href: "/#campeonatos" },
+  { label: "Clubes", href: "/#times" },
+  { label: "Histórico", href: "/#historico" },
+  { label: "Metodologia", href: "/#metodologia" },
 ]
 
 export function SiteHeader() {

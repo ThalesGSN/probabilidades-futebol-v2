@@ -7,6 +7,7 @@ import { NewsletterSection } from "@/components/newsletter-section"
 import { ProbabilityCardiogram } from "@/components/probability-cardiogram"
 import { SiteFooter } from "@/components/site-footer"
 import { SiteHeader } from "@/components/site-header"
+import { TeamsIndex } from "@/components/teams-index"
 
 export default function HomePage() {
   return (
@@ -16,6 +17,7 @@ export default function HomePage() {
         <HeroSection />
         <ProbabilityCardiogram />
         <ChampionshipsGrid />
+        <TeamsIndex />
         <HistoricalHeatmap />
         <MethodologyTeaser />
         <EditorialSection />
