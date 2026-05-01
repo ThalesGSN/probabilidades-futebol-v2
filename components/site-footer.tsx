@@ -3,7 +3,7 @@ import Link from "next/link"
 const groups = [
   {
     title: "Competições",
-    links: ["Brasileirão A", "Brasileirão B", "Mineiro", "Libertadores", "Sul-Americana", "Copa do Mundo"],
+    links: ["Brasileirão Série A", "Brasileirão Série B"],
   },
   {
     title: "Explorar",
