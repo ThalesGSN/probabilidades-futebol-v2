@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button"
 const nav = [
   { label: "Brasileirão", href: "/#brasileirao" },
   { label: "Campeonatos", href: "/#campeonatos" },
-  { label: "Clubes", href: "/#times" },
+  { label: "Clubes", href: "/clubes" },
   { label: "Histórico", href: "/#historico" },
   { label: "Metodologia", href: "/#metodologia" },
 ]

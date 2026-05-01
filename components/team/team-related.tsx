@@ -18,11 +18,11 @@ export function TeamRelated({
               Outros clubes
             </p>
             <h2 className="mt-2 font-serif text-3xl leading-[1.05] tracking-tight lg:text-4xl">
-              Compare com o resto da Série A.
+              Compare com o resto da Série {current.division}.
             </h2>
           </div>
           <Link
-            href="/#times"
+            href={`/clubes#serie-${current.division.toLowerCase()}`}
             className="hidden items-center gap-1 font-mono text-xs uppercase tracking-wider text-muted-foreground transition-colors hover:text-foreground sm:inline-flex"
           >
             Todos os clubes

@@ -49,7 +49,7 @@ export default async function TeamPage({
   const distribution = getMonteCarloDistribution(team)
   const fixtures = getTeamFixtures(team)
   const others = getAllTeams()
-    .filter((t) => t.slug !== team.slug)
+    .filter((t) => t.slug !== team.slug && t.division === team.division)
     .slice(0, 6)
 
   return (

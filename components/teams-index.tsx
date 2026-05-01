@@ -1,9 +1,9 @@
 import Link from "next/link"
 import { ArrowUpRight } from "lucide-react"
-import { getAllTeams } from "@/lib/teams"
+import { getTeamsByDivision } from "@/lib/teams"
 
 export function TeamsIndex() {
-  const teams = getAllTeams()
+  const teams = getTeamsByDivision("A")
 
   return (
     <section id="times" className="border-b border-border bg-background">
@@ -18,6 +18,13 @@ export function TeamsIndex() {
               Páginas dedicadas com cardiograma da temporada, série histórica desde 2005, distribuição de
               Monte Carlo da pontuação final e calendário probabilístico dos próximos jogos.
             </p>
+            <Link
+              href="/clubes"
+              className="group mt-6 inline-flex items-center gap-1.5 font-mono text-xs uppercase tracking-[0.18em] text-foreground transition-colors hover:text-primary"
+            >
+              Ver Série A e Série B completas
+              <ArrowUpRight className="h-3.5 w-3.5 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
+            </Link>
           </div>
 
           <ul className="lg:col-span-8 grid gap-px overflow-hidden rounded-md border border-border bg-border sm:grid-cols-2">
