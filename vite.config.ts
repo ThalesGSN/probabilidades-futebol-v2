@@ -13,6 +13,12 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./"),
     },
   },
+  // Tailwind v4 é processado pelo plugin @tailwindcss/vite — desabilitamos o
+  // auto-discovery do PostCSS para evitar que o Vite tente carregar configs
+  // remanescentes (ex.: postcss.config.* de um setup Next.js anterior).
+  css: {
+    postcss: {},
+  },
   server: {
     host: true,
     port: 5173,
