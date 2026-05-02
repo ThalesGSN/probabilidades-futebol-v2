@@ -29,10 +29,15 @@ const teams = [
 
 // Série fictícia mas plausível: 31 rodadas x 4 times x 3 métricas
 // (em produção viria do pipeline diário de Monte Carlo)
+// Usamos ruído determinístico (não Math.random) para evitar mismatch de hidratação SSR/CSR.
+const noise = (seed: number) => {
+  const x = Math.sin(seed * 12.9898) * 43758.5453
+  return x - Math.floor(x) - 0.5
+}
 const data = Array.from({ length: 31 }, (_, i) => {
   const r = i + 1
   const wave = (offset: number, amp: number, base: number) =>
-    Math.max(0, Math.min(100, base + Math.sin((r + offset) / 3.2) * amp + (Math.random() - 0.5) * 4))
+    Math.max(0, Math.min(100, base + Math.sin((r + offset) / 3.2) * amp + noise(r + offset * 7) * 4))
 
   return {
     rodada: r,
