@@ -1,4 +1,4 @@
-import Link from "next/link"
+import { Link } from "react-router-dom"
 
 const groups = [
   {
@@ -53,7 +53,7 @@ export function SiteFooter() {
                 <ul className="mt-4 space-y-2.5">
                   {g.links.map((l) => (
                     <li key={l}>
-                      <Link href="#" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
+                      <Link to="#" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
                         {l}
                       </Link>
                     </li>
@@ -67,13 +67,13 @@ export function SiteFooter() {
         <div className="mt-16 flex flex-col gap-4 border-t border-border pt-6 text-xs text-muted-foreground sm:flex-row sm:items-center sm:justify-between">
           <p>© 2005–2026 Probabilidades no Futebol · Universidade Federal de Minas Gerais</p>
           <div className="flex gap-6">
-            <Link href="#" className="hover:text-foreground">
+            <Link to="#" className="hover:text-foreground">
               Termos
             </Link>
-            <Link href="#" className="hover:text-foreground">
+            <Link to="#" className="hover:text-foreground">
               Privacidade
             </Link>
-            <Link href="#" className="hover:text-foreground">
+            <Link to="#" className="hover:text-foreground">
               Acessibilidade
             </Link>
           </div>

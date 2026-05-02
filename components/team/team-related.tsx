@@ -1,4 +1,4 @@
-import Link from "next/link"
+import { Link } from "react-router-dom"
 import { ArrowUpRight } from "lucide-react"
 import type { Team } from "@/lib/teams"
 
@@ -22,7 +22,7 @@ export function TeamRelated({
             </h2>
           </div>
           <Link
-            href={`/clubes#serie-${current.division.toLowerCase()}`}
+            to={`/clubes#serie-${current.division.toLowerCase()}`}
             className="hidden items-center gap-1 font-mono text-xs uppercase tracking-wider text-muted-foreground transition-colors hover:text-foreground sm:inline-flex"
           >
             Todos os clubes
@@ -34,7 +34,7 @@ export function TeamRelated({
           {others.map((t) => (
             <li key={t.slug}>
               <Link
-                href={`/times/${t.slug}`}
+                to={`/times/${t.slug}`}
                 className="group flex h-full flex-col justify-between gap-6 bg-card p-6 transition-colors hover:bg-muted/40"
               >
                 <div className="flex items-start justify-between gap-4">

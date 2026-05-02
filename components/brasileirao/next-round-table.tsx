@@ -1,6 +1,4 @@
-"use client"
-
-import Link from "next/link"
+import { Link } from "react-router-dom"
 import type { Division } from "@/lib/teams"
 import { getNextRoundFixtures } from "@/lib/brasileirao"
 
@@ -31,7 +29,7 @@ export function NextRoundTable({
 
             <div className="grid items-center gap-3 px-4 py-4 sm:grid-cols-[1fr_auto_1fr]">
               <Link
-                href={`/times/${f.home.slug}`}
+                to={`/times/${f.home.slug}`}
                 className="flex items-center gap-3 sm:justify-end"
               >
                 <span className="text-right">
@@ -58,7 +56,7 @@ export function NextRoundTable({
               </div>
 
               <Link
-                href={`/times/${f.away.slug}`}
+                to={`/times/${f.away.slug}`}
                 className="flex items-center gap-3"
               >
                 <span

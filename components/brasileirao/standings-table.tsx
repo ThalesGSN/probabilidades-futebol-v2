@@ -1,6 +1,4 @@
-"use client"
-
-import Link from "next/link"
+import { Link } from "react-router-dom"
 import type { Division } from "@/lib/teams"
 import { getStandings, type StandingMode } from "@/lib/brasileirao"
 
@@ -68,7 +66,7 @@ export function StandingsTable({
                 </td>
                 <td className="px-4 py-3">
                   <Link
-                    href={`/times/${row.team.slug}`}
+                    to={`/times/${row.team.slug}`}
                     className="inline-flex items-center gap-2.5 hover:underline"
                   >
                     <span

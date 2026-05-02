@@ -1,6 +1,4 @@
-"use client"
-
-import Link from "next/link"
+import { Link } from "react-router-dom"
 import type { Division } from "@/lib/teams"
 import { getStatRanking, type StatKey } from "@/lib/brasileirao"
 
@@ -66,7 +64,7 @@ export function StatsRanking({
               </span>
               <div className="min-w-0">
                 <Link
-                  href={`/times/${row.team.slug}`}
+                  to={`/times/${row.team.slug}`}
                   className="flex items-center gap-2 hover:underline"
                 >
                   <span

@@ -1,4 +1,4 @@
-import Link from "next/link"
+import { Link } from "react-router-dom"
 import { ArrowUpRight } from "lucide-react"
 
 const championships = [
@@ -44,7 +44,7 @@ export function ChampionshipsGrid() {
           {championships.map((c) => (
             <Link
               key={c.name}
-              href={c.href}
+              to={c.href}
               className="group relative flex flex-col justify-between gap-10 bg-background p-8 transition-colors hover:bg-card lg:p-10"
             >
               <div>

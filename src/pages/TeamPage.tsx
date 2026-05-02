@@ -1,5 +1,4 @@
-import { notFound } from "next/navigation"
-import type { Metadata } from "next"
+import { Navigate, useParams } from "react-router-dom"
 import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { TeamHero } from "@/components/team/team-hero"
@@ -16,33 +15,17 @@ import {
   getTeamHistory,
   getTeamSeason,
 } from "@/lib/teams"
+import { useDocumentTitle } from "@/src/hooks/use-document-title"
 
-export async function generateStaticParams() {
-  return getAllTeams().map((t) => ({ slug: t.slug }))
-}
-
-export async function generateMetadata({
-  params,
-}: {
-  params: Promise<{ slug: string }>
-}): Promise<Metadata> {
-  const { slug } = await params
+export function TeamPage() {
+  const { slug = "" } = useParams<{ slug: string }>()
   const team = getTeam(slug)
-  if (!team) return { title: "Clube não encontrado" }
-  return {
-    title: `${team.shortName} — Probabilidades no Futebol UFMG`,
-    description: `Probabilidades, histórico e simulações de Monte Carlo para o ${team.shortName} no Brasileirão.`,
-  }
-}
 
-export default async function TeamPage({
-  params,
-}: {
-  params: Promise<{ slug: string }>
-}) {
-  const { slug } = await params
-  const team = getTeam(slug)
-  if (!team) notFound()
+  useDocumentTitle(
+    team ? `${team.shortName} — Probabilidades no Futebol UFMG` : "Clube não encontrado",
+  )
+
+  if (!team) return <Navigate to="/clubes" replace />
 
   const season = getTeamSeason(team)
   const history = getTeamHistory(team)

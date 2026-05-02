@@ -1,4 +1,4 @@
-import Link from "next/link"
+import { Link } from "react-router-dom"
 import { ArrowUpRight } from "lucide-react"
 import { getTeamsByDivision } from "@/lib/teams"
 
@@ -19,7 +19,7 @@ export function TeamsIndex() {
               Monte Carlo da pontuação final e calendário probabilístico dos próximos jogos.
             </p>
             <Link
-              href="/clubes"
+              to="/clubes"
               className="group mt-6 inline-flex items-center gap-1.5 font-mono text-xs uppercase tracking-[0.18em] text-foreground transition-colors hover:text-primary"
             >
               Ver Série A e Série B completas
@@ -31,7 +31,7 @@ export function TeamsIndex() {
             {teams.map((t) => (
               <li key={t.slug}>
                 <Link
-                  href={`/times/${t.slug}`}
+                  to={`/times/${t.slug}`}
                   className="group flex h-full items-center justify-between gap-6 bg-card p-5 transition-colors hover:bg-muted/40"
                 >
                   <div className="flex items-center gap-4">

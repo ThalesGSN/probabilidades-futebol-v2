@@ -1,6 +1,4 @@
-"use client"
-
-import Link from "next/link"
+import { Link } from "react-router-dom"
 import type { Division } from "@/lib/teams"
 import { getPointsDistributions } from "@/lib/brasileirao"
 
@@ -84,7 +82,7 @@ export function PointsDistributionTable({
                   <tr key={row.team.slug} className="border-b border-border/60 last:border-0">
                     <td className="sticky left-0 z-10 bg-card px-4 py-2">
                       <Link
-                        href={`/times/${row.team.slug}`}
+                        to={`/times/${row.team.slug}`}
                         className="inline-flex items-center gap-2 hover:underline"
                       >
                         <span

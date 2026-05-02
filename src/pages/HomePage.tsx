@@ -9,8 +9,11 @@ import { ProbabilityCardiogram } from "@/components/probability-cardiogram"
 import { SiteFooter } from "@/components/site-footer"
 import { SiteHeader } from "@/components/site-header"
 import { TeamsIndex } from "@/components/teams-index"
+import { useDocumentTitle } from "@/src/hooks/use-document-title"
 
-export default function HomePage() {
+export function HomePage() {
+  useDocumentTitle("Probabilidades no Futebol — UFMG")
+
   return (
     <div className="flex min-h-screen flex-col bg-background">
       <SiteHeader />

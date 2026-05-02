@@ -1,17 +1,13 @@
-import type { Metadata } from "next"
-import Link from "next/link"
+import { Link } from "react-router-dom"
 import { ArrowUpRight } from "lucide-react"
 import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { getTeamsByDivision, type Team } from "@/lib/teams"
+import { useDocumentTitle } from "@/src/hooks/use-document-title"
 
-export const metadata: Metadata = {
-  title: "Clubes — Probabilidades no Futebol UFMG",
-  description:
-    "Páginas dedicadas para cada clube das Séries A e B do Brasileirão, com cardiograma da temporada, série histórica desde 2005, distribuição de Monte Carlo e calendário probabilístico.",
-}
+export function ClubesPage() {
+  useDocumentTitle("Clubes — Probabilidades no Futebol UFMG")
 
-export default function ClubesPage() {
   const serieA = getTeamsByDivision("A").sort((a, b) => a.current.position - b.current.position)
   const serieB = getTeamsByDivision("B").sort((a, b) => a.current.position - b.current.position)
 
@@ -134,7 +130,7 @@ function DivisionSection({
           {teams.map((t) => (
             <li key={t.slug}>
               <Link
-                href={`/times/${t.slug}`}
+                to={`/times/${t.slug}`}
                 className="group relative flex h-full flex-col gap-6 bg-card p-6 transition-colors hover:bg-muted/40"
               >
                 <span

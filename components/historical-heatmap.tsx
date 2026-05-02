@@ -1,5 +1,3 @@
-"use client"
-
 import { useState } from "react"
 
 // Cada linha é um clube, cada coluna é um ano (2005-2025)

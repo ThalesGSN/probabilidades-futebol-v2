@@ -1,5 +1,3 @@
-"use client"
-
 import { useState } from "react"
 import { ChevronDown } from "lucide-react"
 import type { Division } from "@/lib/teams"

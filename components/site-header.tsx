@@ -1,6 +1,4 @@
-"use client"
-
-import Link from "next/link"
+import { Link } from "react-router-dom"
 import { useState } from "react"
 import { Menu, Search, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
@@ -20,7 +18,7 @@ export function SiteHeader() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/60 bg-background/85 backdrop-blur-md">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
-        <Link href="/" className="flex items-center gap-3">
+        <Link to="/" className="flex items-center gap-3">
           <div className="flex h-8 w-8 items-center justify-center rounded-sm bg-primary text-primary-foreground">
             <span className="font-serif text-lg leading-none">π</span>
           </div>
@@ -34,7 +32,7 @@ export function SiteHeader() {
           {nav.map((item) => (
             <Link
               key={item.href}
-              href={item.href}
+              to={item.href}
               className="text-sm text-muted-foreground transition-colors hover:text-foreground"
             >
               {item.label}
@@ -66,7 +64,7 @@ export function SiteHeader() {
             {nav.map((item) => (
               <Link
                 key={item.href}
-                href={item.href}
+                to={item.href}
                 onClick={() => setOpen(false)}
                 className="rounded-sm px-3 py-2 text-sm text-muted-foreground hover:bg-muted hover:text-foreground"
               >

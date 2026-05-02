@@ -1,6 +1,4 @@
-"use client"
-
-import Link from "next/link"
+import { Link } from "react-router-dom"
 import { ArrowUpRight } from "lucide-react"
 import type { Division } from "@/lib/teams"
 import { getTeamProbabilities } from "@/lib/brasileirao"
@@ -90,7 +88,7 @@ export function TeamProbabilitiesTable({
                 </td>
                 <td className="px-4 py-3">
                   <Link
-                    href={`/times/${row.team.slug}`}
+                    to={`/times/${row.team.slug}`}
                     className="group inline-flex items-center gap-2.5"
                   >
                     <span
