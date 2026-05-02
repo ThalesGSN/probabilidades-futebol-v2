@@ -4,6 +4,7 @@ import { HeroSection } from "@/components/hero-section"
 import { HistoricalHeatmap } from "@/components/historical-heatmap"
 import { MethodologyTeaser } from "@/components/methodology-teaser"
 import { NewsletterSection } from "@/components/newsletter-section"
+import { OurTeamSection } from "@/components/our-team-section"
 import { ProbabilityCardiogram } from "@/components/probability-cardiogram"
 import { SiteFooter } from "@/components/site-footer"
 import { SiteHeader } from "@/components/site-header"
@@ -20,6 +21,7 @@ export default function HomePage() {
         <TeamsIndex />
         <HistoricalHeatmap />
         <MethodologyTeaser />
+        <OurTeamSection />
         <EditorialSection />
         <NewsletterSection />
       </main>

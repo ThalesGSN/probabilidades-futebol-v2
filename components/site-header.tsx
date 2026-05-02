@@ -11,6 +11,7 @@ const nav = [
   { label: "Clubes", href: "/clubes" },
   { label: "Histórico", href: "/#historico" },
   { label: "Metodologia", href: "/#metodologia" },
+  { label: "Nosso time", href: "/#nosso-time" },
 ]
 
 export function SiteHeader() {
