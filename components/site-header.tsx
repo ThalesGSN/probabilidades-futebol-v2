@@ -6,7 +6,7 @@ import { Menu, Search, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 const nav = [
-  { label: "Brasileirão", href: "/#brasileirao" },
+  { label: "Brasileirão", href: "/brasileirao" },
   { label: "Campeonatos", href: "/#campeonatos" },
   { label: "Clubes", href: "/clubes" },
   { label: "Histórico", href: "/#historico" },
