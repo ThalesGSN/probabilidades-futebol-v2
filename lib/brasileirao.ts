@@ -102,11 +102,16 @@ export type StandingMode =
   | "turno"
   | "returno"
 
-export function getStandings(division: Division, mode: StandingMode): StandingRow[] {
+export function getStandings(
+  division: Division,
+  mode: StandingMode,
+  roundRange?: [number, number],
+): StandingRow[] {
   const teams = getTeamsByDivision(division)
+  const [rangeStart, rangeEnd] = roundRange ?? [1, 10]
   const matchesByMode: Record<StandingMode, number> = {
     geral: 30,
-    "ultimas-10": 10,
+    "ultimas-10": rangeEnd - rangeStart + 1,
     mandante: 15,
     visitante: 15,
     turno: 19,
@@ -116,7 +121,7 @@ export function getStandings(division: Division, mode: StandingMode): StandingRo
 
   return teams
     .map((t, idx) => {
-      const seed = seedFromSlug(t.slug + mode)
+      const seed = seedFromSlug(t.slug + mode + rangeStart + rangeEnd)
       const strength = (t.current.expectedPoints - 30) / 50 // 0..1 aprox
       const winRate = Math.max(0.05, Math.min(0.85, strength * 0.65 + 0.2 + noise(seed) * 0.1))
       const drawRate = Math.max(0.1, Math.min(0.45, 0.25 + noise(seed + 1) * 0.1))

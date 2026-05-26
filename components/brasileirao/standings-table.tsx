@@ -1,10 +1,12 @@
+import { useState } from "react"
 import { Link } from "react-router-dom"
 import type { Division } from "@/lib/teams"
 import { getStandings, type StandingMode } from "@/lib/brasileirao"
+import { Slider } from "@/components/ui/slider"
 
 const modeLabels: Record<StandingMode, string> = {
   geral: "Classificação geral",
-  "ultimas-10": "Últimas 10 rodadas",
+  "ultimas-10": "Últimas {n} rodadas",
   mandante: "Como mandante",
   visitante: "Como visitante",
   turno: "1º turno",
@@ -18,7 +20,13 @@ export function StandingsTable({
   division: Division
   mode: StandingMode
 }) {
-  const rows = getStandings(division, mode)
+  const [range, setRange] = useState<[number, number]>([29, 38])
+  const rows = getStandings(division, mode, mode === "ultimas-10" ? range : undefined)
+  const [rangeStart, rangeEnd] = range
+  const footerLabel =
+    mode === "ultimas-10"
+      ? `Rodadas ${rangeStart}–${rangeEnd} · ${rangeEnd - rangeStart + 1} jogos`
+      : modeLabels[mode]
 
   // Faixas visuais por divisão
   const zoneColor = (pos: number) => {
@@ -34,7 +42,35 @@ export function StandingsTable({
   }
 
   return (
-    <div className="overflow-hidden rounded-sm border border-border bg-card">
+    <div className="space-y-4">
+      {mode === "ultimas-10" && (
+        <div className="rounded-sm border border-border bg-card px-4 py-3">
+          <div className="mb-3 flex items-center justify-between">
+            <span className="font-mono text-[11px] uppercase tracking-[0.14em] text-muted-foreground">
+              Janela de rodadas
+            </span>
+            <span className="font-mono text-sm tabular-nums text-foreground">
+              Rodada {rangeStart} — {rangeEnd}
+            </span>
+          </div>
+          <Slider
+            min={1}
+            max={38}
+            step={1}
+            value={range}
+            onValueChange={(v) => {
+              if (v[0] < v[1]) setRange([v[0], v[1]])
+            }}
+            minStepsBetweenThumbs={1}
+          />
+          <div className="mt-2 flex justify-between font-mono text-[10px] text-muted-foreground">
+            <span>Rd. 1</span>
+            <span>{rangeEnd - rangeStart + 1} rodada{rangeEnd - rangeStart + 1 !== 1 ? "s" : ""}</span>
+            <span>Rd. 38</span>
+          </div>
+        </div>
+      )}
+      <div className="overflow-hidden rounded-sm border border-border bg-card">
       <div className="overflow-x-auto">
         <table className="w-full min-w-[720px] text-sm">
           <thead>
@@ -102,12 +138,13 @@ export function StandingsTable({
         </table>
       </div>
       <div className="flex flex-wrap items-center gap-x-5 gap-y-1 border-t border-border bg-muted/30 px-4 py-2.5 font-mono text-[10px] uppercase tracking-wider text-muted-foreground">
-        <span>{modeLabels[mode]}</span>
+        <span>{footerLabel}</span>
         <span className="ml-auto">
           {division === "A"
             ? "Verde · G6 · Vermelho · Z4"
             : "Âmbar · G4 acesso · Vermelho · Z4"}
         </span>
+      </div>
       </div>
     </div>
   )

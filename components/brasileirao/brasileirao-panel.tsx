@@ -49,7 +49,7 @@ const SECTIONS: Section[] = [
     label: "Classificação",
     items: [
       { key: "geral", label: "Classificação geral" },
-      { key: "ultimas-10", label: "Últimas 10 rodadas" },
+      { key: "ultimas-10", label: "Últimas rodadas" },
       { key: "mandante", label: "Como mandante" },
       { key: "visitante", label: "Como visitante" },
       { key: "turno", label: "Classificação do turno" },
