@@ -56,7 +56,7 @@ export function HeroSection() {
 
             <div className="mt-10 flex flex-wrap items-center gap-3">
               <a
-                href="#brasileirao"
+                href="/brasileirao"
                 className="group inline-flex items-center gap-2 rounded-sm bg-accent px-5 py-3 text-sm font-medium text-accent-foreground transition-colors hover:bg-accent/90"
               >
                 Ver o Brasileirão agora
