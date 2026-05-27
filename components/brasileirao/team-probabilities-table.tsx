@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import { ArrowUpRight } from "lucide-react"
 import type { Division } from "@/lib/teams"
-import { getTeamProbabilities } from "@/lib/brasileirao"
+import { useProbabilities } from "@/hooks/use-static-data"
 
 type Column = "champion" | "libertadores" | "sulamericana" | "relegation"
 
@@ -30,7 +30,13 @@ export function TeamProbabilitiesTable({
   division: Division
   highlight: Column
 }) {
-  const rows = getTeamProbabilities(division).sort((a, b) => b[highlight] - a[highlight])
+  const { data, isLoading } = useProbabilities(division)
+
+  if (isLoading || !data) {
+    return <div className="h-64 animate-pulse rounded-sm bg-muted" />
+  }
+
+  const rows = [...data].sort((a, b) => b[highlight] - a[highlight])
   const l = labels[division]
 
   const cellClass = (col: Column, value: number) => {

@@ -1,7 +1,9 @@
 import { useState } from "react"
 import { Link } from "react-router-dom"
 import type { Division } from "@/lib/teams"
-import { getStandings, type StandingMode } from "@/lib/brasileirao"
+import { computeStandingsFromResults, type StandingMode, type StandingRow } from "@/lib/brasileirao"
+import { getTeamsByDivision } from "@/lib/teams"
+import { useStandings, useMatchResults } from "@/hooks/use-static-data"
 import { Slider } from "@/components/ui/slider"
 
 const modeLabels: Record<StandingMode, string> = {
@@ -21,8 +23,22 @@ export function StandingsTable({
   mode: StandingMode
 }) {
   const [range, setRange] = useState<[number, number]>([29, 38])
-  const rows = getStandings(division, mode, mode === "ultimas-10" ? range : undefined)
   const [rangeStart, rangeEnd] = range
+
+  const { data: standingsJson, isLoading: standingsLoading } = useStandings(division)
+  const { data: results, isLoading: resultsLoading } = useMatchResults(division)
+
+  const isLoading = mode === "ultimas-10" ? resultsLoading : standingsLoading
+
+  let rows: StandingRow[] = []
+  if (mode === "ultimas-10") {
+    if (results) {
+      rows = computeStandingsFromResults(results, getTeamsByDivision(division), range)
+    }
+  } else if (standingsJson) {
+    rows = standingsJson[mode] ?? []
+  }
+
   const footerLabel =
     mode === "ultimas-10"
       ? `Rodadas ${rangeStart}–${rangeEnd} · ${rangeEnd - rangeStart + 1} jogos`
@@ -39,6 +55,10 @@ export function StandingsTable({
     if (pos <= 4) return "border-l-2 border-l-accent"
     if (pos >= 17) return "border-l-2 border-l-destructive"
     return "border-l-2 border-l-transparent"
+  }
+
+  if (isLoading) {
+    return <div className="h-64 animate-pulse rounded-sm bg-muted" />
   }
 
   return (

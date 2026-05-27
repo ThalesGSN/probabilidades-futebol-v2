@@ -1,0 +1,2030 @@
+{
+  "vitorias": [
+    {
+      "team": {
+        "slug": "santos",
+        "name": "Santos Futebol Clube",
+        "shortName": "Santos",
+        "city": "Santos",
+        "state": "SP",
+        "founded": 1912,
+        "nickname": "Peixe",
+        "division": "B",
+        "brand": "#2A2A2A",
+        "current": {
+          "position": 1,
+          "points": 58,
+          "titleProb": 34.8,
+          "g4Prob": 91.2,
+          "relegationProb": 0,
+          "expectedPoints": 71.6,
+          "pointsRange": [
+            65,
+            79
+          ]
+        },
+        "bio": "Oito vezes campeão brasileiro, lidera a Série B com a maior média de público da divisão e busca o retorno à elite."
+      },
+      "value": 11,
+      "detail": "jogos · iniciada na rodada 21"
+    },
+    {
+      "team": {
+        "slug": "coritiba",
+        "name": "Coritiba Foot Ball Club",
+        "shortName": "Coritiba",
+        "city": "Curitiba",
+        "state": "PR",
+        "founded": 1909,
+        "nickname": "Coxa",
+        "division": "B",
+        "brand": "#1A6B3A",
+        "current": {
+          "position": 3,
+          "points": 51,
+          "titleProb": 14.7,
+          "g4Prob": 67.9,
+          "relegationProb": 0.3,
+          "expectedPoints": 64.2,
+          "pointsRange": [
+            58,
+            71
+          ]
+        },
+        "bio": "Campeão brasileiro de 1985, alterna entre as duas divisões na última década e reformulou seu projeto esportivo em 2025."
+      },
+      "value": 10,
+      "detail": "jogos · iniciada na rodada 22"
+    },
+    {
+      "team": {
+        "slug": "sport",
+        "name": "Sport Club do Recife",
+        "shortName": "Sport",
+        "city": "Recife",
+        "state": "PE",
+        "founded": 1905,
+        "nickname": "Leão",
+        "division": "B",
+        "brand": "#B61E2B",
+        "current": {
+          "position": 6,
+          "points": 45,
+          "titleProb": 4.2,
+          "g4Prob": 28.7,
+          "relegationProb": 1.9,
+          "expectedPoints": 58.6,
+          "pointsRange": [
+            52,
+            66
+          ]
+        },
+        "bio": "Campeão brasileiro de 1987 pela CBF, é a maior torcida do Nordeste e tem na Ilha do Retiro um de seus maiores ativos."
+      },
+      "value": 9,
+      "detail": "jogos · iniciada na rodada 21"
+    },
+    {
+      "team": {
+        "slug": "goias",
+        "name": "Goiás Esporte Clube",
+        "shortName": "Goiás",
+        "city": "Goiânia",
+        "state": "GO",
+        "founded": 1943,
+        "nickname": "Esmeraldino",
+        "division": "B",
+        "brand": "#0F5F3F",
+        "current": {
+          "position": 5,
+          "points": 47,
+          "titleProb": 6.9,
+          "g4Prob": 38.4,
+          "relegationProb": 1.2,
+          "expectedPoints": 60.1,
+          "pointsRange": [
+            53,
+            68
+          ]
+        },
+        "bio": "Maior clube do Centro-Oeste brasileiro, com 12 títulos estaduais consecutivos e tradição em formação de jovens atletas."
+      },
+      "value": 8,
+      "detail": "jogos · iniciada na rodada 18"
+    },
+    {
+      "team": {
+        "slug": "novorizontino",
+        "name": "Grêmio Novorizontino",
+        "shortName": "Novorizontino",
+        "city": "Novo Horizonte",
+        "state": "SP",
+        "founded": 1973,
+        "nickname": "Tigre",
+        "division": "B",
+        "brand": "#1E3F8C",
+        "current": {
+          "position": 4,
+          "points": 49,
+          "titleProb": 9.8,
+          "g4Prob": 54.1,
+          "relegationProb": 0.6,
+          "expectedPoints": 62.4,
+          "pointsRange": [
+            56,
+            69
+          ]
+        },
+        "bio": "Surpresa positiva da última temporada, consolidou-se na briga pelo acesso após duas Séries B consecutivas no G8."
+      },
+      "value": 8,
+      "detail": "jogos · iniciada na rodada 22"
+    },
+    {
+      "team": {
+        "slug": "crb",
+        "name": "Clube de Regatas Brasil",
+        "shortName": "CRB",
+        "city": "Maceió",
+        "state": "AL",
+        "founded": 1912,
+        "nickname": "Galo",
+        "division": "B",
+        "brand": "#B61E2B",
+        "current": {
+          "position": 12,
+          "points": 36,
+          "titleProb": 0.2,
+          "g4Prob": 4.1,
+          "relegationProb": 16.8,
+          "expectedPoints": 48.7,
+          "pointsRange": [
+            42,
+            56
+          ]
+        },
+        "bio": "Clássico clube alagoano, especialista em decisões na Copa do Nordeste e tradicional escola de revelações."
+      },
+      "value": 8,
+      "detail": "jogos · iniciada na rodada 21"
+    },
+    {
+      "team": {
+        "slug": "avai",
+        "name": "Avaí Futebol Clube",
+        "shortName": "Avaí",
+        "city": "Florianópolis",
+        "state": "SC",
+        "founded": 1923,
+        "nickname": "Leão da Ilha",
+        "division": "B",
+        "brand": "#1E5BA3",
+        "current": {
+          "position": 9,
+          "points": 41,
+          "titleProb": 1.4,
+          "g4Prob": 14.2,
+          "relegationProb": 4.8,
+          "expectedPoints": 54.8,
+          "pointsRange": [
+            48,
+            62
+          ]
+        },
+        "bio": "Tradicional clube catarinense, busca estabilidade na Série B após sucessivas trocas de comissão técnica."
+      },
+      "value": 7,
+      "detail": "jogos · iniciada na rodada 21"
+    },
+    {
+      "team": {
+        "slug": "ponte-preta",
+        "name": "Associação Atlética Ponte Preta",
+        "shortName": "Ponte Preta",
+        "city": "Campinas",
+        "state": "SP",
+        "founded": 1900,
+        "nickname": "Macaca",
+        "division": "B",
+        "brand": "#1A1A1A",
+        "current": {
+          "position": 11,
+          "points": 38,
+          "titleProb": 0.4,
+          "g4Prob": 6.7,
+          "relegationProb": 12.4,
+          "expectedPoints": 50.9,
+          "pointsRange": [
+            44,
+            58
+          ]
+        },
+        "bio": "Mais antigo clube em atividade do país, vive temporada delicada e luta para se afastar da zona de rebaixamento."
+      },
+      "value": 7,
+      "detail": "jogos · iniciada na rodada 20"
+    },
+    {
+      "team": {
+        "slug": "athletic-club",
+        "name": "Athletic Club",
+        "shortName": "Athletic",
+        "city": "São João del-Rei",
+        "state": "MG",
+        "founded": 2008,
+        "nickname": "Esquadrão",
+        "division": "B",
+        "brand": "#1A1A1A",
+        "current": {
+          "position": 7,
+          "points": 43,
+          "titleProb": 2.6,
+          "g4Prob": 19.4,
+          "relegationProb": 3.1,
+          "expectedPoints": 56.3,
+          "pointsRange": [
+            50,
+            64
+          ]
+        },
+        "bio": "Clube mineiro de ascensão acelerada, conquistou o acesso à Série B em 2023 e estreou na divisão com solidez tática."
+      },
+      "value": 7,
+      "detail": "jogos · iniciada na rodada 22"
+    },
+    {
+      "team": {
+        "slug": "paysandu",
+        "name": "Paysandu Sport Club",
+        "shortName": "Paysandu",
+        "city": "Belém",
+        "state": "PA",
+        "founded": 1914,
+        "nickname": "Papão",
+        "division": "B",
+        "brand": "#1A6B3A",
+        "current": {
+          "position": 8,
+          "points": 42,
+          "titleProb": 1.8,
+          "g4Prob": 16.8,
+          "relegationProb": 4.4,
+          "expectedPoints": 55.4,
+          "pointsRange": [
+            49,
+            63
+          ]
+        },
+        "bio": "Maior torcida do Norte do país, ergueu o histórico título da Copa dos Campeões em 2002 e mantém forte identidade regional."
+      },
+      "value": 7,
+      "detail": "jogos · iniciada na rodada 20"
+    },
+    {
+      "team": {
+        "slug": "operario-pr",
+        "name": "Operário Ferroviário Esporte Clube",
+        "shortName": "Operário-PR",
+        "city": "Ponta Grossa",
+        "state": "PR",
+        "founded": 1912,
+        "nickname": "Fantasma",
+        "division": "B",
+        "brand": "#1A1A1A",
+        "current": {
+          "position": 10,
+          "points": 39,
+          "titleProb": 0.7,
+          "g4Prob": 9.2,
+          "relegationProb": 7.6,
+          "expectedPoints": 52.7,
+          "pointsRange": [
+            46,
+            60
+          ]
+        },
+        "bio": "Tradicional clube paranaense que se reergueu nos anos 2010 e tornou-se presença constante na segunda divisão."
+      },
+      "value": 6,
+      "detail": "jogos · iniciada na rodada 19"
+    },
+    {
+      "team": {
+        "slug": "chapecoense",
+        "name": "Associação Chapecoense de Futebol",
+        "shortName": "Chapecoense",
+        "city": "Chapecó",
+        "state": "SC",
+        "founded": 1973,
+        "nickname": "Chape",
+        "division": "B",
+        "brand": "#0F5F3F",
+        "current": {
+          "position": 14,
+          "points": 32,
+          "titleProb": 0.1,
+          "g4Prob": 1.8,
+          "relegationProb": 28.4,
+          "expectedPoints": 44.2,
+          "pointsRange": [
+            38,
+            51
+          ]
+        },
+        "bio": "Símbolo de superação no futebol mundial, segue em reconstrução técnica após anos turbulentos no calendário nacional."
+      },
+      "value": 5,
+      "detail": "jogos · iniciada na rodada 20"
+    }
+  ],
+  "derrotas": [
+    {
+      "team": {
+        "slug": "novorizontino",
+        "name": "Grêmio Novorizontino",
+        "shortName": "Novorizontino",
+        "city": "Novo Horizonte",
+        "state": "SP",
+        "founded": 1973,
+        "nickname": "Tigre",
+        "division": "B",
+        "brand": "#1E3F8C",
+        "current": {
+          "position": 4,
+          "points": 49,
+          "titleProb": 9.8,
+          "g4Prob": 54.1,
+          "relegationProb": 0.6,
+          "expectedPoints": 62.4,
+          "pointsRange": [
+            56,
+            69
+          ]
+        },
+        "bio": "Surpresa positiva da última temporada, consolidou-se na briga pelo acesso após duas Séries B consecutivas no G8."
+      },
+      "value": 5,
+      "detail": "jogos · iniciada na rodada 24"
+    },
+    {
+      "team": {
+        "slug": "santos",
+        "name": "Santos Futebol Clube",
+        "shortName": "Santos",
+        "city": "Santos",
+        "state": "SP",
+        "founded": 1912,
+        "nickname": "Peixe",
+        "division": "B",
+        "brand": "#2A2A2A",
+        "current": {
+          "position": 1,
+          "points": 58,
+          "titleProb": 34.8,
+          "g4Prob": 91.2,
+          "relegationProb": 0,
+          "expectedPoints": 71.6,
+          "pointsRange": [
+            65,
+            79
+          ]
+        },
+        "bio": "Oito vezes campeão brasileiro, lidera a Série B com a maior média de público da divisão e busca o retorno à elite."
+      },
+      "value": 6,
+      "detail": "jogos · iniciada na rodada 21"
+    },
+    {
+      "team": {
+        "slug": "coritiba",
+        "name": "Coritiba Foot Ball Club",
+        "shortName": "Coritiba",
+        "city": "Curitiba",
+        "state": "PR",
+        "founded": 1909,
+        "nickname": "Coxa",
+        "division": "B",
+        "brand": "#1A6B3A",
+        "current": {
+          "position": 3,
+          "points": 51,
+          "titleProb": 14.7,
+          "g4Prob": 67.9,
+          "relegationProb": 0.3,
+          "expectedPoints": 64.2,
+          "pointsRange": [
+            58,
+            71
+          ]
+        },
+        "bio": "Campeão brasileiro de 1985, alterna entre as duas divisões na última década e reformulou seu projeto esportivo em 2025."
+      },
+      "value": 6,
+      "detail": "jogos · iniciada na rodada 22"
+    },
+    {
+      "team": {
+        "slug": "goias",
+        "name": "Goiás Esporte Clube",
+        "shortName": "Goiás",
+        "city": "Goiânia",
+        "state": "GO",
+        "founded": 1943,
+        "nickname": "Esmeraldino",
+        "division": "B",
+        "brand": "#0F5F3F",
+        "current": {
+          "position": 5,
+          "points": 47,
+          "titleProb": 6.9,
+          "g4Prob": 38.4,
+          "relegationProb": 1.2,
+          "expectedPoints": 60.1,
+          "pointsRange": [
+            53,
+            68
+          ]
+        },
+        "bio": "Maior clube do Centro-Oeste brasileiro, com 12 títulos estaduais consecutivos e tradição em formação de jovens atletas."
+      },
+      "value": 7,
+      "detail": "jogos · iniciada na rodada 23"
+    },
+    {
+      "team": {
+        "slug": "ponte-preta",
+        "name": "Associação Atlética Ponte Preta",
+        "shortName": "Ponte Preta",
+        "city": "Campinas",
+        "state": "SP",
+        "founded": 1900,
+        "nickname": "Macaca",
+        "division": "B",
+        "brand": "#1A1A1A",
+        "current": {
+          "position": 11,
+          "points": 38,
+          "titleProb": 0.4,
+          "g4Prob": 6.7,
+          "relegationProb": 12.4,
+          "expectedPoints": 50.9,
+          "pointsRange": [
+            44,
+            58
+          ]
+        },
+        "bio": "Mais antigo clube em atividade do país, vive temporada delicada e luta para se afastar da zona de rebaixamento."
+      },
+      "value": 7,
+      "detail": "jogos · iniciada na rodada 22"
+    },
+    {
+      "team": {
+        "slug": "sport",
+        "name": "Sport Club do Recife",
+        "shortName": "Sport",
+        "city": "Recife",
+        "state": "PE",
+        "founded": 1905,
+        "nickname": "Leão",
+        "division": "B",
+        "brand": "#B61E2B",
+        "current": {
+          "position": 6,
+          "points": 45,
+          "titleProb": 4.2,
+          "g4Prob": 28.7,
+          "relegationProb": 1.9,
+          "expectedPoints": 58.6,
+          "pointsRange": [
+            52,
+            66
+          ]
+        },
+        "bio": "Campeão brasileiro de 1987 pela CBF, é a maior torcida do Nordeste e tem na Ilha do Retiro um de seus maiores ativos."
+      },
+      "value": 7,
+      "detail": "jogos · iniciada na rodada 20"
+    },
+    {
+      "team": {
+        "slug": "paysandu",
+        "name": "Paysandu Sport Club",
+        "shortName": "Paysandu",
+        "city": "Belém",
+        "state": "PA",
+        "founded": 1914,
+        "nickname": "Papão",
+        "division": "B",
+        "brand": "#1A6B3A",
+        "current": {
+          "position": 8,
+          "points": 42,
+          "titleProb": 1.8,
+          "g4Prob": 16.8,
+          "relegationProb": 4.4,
+          "expectedPoints": 55.4,
+          "pointsRange": [
+            49,
+            63
+          ]
+        },
+        "bio": "Maior torcida do Norte do país, ergueu o histórico título da Copa dos Campeões em 2002 e mantém forte identidade regional."
+      },
+      "value": 7,
+      "detail": "jogos · iniciada na rodada 21"
+    },
+    {
+      "team": {
+        "slug": "avai",
+        "name": "Avaí Futebol Clube",
+        "shortName": "Avaí",
+        "city": "Florianópolis",
+        "state": "SC",
+        "founded": 1923,
+        "nickname": "Leão da Ilha",
+        "division": "B",
+        "brand": "#1E5BA3",
+        "current": {
+          "position": 9,
+          "points": 41,
+          "titleProb": 1.4,
+          "g4Prob": 14.2,
+          "relegationProb": 4.8,
+          "expectedPoints": 54.8,
+          "pointsRange": [
+            48,
+            62
+          ]
+        },
+        "bio": "Tradicional clube catarinense, busca estabilidade na Série B após sucessivas trocas de comissão técnica."
+      },
+      "value": 8,
+      "detail": "jogos · iniciada na rodada 20"
+    },
+    {
+      "team": {
+        "slug": "crb",
+        "name": "Clube de Regatas Brasil",
+        "shortName": "CRB",
+        "city": "Maceió",
+        "state": "AL",
+        "founded": 1912,
+        "nickname": "Galo",
+        "division": "B",
+        "brand": "#B61E2B",
+        "current": {
+          "position": 12,
+          "points": 36,
+          "titleProb": 0.2,
+          "g4Prob": 4.1,
+          "relegationProb": 16.8,
+          "expectedPoints": 48.7,
+          "pointsRange": [
+            42,
+            56
+          ]
+        },
+        "bio": "Clássico clube alagoano, especialista em decisões na Copa do Nordeste e tradicional escola de revelações."
+      },
+      "value": 8,
+      "detail": "jogos · iniciada na rodada 22"
+    },
+    {
+      "team": {
+        "slug": "athletic-club",
+        "name": "Athletic Club",
+        "shortName": "Athletic",
+        "city": "São João del-Rei",
+        "state": "MG",
+        "founded": 2008,
+        "nickname": "Esquadrão",
+        "division": "B",
+        "brand": "#1A1A1A",
+        "current": {
+          "position": 7,
+          "points": 43,
+          "titleProb": 2.6,
+          "g4Prob": 19.4,
+          "relegationProb": 3.1,
+          "expectedPoints": 56.3,
+          "pointsRange": [
+            50,
+            64
+          ]
+        },
+        "bio": "Clube mineiro de ascensão acelerada, conquistou o acesso à Série B em 2023 e estreou na divisão com solidez tática."
+      },
+      "value": 8,
+      "detail": "jogos · iniciada na rodada 20"
+    },
+    {
+      "team": {
+        "slug": "operario-pr",
+        "name": "Operário Ferroviário Esporte Clube",
+        "shortName": "Operário-PR",
+        "city": "Ponta Grossa",
+        "state": "PR",
+        "founded": 1912,
+        "nickname": "Fantasma",
+        "division": "B",
+        "brand": "#1A1A1A",
+        "current": {
+          "position": 10,
+          "points": 39,
+          "titleProb": 0.7,
+          "g4Prob": 9.2,
+          "relegationProb": 7.6,
+          "expectedPoints": 52.7,
+          "pointsRange": [
+            46,
+            60
+          ]
+        },
+        "bio": "Tradicional clube paranaense que se reergueu nos anos 2010 e tornou-se presença constante na segunda divisão."
+      },
+      "value": 8,
+      "detail": "jogos · iniciada na rodada 24"
+    },
+    {
+      "team": {
+        "slug": "chapecoense",
+        "name": "Associação Chapecoense de Futebol",
+        "shortName": "Chapecoense",
+        "city": "Chapecó",
+        "state": "SC",
+        "founded": 1973,
+        "nickname": "Chape",
+        "division": "B",
+        "brand": "#0F5F3F",
+        "current": {
+          "position": 14,
+          "points": 32,
+          "titleProb": 0.1,
+          "g4Prob": 1.8,
+          "relegationProb": 28.4,
+          "expectedPoints": 44.2,
+          "pointsRange": [
+            38,
+            51
+          ]
+        },
+        "bio": "Símbolo de superação no futebol mundial, segue em reconstrução técnica após anos turbulentos no calendário nacional."
+      },
+      "value": 9,
+      "detail": "jogos · iniciada na rodada 21"
+    }
+  ],
+  "invencibilidade": [
+    {
+      "team": {
+        "slug": "santos",
+        "name": "Santos Futebol Clube",
+        "shortName": "Santos",
+        "city": "Santos",
+        "state": "SP",
+        "founded": 1912,
+        "nickname": "Peixe",
+        "division": "B",
+        "brand": "#2A2A2A",
+        "current": {
+          "position": 1,
+          "points": 58,
+          "titleProb": 34.8,
+          "g4Prob": 91.2,
+          "relegationProb": 0,
+          "expectedPoints": 71.6,
+          "pointsRange": [
+            65,
+            79
+          ]
+        },
+        "bio": "Oito vezes campeão brasileiro, lidera a Série B com a maior média de público da divisão e busca o retorno à elite."
+      },
+      "value": 13,
+      "detail": "jogos · ainda em curso"
+    },
+    {
+      "team": {
+        "slug": "novorizontino",
+        "name": "Grêmio Novorizontino",
+        "shortName": "Novorizontino",
+        "city": "Novo Horizonte",
+        "state": "SP",
+        "founded": 1973,
+        "nickname": "Tigre",
+        "division": "B",
+        "brand": "#1E3F8C",
+        "current": {
+          "position": 4,
+          "points": 49,
+          "titleProb": 9.8,
+          "g4Prob": 54.1,
+          "relegationProb": 0.6,
+          "expectedPoints": 62.4,
+          "pointsRange": [
+            56,
+            69
+          ]
+        },
+        "bio": "Surpresa positiva da última temporada, consolidou-se na briga pelo acesso após duas Séries B consecutivas no G8."
+      },
+      "value": 13,
+      "detail": "jogos · ainda em curso"
+    },
+    {
+      "team": {
+        "slug": "coritiba",
+        "name": "Coritiba Foot Ball Club",
+        "shortName": "Coritiba",
+        "city": "Curitiba",
+        "state": "PR",
+        "founded": 1909,
+        "nickname": "Coxa",
+        "division": "B",
+        "brand": "#1A6B3A",
+        "current": {
+          "position": 3,
+          "points": 51,
+          "titleProb": 14.7,
+          "g4Prob": 67.9,
+          "relegationProb": 0.3,
+          "expectedPoints": 64.2,
+          "pointsRange": [
+            58,
+            71
+          ]
+        },
+        "bio": "Campeão brasileiro de 1985, alterna entre as duas divisões na última década e reformulou seu projeto esportivo em 2025."
+      },
+      "value": 12,
+      "detail": "jogos · ainda em curso"
+    },
+    {
+      "team": {
+        "slug": "athletic-club",
+        "name": "Athletic Club",
+        "shortName": "Athletic",
+        "city": "São João del-Rei",
+        "state": "MG",
+        "founded": 2008,
+        "nickname": "Esquadrão",
+        "division": "B",
+        "brand": "#1A1A1A",
+        "current": {
+          "position": 7,
+          "points": 43,
+          "titleProb": 2.6,
+          "g4Prob": 19.4,
+          "relegationProb": 3.1,
+          "expectedPoints": 56.3,
+          "pointsRange": [
+            50,
+            64
+          ]
+        },
+        "bio": "Clube mineiro de ascensão acelerada, conquistou o acesso à Série B em 2023 e estreou na divisão com solidez tática."
+      },
+      "value": 11,
+      "detail": "jogos · ainda em curso"
+    },
+    {
+      "team": {
+        "slug": "paysandu",
+        "name": "Paysandu Sport Club",
+        "shortName": "Paysandu",
+        "city": "Belém",
+        "state": "PA",
+        "founded": 1914,
+        "nickname": "Papão",
+        "division": "B",
+        "brand": "#1A6B3A",
+        "current": {
+          "position": 8,
+          "points": 42,
+          "titleProb": 1.8,
+          "g4Prob": 16.8,
+          "relegationProb": 4.4,
+          "expectedPoints": 55.4,
+          "pointsRange": [
+            49,
+            63
+          ]
+        },
+        "bio": "Maior torcida do Norte do país, ergueu o histórico título da Copa dos Campeões em 2002 e mantém forte identidade regional."
+      },
+      "value": 11,
+      "detail": "jogos · ainda em curso"
+    },
+    {
+      "team": {
+        "slug": "goias",
+        "name": "Goiás Esporte Clube",
+        "shortName": "Goiás",
+        "city": "Goiânia",
+        "state": "GO",
+        "founded": 1943,
+        "nickname": "Esmeraldino",
+        "division": "B",
+        "brand": "#0F5F3F",
+        "current": {
+          "position": 5,
+          "points": 47,
+          "titleProb": 6.9,
+          "g4Prob": 38.4,
+          "relegationProb": 1.2,
+          "expectedPoints": 60.1,
+          "pointsRange": [
+            53,
+            68
+          ]
+        },
+        "bio": "Maior clube do Centro-Oeste brasileiro, com 12 títulos estaduais consecutivos e tradição em formação de jovens atletas."
+      },
+      "value": 10,
+      "detail": "jogos · ainda em curso"
+    },
+    {
+      "team": {
+        "slug": "sport",
+        "name": "Sport Club do Recife",
+        "shortName": "Sport",
+        "city": "Recife",
+        "state": "PE",
+        "founded": 1905,
+        "nickname": "Leão",
+        "division": "B",
+        "brand": "#B61E2B",
+        "current": {
+          "position": 6,
+          "points": 45,
+          "titleProb": 4.2,
+          "g4Prob": 28.7,
+          "relegationProb": 1.9,
+          "expectedPoints": 58.6,
+          "pointsRange": [
+            52,
+            66
+          ]
+        },
+        "bio": "Campeão brasileiro de 1987 pela CBF, é a maior torcida do Nordeste e tem na Ilha do Retiro um de seus maiores ativos."
+      },
+      "value": 10,
+      "detail": "jogos · ainda em curso"
+    },
+    {
+      "team": {
+        "slug": "crb",
+        "name": "Clube de Regatas Brasil",
+        "shortName": "CRB",
+        "city": "Maceió",
+        "state": "AL",
+        "founded": 1912,
+        "nickname": "Galo",
+        "division": "B",
+        "brand": "#B61E2B",
+        "current": {
+          "position": 12,
+          "points": 36,
+          "titleProb": 0.2,
+          "g4Prob": 4.1,
+          "relegationProb": 16.8,
+          "expectedPoints": 48.7,
+          "pointsRange": [
+            42,
+            56
+          ]
+        },
+        "bio": "Clássico clube alagoano, especialista em decisões na Copa do Nordeste e tradicional escola de revelações."
+      },
+      "value": 10,
+      "detail": "jogos · ainda em curso"
+    },
+    {
+      "team": {
+        "slug": "avai",
+        "name": "Avaí Futebol Clube",
+        "shortName": "Avaí",
+        "city": "Florianópolis",
+        "state": "SC",
+        "founded": 1923,
+        "nickname": "Leão da Ilha",
+        "division": "B",
+        "brand": "#1E5BA3",
+        "current": {
+          "position": 9,
+          "points": 41,
+          "titleProb": 1.4,
+          "g4Prob": 14.2,
+          "relegationProb": 4.8,
+          "expectedPoints": 54.8,
+          "pointsRange": [
+            48,
+            62
+          ]
+        },
+        "bio": "Tradicional clube catarinense, busca estabilidade na Série B após sucessivas trocas de comissão técnica."
+      },
+      "value": 9,
+      "detail": "jogos · ainda em curso"
+    },
+    {
+      "team": {
+        "slug": "ponte-preta",
+        "name": "Associação Atlética Ponte Preta",
+        "shortName": "Ponte Preta",
+        "city": "Campinas",
+        "state": "SP",
+        "founded": 1900,
+        "nickname": "Macaca",
+        "division": "B",
+        "brand": "#1A1A1A",
+        "current": {
+          "position": 11,
+          "points": 38,
+          "titleProb": 0.4,
+          "g4Prob": 6.7,
+          "relegationProb": 12.4,
+          "expectedPoints": 50.9,
+          "pointsRange": [
+            44,
+            58
+          ]
+        },
+        "bio": "Mais antigo clube em atividade do país, vive temporada delicada e luta para se afastar da zona de rebaixamento."
+      },
+      "value": 9,
+      "detail": "jogos · ainda em curso"
+    },
+    {
+      "team": {
+        "slug": "operario-pr",
+        "name": "Operário Ferroviário Esporte Clube",
+        "shortName": "Operário-PR",
+        "city": "Ponta Grossa",
+        "state": "PR",
+        "founded": 1912,
+        "nickname": "Fantasma",
+        "division": "B",
+        "brand": "#1A1A1A",
+        "current": {
+          "position": 10,
+          "points": 39,
+          "titleProb": 0.7,
+          "g4Prob": 9.2,
+          "relegationProb": 7.6,
+          "expectedPoints": 52.7,
+          "pointsRange": [
+            46,
+            60
+          ]
+        },
+        "bio": "Tradicional clube paranaense que se reergueu nos anos 2010 e tornou-se presença constante na segunda divisão."
+      },
+      "value": 8,
+      "detail": "jogos · encerrada"
+    },
+    {
+      "team": {
+        "slug": "chapecoense",
+        "name": "Associação Chapecoense de Futebol",
+        "shortName": "Chapecoense",
+        "city": "Chapecó",
+        "state": "SC",
+        "founded": 1973,
+        "nickname": "Chape",
+        "division": "B",
+        "brand": "#0F5F3F",
+        "current": {
+          "position": 14,
+          "points": 32,
+          "titleProb": 0.1,
+          "g4Prob": 1.8,
+          "relegationProb": 28.4,
+          "expectedPoints": 44.2,
+          "pointsRange": [
+            38,
+            51
+          ]
+        },
+        "bio": "Símbolo de superação no futebol mundial, segue em reconstrução técnica após anos turbulentos no calendário nacional."
+      },
+      "value": 7,
+      "detail": "jogos · encerrada"
+    }
+  ],
+  "sem-vitorias": [
+    {
+      "team": {
+        "slug": "santos",
+        "name": "Santos Futebol Clube",
+        "shortName": "Santos",
+        "city": "Santos",
+        "state": "SP",
+        "founded": 1912,
+        "nickname": "Peixe",
+        "division": "B",
+        "brand": "#2A2A2A",
+        "current": {
+          "position": 1,
+          "points": 58,
+          "titleProb": 34.8,
+          "g4Prob": 91.2,
+          "relegationProb": 0,
+          "expectedPoints": 71.6,
+          "pointsRange": [
+            65,
+            79
+          ]
+        },
+        "bio": "Oito vezes campeão brasileiro, lidera a Série B com a maior média de público da divisão e busca o retorno à elite."
+      },
+      "value": 3,
+      "detail": "jogos · encerrada"
+    },
+    {
+      "team": {
+        "slug": "coritiba",
+        "name": "Coritiba Foot Ball Club",
+        "shortName": "Coritiba",
+        "city": "Curitiba",
+        "state": "PR",
+        "founded": 1909,
+        "nickname": "Coxa",
+        "division": "B",
+        "brand": "#1A6B3A",
+        "current": {
+          "position": 3,
+          "points": 51,
+          "titleProb": 14.7,
+          "g4Prob": 67.9,
+          "relegationProb": 0.3,
+          "expectedPoints": 64.2,
+          "pointsRange": [
+            58,
+            71
+          ]
+        },
+        "bio": "Campeão brasileiro de 1985, alterna entre as duas divisões na última década e reformulou seu projeto esportivo em 2025."
+      },
+      "value": 4,
+      "detail": "jogos · encerrada"
+    },
+    {
+      "team": {
+        "slug": "sport",
+        "name": "Sport Club do Recife",
+        "shortName": "Sport",
+        "city": "Recife",
+        "state": "PE",
+        "founded": 1905,
+        "nickname": "Leão",
+        "division": "B",
+        "brand": "#B61E2B",
+        "current": {
+          "position": 6,
+          "points": 45,
+          "titleProb": 4.2,
+          "g4Prob": 28.7,
+          "relegationProb": 1.9,
+          "expectedPoints": 58.6,
+          "pointsRange": [
+            52,
+            66
+          ]
+        },
+        "bio": "Campeão brasileiro de 1987 pela CBF, é a maior torcida do Nordeste e tem na Ilha do Retiro um de seus maiores ativos."
+      },
+      "value": 5,
+      "detail": "jogos · encerrada"
+    },
+    {
+      "team": {
+        "slug": "crb",
+        "name": "Clube de Regatas Brasil",
+        "shortName": "CRB",
+        "city": "Maceió",
+        "state": "AL",
+        "founded": 1912,
+        "nickname": "Galo",
+        "division": "B",
+        "brand": "#B61E2B",
+        "current": {
+          "position": 12,
+          "points": 36,
+          "titleProb": 0.2,
+          "g4Prob": 4.1,
+          "relegationProb": 16.8,
+          "expectedPoints": 48.7,
+          "pointsRange": [
+            42,
+            56
+          ]
+        },
+        "bio": "Clássico clube alagoano, especialista em decisões na Copa do Nordeste e tradicional escola de revelações."
+      },
+      "value": 6,
+      "detail": "jogos · encerrada"
+    },
+    {
+      "team": {
+        "slug": "paysandu",
+        "name": "Paysandu Sport Club",
+        "shortName": "Paysandu",
+        "city": "Belém",
+        "state": "PA",
+        "founded": 1914,
+        "nickname": "Papão",
+        "division": "B",
+        "brand": "#1A6B3A",
+        "current": {
+          "position": 8,
+          "points": 42,
+          "titleProb": 1.8,
+          "g4Prob": 16.8,
+          "relegationProb": 4.4,
+          "expectedPoints": 55.4,
+          "pointsRange": [
+            49,
+            63
+          ]
+        },
+        "bio": "Maior torcida do Norte do país, ergueu o histórico título da Copa dos Campeões em 2002 e mantém forte identidade regional."
+      },
+      "value": 6,
+      "detail": "jogos · encerrada"
+    },
+    {
+      "team": {
+        "slug": "goias",
+        "name": "Goiás Esporte Clube",
+        "shortName": "Goiás",
+        "city": "Goiânia",
+        "state": "GO",
+        "founded": 1943,
+        "nickname": "Esmeraldino",
+        "division": "B",
+        "brand": "#0F5F3F",
+        "current": {
+          "position": 5,
+          "points": 47,
+          "titleProb": 6.9,
+          "g4Prob": 38.4,
+          "relegationProb": 1.2,
+          "expectedPoints": 60.1,
+          "pointsRange": [
+            53,
+            68
+          ]
+        },
+        "bio": "Maior clube do Centro-Oeste brasileiro, com 12 títulos estaduais consecutivos e tradição em formação de jovens atletas."
+      },
+      "value": 7,
+      "detail": "jogos · ainda em curso"
+    },
+    {
+      "team": {
+        "slug": "avai",
+        "name": "Avaí Futebol Clube",
+        "shortName": "Avaí",
+        "city": "Florianópolis",
+        "state": "SC",
+        "founded": 1923,
+        "nickname": "Leão da Ilha",
+        "division": "B",
+        "brand": "#1E5BA3",
+        "current": {
+          "position": 9,
+          "points": 41,
+          "titleProb": 1.4,
+          "g4Prob": 14.2,
+          "relegationProb": 4.8,
+          "expectedPoints": 54.8,
+          "pointsRange": [
+            48,
+            62
+          ]
+        },
+        "bio": "Tradicional clube catarinense, busca estabilidade na Série B após sucessivas trocas de comissão técnica."
+      },
+      "value": 7,
+      "detail": "jogos · ainda em curso"
+    },
+    {
+      "team": {
+        "slug": "ponte-preta",
+        "name": "Associação Atlética Ponte Preta",
+        "shortName": "Ponte Preta",
+        "city": "Campinas",
+        "state": "SP",
+        "founded": 1900,
+        "nickname": "Macaca",
+        "division": "B",
+        "brand": "#1A1A1A",
+        "current": {
+          "position": 11,
+          "points": 38,
+          "titleProb": 0.4,
+          "g4Prob": 6.7,
+          "relegationProb": 12.4,
+          "expectedPoints": 50.9,
+          "pointsRange": [
+            44,
+            58
+          ]
+        },
+        "bio": "Mais antigo clube em atividade do país, vive temporada delicada e luta para se afastar da zona de rebaixamento."
+      },
+      "value": 7,
+      "detail": "jogos · ainda em curso"
+    },
+    {
+      "team": {
+        "slug": "novorizontino",
+        "name": "Grêmio Novorizontino",
+        "shortName": "Novorizontino",
+        "city": "Novo Horizonte",
+        "state": "SP",
+        "founded": 1973,
+        "nickname": "Tigre",
+        "division": "B",
+        "brand": "#1E3F8C",
+        "current": {
+          "position": 4,
+          "points": 49,
+          "titleProb": 9.8,
+          "g4Prob": 54.1,
+          "relegationProb": 0.6,
+          "expectedPoints": 62.4,
+          "pointsRange": [
+            56,
+            69
+          ]
+        },
+        "bio": "Surpresa positiva da última temporada, consolidou-se na briga pelo acesso após duas Séries B consecutivas no G8."
+      },
+      "value": 7,
+      "detail": "jogos · ainda em curso"
+    },
+    {
+      "team": {
+        "slug": "chapecoense",
+        "name": "Associação Chapecoense de Futebol",
+        "shortName": "Chapecoense",
+        "city": "Chapecó",
+        "state": "SC",
+        "founded": 1973,
+        "nickname": "Chape",
+        "division": "B",
+        "brand": "#0F5F3F",
+        "current": {
+          "position": 14,
+          "points": 32,
+          "titleProb": 0.1,
+          "g4Prob": 1.8,
+          "relegationProb": 28.4,
+          "expectedPoints": 44.2,
+          "pointsRange": [
+            38,
+            51
+          ]
+        },
+        "bio": "Símbolo de superação no futebol mundial, segue em reconstrução técnica após anos turbulentos no calendário nacional."
+      },
+      "value": 7,
+      "detail": "jogos · ainda em curso"
+    },
+    {
+      "team": {
+        "slug": "athletic-club",
+        "name": "Athletic Club",
+        "shortName": "Athletic",
+        "city": "São João del-Rei",
+        "state": "MG",
+        "founded": 2008,
+        "nickname": "Esquadrão",
+        "division": "B",
+        "brand": "#1A1A1A",
+        "current": {
+          "position": 7,
+          "points": 43,
+          "titleProb": 2.6,
+          "g4Prob": 19.4,
+          "relegationProb": 3.1,
+          "expectedPoints": 56.3,
+          "pointsRange": [
+            50,
+            64
+          ]
+        },
+        "bio": "Clube mineiro de ascensão acelerada, conquistou o acesso à Série B em 2023 e estreou na divisão com solidez tática."
+      },
+      "value": 7,
+      "detail": "jogos · ainda em curso"
+    },
+    {
+      "team": {
+        "slug": "operario-pr",
+        "name": "Operário Ferroviário Esporte Clube",
+        "shortName": "Operário-PR",
+        "city": "Ponta Grossa",
+        "state": "PR",
+        "founded": 1912,
+        "nickname": "Fantasma",
+        "division": "B",
+        "brand": "#1A1A1A",
+        "current": {
+          "position": 10,
+          "points": 39,
+          "titleProb": 0.7,
+          "g4Prob": 9.2,
+          "relegationProb": 7.6,
+          "expectedPoints": 52.7,
+          "pointsRange": [
+            46,
+            60
+          ]
+        },
+        "bio": "Tradicional clube paranaense que se reergueu nos anos 2010 e tornou-se presença constante na segunda divisão."
+      },
+      "value": 7,
+      "detail": "jogos · ainda em curso"
+    }
+  ],
+  "melhor-ataque": [
+    {
+      "team": {
+        "slug": "santos",
+        "name": "Santos Futebol Clube",
+        "shortName": "Santos",
+        "city": "Santos",
+        "state": "SP",
+        "founded": 1912,
+        "nickname": "Peixe",
+        "division": "B",
+        "brand": "#2A2A2A",
+        "current": {
+          "position": 1,
+          "points": 58,
+          "titleProb": 34.8,
+          "g4Prob": 91.2,
+          "relegationProb": 0,
+          "expectedPoints": 71.6,
+          "pointsRange": [
+            65,
+            79
+          ]
+        },
+        "bio": "Oito vezes campeão brasileiro, lidera a Série B com a maior média de público da divisão e busca o retorno à elite."
+      },
+      "value": 60,
+      "detail": "gols marcados em 30 jogos"
+    },
+    {
+      "team": {
+        "slug": "coritiba",
+        "name": "Coritiba Foot Ball Club",
+        "shortName": "Coritiba",
+        "city": "Curitiba",
+        "state": "PR",
+        "founded": 1909,
+        "nickname": "Coxa",
+        "division": "B",
+        "brand": "#1A6B3A",
+        "current": {
+          "position": 3,
+          "points": 51,
+          "titleProb": 14.7,
+          "g4Prob": 67.9,
+          "relegationProb": 0.3,
+          "expectedPoints": 64.2,
+          "pointsRange": [
+            58,
+            71
+          ]
+        },
+        "bio": "Campeão brasileiro de 1985, alterna entre as duas divisões na última década e reformulou seu projeto esportivo em 2025."
+      },
+      "value": 54,
+      "detail": "gols marcados em 30 jogos"
+    },
+    {
+      "team": {
+        "slug": "novorizontino",
+        "name": "Grêmio Novorizontino",
+        "shortName": "Novorizontino",
+        "city": "Novo Horizonte",
+        "state": "SP",
+        "founded": 1973,
+        "nickname": "Tigre",
+        "division": "B",
+        "brand": "#1E3F8C",
+        "current": {
+          "position": 4,
+          "points": 49,
+          "titleProb": 9.8,
+          "g4Prob": 54.1,
+          "relegationProb": 0.6,
+          "expectedPoints": 62.4,
+          "pointsRange": [
+            56,
+            69
+          ]
+        },
+        "bio": "Surpresa positiva da última temporada, consolidou-se na briga pelo acesso após duas Séries B consecutivas no G8."
+      },
+      "value": 52,
+      "detail": "gols marcados em 30 jogos"
+    },
+    {
+      "team": {
+        "slug": "goias",
+        "name": "Goiás Esporte Clube",
+        "shortName": "Goiás",
+        "city": "Goiânia",
+        "state": "GO",
+        "founded": 1943,
+        "nickname": "Esmeraldino",
+        "division": "B",
+        "brand": "#0F5F3F",
+        "current": {
+          "position": 5,
+          "points": 47,
+          "titleProb": 6.9,
+          "g4Prob": 38.4,
+          "relegationProb": 1.2,
+          "expectedPoints": 60.1,
+          "pointsRange": [
+            53,
+            68
+          ]
+        },
+        "bio": "Maior clube do Centro-Oeste brasileiro, com 12 títulos estaduais consecutivos e tradição em formação de jovens atletas."
+      },
+      "value": 51,
+      "detail": "gols marcados em 30 jogos"
+    },
+    {
+      "team": {
+        "slug": "sport",
+        "name": "Sport Club do Recife",
+        "shortName": "Sport",
+        "city": "Recife",
+        "state": "PE",
+        "founded": 1905,
+        "nickname": "Leão",
+        "division": "B",
+        "brand": "#B61E2B",
+        "current": {
+          "position": 6,
+          "points": 45,
+          "titleProb": 4.2,
+          "g4Prob": 28.7,
+          "relegationProb": 1.9,
+          "expectedPoints": 58.6,
+          "pointsRange": [
+            52,
+            66
+          ]
+        },
+        "bio": "Campeão brasileiro de 1987 pela CBF, é a maior torcida do Nordeste e tem na Ilha do Retiro um de seus maiores ativos."
+      },
+      "value": 50,
+      "detail": "gols marcados em 30 jogos"
+    },
+    {
+      "team": {
+        "slug": "athletic-club",
+        "name": "Athletic Club",
+        "shortName": "Athletic",
+        "city": "São João del-Rei",
+        "state": "MG",
+        "founded": 2008,
+        "nickname": "Esquadrão",
+        "division": "B",
+        "brand": "#1A1A1A",
+        "current": {
+          "position": 7,
+          "points": 43,
+          "titleProb": 2.6,
+          "g4Prob": 19.4,
+          "relegationProb": 3.1,
+          "expectedPoints": 56.3,
+          "pointsRange": [
+            50,
+            64
+          ]
+        },
+        "bio": "Clube mineiro de ascensão acelerada, conquistou o acesso à Série B em 2023 e estreou na divisão com solidez tática."
+      },
+      "value": 48,
+      "detail": "gols marcados em 30 jogos"
+    },
+    {
+      "team": {
+        "slug": "operario-pr",
+        "name": "Operário Ferroviário Esporte Clube",
+        "shortName": "Operário-PR",
+        "city": "Ponta Grossa",
+        "state": "PR",
+        "founded": 1912,
+        "nickname": "Fantasma",
+        "division": "B",
+        "brand": "#1A1A1A",
+        "current": {
+          "position": 10,
+          "points": 39,
+          "titleProb": 0.7,
+          "g4Prob": 9.2,
+          "relegationProb": 7.6,
+          "expectedPoints": 52.7,
+          "pointsRange": [
+            46,
+            60
+          ]
+        },
+        "bio": "Tradicional clube paranaense que se reergueu nos anos 2010 e tornou-se presença constante na segunda divisão."
+      },
+      "value": 47,
+      "detail": "gols marcados em 30 jogos"
+    },
+    {
+      "team": {
+        "slug": "paysandu",
+        "name": "Paysandu Sport Club",
+        "shortName": "Paysandu",
+        "city": "Belém",
+        "state": "PA",
+        "founded": 1914,
+        "nickname": "Papão",
+        "division": "B",
+        "brand": "#1A6B3A",
+        "current": {
+          "position": 8,
+          "points": 42,
+          "titleProb": 1.8,
+          "g4Prob": 16.8,
+          "relegationProb": 4.4,
+          "expectedPoints": 55.4,
+          "pointsRange": [
+            49,
+            63
+          ]
+        },
+        "bio": "Maior torcida do Norte do país, ergueu o histórico título da Copa dos Campeões em 2002 e mantém forte identidade regional."
+      },
+      "value": 47,
+      "detail": "gols marcados em 30 jogos"
+    },
+    {
+      "team": {
+        "slug": "avai",
+        "name": "Avaí Futebol Clube",
+        "shortName": "Avaí",
+        "city": "Florianópolis",
+        "state": "SC",
+        "founded": 1923,
+        "nickname": "Leão da Ilha",
+        "division": "B",
+        "brand": "#1E5BA3",
+        "current": {
+          "position": 9,
+          "points": 41,
+          "titleProb": 1.4,
+          "g4Prob": 14.2,
+          "relegationProb": 4.8,
+          "expectedPoints": 54.8,
+          "pointsRange": [
+            48,
+            62
+          ]
+        },
+        "bio": "Tradicional clube catarinense, busca estabilidade na Série B após sucessivas trocas de comissão técnica."
+      },
+      "value": 46,
+      "detail": "gols marcados em 30 jogos"
+    },
+    {
+      "team": {
+        "slug": "ponte-preta",
+        "name": "Associação Atlética Ponte Preta",
+        "shortName": "Ponte Preta",
+        "city": "Campinas",
+        "state": "SP",
+        "founded": 1900,
+        "nickname": "Macaca",
+        "division": "B",
+        "brand": "#1A1A1A",
+        "current": {
+          "position": 11,
+          "points": 38,
+          "titleProb": 0.4,
+          "g4Prob": 6.7,
+          "relegationProb": 12.4,
+          "expectedPoints": 50.9,
+          "pointsRange": [
+            44,
+            58
+          ]
+        },
+        "bio": "Mais antigo clube em atividade do país, vive temporada delicada e luta para se afastar da zona de rebaixamento."
+      },
+      "value": 46,
+      "detail": "gols marcados em 30 jogos"
+    },
+    {
+      "team": {
+        "slug": "crb",
+        "name": "Clube de Regatas Brasil",
+        "shortName": "CRB",
+        "city": "Maceió",
+        "state": "AL",
+        "founded": 1912,
+        "nickname": "Galo",
+        "division": "B",
+        "brand": "#B61E2B",
+        "current": {
+          "position": 12,
+          "points": 36,
+          "titleProb": 0.2,
+          "g4Prob": 4.1,
+          "relegationProb": 16.8,
+          "expectedPoints": 48.7,
+          "pointsRange": [
+            42,
+            56
+          ]
+        },
+        "bio": "Clássico clube alagoano, especialista em decisões na Copa do Nordeste e tradicional escola de revelações."
+      },
+      "value": 43,
+      "detail": "gols marcados em 30 jogos"
+    },
+    {
+      "team": {
+        "slug": "chapecoense",
+        "name": "Associação Chapecoense de Futebol",
+        "shortName": "Chapecoense",
+        "city": "Chapecó",
+        "state": "SC",
+        "founded": 1973,
+        "nickname": "Chape",
+        "division": "B",
+        "brand": "#0F5F3F",
+        "current": {
+          "position": 14,
+          "points": 32,
+          "titleProb": 0.1,
+          "g4Prob": 1.8,
+          "relegationProb": 28.4,
+          "expectedPoints": 44.2,
+          "pointsRange": [
+            38,
+            51
+          ]
+        },
+        "bio": "Símbolo de superação no futebol mundial, segue em reconstrução técnica após anos turbulentos no calendário nacional."
+      },
+      "value": 39,
+      "detail": "gols marcados em 30 jogos"
+    }
+  ],
+  "melhor-defesa": [
+    {
+      "team": {
+        "slug": "santos",
+        "name": "Santos Futebol Clube",
+        "shortName": "Santos",
+        "city": "Santos",
+        "state": "SP",
+        "founded": 1912,
+        "nickname": "Peixe",
+        "division": "B",
+        "brand": "#2A2A2A",
+        "current": {
+          "position": 1,
+          "points": 58,
+          "titleProb": 34.8,
+          "g4Prob": 91.2,
+          "relegationProb": 0,
+          "expectedPoints": 71.6,
+          "pointsRange": [
+            65,
+            79
+          ]
+        },
+        "bio": "Oito vezes campeão brasileiro, lidera a Série B com a maior média de público da divisão e busca o retorno à elite."
+      },
+      "value": 23,
+      "detail": "gols sofridos em 30 jogos"
+    },
+    {
+      "team": {
+        "slug": "coritiba",
+        "name": "Coritiba Foot Ball Club",
+        "shortName": "Coritiba",
+        "city": "Curitiba",
+        "state": "PR",
+        "founded": 1909,
+        "nickname": "Coxa",
+        "division": "B",
+        "brand": "#1A6B3A",
+        "current": {
+          "position": 3,
+          "points": 51,
+          "titleProb": 14.7,
+          "g4Prob": 67.9,
+          "relegationProb": 0.3,
+          "expectedPoints": 64.2,
+          "pointsRange": [
+            58,
+            71
+          ]
+        },
+        "bio": "Campeão brasileiro de 1985, alterna entre as duas divisões na última década e reformulou seu projeto esportivo em 2025."
+      },
+      "value": 27,
+      "detail": "gols sofridos em 30 jogos"
+    },
+    {
+      "team": {
+        "slug": "goias",
+        "name": "Goiás Esporte Clube",
+        "shortName": "Goiás",
+        "city": "Goiânia",
+        "state": "GO",
+        "founded": 1943,
+        "nickname": "Esmeraldino",
+        "division": "B",
+        "brand": "#0F5F3F",
+        "current": {
+          "position": 5,
+          "points": 47,
+          "titleProb": 6.9,
+          "g4Prob": 38.4,
+          "relegationProb": 1.2,
+          "expectedPoints": 60.1,
+          "pointsRange": [
+            53,
+            68
+          ]
+        },
+        "bio": "Maior clube do Centro-Oeste brasileiro, com 12 títulos estaduais consecutivos e tradição em formação de jovens atletas."
+      },
+      "value": 29,
+      "detail": "gols sofridos em 30 jogos"
+    },
+    {
+      "team": {
+        "slug": "novorizontino",
+        "name": "Grêmio Novorizontino",
+        "shortName": "Novorizontino",
+        "city": "Novo Horizonte",
+        "state": "SP",
+        "founded": 1973,
+        "nickname": "Tigre",
+        "division": "B",
+        "brand": "#1E3F8C",
+        "current": {
+          "position": 4,
+          "points": 49,
+          "titleProb": 9.8,
+          "g4Prob": 54.1,
+          "relegationProb": 0.6,
+          "expectedPoints": 62.4,
+          "pointsRange": [
+            56,
+            69
+          ]
+        },
+        "bio": "Surpresa positiva da última temporada, consolidou-se na briga pelo acesso após duas Séries B consecutivas no G8."
+      },
+      "value": 29,
+      "detail": "gols sofridos em 30 jogos"
+    },
+    {
+      "team": {
+        "slug": "avai",
+        "name": "Avaí Futebol Clube",
+        "shortName": "Avaí",
+        "city": "Florianópolis",
+        "state": "SC",
+        "founded": 1923,
+        "nickname": "Leão da Ilha",
+        "division": "B",
+        "brand": "#1E5BA3",
+        "current": {
+          "position": 9,
+          "points": 41,
+          "titleProb": 1.4,
+          "g4Prob": 14.2,
+          "relegationProb": 4.8,
+          "expectedPoints": 54.8,
+          "pointsRange": [
+            48,
+            62
+          ]
+        },
+        "bio": "Tradicional clube catarinense, busca estabilidade na Série B após sucessivas trocas de comissão técnica."
+      },
+      "value": 32,
+      "detail": "gols sofridos em 30 jogos"
+    },
+    {
+      "team": {
+        "slug": "sport",
+        "name": "Sport Club do Recife",
+        "shortName": "Sport",
+        "city": "Recife",
+        "state": "PE",
+        "founded": 1905,
+        "nickname": "Leão",
+        "division": "B",
+        "brand": "#B61E2B",
+        "current": {
+          "position": 6,
+          "points": 45,
+          "titleProb": 4.2,
+          "g4Prob": 28.7,
+          "relegationProb": 1.9,
+          "expectedPoints": 58.6,
+          "pointsRange": [
+            52,
+            66
+          ]
+        },
+        "bio": "Campeão brasileiro de 1987 pela CBF, é a maior torcida do Nordeste e tem na Ilha do Retiro um de seus maiores ativos."
+      },
+      "value": 32,
+      "detail": "gols sofridos em 30 jogos"
+    },
+    {
+      "team": {
+        "slug": "paysandu",
+        "name": "Paysandu Sport Club",
+        "shortName": "Paysandu",
+        "city": "Belém",
+        "state": "PA",
+        "founded": 1914,
+        "nickname": "Papão",
+        "division": "B",
+        "brand": "#1A6B3A",
+        "current": {
+          "position": 8,
+          "points": 42,
+          "titleProb": 1.8,
+          "g4Prob": 16.8,
+          "relegationProb": 4.4,
+          "expectedPoints": 55.4,
+          "pointsRange": [
+            49,
+            63
+          ]
+        },
+        "bio": "Maior torcida do Norte do país, ergueu o histórico título da Copa dos Campeões em 2002 e mantém forte identidade regional."
+      },
+      "value": 32,
+      "detail": "gols sofridos em 30 jogos"
+    },
+    {
+      "team": {
+        "slug": "athletic-club",
+        "name": "Athletic Club",
+        "shortName": "Athletic",
+        "city": "São João del-Rei",
+        "state": "MG",
+        "founded": 2008,
+        "nickname": "Esquadrão",
+        "division": "B",
+        "brand": "#1A1A1A",
+        "current": {
+          "position": 7,
+          "points": 43,
+          "titleProb": 2.6,
+          "g4Prob": 19.4,
+          "relegationProb": 3.1,
+          "expectedPoints": 56.3,
+          "pointsRange": [
+            50,
+            64
+          ]
+        },
+        "bio": "Clube mineiro de ascensão acelerada, conquistou o acesso à Série B em 2023 e estreou na divisão com solidez tática."
+      },
+      "value": 33,
+      "detail": "gols sofridos em 30 jogos"
+    },
+    {
+      "team": {
+        "slug": "operario-pr",
+        "name": "Operário Ferroviário Esporte Clube",
+        "shortName": "Operário-PR",
+        "city": "Ponta Grossa",
+        "state": "PR",
+        "founded": 1912,
+        "nickname": "Fantasma",
+        "division": "B",
+        "brand": "#1A1A1A",
+        "current": {
+          "position": 10,
+          "points": 39,
+          "titleProb": 0.7,
+          "g4Prob": 9.2,
+          "relegationProb": 7.6,
+          "expectedPoints": 52.7,
+          "pointsRange": [
+            46,
+            60
+          ]
+        },
+        "bio": "Tradicional clube paranaense que se reergueu nos anos 2010 e tornou-se presença constante na segunda divisão."
+      },
+      "value": 34,
+      "detail": "gols sofridos em 30 jogos"
+    },
+    {
+      "team": {
+        "slug": "ponte-preta",
+        "name": "Associação Atlética Ponte Preta",
+        "shortName": "Ponte Preta",
+        "city": "Campinas",
+        "state": "SP",
+        "founded": 1900,
+        "nickname": "Macaca",
+        "division": "B",
+        "brand": "#1A1A1A",
+        "current": {
+          "position": 11,
+          "points": 38,
+          "titleProb": 0.4,
+          "g4Prob": 6.7,
+          "relegationProb": 12.4,
+          "expectedPoints": 50.9,
+          "pointsRange": [
+            44,
+            58
+          ]
+        },
+        "bio": "Mais antigo clube em atividade do país, vive temporada delicada e luta para se afastar da zona de rebaixamento."
+      },
+      "value": 35,
+      "detail": "gols sofridos em 30 jogos"
+    },
+    {
+      "team": {
+        "slug": "crb",
+        "name": "Clube de Regatas Brasil",
+        "shortName": "CRB",
+        "city": "Maceió",
+        "state": "AL",
+        "founded": 1912,
+        "nickname": "Galo",
+        "division": "B",
+        "brand": "#B61E2B",
+        "current": {
+          "position": 12,
+          "points": 36,
+          "titleProb": 0.2,
+          "g4Prob": 4.1,
+          "relegationProb": 16.8,
+          "expectedPoints": 48.7,
+          "pointsRange": [
+            42,
+            56
+          ]
+        },
+        "bio": "Clássico clube alagoano, especialista em decisões na Copa do Nordeste e tradicional escola de revelações."
+      },
+      "value": 36,
+      "detail": "gols sofridos em 30 jogos"
+    },
+    {
+      "team": {
+        "slug": "chapecoense",
+        "name": "Associação Chapecoense de Futebol",
+        "shortName": "Chapecoense",
+        "city": "Chapecó",
+        "state": "SC",
+        "founded": 1973,
+        "nickname": "Chape",
+        "division": "B",
+        "brand": "#0F5F3F",
+        "current": {
+          "position": 14,
+          "points": 32,
+          "titleProb": 0.1,
+          "g4Prob": 1.8,
+          "relegationProb": 28.4,
+          "expectedPoints": 44.2,
+          "pointsRange": [
+            38,
+            51
+          ]
+        },
+        "bio": "Símbolo de superação no futebol mundial, segue em reconstrução técnica após anos turbulentos no calendário nacional."
+      },
+      "value": 40,
+      "detail": "gols sofridos em 30 jogos"
+    }
+  ]
+}

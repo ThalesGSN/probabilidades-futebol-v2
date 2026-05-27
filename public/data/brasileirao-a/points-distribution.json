@@ -1,0 +1,858 @@
+[
+  {
+    "team": {
+      "slug": "flamengo",
+      "name": "Clube de Regatas do Flamengo",
+      "shortName": "Flamengo",
+      "city": "Rio de Janeiro",
+      "state": "RJ",
+      "founded": 1895,
+      "nickname": "Mengão",
+      "division": "A",
+      "brand": "#B61E2B",
+      "current": {
+        "position": 1,
+        "points": 65,
+        "titleProb": 38.7,
+        "g4Prob": 98.2,
+        "relegationProb": 0,
+        "expectedPoints": 78.1,
+        "pointsRange": [
+          72,
+          85
+        ]
+      },
+      "bio": "Maior torcida do país. Após o título histórico de 2019, manteve-se entre os principais favoritos em todas as temporadas."
+    },
+    "expected": 78.1,
+    "buckets": [
+      {
+        "min": 25,
+        "max": 29,
+        "range": "25-29",
+        "prob": 0
+      },
+      {
+        "min": 30,
+        "max": 34,
+        "range": "30-34",
+        "prob": 0
+      },
+      {
+        "min": 35,
+        "max": 39,
+        "range": "35-39",
+        "prob": 0
+      },
+      {
+        "min": 40,
+        "max": 44,
+        "range": "40-44",
+        "prob": 0
+      },
+      {
+        "min": 45,
+        "max": 49,
+        "range": "45-49",
+        "prob": 0
+      },
+      {
+        "min": 50,
+        "max": 54,
+        "range": "50-54",
+        "prob": 0
+      },
+      {
+        "min": 55,
+        "max": 59,
+        "range": "55-59",
+        "prob": 0
+      },
+      {
+        "min": 60,
+        "max": 64,
+        "range": "60-64",
+        "prob": 0
+      },
+      {
+        "min": 65,
+        "max": 69,
+        "range": "65-69",
+        "prob": 1.4
+      },
+      {
+        "min": 70,
+        "max": 74,
+        "range": "70-74",
+        "prob": 16.6
+      },
+      {
+        "min": 75,
+        "max": 79,
+        "range": "75-79",
+        "prob": 46
+      },
+      {
+        "min": 80,
+        "max": 84,
+        "range": "80-84",
+        "prob": 30.9
+      },
+      {
+        "min": 85,
+        "max": 89,
+        "range": "85-89",
+        "prob": 5
+      }
+    ]
+  },
+  {
+    "team": {
+      "slug": "palmeiras",
+      "name": "Sociedade Esportiva Palmeiras",
+      "shortName": "Palmeiras",
+      "city": "São Paulo",
+      "state": "SP",
+      "founded": 1914,
+      "nickname": "Verdão",
+      "division": "A",
+      "brand": "#0E5C3A",
+      "current": {
+        "position": 2,
+        "points": 62,
+        "titleProb": 41.2,
+        "g4Prob": 96.8,
+        "relegationProb": 0,
+        "expectedPoints": 76.4,
+        "pointsRange": [
+          70,
+          83
+        ]
+      },
+      "bio": "Time mais consistente da década. Desde 2018, terminou entre os quatro primeiros em todas as edições do Brasileirão."
+    },
+    "expected": 76.4,
+    "buckets": [
+      {
+        "min": 25,
+        "max": 29,
+        "range": "25-29",
+        "prob": 0
+      },
+      {
+        "min": 30,
+        "max": 34,
+        "range": "30-34",
+        "prob": 0
+      },
+      {
+        "min": 35,
+        "max": 39,
+        "range": "35-39",
+        "prob": 0
+      },
+      {
+        "min": 40,
+        "max": 44,
+        "range": "40-44",
+        "prob": 0
+      },
+      {
+        "min": 45,
+        "max": 49,
+        "range": "45-49",
+        "prob": 0
+      },
+      {
+        "min": 50,
+        "max": 54,
+        "range": "50-54",
+        "prob": 0
+      },
+      {
+        "min": 55,
+        "max": 59,
+        "range": "55-59",
+        "prob": 0
+      },
+      {
+        "min": 60,
+        "max": 64,
+        "range": "60-64",
+        "prob": 0.1
+      },
+      {
+        "min": 65,
+        "max": 69,
+        "range": "65-69",
+        "prob": 3.9
+      },
+      {
+        "min": 70,
+        "max": 74,
+        "range": "70-74",
+        "prob": 27.4
+      },
+      {
+        "min": 75,
+        "max": 79,
+        "range": "75-79",
+        "prob": 47
+      },
+      {
+        "min": 80,
+        "max": 84,
+        "range": "80-84",
+        "prob": 19.5
+      },
+      {
+        "min": 85,
+        "max": 89,
+        "range": "85-89",
+        "prob": 2
+      }
+    ]
+  },
+  {
+    "team": {
+      "slug": "botafogo",
+      "name": "Botafogo de Futebol e Regatas",
+      "shortName": "Botafogo",
+      "city": "Rio de Janeiro",
+      "state": "RJ",
+      "founded": 1904,
+      "nickname": "Fogão",
+      "division": "A",
+      "brand": "#1A1A1A",
+      "current": {
+        "position": 4,
+        "points": 56,
+        "titleProb": 12.4,
+        "g4Prob": 78.3,
+        "relegationProb": 0.1,
+        "expectedPoints": 68.9,
+        "pointsRange": [
+          62,
+          76
+        ]
+      },
+      "bio": "O renascimento mais comentado do futebol brasileiro. Campeão em 2024 após uma virada matemática histórica."
+    },
+    "expected": 68.9,
+    "buckets": [
+      {
+        "min": 25,
+        "max": 29,
+        "range": "25-29",
+        "prob": 0
+      },
+      {
+        "min": 30,
+        "max": 34,
+        "range": "30-34",
+        "prob": 0
+      },
+      {
+        "min": 35,
+        "max": 39,
+        "range": "35-39",
+        "prob": 0
+      },
+      {
+        "min": 40,
+        "max": 44,
+        "range": "40-44",
+        "prob": 0
+      },
+      {
+        "min": 45,
+        "max": 49,
+        "range": "45-49",
+        "prob": 0
+      },
+      {
+        "min": 50,
+        "max": 54,
+        "range": "50-54",
+        "prob": 0
+      },
+      {
+        "min": 55,
+        "max": 59,
+        "range": "55-59",
+        "prob": 0.9
+      },
+      {
+        "min": 60,
+        "max": 64,
+        "range": "60-64",
+        "prob": 12.3
+      },
+      {
+        "min": 65,
+        "max": 69,
+        "range": "65-69",
+        "prob": 42.9
+      },
+      {
+        "min": 70,
+        "max": 74,
+        "range": "70-74",
+        "prob": 36.2
+      },
+      {
+        "min": 75,
+        "max": 79,
+        "range": "75-79",
+        "prob": 7.4
+      },
+      {
+        "min": 80,
+        "max": 84,
+        "range": "80-84",
+        "prob": 0.4
+      },
+      {
+        "min": 85,
+        "max": 89,
+        "range": "85-89",
+        "prob": 0
+      }
+    ]
+  },
+  {
+    "team": {
+      "slug": "sao-paulo",
+      "name": "São Paulo Futebol Clube",
+      "shortName": "São Paulo",
+      "city": "São Paulo",
+      "state": "SP",
+      "founded": 1930,
+      "nickname": "Tricolor",
+      "division": "A",
+      "brand": "#A8232E",
+      "current": {
+        "position": 5,
+        "points": 53,
+        "titleProb": 6.7,
+        "g4Prob": 52.4,
+        "relegationProb": 0.2,
+        "expectedPoints": 65.1,
+        "pointsRange": [
+          58,
+          72
+        ]
+      },
+      "bio": "Tricampeão da Libertadores e único brasileiro com três Mundiais. Voltou ao topo em 2024 com seu primeiro Brasileirão."
+    },
+    "expected": 65.1,
+    "buckets": [
+      {
+        "min": 25,
+        "max": 29,
+        "range": "25-29",
+        "prob": 0
+      },
+      {
+        "min": 30,
+        "max": 34,
+        "range": "30-34",
+        "prob": 0
+      },
+      {
+        "min": 35,
+        "max": 39,
+        "range": "35-39",
+        "prob": 0
+      },
+      {
+        "min": 40,
+        "max": 44,
+        "range": "40-44",
+        "prob": 0
+      },
+      {
+        "min": 45,
+        "max": 49,
+        "range": "45-49",
+        "prob": 0
+      },
+      {
+        "min": 50,
+        "max": 54,
+        "range": "50-54",
+        "prob": 0.4
+      },
+      {
+        "min": 55,
+        "max": 59,
+        "range": "55-59",
+        "prob": 7.4
+      },
+      {
+        "min": 60,
+        "max": 64,
+        "range": "60-64",
+        "prob": 36.2
+      },
+      {
+        "min": 65,
+        "max": 69,
+        "range": "65-69",
+        "prob": 42.9
+      },
+      {
+        "min": 70,
+        "max": 74,
+        "range": "70-74",
+        "prob": 12.3
+      },
+      {
+        "min": 75,
+        "max": 79,
+        "range": "75-79",
+        "prob": 0.9
+      },
+      {
+        "min": 80,
+        "max": 84,
+        "range": "80-84",
+        "prob": 0
+      },
+      {
+        "min": 85,
+        "max": 89,
+        "range": "85-89",
+        "prob": 0
+      }
+    ]
+  },
+  {
+    "team": {
+      "slug": "atletico-mg",
+      "name": "Clube Atlético Mineiro",
+      "shortName": "Atlético-MG",
+      "city": "Belo Horizonte",
+      "state": "MG",
+      "founded": 1908,
+      "nickname": "Galo",
+      "division": "A",
+      "brand": "#2A2A2A",
+      "current": {
+        "position": 6,
+        "points": 51,
+        "titleProb": 4.1,
+        "g4Prob": 41.7,
+        "relegationProb": 0.4,
+        "expectedPoints": 63.2,
+        "pointsRange": [
+          56,
+          71
+        ]
+      },
+      "bio": "Tradição mineira que conquistou o Brasileirão de 2021 com a maior pontuação da era dos pontos corridos."
+    },
+    "expected": 63.2,
+    "buckets": [
+      {
+        "min": 25,
+        "max": 29,
+        "range": "25-29",
+        "prob": 0
+      },
+      {
+        "min": 30,
+        "max": 34,
+        "range": "30-34",
+        "prob": 0
+      },
+      {
+        "min": 35,
+        "max": 39,
+        "range": "35-39",
+        "prob": 0
+      },
+      {
+        "min": 40,
+        "max": 44,
+        "range": "40-44",
+        "prob": 0
+      },
+      {
+        "min": 45,
+        "max": 49,
+        "range": "45-49",
+        "prob": 0
+      },
+      {
+        "min": 50,
+        "max": 54,
+        "range": "50-54",
+        "prob": 1.4
+      },
+      {
+        "min": 55,
+        "max": 59,
+        "range": "55-59",
+        "prob": 16
+      },
+      {
+        "min": 60,
+        "max": 64,
+        "range": "60-64",
+        "prob": 45.6
+      },
+      {
+        "min": 65,
+        "max": 69,
+        "range": "65-69",
+        "prob": 31.5
+      },
+      {
+        "min": 70,
+        "max": 74,
+        "range": "70-74",
+        "prob": 5.3
+      },
+      {
+        "min": 75,
+        "max": 79,
+        "range": "75-79",
+        "prob": 0.2
+      },
+      {
+        "min": 80,
+        "max": 84,
+        "range": "80-84",
+        "prob": 0
+      },
+      {
+        "min": 85,
+        "max": 89,
+        "range": "85-89",
+        "prob": 0
+      }
+    ]
+  },
+  {
+    "team": {
+      "slug": "cruzeiro",
+      "name": "Cruzeiro Esporte Clube",
+      "shortName": "Cruzeiro",
+      "city": "Belo Horizonte",
+      "state": "MG",
+      "founded": 1921,
+      "nickname": "Raposa",
+      "division": "A",
+      "brand": "#1E3F8C",
+      "current": {
+        "position": 7,
+        "points": 49,
+        "titleProb": 2.1,
+        "g4Prob": 28.9,
+        "relegationProb": 0.8,
+        "expectedPoints": 60.3,
+        "pointsRange": [
+          54,
+          67
+        ]
+      },
+      "bio": "Bicampeão brasileiro nos anos 2000 e 2010. Retornou à elite em 2023 e busca reposicionar-se entre os principais."
+    },
+    "expected": 60.3,
+    "buckets": [
+      {
+        "min": 25,
+        "max": 29,
+        "range": "25-29",
+        "prob": 0
+      },
+      {
+        "min": 30,
+        "max": 34,
+        "range": "30-34",
+        "prob": 0
+      },
+      {
+        "min": 35,
+        "max": 39,
+        "range": "35-39",
+        "prob": 0
+      },
+      {
+        "min": 40,
+        "max": 44,
+        "range": "40-44",
+        "prob": 0
+      },
+      {
+        "min": 45,
+        "max": 49,
+        "range": "45-49",
+        "prob": 0.3
+      },
+      {
+        "min": 50,
+        "max": 54,
+        "range": "50-54",
+        "prob": 6.7
+      },
+      {
+        "min": 55,
+        "max": 59,
+        "range": "55-59",
+        "prob": 34.9
+      },
+      {
+        "min": 60,
+        "max": 64,
+        "range": "60-64",
+        "prob": 43.8
+      },
+      {
+        "min": 65,
+        "max": 69,
+        "range": "65-69",
+        "prob": 13.3
+      },
+      {
+        "min": 70,
+        "max": 74,
+        "range": "70-74",
+        "prob": 1
+      },
+      {
+        "min": 75,
+        "max": 79,
+        "range": "75-79",
+        "prob": 0
+      },
+      {
+        "min": 80,
+        "max": 84,
+        "range": "80-84",
+        "prob": 0
+      },
+      {
+        "min": 85,
+        "max": 89,
+        "range": "85-89",
+        "prob": 0
+      }
+    ]
+  },
+  {
+    "team": {
+      "slug": "fluminense",
+      "name": "Fluminense Football Club",
+      "shortName": "Fluminense",
+      "city": "Rio de Janeiro",
+      "state": "RJ",
+      "founded": 1902,
+      "nickname": "Tricolor",
+      "division": "A",
+      "brand": "#7E1E3A",
+      "current": {
+        "position": 8,
+        "points": 47,
+        "titleProb": 1.2,
+        "g4Prob": 22.1,
+        "relegationProb": 1.4,
+        "expectedPoints": 58.7,
+        "pointsRange": [
+          52,
+          66
+        ]
+      },
+      "bio": "Campeão da Libertadores em 2023 sob comando de Diniz, em uma das campanhas continentais mais aclamadas da década."
+    },
+    "expected": 58.7,
+    "buckets": [
+      {
+        "min": 25,
+        "max": 29,
+        "range": "25-29",
+        "prob": 0
+      },
+      {
+        "min": 30,
+        "max": 34,
+        "range": "30-34",
+        "prob": 0
+      },
+      {
+        "min": 35,
+        "max": 39,
+        "range": "35-39",
+        "prob": 0
+      },
+      {
+        "min": 40,
+        "max": 44,
+        "range": "40-44",
+        "prob": 0
+      },
+      {
+        "min": 45,
+        "max": 49,
+        "range": "45-49",
+        "prob": 1
+      },
+      {
+        "min": 50,
+        "max": 54,
+        "range": "50-54",
+        "prob": 13.3
+      },
+      {
+        "min": 55,
+        "max": 59,
+        "range": "55-59",
+        "prob": 43.8
+      },
+      {
+        "min": 60,
+        "max": 64,
+        "range": "60-64",
+        "prob": 34.9
+      },
+      {
+        "min": 65,
+        "max": 69,
+        "range": "65-69",
+        "prob": 6.7
+      },
+      {
+        "min": 70,
+        "max": 74,
+        "range": "70-74",
+        "prob": 0.3
+      },
+      {
+        "min": 75,
+        "max": 79,
+        "range": "75-79",
+        "prob": 0
+      },
+      {
+        "min": 80,
+        "max": 84,
+        "range": "80-84",
+        "prob": 0
+      },
+      {
+        "min": 85,
+        "max": 89,
+        "range": "85-89",
+        "prob": 0
+      }
+    ]
+  },
+  {
+    "team": {
+      "slug": "internacional",
+      "name": "Sport Club Internacional",
+      "shortName": "Internacional",
+      "city": "Porto Alegre",
+      "state": "RS",
+      "founded": 1909,
+      "nickname": "Colorado",
+      "division": "A",
+      "brand": "#A8232E",
+      "current": {
+        "position": 11,
+        "points": 41,
+        "titleProb": 0.2,
+        "g4Prob": 6.8,
+        "relegationProb": 8.2,
+        "expectedPoints": 52.4,
+        "pointsRange": [
+          46,
+          60
+        ]
+      },
+      "bio": "Bicampeão da Libertadores. Vive temporada de reconstrução após oscilações nas últimas três edições."
+    },
+    "expected": 52.4,
+    "buckets": [
+      {
+        "min": 25,
+        "max": 29,
+        "range": "25-29",
+        "prob": 0
+      },
+      {
+        "min": 30,
+        "max": 34,
+        "range": "30-34",
+        "prob": 0
+      },
+      {
+        "min": 35,
+        "max": 39,
+        "range": "35-39",
+        "prob": 0.1
+      },
+      {
+        "min": 40,
+        "max": 44,
+        "range": "40-44",
+        "prob": 2.2
+      },
+      {
+        "min": 45,
+        "max": 49,
+        "range": "45-49",
+        "prob": 20.8
+      },
+      {
+        "min": 50,
+        "max": 54,
+        "range": "50-54",
+        "prob": 47.3
+      },
+      {
+        "min": 55,
+        "max": 59,
+        "range": "55-59",
+        "prob": 26.1
+      },
+      {
+        "min": 60,
+        "max": 64,
+        "range": "60-64",
+        "prob": 3.5
+      },
+      {
+        "min": 65,
+        "max": 69,
+        "range": "65-69",
+        "prob": 0.1
+      },
+      {
+        "min": 70,
+        "max": 74,
+        "range": "70-74",
+        "prob": 0
+      },
+      {
+        "min": 75,
+        "max": 79,
+        "range": "75-79",
+        "prob": 0
+      },
+      {
+        "min": 80,
+        "max": 84,
+        "range": "80-84",
+        "prob": 0
+      },
+      {
+        "min": 85,
+        "max": 89,
+        "range": "85-89",
+        "prob": 0
+      }
+    ]
+  }
+]

@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 import type { Division } from "@/lib/teams"
-import { getStatRanking, type StatKey } from "@/lib/brasileirao"
+import type { StatKey } from "@/lib/brasileirao"
+import { useStats } from "@/hooks/use-static-data"
 
 const config: Record<StatKey, { label: string; unit: string; description: string }> = {
   vitorias: {
@@ -42,7 +43,13 @@ export function StatsRanking({
   division: Division
   statKey: StatKey
 }) {
-  const rows = getStatRanking(division, statKey)
+  const { data: statsMap, isLoading } = useStats(division)
+
+  if (isLoading || !statsMap) {
+    return <div className="h-64 animate-pulse rounded-sm bg-muted" />
+  }
+
+  const rows = statsMap[statKey] ?? []
   const max = Math.max(...rows.map((r) => r.value))
   const c = config[statKey]
 

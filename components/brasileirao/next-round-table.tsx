@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import type { Division } from "@/lib/teams"
-import { getNextRoundFixtures } from "@/lib/brasileirao"
+import { useNextRound } from "@/hooks/use-static-data"
 
 export function NextRoundTable({
   division,
@@ -9,7 +9,11 @@ export function NextRoundTable({
   division: Division
   variant: "fixtures" | "probabilities"
 }) {
-  const fixtures = getNextRoundFixtures(division)
+  const { data: fixtures, isLoading } = useNextRound(division)
+
+  if (isLoading || !fixtures) {
+    return <div className="h-64 animate-pulse rounded-sm bg-muted" />
+  }
 
   return (
     <div className="space-y-3">

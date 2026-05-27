@@ -241,3 +241,61 @@ export function getStatRanking(division: Division, key: StatKey): StatRow[] {
       return ascendingKeys.includes(key) ? a.value - b.value : b.value - a.value
     })
 }
+
+// ============ Classificação a partir de resultados ============
+export type MatchResult = {
+  round: number
+  homeSlug: string
+  awaySlug: string
+  homeGoals: number
+  awayGoals: number
+}
+
+export function computeStandingsFromResults(
+  results: MatchResult[],
+  teams: Team[],
+  range: [number, number],
+): StandingRow[] {
+  const [start, end] = range
+  const filtered = results.filter((r) => r.round >= start && r.round <= end)
+
+  const map = new Map<string, Omit<StandingRow, "position">>(
+    teams.map((t) => [
+      t.slug,
+      { team: t, played: 0, wins: 0, draws: 0, losses: 0, goalsFor: 0, goalsAgainst: 0, goalDiff: 0, points: 0 },
+    ]),
+  )
+
+  for (const r of filtered) {
+    const home = map.get(r.homeSlug)
+    const away = map.get(r.awaySlug)
+    if (!home || !away) continue
+
+    home.played++
+    away.played++
+    home.goalsFor += r.homeGoals
+    home.goalsAgainst += r.awayGoals
+    away.goalsFor += r.awayGoals
+    away.goalsAgainst += r.homeGoals
+
+    if (r.homeGoals > r.awayGoals) {
+      home.wins++
+      away.losses++
+      home.points += 3
+    } else if (r.homeGoals < r.awayGoals) {
+      away.wins++
+      home.losses++
+      away.points += 3
+    } else {
+      home.draws++
+      away.draws++
+      home.points++
+      away.points++
+    }
+  }
+
+  return Array.from(map.values())
+    .map((row) => ({ ...row, goalDiff: row.goalsFor - row.goalsAgainst }))
+    .sort((a, b) => b.points - a.points || b.goalDiff - a.goalDiff || b.goalsFor - a.goalsFor)
+    .map((row, i) => ({ ...row, position: i + 1 }))
+}

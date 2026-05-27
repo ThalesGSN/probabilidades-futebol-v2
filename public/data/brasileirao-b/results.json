@@ -1,0 +1,1598 @@
+[
+  {
+    "round": 1,
+    "homeSlug": "crb",
+    "awaySlug": "santos",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 1,
+    "homeSlug": "athletic-club",
+    "awaySlug": "sport",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 1,
+    "homeSlug": "novorizontino",
+    "awaySlug": "goias",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 1,
+    "homeSlug": "coritiba",
+    "awaySlug": "avai",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "round": 1,
+    "homeSlug": "paysandu",
+    "awaySlug": "operario-pr",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "round": 1,
+    "homeSlug": "chapecoense",
+    "awaySlug": "ponte-preta",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "round": 2,
+    "homeSlug": "santos",
+    "awaySlug": "coritiba",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 2,
+    "homeSlug": "paysandu",
+    "awaySlug": "goias",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 2,
+    "homeSlug": "avai",
+    "awaySlug": "ponte-preta",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 2,
+    "homeSlug": "crb",
+    "awaySlug": "chapecoense",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "round": 2,
+    "homeSlug": "novorizontino",
+    "awaySlug": "sport",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "round": 2,
+    "homeSlug": "operario-pr",
+    "awaySlug": "athletic-club",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 3,
+    "homeSlug": "ponte-preta",
+    "awaySlug": "chapecoense",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 3,
+    "homeSlug": "operario-pr",
+    "awaySlug": "avai",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 3,
+    "homeSlug": "novorizontino",
+    "awaySlug": "athletic-club",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 3,
+    "homeSlug": "coritiba",
+    "awaySlug": "paysandu",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 3,
+    "homeSlug": "santos",
+    "awaySlug": "crb",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 3,
+    "homeSlug": "goias",
+    "awaySlug": "sport",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 4,
+    "homeSlug": "avai",
+    "awaySlug": "ponte-preta",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "round": 4,
+    "homeSlug": "crb",
+    "awaySlug": "operario-pr",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "round": 4,
+    "homeSlug": "chapecoense",
+    "awaySlug": "sport",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 4,
+    "homeSlug": "goias",
+    "awaySlug": "santos",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 4,
+    "homeSlug": "paysandu",
+    "awaySlug": "athletic-club",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 4,
+    "homeSlug": "novorizontino",
+    "awaySlug": "coritiba",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "round": 5,
+    "homeSlug": "crb",
+    "awaySlug": "avai",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "round": 5,
+    "homeSlug": "athletic-club",
+    "awaySlug": "sport",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "round": 5,
+    "homeSlug": "novorizontino",
+    "awaySlug": "paysandu",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 5,
+    "homeSlug": "goias",
+    "awaySlug": "santos",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "round": 5,
+    "homeSlug": "ponte-preta",
+    "awaySlug": "chapecoense",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 5,
+    "homeSlug": "operario-pr",
+    "awaySlug": "coritiba",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 6,
+    "homeSlug": "santos",
+    "awaySlug": "coritiba",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 6,
+    "homeSlug": "ponte-preta",
+    "awaySlug": "athletic-club",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 6,
+    "homeSlug": "sport",
+    "awaySlug": "novorizontino",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 6,
+    "homeSlug": "operario-pr",
+    "awaySlug": "chapecoense",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 6,
+    "homeSlug": "goias",
+    "awaySlug": "avai",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "round": 6,
+    "homeSlug": "crb",
+    "awaySlug": "paysandu",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 7,
+    "homeSlug": "athletic-club",
+    "awaySlug": "novorizontino",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 7,
+    "homeSlug": "sport",
+    "awaySlug": "paysandu",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 7,
+    "homeSlug": "operario-pr",
+    "awaySlug": "chapecoense",
+    "homeGoals": 2,
+    "awayGoals": 2
+  },
+  {
+    "round": 7,
+    "homeSlug": "ponte-preta",
+    "awaySlug": "crb",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "round": 7,
+    "homeSlug": "avai",
+    "awaySlug": "goias",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 7,
+    "homeSlug": "coritiba",
+    "awaySlug": "santos",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "round": 8,
+    "homeSlug": "paysandu",
+    "awaySlug": "crb",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "round": 8,
+    "homeSlug": "athletic-club",
+    "awaySlug": "sport",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 8,
+    "homeSlug": "operario-pr",
+    "awaySlug": "chapecoense",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 8,
+    "homeSlug": "novorizontino",
+    "awaySlug": "ponte-preta",
+    "homeGoals": 2,
+    "awayGoals": 2
+  },
+  {
+    "round": 8,
+    "homeSlug": "coritiba",
+    "awaySlug": "avai",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 8,
+    "homeSlug": "santos",
+    "awaySlug": "goias",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 9,
+    "homeSlug": "goias",
+    "awaySlug": "novorizontino",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 9,
+    "homeSlug": "sport",
+    "awaySlug": "paysandu",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 9,
+    "homeSlug": "athletic-club",
+    "awaySlug": "avai",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 9,
+    "homeSlug": "coritiba",
+    "awaySlug": "ponte-preta",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 9,
+    "homeSlug": "crb",
+    "awaySlug": "operario-pr",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 9,
+    "homeSlug": "chapecoense",
+    "awaySlug": "santos",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 10,
+    "homeSlug": "paysandu",
+    "awaySlug": "athletic-club",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 10,
+    "homeSlug": "novorizontino",
+    "awaySlug": "avai",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 10,
+    "homeSlug": "operario-pr",
+    "awaySlug": "chapecoense",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 10,
+    "homeSlug": "sport",
+    "awaySlug": "ponte-preta",
+    "homeGoals": 2,
+    "awayGoals": 2
+  },
+  {
+    "round": 10,
+    "homeSlug": "crb",
+    "awaySlug": "goias",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 10,
+    "homeSlug": "coritiba",
+    "awaySlug": "santos",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 11,
+    "homeSlug": "sport",
+    "awaySlug": "paysandu",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 11,
+    "homeSlug": "crb",
+    "awaySlug": "novorizontino",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 11,
+    "homeSlug": "athletic-club",
+    "awaySlug": "ponte-preta",
+    "homeGoals": 2,
+    "awayGoals": 2
+  },
+  {
+    "round": 11,
+    "homeSlug": "chapecoense",
+    "awaySlug": "avai",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 11,
+    "homeSlug": "goias",
+    "awaySlug": "coritiba",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 11,
+    "homeSlug": "operario-pr",
+    "awaySlug": "santos",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 12,
+    "homeSlug": "crb",
+    "awaySlug": "paysandu",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 12,
+    "homeSlug": "sport",
+    "awaySlug": "operario-pr",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 12,
+    "homeSlug": "athletic-club",
+    "awaySlug": "chapecoense",
+    "homeGoals": 2,
+    "awayGoals": 2
+  },
+  {
+    "round": 12,
+    "homeSlug": "novorizontino",
+    "awaySlug": "ponte-preta",
+    "homeGoals": 2,
+    "awayGoals": 2
+  },
+  {
+    "round": 12,
+    "homeSlug": "avai",
+    "awaySlug": "goias",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 12,
+    "homeSlug": "coritiba",
+    "awaySlug": "santos",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "round": 13,
+    "homeSlug": "santos",
+    "awaySlug": "sport",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 13,
+    "homeSlug": "crb",
+    "awaySlug": "paysandu",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 13,
+    "homeSlug": "ponte-preta",
+    "awaySlug": "athletic-club",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 13,
+    "homeSlug": "novorizontino",
+    "awaySlug": "operario-pr",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 13,
+    "homeSlug": "chapecoense",
+    "awaySlug": "goias",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 13,
+    "homeSlug": "avai",
+    "awaySlug": "coritiba",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 14,
+    "homeSlug": "coritiba",
+    "awaySlug": "avai",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 14,
+    "homeSlug": "athletic-club",
+    "awaySlug": "novorizontino",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "round": 14,
+    "homeSlug": "operario-pr",
+    "awaySlug": "chapecoense",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "round": 14,
+    "homeSlug": "ponte-preta",
+    "awaySlug": "sport",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 14,
+    "homeSlug": "goias",
+    "awaySlug": "paysandu",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "round": 14,
+    "homeSlug": "santos",
+    "awaySlug": "crb",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "round": 15,
+    "homeSlug": "crb",
+    "awaySlug": "avai",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 15,
+    "homeSlug": "goias",
+    "awaySlug": "sport",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 15,
+    "homeSlug": "paysandu",
+    "awaySlug": "ponte-preta",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 15,
+    "homeSlug": "chapecoense",
+    "awaySlug": "operario-pr",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 15,
+    "homeSlug": "novorizontino",
+    "awaySlug": "athletic-club",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 15,
+    "homeSlug": "santos",
+    "awaySlug": "coritiba",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 16,
+    "homeSlug": "coritiba",
+    "awaySlug": "sport",
+    "homeGoals": 2,
+    "awayGoals": 2
+  },
+  {
+    "round": 16,
+    "homeSlug": "avai",
+    "awaySlug": "santos",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 16,
+    "homeSlug": "operario-pr",
+    "awaySlug": "athletic-club",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 16,
+    "homeSlug": "chapecoense",
+    "awaySlug": "crb",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 16,
+    "homeSlug": "novorizontino",
+    "awaySlug": "ponte-preta",
+    "homeGoals": 2,
+    "awayGoals": 2
+  },
+  {
+    "round": 16,
+    "homeSlug": "paysandu",
+    "awaySlug": "goias",
+    "homeGoals": 2,
+    "awayGoals": 2
+  },
+  {
+    "round": 17,
+    "homeSlug": "goias",
+    "awaySlug": "sport",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 17,
+    "homeSlug": "paysandu",
+    "awaySlug": "ponte-preta",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 17,
+    "homeSlug": "novorizontino",
+    "awaySlug": "chapecoense",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 17,
+    "homeSlug": "operario-pr",
+    "awaySlug": "crb",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 17,
+    "homeSlug": "santos",
+    "awaySlug": "avai",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 17,
+    "homeSlug": "athletic-club",
+    "awaySlug": "coritiba",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 18,
+    "homeSlug": "crb",
+    "awaySlug": "santos",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 18,
+    "homeSlug": "paysandu",
+    "awaySlug": "sport",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 18,
+    "homeSlug": "goias",
+    "awaySlug": "operario-pr",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 18,
+    "homeSlug": "chapecoense",
+    "awaySlug": "ponte-preta",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 18,
+    "homeSlug": "coritiba",
+    "awaySlug": "avai",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "round": 18,
+    "homeSlug": "athletic-club",
+    "awaySlug": "novorizontino",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 19,
+    "homeSlug": "santos",
+    "awaySlug": "operario-pr",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 19,
+    "homeSlug": "chapecoense",
+    "awaySlug": "ponte-preta",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 19,
+    "homeSlug": "goias",
+    "awaySlug": "avai",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "round": 19,
+    "homeSlug": "coritiba",
+    "awaySlug": "crb",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "round": 19,
+    "homeSlug": "athletic-club",
+    "awaySlug": "novorizontino",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 19,
+    "homeSlug": "paysandu",
+    "awaySlug": "sport",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 20,
+    "homeSlug": "santos",
+    "awaySlug": "avai",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "round": 20,
+    "homeSlug": "coritiba",
+    "awaySlug": "sport",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "round": 20,
+    "homeSlug": "goias",
+    "awaySlug": "operario-pr",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 20,
+    "homeSlug": "ponte-preta",
+    "awaySlug": "crb",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 20,
+    "homeSlug": "athletic-club",
+    "awaySlug": "novorizontino",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 20,
+    "homeSlug": "chapecoense",
+    "awaySlug": "paysandu",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 21,
+    "homeSlug": "goias",
+    "awaySlug": "novorizontino",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 21,
+    "homeSlug": "athletic-club",
+    "awaySlug": "coritiba",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 21,
+    "homeSlug": "paysandu",
+    "awaySlug": "crb",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 21,
+    "homeSlug": "ponte-preta",
+    "awaySlug": "santos",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 21,
+    "homeSlug": "avai",
+    "awaySlug": "sport",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "round": 21,
+    "homeSlug": "chapecoense",
+    "awaySlug": "operario-pr",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 22,
+    "homeSlug": "crb",
+    "awaySlug": "santos",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 22,
+    "homeSlug": "novorizontino",
+    "awaySlug": "athletic-club",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 22,
+    "homeSlug": "goias",
+    "awaySlug": "sport",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 22,
+    "homeSlug": "coritiba",
+    "awaySlug": "paysandu",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "round": 22,
+    "homeSlug": "avai",
+    "awaySlug": "ponte-preta",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "round": 22,
+    "homeSlug": "chapecoense",
+    "awaySlug": "operario-pr",
+    "homeGoals": 2,
+    "awayGoals": 2
+  },
+  {
+    "round": 23,
+    "homeSlug": "crb",
+    "awaySlug": "santos",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 23,
+    "homeSlug": "paysandu",
+    "awaySlug": "goias",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 23,
+    "homeSlug": "ponte-preta",
+    "awaySlug": "sport",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 23,
+    "homeSlug": "chapecoense",
+    "awaySlug": "operario-pr",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 23,
+    "homeSlug": "coritiba",
+    "awaySlug": "novorizontino",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "round": 23,
+    "homeSlug": "athletic-club",
+    "awaySlug": "avai",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 24,
+    "homeSlug": "goias",
+    "awaySlug": "avai",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 24,
+    "homeSlug": "coritiba",
+    "awaySlug": "crb",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 24,
+    "homeSlug": "santos",
+    "awaySlug": "novorizontino",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 24,
+    "homeSlug": "athletic-club",
+    "awaySlug": "paysandu",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 24,
+    "homeSlug": "chapecoense",
+    "awaySlug": "operario-pr",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "round": 24,
+    "homeSlug": "sport",
+    "awaySlug": "ponte-preta",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 25,
+    "homeSlug": "coritiba",
+    "awaySlug": "novorizontino",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 25,
+    "homeSlug": "athletic-club",
+    "awaySlug": "avai",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "round": 25,
+    "homeSlug": "ponte-preta",
+    "awaySlug": "chapecoense",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 25,
+    "homeSlug": "goias",
+    "awaySlug": "sport",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 25,
+    "homeSlug": "paysandu",
+    "awaySlug": "santos",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 25,
+    "homeSlug": "crb",
+    "awaySlug": "operario-pr",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 26,
+    "homeSlug": "sport",
+    "awaySlug": "novorizontino",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 26,
+    "homeSlug": "crb",
+    "awaySlug": "paysandu",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 26,
+    "homeSlug": "athletic-club",
+    "awaySlug": "ponte-preta",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 26,
+    "homeSlug": "chapecoense",
+    "awaySlug": "operario-pr",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 26,
+    "homeSlug": "avai",
+    "awaySlug": "goias",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 26,
+    "homeSlug": "coritiba",
+    "awaySlug": "santos",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "round": 27,
+    "homeSlug": "avai",
+    "awaySlug": "coritiba",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 27,
+    "homeSlug": "sport",
+    "awaySlug": "goias",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 27,
+    "homeSlug": "paysandu",
+    "awaySlug": "athletic-club",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 27,
+    "homeSlug": "novorizontino",
+    "awaySlug": "santos",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 27,
+    "homeSlug": "crb",
+    "awaySlug": "operario-pr",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "round": 27,
+    "homeSlug": "chapecoense",
+    "awaySlug": "ponte-preta",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 28,
+    "homeSlug": "paysandu",
+    "awaySlug": "sport",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "round": 28,
+    "homeSlug": "goias",
+    "awaySlug": "athletic-club",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 28,
+    "homeSlug": "novorizontino",
+    "awaySlug": "crb",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "round": 28,
+    "homeSlug": "operario-pr",
+    "awaySlug": "chapecoense",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 28,
+    "homeSlug": "ponte-preta",
+    "awaySlug": "coritiba",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 28,
+    "homeSlug": "santos",
+    "awaySlug": "avai",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 29,
+    "homeSlug": "santos",
+    "awaySlug": "operario-pr",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 29,
+    "homeSlug": "chapecoense",
+    "awaySlug": "ponte-preta",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 29,
+    "homeSlug": "crb",
+    "awaySlug": "paysandu",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 29,
+    "homeSlug": "coritiba",
+    "awaySlug": "sport",
+    "homeGoals": 2,
+    "awayGoals": 2
+  },
+  {
+    "round": 29,
+    "homeSlug": "goias",
+    "awaySlug": "avai",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 29,
+    "homeSlug": "athletic-club",
+    "awaySlug": "novorizontino",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "round": 30,
+    "homeSlug": "novorizontino",
+    "awaySlug": "operario-pr",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 30,
+    "homeSlug": "santos",
+    "awaySlug": "avai",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 30,
+    "homeSlug": "coritiba",
+    "awaySlug": "goias",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 30,
+    "homeSlug": "ponte-preta",
+    "awaySlug": "sport",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 30,
+    "homeSlug": "paysandu",
+    "awaySlug": "crb",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "round": 30,
+    "homeSlug": "chapecoense",
+    "awaySlug": "athletic-club",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 31,
+    "homeSlug": "athletic-club",
+    "awaySlug": "novorizontino",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 31,
+    "homeSlug": "coritiba",
+    "awaySlug": "operario-pr",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 31,
+    "homeSlug": "chapecoense",
+    "awaySlug": "ponte-preta",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 31,
+    "homeSlug": "paysandu",
+    "awaySlug": "avai",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 31,
+    "homeSlug": "santos",
+    "awaySlug": "crb",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 31,
+    "homeSlug": "sport",
+    "awaySlug": "goias",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 32,
+    "homeSlug": "paysandu",
+    "awaySlug": "goias",
+    "homeGoals": 2,
+    "awayGoals": 2
+  },
+  {
+    "round": 32,
+    "homeSlug": "operario-pr",
+    "awaySlug": "athletic-club",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 32,
+    "homeSlug": "novorizontino",
+    "awaySlug": "crb",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "round": 32,
+    "homeSlug": "sport",
+    "awaySlug": "chapecoense",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 32,
+    "homeSlug": "coritiba",
+    "awaySlug": "avai",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 32,
+    "homeSlug": "ponte-preta",
+    "awaySlug": "santos",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 33,
+    "homeSlug": "avai",
+    "awaySlug": "chapecoense",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 33,
+    "homeSlug": "crb",
+    "awaySlug": "novorizontino",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 33,
+    "homeSlug": "athletic-club",
+    "awaySlug": "ponte-preta",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "round": 33,
+    "homeSlug": "operario-pr",
+    "awaySlug": "coritiba",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "round": 33,
+    "homeSlug": "paysandu",
+    "awaySlug": "santos",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "round": 33,
+    "homeSlug": "goias",
+    "awaySlug": "sport",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 34,
+    "homeSlug": "avai",
+    "awaySlug": "novorizontino",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 34,
+    "homeSlug": "athletic-club",
+    "awaySlug": "santos",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 34,
+    "homeSlug": "crb",
+    "awaySlug": "coritiba",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "round": 34,
+    "homeSlug": "ponte-preta",
+    "awaySlug": "chapecoense",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "round": 34,
+    "homeSlug": "operario-pr",
+    "awaySlug": "goias",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 34,
+    "homeSlug": "sport",
+    "awaySlug": "paysandu",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "round": 35,
+    "homeSlug": "crb",
+    "awaySlug": "avai",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "round": 35,
+    "homeSlug": "sport",
+    "awaySlug": "goias",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 35,
+    "homeSlug": "santos",
+    "awaySlug": "paysandu",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "round": 35,
+    "homeSlug": "coritiba",
+    "awaySlug": "operario-pr",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 35,
+    "homeSlug": "chapecoense",
+    "awaySlug": "ponte-preta",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 35,
+    "homeSlug": "athletic-club",
+    "awaySlug": "novorizontino",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 36,
+    "homeSlug": "santos",
+    "awaySlug": "coritiba",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 36,
+    "homeSlug": "ponte-preta",
+    "awaySlug": "chapecoense",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 36,
+    "homeSlug": "operario-pr",
+    "awaySlug": "sport",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 36,
+    "homeSlug": "avai",
+    "awaySlug": "goias",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 36,
+    "homeSlug": "paysandu",
+    "awaySlug": "crb",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "round": 36,
+    "homeSlug": "novorizontino",
+    "awaySlug": "athletic-club",
+    "homeGoals": 2,
+    "awayGoals": 2
+  },
+  {
+    "round": 37,
+    "homeSlug": "coritiba",
+    "awaySlug": "operario-pr",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "round": 37,
+    "homeSlug": "chapecoense",
+    "awaySlug": "crb",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 37,
+    "homeSlug": "athletic-club",
+    "awaySlug": "sport",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "round": 37,
+    "homeSlug": "ponte-preta",
+    "awaySlug": "avai",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 37,
+    "homeSlug": "novorizontino",
+    "awaySlug": "goias",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "round": 37,
+    "homeSlug": "paysandu",
+    "awaySlug": "santos",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 38,
+    "homeSlug": "santos",
+    "awaySlug": "coritiba",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "round": 38,
+    "homeSlug": "operario-pr",
+    "awaySlug": "chapecoense",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 38,
+    "homeSlug": "ponte-preta",
+    "awaySlug": "sport",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 38,
+    "homeSlug": "avai",
+    "awaySlug": "goias",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 38,
+    "homeSlug": "paysandu",
+    "awaySlug": "athletic-club",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 38,
+    "homeSlug": "novorizontino",
+    "awaySlug": "crb",
+    "homeGoals": 2,
+    "awayGoals": 1
+  }
+]

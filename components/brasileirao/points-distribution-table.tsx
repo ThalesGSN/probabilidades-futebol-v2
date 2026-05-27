@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import type { Division } from "@/lib/teams"
-import { getPointsDistributions } from "@/lib/brasileirao"
+import { usePointsDistribution } from "@/hooks/use-static-data"
 
 const labels: Record<Division, { title: string; description: string }> = {
   A: {
@@ -20,7 +20,11 @@ export function PointsDistributionTable({
   division: Division
   goal: "champion" | "libertadores" | "sulamericana" | "relegation"
 }) {
-  const rows = getPointsDistributions(division)
+  const { data: rows, isLoading } = usePointsDistribution(division)
+
+  if (isLoading || !rows) {
+    return <div className="h-64 animate-pulse rounded-sm bg-muted" />
+  }
 
   // Limiar didático associado ao "objetivo" da sub-aba.
   const thresholdByGoal: Record<typeof goal, number> = {
