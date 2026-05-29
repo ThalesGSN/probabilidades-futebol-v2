@@ -212,6 +212,22 @@ class ApiFutebolClient:
         results: list[MatchResult] = []
 
         rodadas = data if isinstance(data, list) else data.get("rodadas", [])
+
+        # Diagnóstico: loga estrutura real dos primeiros jogos
+        import json as _json
+        logger.info("Rodadas recebidas: %d | tipo=%s | top-level keys=%s",
+                    len(rodadas), type(data).__name__,
+                    list(data.keys()) if isinstance(data, dict) else "list")
+        for _r in rodadas[:3]:
+            _partidas = _r.get("partidas", [])
+            logger.info("Rodada %s: %d partidas | keys_rodada=%s",
+                        _r.get("rodada", _r.get("numero")), len(_partidas), list(_r.keys()))
+            if _partidas:
+                _j = _partidas[0]
+                logger.info("  Jogo[0] keys=%s", list(_j.keys()))
+                logger.info("  placar_m=%s placar_v=%s placar=%s status=%s",
+                            _j.get("placar_mandante"), _j.get("placar_visitante"),
+                            _j.get("placar"), _j.get("status"))
         for rodada in rodadas:
             round_num = rodada.get("rodada", rodada.get("numero", 0))
             for jogo in rodada.get("partidas", []):
