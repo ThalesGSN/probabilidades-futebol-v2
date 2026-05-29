@@ -220,16 +220,19 @@ class ApiFutebolClient:
                     return v
         return []
 
-    def _fetch_rodada_detail(self, rodada: dict) -> list[dict]:
+    def _fetch_rodada_detail(self, rodada: dict, *, sleep_s: float = 0.4) -> list[dict]:
         """
         Busca as partidas de uma rodada. Se as partidas não estiverem inline
         (campo 'partidas' vazio), segue o '_link' da rodada.
+        sleep_s: pausa antes da chamada HTTP para respeitar rate limits da API.
         """
         partidas = rodada.get("partidas") or []
         if partidas:
             return partidas
         link = rodada.get("_link", "")
         if link:
+            import time
+            time.sleep(sleep_s)
             # _link pode vir como "/v1/campeonatos/..." — remove o prefixo /v1
             # para não duplicar com o BASE_URL
             path = link.removeprefix("/v1")
@@ -301,11 +304,25 @@ class ApiFutebolClient:
         Busca o detalhe da primeira rodada não encerrada via _link.
         """
         rodadas = self._list_rodadas(campeonato_id)
-        for rodada in rodadas:
-            round_num = rodada.get("rodada", rodada.get("numero", 0))
-            partidas = self._fetch_rodada_detail(rodada)
-            pendentes = [p for p in partidas if self._score_from_jogo(p) is None]
-            if pendentes:
-                logger.info("Próxima rodada: %d | %d jogos pendentes", round_num, len(pendentes))
-                return [{"round": round_num, **p} for p in pendentes]
-        return []
+
+        # A API marca a próxima rodada com proxima_rodada=True — 1 chamada só.
+        next_rodada = next(
+            (r for r in rodadas if r.get("proxima_rodada") is True),
+            None,
+        )
+        if next_rodada is None:
+            # Fallback: primeira rodada sem placar em nenhum jogo
+            next_rodada = next(
+                (r for r in rodadas
+                 if not any(self._score_from_jogo(p) for p in (r.get("partidas") or []))),
+                None,
+            )
+
+        if next_rodada is None:
+            return []
+
+        round_num = next_rodada.get("rodada", next_rodada.get("numero", 0))
+        partidas = self._fetch_rodada_detail(next_rodada)
+        pendentes = [p for p in partidas if self._score_from_jogo(p) is None]
+        logger.info("Próxima rodada: %d | %d jogos pendentes", round_num, len(pendentes))
+        return [{"round": round_num, **p} for p in pendentes]
