@@ -4,158 +4,158 @@
   "monteCarlo": [
     {
       "points": 25,
-      "count": 16,
-      "density": 0.0016
+      "count": 12,
+      "density": 0.0012
     },
     {
       "points": 26,
-      "count": 20,
-      "density": 0.002
+      "count": 25,
+      "density": 0.0025
     },
     {
       "points": 27,
-      "count": 38,
-      "density": 0.0038
+      "count": 40,
+      "density": 0.004
     },
     {
       "points": 28,
-      "count": 62,
-      "density": 0.0062
+      "count": 51,
+      "density": 0.0051
     },
     {
       "points": 29,
-      "count": 69,
-      "density": 0.0069
+      "count": 64,
+      "density": 0.0064
     },
     {
       "points": 30,
-      "count": 82,
-      "density": 0.0082
+      "count": 77,
+      "density": 0.0077
     },
     {
       "points": 31,
-      "count": 109,
-      "density": 0.0109
+      "count": 126,
+      "density": 0.0126
     },
     {
       "points": 32,
-      "count": 137,
-      "density": 0.0137
+      "count": 148,
+      "density": 0.0148
     },
     {
       "points": 33,
-      "count": 170,
-      "density": 0.017
+      "count": 191,
+      "density": 0.0191
     },
     {
       "points": 34,
-      "count": 209,
-      "density": 0.0209
+      "count": 215,
+      "density": 0.0215
     },
     {
       "points": 35,
-      "count": 261,
-      "density": 0.0261
+      "count": 234,
+      "density": 0.0234
     },
     {
       "points": 36,
-      "count": 306,
-      "density": 0.0306
+      "count": 297,
+      "density": 0.0297
     },
     {
       "points": 37,
-      "count": 325,
-      "density": 0.0325
+      "count": 319,
+      "density": 0.0319
     },
     {
       "points": 38,
-      "count": 351,
-      "density": 0.0351
+      "count": 403,
+      "density": 0.0403
     },
     {
       "points": 39,
-      "count": 443,
-      "density": 0.0443
+      "count": 396,
+      "density": 0.0396
     },
     {
       "points": 40,
+      "count": 430,
+      "density": 0.043
+    },
+    {
+      "points": 41,
+      "count": 467,
+      "density": 0.0467
+    },
+    {
+      "points": 42,
+      "count": 481,
+      "density": 0.0481
+    },
+    {
+      "points": 43,
+      "count": 545,
+      "density": 0.0545
+    },
+    {
+      "points": 44,
+      "count": 505,
+      "density": 0.0505
+    },
+    {
+      "points": 45,
+      "count": 533,
+      "density": 0.0533
+    },
+    {
+      "points": 46,
+      "count": 490,
+      "density": 0.049
+    },
+    {
+      "points": 47,
       "count": 421,
       "density": 0.0421
     },
     {
-      "points": 41,
-      "count": 441,
-      "density": 0.0441
-    },
-    {
-      "points": 42,
-      "count": 507,
-      "density": 0.0507
-    },
-    {
-      "points": 43,
-      "count": 497,
-      "density": 0.0497
-    },
-    {
-      "points": 44,
-      "count": 504,
-      "density": 0.0504
-    },
-    {
-      "points": 45,
-      "count": 559,
-      "density": 0.0559
-    },
-    {
-      "points": 46,
-      "count": 504,
-      "density": 0.0504
-    },
-    {
-      "points": 47,
-      "count": 491,
-      "density": 0.0491
-    },
-    {
       "points": 48,
-      "count": 448,
-      "density": 0.0448
+      "count": 496,
+      "density": 0.0496
     },
     {
       "points": 49,
-      "count": 472,
-      "density": 0.0472
+      "count": 413,
+      "density": 0.0413
     },
     {
       "points": 50,
-      "count": 330,
-      "density": 0.033
+      "count": 381,
+      "density": 0.0381
     },
     {
       "points": 51,
-      "count": 359,
-      "density": 0.0359
+      "count": 364,
+      "density": 0.0364
     },
     {
       "points": 52,
-      "count": 332,
-      "density": 0.0332
+      "count": 336,
+      "density": 0.0336
     },
     {
       "points": 53,
-      "count": 262,
-      "density": 0.0262
+      "count": 281,
+      "density": 0.0281
     },
     {
       "points": 54,
-      "count": 268,
-      "density": 0.0268
+      "count": 221,
+      "density": 0.0221
     },
     {
       "points": 55,
-      "count": 227,
-      "density": 0.0227
+      "count": 192,
+      "density": 0.0192
     },
     {
       "points": 56,
@@ -164,48 +164,53 @@
     },
     {
       "points": 57,
-      "count": 132,
-      "density": 0.0132
+      "count": 156,
+      "density": 0.0156
     },
     {
       "points": 58,
-      "count": 118,
-      "density": 0.0118
+      "count": 117,
+      "density": 0.0117
     },
     {
       "points": 59,
-      "count": 86,
-      "density": 0.0086
+      "count": 82,
+      "density": 0.0082
     },
     {
       "points": 60,
-      "count": 57,
-      "density": 0.0057
+      "count": 64,
+      "density": 0.0064
     },
     {
       "points": 61,
-      "count": 55,
-      "density": 0.0055
+      "count": 58,
+      "density": 0.0058
     },
     {
       "points": 62,
-      "count": 47,
-      "density": 0.0047
+      "count": 46,
+      "density": 0.0046
     },
     {
       "points": 63,
-      "count": 27,
-      "density": 0.0027
+      "count": 37,
+      "density": 0.0037
     },
     {
       "points": 64,
-      "count": 25,
-      "density": 0.0025
+      "count": 30,
+      "density": 0.003
     },
     {
       "points": 65,
-      "count": 21,
-      "density": 0.0021
+      "count": 29,
+      "density": 0.0029
+    },
+    {
+      "points": 66,
+      "count": 17,
+      "density": 0.0017
     }
   ],
   "fixtures": []

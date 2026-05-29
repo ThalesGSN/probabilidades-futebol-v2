@@ -15,9 +15,40 @@
         "position": 1,
         "points": 20,
         "played": 10,
-        "titleProb": 11.1,
-        "g4Prob": 39.8,
-        "relegationProb": 2.1,
+        "titleProb": 10.8,
+        "g4Prob": 39.7,
+        "relegationProb": 2.2,
+        "expectedPoints": 58.4,
+        "pointsRange": [
+          43,
+          74
+        ]
+      }
+    },
+    "champion": 10.8,
+    "libertadores": 39.7,
+    "sulamericana": 55.8,
+    "relegation": 2.2
+  },
+  {
+    "team": {
+      "slug": "fortaleza",
+      "name": "Fortaleza",
+      "shortName": "Fortaleza",
+      "city": "",
+      "state": "",
+      "founded": 0,
+      "nickname": "",
+      "division": "B",
+      "brand": "#888888",
+      "bio": "",
+      "current": {
+        "position": 5,
+        "points": 18,
+        "played": 10,
+        "titleProb": 10.6,
+        "g4Prob": 39.1,
+        "relegationProb": 2.3,
         "expectedPoints": 58.5,
         "pointsRange": [
           43,
@@ -25,10 +56,10 @@
         ]
       }
     },
-    "champion": 11.1,
-    "libertadores": 39.8,
-    "sulamericana": 55.7,
-    "relegation": 2.1
+    "champion": 10.6,
+    "libertadores": 39.1,
+    "sulamericana": 56.1,
+    "relegation": 2.3
   },
   {
     "team": {
@@ -47,8 +78,8 @@
         "points": 19,
         "played": 10,
         "titleProb": 10.4,
-        "g4Prob": 38.5,
-        "relegationProb": 2.0,
+        "g4Prob": 39.0,
+        "relegationProb": 2.2,
         "expectedPoints": 58.4,
         "pointsRange": [
           43,
@@ -57,40 +88,9 @@
       }
     },
     "champion": 10.4,
-    "libertadores": 38.5,
-    "sulamericana": 56.5,
-    "relegation": 2.0
-  },
-  {
-    "team": {
-      "slug": "criciuma",
-      "name": "Criciúma",
-      "shortName": "Criciúma",
-      "city": "",
-      "state": "",
-      "founded": 0,
-      "nickname": "",
-      "division": "B",
-      "brand": "#888888",
-      "bio": "",
-      "current": {
-        "position": 9,
-        "points": 14,
-        "played": 10,
-        "titleProb": 10.2,
-        "g4Prob": 39.1,
-        "relegationProb": 2.1,
-        "expectedPoints": 58.6,
-        "pointsRange": [
-          43,
-          74
-        ]
-      }
-    },
-    "champion": 10.2,
-    "libertadores": 39.1,
+    "libertadores": 39.0,
     "sulamericana": 56.2,
-    "relegation": 2.1
+    "relegation": 2.2
   },
   {
     "team": {
@@ -108,8 +108,39 @@
         "position": 7,
         "points": 16,
         "played": 10,
-        "titleProb": 10.0,
-        "g4Prob": 38.1,
+        "titleProb": 10.4,
+        "g4Prob": 38.8,
+        "relegationProb": 2.5,
+        "expectedPoints": 58.5,
+        "pointsRange": [
+          42,
+          74
+        ]
+      }
+    },
+    "champion": 10.4,
+    "libertadores": 38.8,
+    "sulamericana": 56.3,
+    "relegation": 2.5
+  },
+  {
+    "team": {
+      "slug": "criciuma",
+      "name": "Criciúma",
+      "shortName": "Criciúma",
+      "city": "",
+      "state": "",
+      "founded": 0,
+      "nickname": "",
+      "division": "B",
+      "brand": "#888888",
+      "bio": "",
+      "current": {
+        "position": 9,
+        "points": 14,
+        "played": 10,
+        "titleProb": 9.6,
+        "g4Prob": 37.9,
         "relegationProb": 2.4,
         "expectedPoints": 58.4,
         "pointsRange": [
@@ -118,9 +149,9 @@
         ]
       }
     },
-    "champion": 10.0,
-    "libertadores": 38.1,
-    "sulamericana": 56.7,
+    "champion": 9.6,
+    "libertadores": 37.9,
+    "sulamericana": 56.8,
     "relegation": 2.4
   },
   {
@@ -139,8 +170,8 @@
         "position": 11,
         "points": 13,
         "played": 10,
-        "titleProb": 9.9,
-        "g4Prob": 37.4,
+        "titleProb": 9.6,
+        "g4Prob": 37.5,
         "relegationProb": 2.4,
         "expectedPoints": 58.5,
         "pointsRange": [
@@ -149,41 +180,10 @@
         ]
       }
     },
-    "champion": 9.9,
-    "libertadores": 37.4,
+    "champion": 9.6,
+    "libertadores": 37.5,
     "sulamericana": 57.1,
     "relegation": 2.4
-  },
-  {
-    "team": {
-      "slug": "fortaleza",
-      "name": "Fortaleza",
-      "shortName": "Fortaleza",
-      "city": "",
-      "state": "",
-      "founded": 0,
-      "nickname": "",
-      "division": "B",
-      "brand": "#888888",
-      "bio": "",
-      "current": {
-        "position": 5,
-        "points": 18,
-        "played": 10,
-        "titleProb": 9.7,
-        "g4Prob": 38.7,
-        "relegationProb": 2.1,
-        "expectedPoints": 58.5,
-        "pointsRange": [
-          43,
-          74
-        ]
-      }
-    },
-    "champion": 9.7,
-    "libertadores": 38.7,
-    "sulamericana": 56.4,
-    "relegation": 2.1
   },
   {
     "team": {
@@ -201,20 +201,20 @@
         "position": 13,
         "points": 13,
         "played": 10,
-        "titleProb": 9.7,
-        "g4Prob": 37.6,
-        "relegationProb": 2.5,
-        "expectedPoints": 58.5,
+        "titleProb": 9.5,
+        "g4Prob": 37.1,
+        "relegationProb": 2.6,
+        "expectedPoints": 58.4,
         "pointsRange": [
           43,
           74
         ]
       }
     },
-    "champion": 9.7,
-    "libertadores": 37.6,
-    "sulamericana": 57.0,
-    "relegation": 2.5
+    "champion": 9.5,
+    "libertadores": 37.1,
+    "sulamericana": 57.3,
+    "relegation": 2.6
   },
   {
     "team": {
@@ -232,39 +232,8 @@
         "position": 15,
         "points": 10,
         "played": 10,
-        "titleProb": 9.6,
-        "g4Prob": 36.4,
-        "relegationProb": 2.7,
-        "expectedPoints": 58.4,
-        "pointsRange": [
-          43,
-          74
-        ]
-      }
-    },
-    "champion": 9.6,
-    "libertadores": 36.4,
-    "sulamericana": 57.7,
-    "relegation": 2.7
-  },
-  {
-    "team": {
-      "slug": "botafogo-sp",
-      "name": "Botafogo-SP",
-      "shortName": "Botafogo-SP",
-      "city": "",
-      "state": "",
-      "founded": 0,
-      "nickname": "",
-      "division": "B",
-      "brand": "#888888",
-      "bio": "",
-      "current": {
-        "position": 17,
-        "points": 9,
-        "played": 10,
-        "titleProb": 9.0,
-        "g4Prob": 36.2,
+        "titleProb": 9.2,
+        "g4Prob": 35.8,
         "relegationProb": 2.5,
         "expectedPoints": 58.5,
         "pointsRange": [
@@ -273,9 +242,9 @@
         ]
       }
     },
-    "champion": 9.0,
-    "libertadores": 36.2,
-    "sulamericana": 57.8,
+    "champion": 9.2,
+    "libertadores": 35.8,
+    "sulamericana": 58.1,
     "relegation": 2.5
   },
   {
@@ -294,8 +263,8 @@
         "position": 19,
         "points": 7,
         "played": 10,
-        "titleProb": 8.8,
-        "g4Prob": 35.3,
+        "titleProb": 9.1,
+        "g4Prob": 35.1,
         "relegationProb": 2.8,
         "expectedPoints": 58.4,
         "pointsRange": [
@@ -304,10 +273,41 @@
         ]
       }
     },
-    "champion": 8.8,
-    "libertadores": 35.3,
-    "sulamericana": 58.3,
+    "champion": 9.1,
+    "libertadores": 35.1,
+    "sulamericana": 58.4,
     "relegation": 2.8
+  },
+  {
+    "team": {
+      "slug": "botafogo-sp",
+      "name": "Botafogo-SP",
+      "shortName": "Botafogo-SP",
+      "city": "",
+      "state": "",
+      "founded": 0,
+      "nickname": "",
+      "division": "B",
+      "brand": "#888888",
+      "bio": "",
+      "current": {
+        "position": 17,
+        "points": 9,
+        "played": 10,
+        "titleProb": 8.8,
+        "g4Prob": 35.4,
+        "relegationProb": 2.7,
+        "expectedPoints": 58.4,
+        "pointsRange": [
+          43,
+          75
+        ]
+      }
+    },
+    "champion": 8.8,
+    "libertadores": 35.4,
+    "sulamericana": 58.3,
+    "relegation": 2.7
   },
   {
     "team": {
@@ -325,20 +325,51 @@
         "position": 2,
         "points": 19,
         "played": 10,
-        "titleProb": 0.2,
-        "g4Prob": 2.5,
-        "relegationProb": 35.7,
-        "expectedPoints": 44.5,
+        "titleProb": 0.3,
+        "g4Prob": 2.7,
+        "relegationProb": 35.9,
+        "expectedPoints": 44.6,
         "pointsRange": [
           30,
           60
         ]
       }
     },
-    "champion": 0.2,
+    "champion": 0.3,
+    "libertadores": 2.7,
+    "sulamericana": 71.9,
+    "relegation": 35.9
+  },
+  {
+    "team": {
+      "slug": "vila-nova",
+      "name": "Vila Nova",
+      "shortName": "Vila Nova",
+      "city": "",
+      "state": "",
+      "founded": 0,
+      "nickname": "",
+      "division": "B",
+      "brand": "#888888",
+      "bio": "",
+      "current": {
+        "position": 4,
+        "points": 19,
+        "played": 10,
+        "titleProb": 0.3,
+        "g4Prob": 2.5,
+        "relegationProb": 35.3,
+        "expectedPoints": 44.6,
+        "pointsRange": [
+          30,
+          60
+        ]
+      }
+    },
+    "champion": 0.3,
     "libertadores": 2.5,
     "sulamericana": 72.1,
-    "relegation": 35.7
+    "relegation": 35.3
   },
   {
     "team": {
@@ -357,8 +388,8 @@
         "points": 16,
         "played": 10,
         "titleProb": 0.2,
-        "g4Prob": 2.6,
-        "relegationProb": 36.5,
+        "g4Prob": 2.5,
+        "relegationProb": 36.4,
         "expectedPoints": 44.5,
         "pointsRange": [
           30,
@@ -367,9 +398,9 @@
       }
     },
     "champion": 0.2,
-    "libertadores": 2.6,
+    "libertadores": 2.5,
     "sulamericana": 71.9,
-    "relegation": 36.5
+    "relegation": 36.4
   },
   {
     "team": {
@@ -388,8 +419,8 @@
         "points": 14,
         "played": 10,
         "titleProb": 0.2,
-        "g4Prob": 2.3,
-        "relegationProb": 36.2,
+        "g4Prob": 2.6,
+        "relegationProb": 36.6,
         "expectedPoints": 44.5,
         "pointsRange": [
           30,
@@ -398,9 +429,9 @@
       }
     },
     "champion": 0.2,
-    "libertadores": 2.3,
-    "sulamericana": 72.1,
-    "relegation": 36.2
+    "libertadores": 2.6,
+    "sulamericana": 71.9,
+    "relegation": 36.6
   },
   {
     "team": {
@@ -419,9 +450,9 @@
         "points": 12,
         "played": 10,
         "titleProb": 0.2,
-        "g4Prob": 2.3,
-        "relegationProb": 38.7,
-        "expectedPoints": 44.5,
+        "g4Prob": 2.4,
+        "relegationProb": 38.6,
+        "expectedPoints": 44.6,
         "pointsRange": [
           30,
           60
@@ -429,9 +460,9 @@
       }
     },
     "champion": 0.2,
-    "libertadores": 2.3,
-    "sulamericana": 71.7,
-    "relegation": 38.7
+    "libertadores": 2.4,
+    "sulamericana": 71.6,
+    "relegation": 38.6
   },
   {
     "team": {
@@ -450,9 +481,9 @@
         "points": 10,
         "played": 10,
         "titleProb": 0.2,
-        "g4Prob": 2.1,
-        "relegationProb": 39.6,
-        "expectedPoints": 44.6,
+        "g4Prob": 2.2,
+        "relegationProb": 39.1,
+        "expectedPoints": 44.5,
         "pointsRange": [
           30,
           60
@@ -460,9 +491,40 @@
       }
     },
     "champion": 0.2,
-    "libertadores": 2.1,
+    "libertadores": 2.2,
     "sulamericana": 71.6,
-    "relegation": 39.6
+    "relegation": 39.1
+  },
+  {
+    "team": {
+      "slug": "londrina",
+      "name": "Londrina",
+      "shortName": "Londrina",
+      "city": "",
+      "state": "",
+      "founded": 0,
+      "nickname": "",
+      "division": "B",
+      "brand": "#888888",
+      "bio": "",
+      "current": {
+        "position": 18,
+        "points": 8,
+        "played": 10,
+        "titleProb": 0.2,
+        "g4Prob": 2.1,
+        "relegationProb": 39.0,
+        "expectedPoints": 44.6,
+        "pointsRange": [
+          29,
+          60
+        ]
+      }
+    },
+    "champion": 0.2,
+    "libertadores": 2.1,
+    "sulamericana": 71.7,
+    "relegation": 39.0
   },
   {
     "team": {
@@ -481,7 +543,7 @@
         "points": 3,
         "played": 10,
         "titleProb": 0.2,
-        "g4Prob": 2.2,
+        "g4Prob": 2.4,
         "relegationProb": 39.6,
         "expectedPoints": 44.6,
         "pointsRange": [
@@ -491,40 +553,9 @@
       }
     },
     "champion": 0.2,
-    "libertadores": 2.2,
-    "sulamericana": 71.6,
+    "libertadores": 2.4,
+    "sulamericana": 71.4,
     "relegation": 39.6
-  },
-  {
-    "team": {
-      "slug": "vila-nova",
-      "name": "Vila Nova",
-      "shortName": "Vila Nova",
-      "city": "",
-      "state": "",
-      "founded": 0,
-      "nickname": "",
-      "division": "B",
-      "brand": "#888888",
-      "bio": "",
-      "current": {
-        "position": 4,
-        "points": 19,
-        "played": 10,
-        "titleProb": 0.1,
-        "g4Prob": 2.6,
-        "relegationProb": 34.8,
-        "expectedPoints": 44.6,
-        "pointsRange": [
-          30,
-          60
-        ]
-      }
-    },
-    "champion": 0.1,
-    "libertadores": 2.6,
-    "sulamericana": 72.2,
-    "relegation": 34.8
   },
   {
     "team": {
@@ -543,9 +574,9 @@
         "points": 14,
         "played": 10,
         "titleProb": 0.1,
-        "g4Prob": 2.2,
-        "relegationProb": 38.1,
-        "expectedPoints": 44.4,
+        "g4Prob": 2.6,
+        "relegationProb": 37.3,
+        "expectedPoints": 44.6,
         "pointsRange": [
           30,
           60
@@ -553,9 +584,9 @@
       }
     },
     "champion": 0.1,
-    "libertadores": 2.2,
-    "sulamericana": 71.8,
-    "relegation": 38.1
+    "libertadores": 2.6,
+    "sulamericana": 71.7,
+    "relegation": 37.3
   },
   {
     "team": {
@@ -574,39 +605,8 @@
         "points": 13,
         "played": 10,
         "titleProb": 0.1,
-        "g4Prob": 2.2,
-        "relegationProb": 37.5,
-        "expectedPoints": 44.5,
-        "pointsRange": [
-          29,
-          60
-        ]
-      }
-    },
-    "champion": 0.1,
-    "libertadores": 2.2,
-    "sulamericana": 71.9,
-    "relegation": 37.5
-  },
-  {
-    "team": {
-      "slug": "londrina",
-      "name": "Londrina",
-      "shortName": "Londrina",
-      "city": "",
-      "state": "",
-      "founded": 0,
-      "nickname": "",
-      "division": "B",
-      "brand": "#888888",
-      "bio": "",
-      "current": {
-        "position": 18,
-        "points": 8,
-        "played": 10,
-        "titleProb": 0.1,
-        "g4Prob": 2.0,
-        "relegationProb": 39.5,
+        "g4Prob": 2.4,
+        "relegationProb": 37.8,
         "expectedPoints": 44.5,
         "pointsRange": [
           30,
@@ -615,8 +615,8 @@
       }
     },
     "champion": 0.1,
-    "libertadores": 2.0,
-    "sulamericana": 71.7,
-    "relegation": 39.5
+    "libertadores": 2.4,
+    "sulamericana": 71.8,
+    "relegation": 37.8
   }
 ]

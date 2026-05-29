@@ -15,9 +15,9 @@
         "position": 1,
         "points": 38,
         "played": 17,
-        "titleProb": 10.7,
-        "g4Prob": 56.8,
-        "relegationProb": 2.0,
+        "titleProb": 10.8,
+        "g4Prob": 57.5,
+        "relegationProb": 1.8,
         "expectedPoints": 58.5,
         "pointsRange": [
           43,
@@ -25,41 +25,10 @@
         ]
       }
     },
-    "champion": 10.7,
-    "libertadores": 56.8,
-    "sulamericana": 45.6,
-    "relegation": 2.0
-  },
-  {
-    "team": {
-      "slug": "bragantino",
-      "name": "Bragantino",
-      "shortName": "Bragantino",
-      "city": "",
-      "state": "",
-      "founded": 0,
-      "nickname": "",
-      "division": "A",
-      "brand": "#888888",
-      "bio": "",
-      "current": {
-        "position": 5,
-        "points": 26,
-        "played": 17,
-        "titleProb": 10.7,
-        "g4Prob": 57.1,
-        "relegationProb": 2.3,
-        "expectedPoints": 58.6,
-        "pointsRange": [
-          43,
-          74
-        ]
-      }
-    },
-    "champion": 10.7,
-    "libertadores": 57.1,
-    "sulamericana": 45.3,
-    "relegation": 2.3
+    "champion": 10.8,
+    "libertadores": 57.5,
+    "sulamericana": 45.2,
+    "relegation": 1.8
   },
   {
     "team": {
@@ -77,20 +46,20 @@
         "position": 3,
         "points": 30,
         "played": 17,
-        "titleProb": 10.3,
-        "g4Prob": 56.0,
-        "relegationProb": 2.1,
-        "expectedPoints": 58.5,
+        "titleProb": 10.4,
+        "g4Prob": 57.0,
+        "relegationProb": 2.4,
+        "expectedPoints": 58.6,
         "pointsRange": [
           43,
           74
         ]
       }
     },
-    "champion": 10.3,
-    "libertadores": 56.0,
-    "sulamericana": 46.0,
-    "relegation": 2.1
+    "champion": 10.4,
+    "libertadores": 57.0,
+    "sulamericana": 45.4,
+    "relegation": 2.4
   },
   {
     "team": {
@@ -108,9 +77,9 @@
         "position": 7,
         "points": 25,
         "played": 17,
-        "titleProb": 10.1,
+        "titleProb": 10.4,
         "g4Prob": 54.9,
-        "relegationProb": 2.4,
+        "relegationProb": 2.3,
         "expectedPoints": 58.5,
         "pointsRange": [
           43,
@@ -118,10 +87,41 @@
         ]
       }
     },
-    "champion": 10.1,
+    "champion": 10.4,
     "libertadores": 54.9,
     "sulamericana": 46.6,
-    "relegation": 2.4
+    "relegation": 2.3
+  },
+  {
+    "team": {
+      "slug": "bragantino",
+      "name": "Bragantino",
+      "shortName": "Bragantino",
+      "city": "",
+      "state": "",
+      "founded": 0,
+      "nickname": "",
+      "division": "A",
+      "brand": "#888888",
+      "bio": "",
+      "current": {
+        "position": 5,
+        "points": 26,
+        "played": 17,
+        "titleProb": 10.0,
+        "g4Prob": 55.9,
+        "relegationProb": 2.2,
+        "expectedPoints": 58.4,
+        "pointsRange": [
+          43,
+          74
+        ]
+      }
+    },
+    "champion": 10.0,
+    "libertadores": 55.9,
+    "sulamericana": 46.1,
+    "relegation": 2.2
   },
   {
     "team": {
@@ -139,9 +139,9 @@
         "position": 9,
         "points": 23,
         "played": 17,
-        "titleProb": 10.0,
+        "titleProb": 9.5,
         "g4Prob": 54.3,
-        "relegationProb": 2.3,
+        "relegationProb": 2.1,
         "expectedPoints": 58.5,
         "pointsRange": [
           43,
@@ -149,10 +149,10 @@
         ]
       }
     },
-    "champion": 10.0,
+    "champion": 9.5,
     "libertadores": 54.3,
     "sulamericana": 47.0,
-    "relegation": 2.3
+    "relegation": 2.1
   },
   {
     "team": {
@@ -170,19 +170,50 @@
         "position": 11,
         "points": 22,
         "played": 16,
-        "titleProb": 9.6,
-        "g4Prob": 54.7,
-        "relegationProb": 2.6,
-        "expectedPoints": 58.5,
+        "titleProb": 9.5,
+        "g4Prob": 53.8,
+        "relegationProb": 2.1,
+        "expectedPoints": 58.4,
         "pointsRange": [
           43,
           74
         ]
       }
     },
-    "champion": 9.6,
-    "libertadores": 54.7,
-    "sulamericana": 46.7,
+    "champion": 9.5,
+    "libertadores": 53.8,
+    "sulamericana": 47.3,
+    "relegation": 2.1
+  },
+  {
+    "team": {
+      "slug": "corinthians",
+      "name": "Corinthians",
+      "shortName": "Corinthians",
+      "city": "",
+      "state": "",
+      "founded": 0,
+      "nickname": "",
+      "division": "A",
+      "brand": "#888888",
+      "bio": "",
+      "current": {
+        "position": 15,
+        "points": 21,
+        "played": 17,
+        "titleProb": 9.5,
+        "g4Prob": 54.0,
+        "relegationProb": 2.6,
+        "expectedPoints": 58.6,
+        "pointsRange": [
+          43,
+          74
+        ]
+      }
+    },
+    "champion": 9.5,
+    "libertadores": 54.0,
+    "sulamericana": 47.1,
     "relegation": 2.6
   },
   {
@@ -201,40 +232,9 @@
         "position": 13,
         "points": 21,
         "played": 17,
-        "titleProb": 9.5,
-        "g4Prob": 53.6,
-        "relegationProb": 2.6,
-        "expectedPoints": 58.5,
-        "pointsRange": [
-          43,
-          74
-        ]
-      }
-    },
-    "champion": 9.5,
-    "libertadores": 53.6,
-    "sulamericana": 47.4,
-    "relegation": 2.6
-  },
-  {
-    "team": {
-      "slug": "corinthians",
-      "name": "Corinthians",
-      "shortName": "Corinthians",
-      "city": "",
-      "state": "",
-      "founded": 0,
-      "nickname": "",
-      "division": "A",
-      "brand": "#888888",
-      "bio": "",
-      "current": {
-        "position": 15,
-        "points": 21,
-        "played": 17,
-        "titleProb": 9.3,
-        "g4Prob": 52.3,
-        "relegationProb": 2.6,
+        "titleProb": 9.4,
+        "g4Prob": 53.4,
+        "relegationProb": 2.5,
         "expectedPoints": 58.4,
         "pointsRange": [
           43,
@@ -242,41 +242,10 @@
         ]
       }
     },
-    "champion": 9.3,
-    "libertadores": 52.3,
-    "sulamericana": 48.2,
-    "relegation": 2.6
-  },
-  {
-    "team": {
-      "slug": "santos",
-      "name": "Santos",
-      "shortName": "Santos",
-      "city": "",
-      "state": "",
-      "founded": 0,
-      "nickname": "",
-      "division": "A",
-      "brand": "#2A2A2A",
-      "bio": "",
-      "current": {
-        "position": 17,
-        "points": 18,
-        "played": 17,
-        "titleProb": 9.2,
-        "g4Prob": 52.2,
-        "relegationProb": 2.7,
-        "expectedPoints": 58.4,
-        "pointsRange": [
-          43,
-          74
-        ]
-      }
-    },
-    "champion": 9.2,
-    "libertadores": 52.2,
-    "sulamericana": 48.2,
-    "relegation": 2.7
+    "champion": 9.4,
+    "libertadores": 53.4,
+    "sulamericana": 47.5,
+    "relegation": 2.5
   },
   {
     "team": {
@@ -294,9 +263,40 @@
         "position": 19,
         "points": 15,
         "played": 17,
-        "titleProb": 8.6,
-        "g4Prob": 52.2,
-        "relegationProb": 2.9,
+        "titleProb": 9.4,
+        "g4Prob": 51.4,
+        "relegationProb": 2.8,
+        "expectedPoints": 58.4,
+        "pointsRange": [
+          43,
+          74
+        ]
+      }
+    },
+    "champion": 9.4,
+    "libertadores": 51.4,
+    "sulamericana": 48.7,
+    "relegation": 2.8
+  },
+  {
+    "team": {
+      "slug": "santos",
+      "name": "Santos",
+      "shortName": "Santos",
+      "city": "",
+      "state": "",
+      "founded": 0,
+      "nickname": "",
+      "division": "A",
+      "brand": "#2A2A2A",
+      "bio": "",
+      "current": {
+        "position": 17,
+        "points": 18,
+        "played": 17,
+        "titleProb": 9.0,
+        "g4Prob": 52.7,
+        "relegationProb": 2.5,
         "expectedPoints": 58.5,
         "pointsRange": [
           43,
@@ -304,30 +304,30 @@
         ]
       }
     },
-    "champion": 8.6,
-    "libertadores": 52.2,
-    "sulamericana": 48.2,
-    "relegation": 2.9
+    "champion": 9.0,
+    "libertadores": 52.7,
+    "sulamericana": 47.9,
+    "relegation": 2.5
   },
   {
     "team": {
-      "slug": "bahia",
-      "name": "Bahia",
-      "shortName": "Bahia",
+      "slug": "coritiba",
+      "name": "Coritiba",
+      "shortName": "Coritiba",
       "city": "",
       "state": "",
       "founded": 0,
       "nickname": "",
       "division": "A",
-      "brand": "#888888",
+      "brand": "#1A6B3A",
       "bio": "",
       "current": {
-        "position": 8,
-        "points": 23,
-        "played": 16,
+        "position": 6,
+        "points": 26,
+        "played": 17,
         "titleProb": 0.3,
-        "g4Prob": 5.8,
-        "relegationProb": 37.1,
+        "g4Prob": 5.9,
+        "relegationProb": 36.9,
         "expectedPoints": 44.5,
         "pointsRange": [
           30,
@@ -336,9 +336,9 @@
       }
     },
     "champion": 0.3,
-    "libertadores": 5.8,
+    "libertadores": 5.9,
     "sulamericana": 69.8,
-    "relegation": 37.1
+    "relegation": 36.9
   },
   {
     "team": {
@@ -357,8 +357,8 @@
         "points": 31,
         "played": 16,
         "titleProb": 0.2,
-        "g4Prob": 6.1,
-        "relegationProb": 35.1,
+        "g4Prob": 6.3,
+        "relegationProb": 35.5,
         "expectedPoints": 44.5,
         "pointsRange": [
           30,
@@ -367,30 +367,30 @@
       }
     },
     "champion": 0.2,
-    "libertadores": 6.1,
-    "sulamericana": 70.0,
-    "relegation": 35.1
+    "libertadores": 6.3,
+    "sulamericana": 69.8,
+    "relegation": 35.5
   },
   {
     "team": {
-      "slug": "coritiba",
-      "name": "Coritiba",
-      "shortName": "Coritiba",
+      "slug": "athletico-pr",
+      "name": "Athletico-PR",
+      "shortName": "Athletico-PR",
       "city": "",
       "state": "",
       "founded": 0,
       "nickname": "",
       "division": "A",
-      "brand": "#1A6B3A",
+      "brand": "#888888",
       "bio": "",
       "current": {
-        "position": 6,
-        "points": 26,
+        "position": 4,
+        "points": 27,
         "played": 17,
         "titleProb": 0.2,
-        "g4Prob": 5.7,
-        "relegationProb": 37.0,
-        "expectedPoints": 44.4,
+        "g4Prob": 6.2,
+        "relegationProb": 36.6,
+        "expectedPoints": 44.5,
         "pointsRange": [
           30,
           60
@@ -398,9 +398,9 @@
       }
     },
     "champion": 0.2,
-    "libertadores": 5.7,
-    "sulamericana": 69.9,
-    "relegation": 37.0
+    "libertadores": 6.2,
+    "sulamericana": 69.7,
+    "relegation": 36.6
   },
   {
     "team": {
@@ -419,8 +419,8 @@
         "points": 22,
         "played": 16,
         "titleProb": 0.2,
-        "g4Prob": 5.4,
-        "relegationProb": 37.5,
+        "g4Prob": 5.2,
+        "relegationProb": 37.0,
         "expectedPoints": 44.5,
         "pointsRange": [
           30,
@@ -429,29 +429,29 @@
       }
     },
     "champion": 0.2,
-    "libertadores": 5.4,
-    "sulamericana": 70.0,
-    "relegation": 37.5
+    "libertadores": 5.2,
+    "sulamericana": 70.2,
+    "relegation": 37.0
   },
   {
     "team": {
-      "slug": "gremio",
-      "name": "Grêmio",
-      "shortName": "Grêmio",
+      "slug": "atletico-mg",
+      "name": "Atlético-MG",
+      "shortName": "Atlético-MG",
       "city": "",
       "state": "",
       "founded": 0,
       "nickname": "",
       "division": "A",
-      "brand": "#888888",
+      "brand": "#2A2A2A",
       "bio": "",
       "current": {
-        "position": 14,
+        "position": 12,
         "points": 21,
         "played": 17,
         "titleProb": 0.2,
-        "g4Prob": 5.5,
-        "relegationProb": 39.2,
+        "g4Prob": 5.3,
+        "relegationProb": 37.6,
         "expectedPoints": 44.5,
         "pointsRange": [
           30,
@@ -460,9 +460,9 @@
       }
     },
     "champion": 0.2,
-    "libertadores": 5.5,
-    "sulamericana": 69.6,
-    "relegation": 39.2
+    "libertadores": 5.3,
+    "sulamericana": 70.1,
+    "relegation": 37.6
   },
   {
     "team": {
@@ -481,9 +481,9 @@
         "points": 20,
         "played": 17,
         "titleProb": 0.2,
-        "g4Prob": 5.5,
-        "relegationProb": 37.8,
-        "expectedPoints": 44.6,
+        "g4Prob": 5.0,
+        "relegationProb": 39.4,
+        "expectedPoints": 44.4,
         "pointsRange": [
           30,
           60
@@ -491,9 +491,40 @@
       }
     },
     "champion": 0.2,
-    "libertadores": 5.5,
+    "libertadores": 5.0,
     "sulamericana": 69.9,
-    "relegation": 37.8
+    "relegation": 39.4
+  },
+  {
+    "team": {
+      "slug": "mirassol",
+      "name": "Mirassol",
+      "shortName": "Mirassol",
+      "city": "",
+      "state": "",
+      "founded": 0,
+      "nickname": "",
+      "division": "A",
+      "brand": "#888888",
+      "bio": "",
+      "current": {
+        "position": 18,
+        "points": 16,
+        "played": 16,
+        "titleProb": 0.2,
+        "g4Prob": 5.0,
+        "relegationProb": 39.5,
+        "expectedPoints": 44.5,
+        "pointsRange": [
+          30,
+          60
+        ]
+      }
+    },
+    "champion": 0.2,
+    "libertadores": 5.0,
+    "sulamericana": 69.9,
+    "relegation": 39.5
   },
   {
     "team": {
@@ -512,9 +543,9 @@
         "points": 9,
         "played": 16,
         "titleProb": 0.2,
-        "g4Prob": 4.9,
-        "relegationProb": 40.1,
-        "expectedPoints": 44.5,
+        "g4Prob": 5.0,
+        "relegationProb": 39.2,
+        "expectedPoints": 44.6,
         "pointsRange": [
           30,
           60
@@ -522,15 +553,15 @@
       }
     },
     "champion": 0.2,
-    "libertadores": 4.9,
-    "sulamericana": 69.8,
-    "relegation": 40.1
+    "libertadores": 5.0,
+    "sulamericana": 69.9,
+    "relegation": 39.2
   },
   {
     "team": {
-      "slug": "athletico-pr",
-      "name": "Athletico-PR",
-      "shortName": "Athletico-PR",
+      "slug": "bahia",
+      "name": "Bahia",
+      "shortName": "Bahia",
       "city": "",
       "state": "",
       "founded": 0,
@@ -539,13 +570,13 @@
       "brand": "#888888",
       "bio": "",
       "current": {
-        "position": 4,
-        "points": 27,
-        "played": 17,
+        "position": 8,
+        "points": 23,
+        "played": 16,
         "titleProb": 0.1,
-        "g4Prob": 6.3,
-        "relegationProb": 35.0,
-        "expectedPoints": 44.6,
+        "g4Prob": 5.7,
+        "relegationProb": 37.1,
+        "expectedPoints": 44.5,
         "pointsRange": [
           30,
           60
@@ -553,30 +584,30 @@
       }
     },
     "champion": 0.1,
-    "libertadores": 6.3,
+    "libertadores": 5.7,
     "sulamericana": 69.9,
-    "relegation": 35.0
+    "relegation": 37.1
   },
   {
     "team": {
-      "slug": "atletico-mg",
-      "name": "Atlético-MG",
-      "shortName": "Atlético-MG",
+      "slug": "gremio",
+      "name": "Grêmio",
+      "shortName": "Grêmio",
       "city": "",
       "state": "",
       "founded": 0,
       "nickname": "",
       "division": "A",
-      "brand": "#2A2A2A",
+      "brand": "#888888",
       "bio": "",
       "current": {
-        "position": 12,
+        "position": 14,
         "points": 21,
         "played": 17,
         "titleProb": 0.1,
         "g4Prob": 5.5,
-        "relegationProb": 38.0,
-        "expectedPoints": 44.5,
+        "relegationProb": 37.9,
+        "expectedPoints": 44.6,
         "pointsRange": [
           30,
           60
@@ -586,37 +617,6 @@
     "champion": 0.1,
     "libertadores": 5.5,
     "sulamericana": 69.9,
-    "relegation": 38.0
-  },
-  {
-    "team": {
-      "slug": "mirassol",
-      "name": "Mirassol",
-      "shortName": "Mirassol",
-      "city": "",
-      "state": "",
-      "founded": 0,
-      "nickname": "",
-      "division": "A",
-      "brand": "#888888",
-      "bio": "",
-      "current": {
-        "position": 18,
-        "points": 16,
-        "played": 16,
-        "titleProb": 0.1,
-        "g4Prob": 5.3,
-        "relegationProb": 39.0,
-        "expectedPoints": 44.6,
-        "pointsRange": [
-          30,
-          60
-        ]
-      }
-    },
-    "champion": 0.1,
-    "libertadores": 5.3,
-    "sulamericana": 69.8,
-    "relegation": 39.0
+    "relegation": 37.9
   }
 ]

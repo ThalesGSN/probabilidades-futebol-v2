@@ -16,10 +16,10 @@
           "position": 1,
           "points": 20,
           "played": 10,
-          "titleProb": 11.1,
-          "g4Prob": 39.8,
-          "relegationProb": 2.1,
-          "expectedPoints": 58.5,
+          "titleProb": 10.8,
+          "g4Prob": 39.7,
+          "relegationProb": 2.2,
+          "expectedPoints": 58.4,
           "pointsRange": [
             43,
             74
@@ -45,10 +45,10 @@
           "position": 2,
           "points": 19,
           "played": 10,
-          "titleProb": 0.2,
-          "g4Prob": 2.5,
-          "relegationProb": 35.7,
-          "expectedPoints": 44.5,
+          "titleProb": 0.3,
+          "g4Prob": 2.7,
+          "relegationProb": 35.9,
+          "expectedPoints": 44.6,
           "pointsRange": [
             30,
             60
@@ -75,8 +75,8 @@
           "points": 19,
           "played": 10,
           "titleProb": 10.4,
-          "g4Prob": 38.5,
-          "relegationProb": 2.0,
+          "g4Prob": 39.0,
+          "relegationProb": 2.2,
           "expectedPoints": 58.4,
           "pointsRange": [
             43,
@@ -103,9 +103,9 @@
           "position": 4,
           "points": 19,
           "played": 10,
-          "titleProb": 0.1,
-          "g4Prob": 2.6,
-          "relegationProb": 34.8,
+          "titleProb": 0.3,
+          "g4Prob": 2.5,
+          "relegationProb": 35.3,
           "expectedPoints": 44.6,
           "pointsRange": [
             30,
@@ -132,9 +132,9 @@
           "position": 5,
           "points": 18,
           "played": 10,
-          "titleProb": 9.7,
-          "g4Prob": 38.7,
-          "relegationProb": 2.1,
+          "titleProb": 10.6,
+          "g4Prob": 39.1,
+          "relegationProb": 2.3,
           "expectedPoints": 58.5,
           "pointsRange": [
             43,
@@ -162,8 +162,8 @@
           "points": 16,
           "played": 10,
           "titleProb": 0.2,
-          "g4Prob": 2.6,
-          "relegationProb": 36.5,
+          "g4Prob": 2.5,
+          "relegationProb": 36.4,
           "expectedPoints": 44.5,
           "pointsRange": [
             30,
@@ -190,12 +190,12 @@
           "position": 7,
           "points": 16,
           "played": 10,
-          "titleProb": 10.0,
-          "g4Prob": 38.1,
-          "relegationProb": 2.4,
-          "expectedPoints": 58.4,
+          "titleProb": 10.4,
+          "g4Prob": 38.8,
+          "relegationProb": 2.5,
+          "expectedPoints": 58.5,
           "pointsRange": [
-            43,
+            42,
             74
           ]
         }
@@ -220,8 +220,8 @@
           "points": 14,
           "played": 10,
           "titleProb": 0.2,
-          "g4Prob": 2.3,
-          "relegationProb": 36.2,
+          "g4Prob": 2.6,
+          "relegationProb": 36.6,
           "expectedPoints": 44.5,
           "pointsRange": [
             30,
@@ -248,10 +248,10 @@
           "position": 9,
           "points": 14,
           "played": 10,
-          "titleProb": 10.2,
-          "g4Prob": 39.1,
-          "relegationProb": 2.1,
-          "expectedPoints": 58.6,
+          "titleProb": 9.6,
+          "g4Prob": 37.9,
+          "relegationProb": 2.4,
+          "expectedPoints": 58.4,
           "pointsRange": [
             43,
             74
@@ -278,9 +278,9 @@
           "points": 14,
           "played": 10,
           "titleProb": 0.1,
-          "g4Prob": 2.2,
-          "relegationProb": 38.1,
-          "expectedPoints": 44.4,
+          "g4Prob": 2.6,
+          "relegationProb": 37.3,
+          "expectedPoints": 44.6,
           "pointsRange": [
             30,
             60
@@ -306,8 +306,8 @@
           "position": 11,
           "points": 13,
           "played": 10,
-          "titleProb": 9.9,
-          "g4Prob": 37.4,
+          "titleProb": 9.6,
+          "g4Prob": 37.5,
           "relegationProb": 2.4,
           "expectedPoints": 58.5,
           "pointsRange": [
@@ -336,11 +336,11 @@
           "points": 13,
           "played": 10,
           "titleProb": 0.1,
-          "g4Prob": 2.2,
-          "relegationProb": 37.5,
+          "g4Prob": 2.4,
+          "relegationProb": 37.8,
           "expectedPoints": 44.5,
           "pointsRange": [
-            29,
+            30,
             60
           ]
         }
@@ -364,10 +364,10 @@
           "position": 13,
           "points": 13,
           "played": 10,
-          "titleProb": 9.7,
-          "g4Prob": 37.6,
-          "relegationProb": 2.5,
-          "expectedPoints": 58.5,
+          "titleProb": 9.5,
+          "g4Prob": 37.1,
+          "relegationProb": 2.6,
+          "expectedPoints": 58.4,
           "pointsRange": [
             43,
             74
@@ -394,9 +394,9 @@
           "points": 12,
           "played": 10,
           "titleProb": 0.2,
-          "g4Prob": 2.3,
-          "relegationProb": 38.7,
-          "expectedPoints": 44.5,
+          "g4Prob": 2.4,
+          "relegationProb": 38.6,
+          "expectedPoints": 44.6,
           "pointsRange": [
             30,
             60
@@ -422,10 +422,10 @@
           "position": 15,
           "points": 10,
           "played": 10,
-          "titleProb": 9.6,
-          "g4Prob": 36.4,
-          "relegationProb": 2.7,
-          "expectedPoints": 58.4,
+          "titleProb": 9.2,
+          "g4Prob": 35.8,
+          "relegationProb": 2.5,
+          "expectedPoints": 58.5,
           "pointsRange": [
             43,
             74
@@ -452,9 +452,9 @@
           "points": 10,
           "played": 10,
           "titleProb": 0.2,
-          "g4Prob": 2.1,
-          "relegationProb": 39.6,
-          "expectedPoints": 44.6,
+          "g4Prob": 2.2,
+          "relegationProb": 39.1,
+          "expectedPoints": 44.5,
           "pointsRange": [
             30,
             60
@@ -480,13 +480,13 @@
           "position": 17,
           "points": 9,
           "played": 10,
-          "titleProb": 9.0,
-          "g4Prob": 36.2,
-          "relegationProb": 2.5,
-          "expectedPoints": 58.5,
+          "titleProb": 8.8,
+          "g4Prob": 35.4,
+          "relegationProb": 2.7,
+          "expectedPoints": 58.4,
           "pointsRange": [
             43,
-            74
+            75
           ]
         }
       },
@@ -509,12 +509,12 @@
           "position": 18,
           "points": 8,
           "played": 10,
-          "titleProb": 0.1,
-          "g4Prob": 2.0,
-          "relegationProb": 39.5,
-          "expectedPoints": 44.5,
+          "titleProb": 0.2,
+          "g4Prob": 2.1,
+          "relegationProb": 39.0,
+          "expectedPoints": 44.6,
           "pointsRange": [
-            30,
+            29,
             60
           ]
         }
@@ -538,8 +538,8 @@
           "position": 19,
           "points": 7,
           "played": 10,
-          "titleProb": 8.8,
-          "g4Prob": 35.3,
+          "titleProb": 9.1,
+          "g4Prob": 35.1,
           "relegationProb": 2.8,
           "expectedPoints": 58.4,
           "pointsRange": [
@@ -568,7 +568,7 @@
           "points": 3,
           "played": 10,
           "titleProb": 0.2,
-          "g4Prob": 2.2,
+          "g4Prob": 2.4,
           "relegationProb": 39.6,
           "expectedPoints": 44.6,
           "pointsRange": [
@@ -598,10 +598,10 @@
           "position": 1,
           "points": 20,
           "played": 10,
-          "titleProb": 11.1,
-          "g4Prob": 39.8,
-          "relegationProb": 2.1,
-          "expectedPoints": 58.5,
+          "titleProb": 10.8,
+          "g4Prob": 39.7,
+          "relegationProb": 2.2,
+          "expectedPoints": 58.4,
           "pointsRange": [
             43,
             74
@@ -627,10 +627,10 @@
           "position": 2,
           "points": 19,
           "played": 10,
-          "titleProb": 0.2,
-          "g4Prob": 2.5,
-          "relegationProb": 35.7,
-          "expectedPoints": 44.5,
+          "titleProb": 0.3,
+          "g4Prob": 2.7,
+          "relegationProb": 35.9,
+          "expectedPoints": 44.6,
           "pointsRange": [
             30,
             60
@@ -657,8 +657,8 @@
           "points": 19,
           "played": 10,
           "titleProb": 10.4,
-          "g4Prob": 38.5,
-          "relegationProb": 2.0,
+          "g4Prob": 39.0,
+          "relegationProb": 2.2,
           "expectedPoints": 58.4,
           "pointsRange": [
             43,
@@ -685,9 +685,9 @@
           "position": 4,
           "points": 19,
           "played": 10,
-          "titleProb": 0.1,
-          "g4Prob": 2.6,
-          "relegationProb": 34.8,
+          "titleProb": 0.3,
+          "g4Prob": 2.5,
+          "relegationProb": 35.3,
           "expectedPoints": 44.6,
           "pointsRange": [
             30,
@@ -714,9 +714,9 @@
           "position": 5,
           "points": 18,
           "played": 10,
-          "titleProb": 9.7,
-          "g4Prob": 38.7,
-          "relegationProb": 2.1,
+          "titleProb": 10.6,
+          "g4Prob": 39.1,
+          "relegationProb": 2.3,
           "expectedPoints": 58.5,
           "pointsRange": [
             43,
@@ -744,8 +744,8 @@
           "points": 16,
           "played": 10,
           "titleProb": 0.2,
-          "g4Prob": 2.6,
-          "relegationProb": 36.5,
+          "g4Prob": 2.5,
+          "relegationProb": 36.4,
           "expectedPoints": 44.5,
           "pointsRange": [
             30,
@@ -772,12 +772,12 @@
           "position": 7,
           "points": 16,
           "played": 10,
-          "titleProb": 10.0,
-          "g4Prob": 38.1,
-          "relegationProb": 2.4,
-          "expectedPoints": 58.4,
+          "titleProb": 10.4,
+          "g4Prob": 38.8,
+          "relegationProb": 2.5,
+          "expectedPoints": 58.5,
           "pointsRange": [
-            43,
+            42,
             74
           ]
         }
@@ -802,8 +802,8 @@
           "points": 14,
           "played": 10,
           "titleProb": 0.2,
-          "g4Prob": 2.3,
-          "relegationProb": 36.2,
+          "g4Prob": 2.6,
+          "relegationProb": 36.6,
           "expectedPoints": 44.5,
           "pointsRange": [
             30,
@@ -830,10 +830,10 @@
           "position": 9,
           "points": 14,
           "played": 10,
-          "titleProb": 10.2,
-          "g4Prob": 39.1,
-          "relegationProb": 2.1,
-          "expectedPoints": 58.6,
+          "titleProb": 9.6,
+          "g4Prob": 37.9,
+          "relegationProb": 2.4,
+          "expectedPoints": 58.4,
           "pointsRange": [
             43,
             74
@@ -860,9 +860,9 @@
           "points": 14,
           "played": 10,
           "titleProb": 0.1,
-          "g4Prob": 2.2,
-          "relegationProb": 38.1,
-          "expectedPoints": 44.4,
+          "g4Prob": 2.6,
+          "relegationProb": 37.3,
+          "expectedPoints": 44.6,
           "pointsRange": [
             30,
             60
@@ -888,8 +888,8 @@
           "position": 11,
           "points": 13,
           "played": 10,
-          "titleProb": 9.9,
-          "g4Prob": 37.4,
+          "titleProb": 9.6,
+          "g4Prob": 37.5,
           "relegationProb": 2.4,
           "expectedPoints": 58.5,
           "pointsRange": [
@@ -918,11 +918,11 @@
           "points": 13,
           "played": 10,
           "titleProb": 0.1,
-          "g4Prob": 2.2,
-          "relegationProb": 37.5,
+          "g4Prob": 2.4,
+          "relegationProb": 37.8,
           "expectedPoints": 44.5,
           "pointsRange": [
-            29,
+            30,
             60
           ]
         }
@@ -946,10 +946,10 @@
           "position": 13,
           "points": 13,
           "played": 10,
-          "titleProb": 9.7,
-          "g4Prob": 37.6,
-          "relegationProb": 2.5,
-          "expectedPoints": 58.5,
+          "titleProb": 9.5,
+          "g4Prob": 37.1,
+          "relegationProb": 2.6,
+          "expectedPoints": 58.4,
           "pointsRange": [
             43,
             74
@@ -976,9 +976,9 @@
           "points": 12,
           "played": 10,
           "titleProb": 0.2,
-          "g4Prob": 2.3,
-          "relegationProb": 38.7,
-          "expectedPoints": 44.5,
+          "g4Prob": 2.4,
+          "relegationProb": 38.6,
+          "expectedPoints": 44.6,
           "pointsRange": [
             30,
             60
@@ -1004,10 +1004,10 @@
           "position": 15,
           "points": 10,
           "played": 10,
-          "titleProb": 9.6,
-          "g4Prob": 36.4,
-          "relegationProb": 2.7,
-          "expectedPoints": 58.4,
+          "titleProb": 9.2,
+          "g4Prob": 35.8,
+          "relegationProb": 2.5,
+          "expectedPoints": 58.5,
           "pointsRange": [
             43,
             74
@@ -1034,9 +1034,9 @@
           "points": 10,
           "played": 10,
           "titleProb": 0.2,
-          "g4Prob": 2.1,
-          "relegationProb": 39.6,
-          "expectedPoints": 44.6,
+          "g4Prob": 2.2,
+          "relegationProb": 39.1,
+          "expectedPoints": 44.5,
           "pointsRange": [
             30,
             60
@@ -1062,13 +1062,13 @@
           "position": 17,
           "points": 9,
           "played": 10,
-          "titleProb": 9.0,
-          "g4Prob": 36.2,
-          "relegationProb": 2.5,
-          "expectedPoints": 58.5,
+          "titleProb": 8.8,
+          "g4Prob": 35.4,
+          "relegationProb": 2.7,
+          "expectedPoints": 58.4,
           "pointsRange": [
             43,
-            74
+            75
           ]
         }
       },
@@ -1091,12 +1091,12 @@
           "position": 18,
           "points": 8,
           "played": 10,
-          "titleProb": 0.1,
-          "g4Prob": 2.0,
-          "relegationProb": 39.5,
-          "expectedPoints": 44.5,
+          "titleProb": 0.2,
+          "g4Prob": 2.1,
+          "relegationProb": 39.0,
+          "expectedPoints": 44.6,
           "pointsRange": [
-            30,
+            29,
             60
           ]
         }
@@ -1120,8 +1120,8 @@
           "position": 19,
           "points": 7,
           "played": 10,
-          "titleProb": 8.8,
-          "g4Prob": 35.3,
+          "titleProb": 9.1,
+          "g4Prob": 35.1,
           "relegationProb": 2.8,
           "expectedPoints": 58.4,
           "pointsRange": [
@@ -1150,7 +1150,7 @@
           "points": 3,
           "played": 10,
           "titleProb": 0.2,
-          "g4Prob": 2.2,
+          "g4Prob": 2.4,
           "relegationProb": 39.6,
           "expectedPoints": 44.6,
           "pointsRange": [
@@ -1180,10 +1180,10 @@
           "position": 1,
           "points": 20,
           "played": 10,
-          "titleProb": 11.1,
-          "g4Prob": 39.8,
-          "relegationProb": 2.1,
-          "expectedPoints": 58.5,
+          "titleProb": 10.8,
+          "g4Prob": 39.7,
+          "relegationProb": 2.2,
+          "expectedPoints": 58.4,
           "pointsRange": [
             43,
             74
@@ -1209,10 +1209,10 @@
           "position": 2,
           "points": 19,
           "played": 10,
-          "titleProb": 0.2,
-          "g4Prob": 2.5,
-          "relegationProb": 35.7,
-          "expectedPoints": 44.5,
+          "titleProb": 0.3,
+          "g4Prob": 2.7,
+          "relegationProb": 35.9,
+          "expectedPoints": 44.6,
           "pointsRange": [
             30,
             60
@@ -1239,8 +1239,8 @@
           "points": 19,
           "played": 10,
           "titleProb": 10.4,
-          "g4Prob": 38.5,
-          "relegationProb": 2.0,
+          "g4Prob": 39.0,
+          "relegationProb": 2.2,
           "expectedPoints": 58.4,
           "pointsRange": [
             43,
@@ -1267,9 +1267,9 @@
           "position": 4,
           "points": 19,
           "played": 10,
-          "titleProb": 0.1,
-          "g4Prob": 2.6,
-          "relegationProb": 34.8,
+          "titleProb": 0.3,
+          "g4Prob": 2.5,
+          "relegationProb": 35.3,
           "expectedPoints": 44.6,
           "pointsRange": [
             30,
@@ -1296,9 +1296,9 @@
           "position": 5,
           "points": 18,
           "played": 10,
-          "titleProb": 9.7,
-          "g4Prob": 38.7,
-          "relegationProb": 2.1,
+          "titleProb": 10.6,
+          "g4Prob": 39.1,
+          "relegationProb": 2.3,
           "expectedPoints": 58.5,
           "pointsRange": [
             43,
@@ -1326,8 +1326,8 @@
           "points": 16,
           "played": 10,
           "titleProb": 0.2,
-          "g4Prob": 2.6,
-          "relegationProb": 36.5,
+          "g4Prob": 2.5,
+          "relegationProb": 36.4,
           "expectedPoints": 44.5,
           "pointsRange": [
             30,
@@ -1354,12 +1354,12 @@
           "position": 7,
           "points": 16,
           "played": 10,
-          "titleProb": 10.0,
-          "g4Prob": 38.1,
-          "relegationProb": 2.4,
-          "expectedPoints": 58.4,
+          "titleProb": 10.4,
+          "g4Prob": 38.8,
+          "relegationProb": 2.5,
+          "expectedPoints": 58.5,
           "pointsRange": [
-            43,
+            42,
             74
           ]
         }
@@ -1384,8 +1384,8 @@
           "points": 14,
           "played": 10,
           "titleProb": 0.2,
-          "g4Prob": 2.3,
-          "relegationProb": 36.2,
+          "g4Prob": 2.6,
+          "relegationProb": 36.6,
           "expectedPoints": 44.5,
           "pointsRange": [
             30,
@@ -1412,10 +1412,10 @@
           "position": 9,
           "points": 14,
           "played": 10,
-          "titleProb": 10.2,
-          "g4Prob": 39.1,
-          "relegationProb": 2.1,
-          "expectedPoints": 58.6,
+          "titleProb": 9.6,
+          "g4Prob": 37.9,
+          "relegationProb": 2.4,
+          "expectedPoints": 58.4,
           "pointsRange": [
             43,
             74
@@ -1442,9 +1442,9 @@
           "points": 14,
           "played": 10,
           "titleProb": 0.1,
-          "g4Prob": 2.2,
-          "relegationProb": 38.1,
-          "expectedPoints": 44.4,
+          "g4Prob": 2.6,
+          "relegationProb": 37.3,
+          "expectedPoints": 44.6,
           "pointsRange": [
             30,
             60
@@ -1470,8 +1470,8 @@
           "position": 11,
           "points": 13,
           "played": 10,
-          "titleProb": 9.9,
-          "g4Prob": 37.4,
+          "titleProb": 9.6,
+          "g4Prob": 37.5,
           "relegationProb": 2.4,
           "expectedPoints": 58.5,
           "pointsRange": [
@@ -1500,11 +1500,11 @@
           "points": 13,
           "played": 10,
           "titleProb": 0.1,
-          "g4Prob": 2.2,
-          "relegationProb": 37.5,
+          "g4Prob": 2.4,
+          "relegationProb": 37.8,
           "expectedPoints": 44.5,
           "pointsRange": [
-            29,
+            30,
             60
           ]
         }
@@ -1528,10 +1528,10 @@
           "position": 13,
           "points": 13,
           "played": 10,
-          "titleProb": 9.7,
-          "g4Prob": 37.6,
-          "relegationProb": 2.5,
-          "expectedPoints": 58.5,
+          "titleProb": 9.5,
+          "g4Prob": 37.1,
+          "relegationProb": 2.6,
+          "expectedPoints": 58.4,
           "pointsRange": [
             43,
             74
@@ -1558,9 +1558,9 @@
           "points": 12,
           "played": 10,
           "titleProb": 0.2,
-          "g4Prob": 2.3,
-          "relegationProb": 38.7,
-          "expectedPoints": 44.5,
+          "g4Prob": 2.4,
+          "relegationProb": 38.6,
+          "expectedPoints": 44.6,
           "pointsRange": [
             30,
             60
@@ -1586,10 +1586,10 @@
           "position": 15,
           "points": 10,
           "played": 10,
-          "titleProb": 9.6,
-          "g4Prob": 36.4,
-          "relegationProb": 2.7,
-          "expectedPoints": 58.4,
+          "titleProb": 9.2,
+          "g4Prob": 35.8,
+          "relegationProb": 2.5,
+          "expectedPoints": 58.5,
           "pointsRange": [
             43,
             74
@@ -1616,9 +1616,9 @@
           "points": 10,
           "played": 10,
           "titleProb": 0.2,
-          "g4Prob": 2.1,
-          "relegationProb": 39.6,
-          "expectedPoints": 44.6,
+          "g4Prob": 2.2,
+          "relegationProb": 39.1,
+          "expectedPoints": 44.5,
           "pointsRange": [
             30,
             60
@@ -1644,13 +1644,13 @@
           "position": 17,
           "points": 9,
           "played": 10,
-          "titleProb": 9.0,
-          "g4Prob": 36.2,
-          "relegationProb": 2.5,
-          "expectedPoints": 58.5,
+          "titleProb": 8.8,
+          "g4Prob": 35.4,
+          "relegationProb": 2.7,
+          "expectedPoints": 58.4,
           "pointsRange": [
             43,
-            74
+            75
           ]
         }
       },
@@ -1673,12 +1673,12 @@
           "position": 18,
           "points": 8,
           "played": 10,
-          "titleProb": 0.1,
-          "g4Prob": 2.0,
-          "relegationProb": 39.5,
-          "expectedPoints": 44.5,
+          "titleProb": 0.2,
+          "g4Prob": 2.1,
+          "relegationProb": 39.0,
+          "expectedPoints": 44.6,
           "pointsRange": [
-            30,
+            29,
             60
           ]
         }
@@ -1702,8 +1702,8 @@
           "position": 19,
           "points": 7,
           "played": 10,
-          "titleProb": 8.8,
-          "g4Prob": 35.3,
+          "titleProb": 9.1,
+          "g4Prob": 35.1,
           "relegationProb": 2.8,
           "expectedPoints": 58.4,
           "pointsRange": [
@@ -1732,7 +1732,7 @@
           "points": 3,
           "played": 10,
           "titleProb": 0.2,
-          "g4Prob": 2.2,
+          "g4Prob": 2.4,
           "relegationProb": 39.6,
           "expectedPoints": 44.6,
           "pointsRange": [
@@ -1762,10 +1762,10 @@
           "position": 1,
           "points": 20,
           "played": 10,
-          "titleProb": 11.1,
-          "g4Prob": 39.8,
-          "relegationProb": 2.1,
-          "expectedPoints": 58.5,
+          "titleProb": 10.8,
+          "g4Prob": 39.7,
+          "relegationProb": 2.2,
+          "expectedPoints": 58.4,
           "pointsRange": [
             43,
             74
@@ -1791,10 +1791,10 @@
           "position": 2,
           "points": 19,
           "played": 10,
-          "titleProb": 0.2,
-          "g4Prob": 2.5,
-          "relegationProb": 35.7,
-          "expectedPoints": 44.5,
+          "titleProb": 0.3,
+          "g4Prob": 2.7,
+          "relegationProb": 35.9,
+          "expectedPoints": 44.6,
           "pointsRange": [
             30,
             60
@@ -1821,8 +1821,8 @@
           "points": 19,
           "played": 10,
           "titleProb": 10.4,
-          "g4Prob": 38.5,
-          "relegationProb": 2.0,
+          "g4Prob": 39.0,
+          "relegationProb": 2.2,
           "expectedPoints": 58.4,
           "pointsRange": [
             43,
@@ -1849,9 +1849,9 @@
           "position": 4,
           "points": 19,
           "played": 10,
-          "titleProb": 0.1,
-          "g4Prob": 2.6,
-          "relegationProb": 34.8,
+          "titleProb": 0.3,
+          "g4Prob": 2.5,
+          "relegationProb": 35.3,
           "expectedPoints": 44.6,
           "pointsRange": [
             30,
@@ -1878,9 +1878,9 @@
           "position": 5,
           "points": 18,
           "played": 10,
-          "titleProb": 9.7,
-          "g4Prob": 38.7,
-          "relegationProb": 2.1,
+          "titleProb": 10.6,
+          "g4Prob": 39.1,
+          "relegationProb": 2.3,
           "expectedPoints": 58.5,
           "pointsRange": [
             43,
@@ -1908,8 +1908,8 @@
           "points": 16,
           "played": 10,
           "titleProb": 0.2,
-          "g4Prob": 2.6,
-          "relegationProb": 36.5,
+          "g4Prob": 2.5,
+          "relegationProb": 36.4,
           "expectedPoints": 44.5,
           "pointsRange": [
             30,
@@ -1936,12 +1936,12 @@
           "position": 7,
           "points": 16,
           "played": 10,
-          "titleProb": 10.0,
-          "g4Prob": 38.1,
-          "relegationProb": 2.4,
-          "expectedPoints": 58.4,
+          "titleProb": 10.4,
+          "g4Prob": 38.8,
+          "relegationProb": 2.5,
+          "expectedPoints": 58.5,
           "pointsRange": [
-            43,
+            42,
             74
           ]
         }
@@ -1966,8 +1966,8 @@
           "points": 14,
           "played": 10,
           "titleProb": 0.2,
-          "g4Prob": 2.3,
-          "relegationProb": 36.2,
+          "g4Prob": 2.6,
+          "relegationProb": 36.6,
           "expectedPoints": 44.5,
           "pointsRange": [
             30,
@@ -1994,10 +1994,10 @@
           "position": 9,
           "points": 14,
           "played": 10,
-          "titleProb": 10.2,
-          "g4Prob": 39.1,
-          "relegationProb": 2.1,
-          "expectedPoints": 58.6,
+          "titleProb": 9.6,
+          "g4Prob": 37.9,
+          "relegationProb": 2.4,
+          "expectedPoints": 58.4,
           "pointsRange": [
             43,
             74
@@ -2024,9 +2024,9 @@
           "points": 14,
           "played": 10,
           "titleProb": 0.1,
-          "g4Prob": 2.2,
-          "relegationProb": 38.1,
-          "expectedPoints": 44.4,
+          "g4Prob": 2.6,
+          "relegationProb": 37.3,
+          "expectedPoints": 44.6,
           "pointsRange": [
             30,
             60
@@ -2052,8 +2052,8 @@
           "position": 11,
           "points": 13,
           "played": 10,
-          "titleProb": 9.9,
-          "g4Prob": 37.4,
+          "titleProb": 9.6,
+          "g4Prob": 37.5,
           "relegationProb": 2.4,
           "expectedPoints": 58.5,
           "pointsRange": [
@@ -2082,11 +2082,11 @@
           "points": 13,
           "played": 10,
           "titleProb": 0.1,
-          "g4Prob": 2.2,
-          "relegationProb": 37.5,
+          "g4Prob": 2.4,
+          "relegationProb": 37.8,
           "expectedPoints": 44.5,
           "pointsRange": [
-            29,
+            30,
             60
           ]
         }
@@ -2110,10 +2110,10 @@
           "position": 13,
           "points": 13,
           "played": 10,
-          "titleProb": 9.7,
-          "g4Prob": 37.6,
-          "relegationProb": 2.5,
-          "expectedPoints": 58.5,
+          "titleProb": 9.5,
+          "g4Prob": 37.1,
+          "relegationProb": 2.6,
+          "expectedPoints": 58.4,
           "pointsRange": [
             43,
             74
@@ -2140,9 +2140,9 @@
           "points": 12,
           "played": 10,
           "titleProb": 0.2,
-          "g4Prob": 2.3,
-          "relegationProb": 38.7,
-          "expectedPoints": 44.5,
+          "g4Prob": 2.4,
+          "relegationProb": 38.6,
+          "expectedPoints": 44.6,
           "pointsRange": [
             30,
             60
@@ -2168,10 +2168,10 @@
           "position": 15,
           "points": 10,
           "played": 10,
-          "titleProb": 9.6,
-          "g4Prob": 36.4,
-          "relegationProb": 2.7,
-          "expectedPoints": 58.4,
+          "titleProb": 9.2,
+          "g4Prob": 35.8,
+          "relegationProb": 2.5,
+          "expectedPoints": 58.5,
           "pointsRange": [
             43,
             74
@@ -2198,9 +2198,9 @@
           "points": 10,
           "played": 10,
           "titleProb": 0.2,
-          "g4Prob": 2.1,
-          "relegationProb": 39.6,
-          "expectedPoints": 44.6,
+          "g4Prob": 2.2,
+          "relegationProb": 39.1,
+          "expectedPoints": 44.5,
           "pointsRange": [
             30,
             60
@@ -2226,13 +2226,13 @@
           "position": 17,
           "points": 9,
           "played": 10,
-          "titleProb": 9.0,
-          "g4Prob": 36.2,
-          "relegationProb": 2.5,
-          "expectedPoints": 58.5,
+          "titleProb": 8.8,
+          "g4Prob": 35.4,
+          "relegationProb": 2.7,
+          "expectedPoints": 58.4,
           "pointsRange": [
             43,
-            74
+            75
           ]
         }
       },
@@ -2255,12 +2255,12 @@
           "position": 18,
           "points": 8,
           "played": 10,
-          "titleProb": 0.1,
-          "g4Prob": 2.0,
-          "relegationProb": 39.5,
-          "expectedPoints": 44.5,
+          "titleProb": 0.2,
+          "g4Prob": 2.1,
+          "relegationProb": 39.0,
+          "expectedPoints": 44.6,
           "pointsRange": [
-            30,
+            29,
             60
           ]
         }
@@ -2284,8 +2284,8 @@
           "position": 19,
           "points": 7,
           "played": 10,
-          "titleProb": 8.8,
-          "g4Prob": 35.3,
+          "titleProb": 9.1,
+          "g4Prob": 35.1,
           "relegationProb": 2.8,
           "expectedPoints": 58.4,
           "pointsRange": [
@@ -2314,7 +2314,7 @@
           "points": 3,
           "played": 10,
           "titleProb": 0.2,
-          "g4Prob": 2.2,
+          "g4Prob": 2.4,
           "relegationProb": 39.6,
           "expectedPoints": 44.6,
           "pointsRange": [
@@ -2344,10 +2344,10 @@
           "position": 1,
           "points": 20,
           "played": 10,
-          "titleProb": 11.1,
-          "g4Prob": 39.8,
-          "relegationProb": 2.1,
-          "expectedPoints": 58.5,
+          "titleProb": 10.8,
+          "g4Prob": 39.7,
+          "relegationProb": 2.2,
+          "expectedPoints": 58.4,
           "pointsRange": [
             43,
             74
@@ -2373,10 +2373,10 @@
           "position": 2,
           "points": 19,
           "played": 10,
-          "titleProb": 0.2,
-          "g4Prob": 2.5,
-          "relegationProb": 35.7,
-          "expectedPoints": 44.5,
+          "titleProb": 0.3,
+          "g4Prob": 2.7,
+          "relegationProb": 35.9,
+          "expectedPoints": 44.6,
           "pointsRange": [
             30,
             60
@@ -2403,8 +2403,8 @@
           "points": 19,
           "played": 10,
           "titleProb": 10.4,
-          "g4Prob": 38.5,
-          "relegationProb": 2.0,
+          "g4Prob": 39.0,
+          "relegationProb": 2.2,
           "expectedPoints": 58.4,
           "pointsRange": [
             43,
@@ -2431,9 +2431,9 @@
           "position": 4,
           "points": 19,
           "played": 10,
-          "titleProb": 0.1,
-          "g4Prob": 2.6,
-          "relegationProb": 34.8,
+          "titleProb": 0.3,
+          "g4Prob": 2.5,
+          "relegationProb": 35.3,
           "expectedPoints": 44.6,
           "pointsRange": [
             30,
@@ -2460,9 +2460,9 @@
           "position": 5,
           "points": 18,
           "played": 10,
-          "titleProb": 9.7,
-          "g4Prob": 38.7,
-          "relegationProb": 2.1,
+          "titleProb": 10.6,
+          "g4Prob": 39.1,
+          "relegationProb": 2.3,
           "expectedPoints": 58.5,
           "pointsRange": [
             43,
@@ -2490,8 +2490,8 @@
           "points": 16,
           "played": 10,
           "titleProb": 0.2,
-          "g4Prob": 2.6,
-          "relegationProb": 36.5,
+          "g4Prob": 2.5,
+          "relegationProb": 36.4,
           "expectedPoints": 44.5,
           "pointsRange": [
             30,
@@ -2518,12 +2518,12 @@
           "position": 7,
           "points": 16,
           "played": 10,
-          "titleProb": 10.0,
-          "g4Prob": 38.1,
-          "relegationProb": 2.4,
-          "expectedPoints": 58.4,
+          "titleProb": 10.4,
+          "g4Prob": 38.8,
+          "relegationProb": 2.5,
+          "expectedPoints": 58.5,
           "pointsRange": [
-            43,
+            42,
             74
           ]
         }
@@ -2548,8 +2548,8 @@
           "points": 14,
           "played": 10,
           "titleProb": 0.2,
-          "g4Prob": 2.3,
-          "relegationProb": 36.2,
+          "g4Prob": 2.6,
+          "relegationProb": 36.6,
           "expectedPoints": 44.5,
           "pointsRange": [
             30,
@@ -2576,10 +2576,10 @@
           "position": 9,
           "points": 14,
           "played": 10,
-          "titleProb": 10.2,
-          "g4Prob": 39.1,
-          "relegationProb": 2.1,
-          "expectedPoints": 58.6,
+          "titleProb": 9.6,
+          "g4Prob": 37.9,
+          "relegationProb": 2.4,
+          "expectedPoints": 58.4,
           "pointsRange": [
             43,
             74
@@ -2606,9 +2606,9 @@
           "points": 14,
           "played": 10,
           "titleProb": 0.1,
-          "g4Prob": 2.2,
-          "relegationProb": 38.1,
-          "expectedPoints": 44.4,
+          "g4Prob": 2.6,
+          "relegationProb": 37.3,
+          "expectedPoints": 44.6,
           "pointsRange": [
             30,
             60
@@ -2634,8 +2634,8 @@
           "position": 11,
           "points": 13,
           "played": 10,
-          "titleProb": 9.9,
-          "g4Prob": 37.4,
+          "titleProb": 9.6,
+          "g4Prob": 37.5,
           "relegationProb": 2.4,
           "expectedPoints": 58.5,
           "pointsRange": [
@@ -2664,11 +2664,11 @@
           "points": 13,
           "played": 10,
           "titleProb": 0.1,
-          "g4Prob": 2.2,
-          "relegationProb": 37.5,
+          "g4Prob": 2.4,
+          "relegationProb": 37.8,
           "expectedPoints": 44.5,
           "pointsRange": [
-            29,
+            30,
             60
           ]
         }
@@ -2692,10 +2692,10 @@
           "position": 13,
           "points": 13,
           "played": 10,
-          "titleProb": 9.7,
-          "g4Prob": 37.6,
-          "relegationProb": 2.5,
-          "expectedPoints": 58.5,
+          "titleProb": 9.5,
+          "g4Prob": 37.1,
+          "relegationProb": 2.6,
+          "expectedPoints": 58.4,
           "pointsRange": [
             43,
             74
@@ -2722,9 +2722,9 @@
           "points": 12,
           "played": 10,
           "titleProb": 0.2,
-          "g4Prob": 2.3,
-          "relegationProb": 38.7,
-          "expectedPoints": 44.5,
+          "g4Prob": 2.4,
+          "relegationProb": 38.6,
+          "expectedPoints": 44.6,
           "pointsRange": [
             30,
             60
@@ -2750,10 +2750,10 @@
           "position": 15,
           "points": 10,
           "played": 10,
-          "titleProb": 9.6,
-          "g4Prob": 36.4,
-          "relegationProb": 2.7,
-          "expectedPoints": 58.4,
+          "titleProb": 9.2,
+          "g4Prob": 35.8,
+          "relegationProb": 2.5,
+          "expectedPoints": 58.5,
           "pointsRange": [
             43,
             74
@@ -2780,9 +2780,9 @@
           "points": 10,
           "played": 10,
           "titleProb": 0.2,
-          "g4Prob": 2.1,
-          "relegationProb": 39.6,
-          "expectedPoints": 44.6,
+          "g4Prob": 2.2,
+          "relegationProb": 39.1,
+          "expectedPoints": 44.5,
           "pointsRange": [
             30,
             60
@@ -2808,13 +2808,13 @@
           "position": 17,
           "points": 9,
           "played": 10,
-          "titleProb": 9.0,
-          "g4Prob": 36.2,
-          "relegationProb": 2.5,
-          "expectedPoints": 58.5,
+          "titleProb": 8.8,
+          "g4Prob": 35.4,
+          "relegationProb": 2.7,
+          "expectedPoints": 58.4,
           "pointsRange": [
             43,
-            74
+            75
           ]
         }
       },
@@ -2837,12 +2837,12 @@
           "position": 18,
           "points": 8,
           "played": 10,
-          "titleProb": 0.1,
-          "g4Prob": 2.0,
-          "relegationProb": 39.5,
-          "expectedPoints": 44.5,
+          "titleProb": 0.2,
+          "g4Prob": 2.1,
+          "relegationProb": 39.0,
+          "expectedPoints": 44.6,
           "pointsRange": [
-            30,
+            29,
             60
           ]
         }
@@ -2866,8 +2866,8 @@
           "position": 19,
           "points": 7,
           "played": 10,
-          "titleProb": 8.8,
-          "g4Prob": 35.3,
+          "titleProb": 9.1,
+          "g4Prob": 35.1,
           "relegationProb": 2.8,
           "expectedPoints": 58.4,
           "pointsRange": [
@@ -2896,7 +2896,7 @@
           "points": 3,
           "played": 10,
           "titleProb": 0.2,
-          "g4Prob": 2.2,
+          "g4Prob": 2.4,
           "relegationProb": 39.6,
           "expectedPoints": 44.6,
           "pointsRange": [
@@ -2926,10 +2926,10 @@
           "position": 1,
           "points": 20,
           "played": 10,
-          "titleProb": 11.1,
-          "g4Prob": 39.8,
-          "relegationProb": 2.1,
-          "expectedPoints": 58.5,
+          "titleProb": 10.8,
+          "g4Prob": 39.7,
+          "relegationProb": 2.2,
+          "expectedPoints": 58.4,
           "pointsRange": [
             43,
             74
@@ -2955,10 +2955,10 @@
           "position": 2,
           "points": 19,
           "played": 10,
-          "titleProb": 0.2,
-          "g4Prob": 2.5,
-          "relegationProb": 35.7,
-          "expectedPoints": 44.5,
+          "titleProb": 0.3,
+          "g4Prob": 2.7,
+          "relegationProb": 35.9,
+          "expectedPoints": 44.6,
           "pointsRange": [
             30,
             60
@@ -2985,8 +2985,8 @@
           "points": 19,
           "played": 10,
           "titleProb": 10.4,
-          "g4Prob": 38.5,
-          "relegationProb": 2.0,
+          "g4Prob": 39.0,
+          "relegationProb": 2.2,
           "expectedPoints": 58.4,
           "pointsRange": [
             43,
@@ -3013,9 +3013,9 @@
           "position": 4,
           "points": 19,
           "played": 10,
-          "titleProb": 0.1,
-          "g4Prob": 2.6,
-          "relegationProb": 34.8,
+          "titleProb": 0.3,
+          "g4Prob": 2.5,
+          "relegationProb": 35.3,
           "expectedPoints": 44.6,
           "pointsRange": [
             30,
@@ -3042,9 +3042,9 @@
           "position": 5,
           "points": 18,
           "played": 10,
-          "titleProb": 9.7,
-          "g4Prob": 38.7,
-          "relegationProb": 2.1,
+          "titleProb": 10.6,
+          "g4Prob": 39.1,
+          "relegationProb": 2.3,
           "expectedPoints": 58.5,
           "pointsRange": [
             43,
@@ -3072,8 +3072,8 @@
           "points": 16,
           "played": 10,
           "titleProb": 0.2,
-          "g4Prob": 2.6,
-          "relegationProb": 36.5,
+          "g4Prob": 2.5,
+          "relegationProb": 36.4,
           "expectedPoints": 44.5,
           "pointsRange": [
             30,
@@ -3100,12 +3100,12 @@
           "position": 7,
           "points": 16,
           "played": 10,
-          "titleProb": 10.0,
-          "g4Prob": 38.1,
-          "relegationProb": 2.4,
-          "expectedPoints": 58.4,
+          "titleProb": 10.4,
+          "g4Prob": 38.8,
+          "relegationProb": 2.5,
+          "expectedPoints": 58.5,
           "pointsRange": [
-            43,
+            42,
             74
           ]
         }
@@ -3130,8 +3130,8 @@
           "points": 14,
           "played": 10,
           "titleProb": 0.2,
-          "g4Prob": 2.3,
-          "relegationProb": 36.2,
+          "g4Prob": 2.6,
+          "relegationProb": 36.6,
           "expectedPoints": 44.5,
           "pointsRange": [
             30,
@@ -3158,10 +3158,10 @@
           "position": 9,
           "points": 14,
           "played": 10,
-          "titleProb": 10.2,
-          "g4Prob": 39.1,
-          "relegationProb": 2.1,
-          "expectedPoints": 58.6,
+          "titleProb": 9.6,
+          "g4Prob": 37.9,
+          "relegationProb": 2.4,
+          "expectedPoints": 58.4,
           "pointsRange": [
             43,
             74
@@ -3188,9 +3188,9 @@
           "points": 14,
           "played": 10,
           "titleProb": 0.1,
-          "g4Prob": 2.2,
-          "relegationProb": 38.1,
-          "expectedPoints": 44.4,
+          "g4Prob": 2.6,
+          "relegationProb": 37.3,
+          "expectedPoints": 44.6,
           "pointsRange": [
             30,
             60
@@ -3216,8 +3216,8 @@
           "position": 11,
           "points": 13,
           "played": 10,
-          "titleProb": 9.9,
-          "g4Prob": 37.4,
+          "titleProb": 9.6,
+          "g4Prob": 37.5,
           "relegationProb": 2.4,
           "expectedPoints": 58.5,
           "pointsRange": [
@@ -3246,11 +3246,11 @@
           "points": 13,
           "played": 10,
           "titleProb": 0.1,
-          "g4Prob": 2.2,
-          "relegationProb": 37.5,
+          "g4Prob": 2.4,
+          "relegationProb": 37.8,
           "expectedPoints": 44.5,
           "pointsRange": [
-            29,
+            30,
             60
           ]
         }
@@ -3274,10 +3274,10 @@
           "position": 13,
           "points": 13,
           "played": 10,
-          "titleProb": 9.7,
-          "g4Prob": 37.6,
-          "relegationProb": 2.5,
-          "expectedPoints": 58.5,
+          "titleProb": 9.5,
+          "g4Prob": 37.1,
+          "relegationProb": 2.6,
+          "expectedPoints": 58.4,
           "pointsRange": [
             43,
             74
@@ -3304,9 +3304,9 @@
           "points": 12,
           "played": 10,
           "titleProb": 0.2,
-          "g4Prob": 2.3,
-          "relegationProb": 38.7,
-          "expectedPoints": 44.5,
+          "g4Prob": 2.4,
+          "relegationProb": 38.6,
+          "expectedPoints": 44.6,
           "pointsRange": [
             30,
             60
@@ -3332,10 +3332,10 @@
           "position": 15,
           "points": 10,
           "played": 10,
-          "titleProb": 9.6,
-          "g4Prob": 36.4,
-          "relegationProb": 2.7,
-          "expectedPoints": 58.4,
+          "titleProb": 9.2,
+          "g4Prob": 35.8,
+          "relegationProb": 2.5,
+          "expectedPoints": 58.5,
           "pointsRange": [
             43,
             74
@@ -3362,9 +3362,9 @@
           "points": 10,
           "played": 10,
           "titleProb": 0.2,
-          "g4Prob": 2.1,
-          "relegationProb": 39.6,
-          "expectedPoints": 44.6,
+          "g4Prob": 2.2,
+          "relegationProb": 39.1,
+          "expectedPoints": 44.5,
           "pointsRange": [
             30,
             60
@@ -3390,13 +3390,13 @@
           "position": 17,
           "points": 9,
           "played": 10,
-          "titleProb": 9.0,
-          "g4Prob": 36.2,
-          "relegationProb": 2.5,
-          "expectedPoints": 58.5,
+          "titleProb": 8.8,
+          "g4Prob": 35.4,
+          "relegationProb": 2.7,
+          "expectedPoints": 58.4,
           "pointsRange": [
             43,
-            74
+            75
           ]
         }
       },
@@ -3419,12 +3419,12 @@
           "position": 18,
           "points": 8,
           "played": 10,
-          "titleProb": 0.1,
-          "g4Prob": 2.0,
-          "relegationProb": 39.5,
-          "expectedPoints": 44.5,
+          "titleProb": 0.2,
+          "g4Prob": 2.1,
+          "relegationProb": 39.0,
+          "expectedPoints": 44.6,
           "pointsRange": [
-            30,
+            29,
             60
           ]
         }
@@ -3448,8 +3448,8 @@
           "position": 19,
           "points": 7,
           "played": 10,
-          "titleProb": 8.8,
-          "g4Prob": 35.3,
+          "titleProb": 9.1,
+          "g4Prob": 35.1,
           "relegationProb": 2.8,
           "expectedPoints": 58.4,
           "pointsRange": [
@@ -3478,7 +3478,7 @@
           "points": 3,
           "played": 10,
           "titleProb": 0.2,
-          "g4Prob": 2.2,
+          "g4Prob": 2.4,
           "relegationProb": 39.6,
           "expectedPoints": 44.6,
           "pointsRange": [
