@@ -230,7 +230,10 @@ class ApiFutebolClient:
             return partidas
         link = rodada.get("_link", "")
         if link:
-            detail = self._get(link)
+            # _link pode vir como "/v1/campeonatos/..." — remove o prefixo /v1
+            # para não duplicar com o BASE_URL
+            path = link.removeprefix("/v1")
+            detail = self._get(path)
             return detail.get("partidas", []) if isinstance(detail, dict) else []
         return []
 
