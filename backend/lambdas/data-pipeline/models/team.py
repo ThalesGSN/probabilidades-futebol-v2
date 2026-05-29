@@ -17,6 +17,8 @@ class TeamCurrent:
     expected_points: float
     points_range: tuple[int, int]
     played: int = 0          # jogos disputados (da tabela da API)
+    goals_for: int = 0       # gols marcados (da tabela da API)
+    goals_against: int = 0   # gols sofridos (da tabela da API)
 
     def to_dict(self) -> dict:
         return {

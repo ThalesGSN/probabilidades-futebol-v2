@@ -75,8 +75,11 @@ class MonteCarlo:
         self._slugs = [t.slug for t in teams]
         self._team_map = {t.slug: t for t in teams}
 
-        # Rodada atual = maior rodada com pelo menos um jogo disputado
-        self.current_round = max((r.round for r in results), default=0)
+        # Rodada atual: usa results se disponíveis, senão tabela (played)
+        self.current_round = max(
+            max((r.round for r in results), default=0),
+            max((t.current.played for t in teams), default=0),
+        )
 
         # Calendário dos jogos restantes (deduzido de forma simplificada)
         self._remaining = self._build_remaining_fixtures()
@@ -111,32 +114,48 @@ class MonteCarlo:
     # ── Estimativa de parâmetros ─────────────────────────────────────────────
 
     def _estimate_params(self) -> tuple[dict, dict, float]:
-        goals_for: dict[str, int] = defaultdict(int)
-        goals_against: dict[str, int] = defaultdict(int)
-        played: dict[str, int] = defaultdict(int)
-        total_goals = 0
+        """
+        Estima ataque/defesa de cada time via modelo de Poisson.
+        Usa resultados individuais se disponíveis; cai para stats agregadas
+        da tabela (goals_for/goals_against/played do TeamCurrent) se results vazio.
+        """
+        if self.results:
+            goals_for: dict[str, int] = defaultdict(int)
+            goals_against: dict[str, int] = defaultdict(int)
+            played: dict[str, int] = defaultdict(int)
+            total_goals = 0
 
-        for r in self.results:
-            goals_for[r.home_slug] += r.home_goals
-            goals_against[r.home_slug] += r.away_goals
-            goals_for[r.away_slug] += r.away_goals
-            goals_against[r.away_slug] += r.home_goals
-            played[r.home_slug] += 1
-            played[r.away_slug] += 1
-            total_goals += r.home_goals + r.away_goals
+            for r in self.results:
+                goals_for[r.home_slug] += r.home_goals
+                goals_against[r.home_slug] += r.away_goals
+                goals_for[r.away_slug] += r.away_goals
+                goals_against[r.away_slug] += r.home_goals
+                played[r.home_slug] += 1
+                played[r.away_slug] += 1
+                total_goals += r.home_goals + r.away_goals
 
-        n_matches = len(self.results) or 1
-        league_avg = total_goals / (2 * n_matches)
+            n_matches = len(self.results) or 1
+            league_avg = total_goals / (2 * n_matches)
+        else:
+            # Usa stats agregadas da tabela (gols_pro, gols_contra, jogos)
+            total_gf = sum(t.current.goals_for for t in self.teams)
+            total_ga = sum(t.current.goals_against for t in self.teams)
+            n_games = sum(t.current.played for t in self.teams) // 2 or 1
+            league_avg = (total_gf + total_ga) / (2 * n_games)
+
+            goals_for = {t.slug: t.current.goals_for for t in self.teams}
+            goals_against = {t.slug: t.current.goals_against for t in self.teams}
+            played = {t.slug: t.current.played for t in self.teams}
+
         if league_avg < 0.5:
-            league_avg = 1.2  # fallback se poucos jogos
+            league_avg = 1.2
 
         attack: dict[str, float] = {}
         defense: dict[str, float] = {}
         for slug in self._slugs:
-            g = played[slug] or 1
-            attack[slug]  = (goals_for[slug] / g) / league_avg if league_avg else 1.0
-            defense[slug] = (goals_against[slug] / g) / league_avg if league_avg else 1.0
-            # Suavização em direção a 1.0 (prior neutro)
+            g = played.get(slug) or 1
+            attack[slug]  = (goals_for.get(slug, 0) / g) / league_avg if league_avg else 1.0
+            defense[slug] = (goals_against.get(slug, 0) / g) / league_avg if league_avg else 1.0
             alpha = min(g / 10, 1.0)
             attack[slug]  = alpha * attack[slug]  + (1 - alpha) * 1.0
             defense[slug] = alpha * defense[slug] + (1 - alpha) * 1.0
@@ -160,17 +179,9 @@ class MonteCarlo:
         return k - 1
 
     def _simulate_once(self) -> dict[str, int]:
-        """Retorna pontuação final de um cenário (pontos acumulados disputados + simulados)."""
-        # Pontuação acumulada dos jogos já disputados
-        points: dict[str, int] = defaultdict(int)
-        for r in self.results:
-            if r.home_goals > r.away_goals:
-                points[r.home_slug] += 3
-            elif r.home_goals == r.away_goals:
-                points[r.home_slug] += 1
-                points[r.away_slug] += 1
-            else:
-                points[r.away_slug] += 3
+        """Retorna pontuação final de um cenário (pontos reais + simulados)."""
+        # Parte dos pontos reais da tabela (authoritative) em vez de recomputar de results
+        points: dict[str, int] = {t.slug: t.current.points for t in self.teams}
 
         # Simula rodadas restantes
         for home, away, _ in self._remaining:

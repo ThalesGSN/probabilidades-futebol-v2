@@ -45,9 +45,11 @@ def _process_division(
     logger.info("=== Série %s (campeonato_id=%d) ===", division, campeonato_id)
 
     # 1. Busca dados na API
+    # Apenas tabela (standings agregados) — evita 38 chamadas por divisão.
+    # O Monte Carlo usa goals_for/goals_against/played do TeamCurrent como parâmetros.
     teams   = client.fetch_teams(campeonato_id, division)
-    results = client.fetch_results(campeonato_id)
-    logger.info("%d times, %d resultados", len(teams), len(results))
+    results = []
+    logger.info("%d times carregados da tabela (Série %s)", len(teams), division)
 
     # 2. Monte Carlo
     mc  = MonteCarlo(results, teams, division, n=MC_N, total_rounds=ROUNDS)

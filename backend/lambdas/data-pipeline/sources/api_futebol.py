@@ -178,6 +178,8 @@ class ApiFutebolClient:
                 position=pos,
                 points=t.get("pontos", 0),
                 played=t.get("jogos", 0),
+                goals_for=t.get("gols_pro", 0),
+                goals_against=t.get("gols_contra", 0),
                 title_prob=0.0,
                 g4_prob=0.0,
                 relegation_prob=0.0,
