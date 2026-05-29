@@ -1,0 +1,45 @@
+name: Data Pipeline
+
+on:
+  schedule:
+    # 01:00 UTC = 22:00 BRT
+    - cron: "0 1 * * *"
+  workflow_dispatch: {}
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: backend/lambdas/data-pipeline/requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r backend/lambdas/data-pipeline/requirements.txt
+
+      - name: Run pipeline
+        env:
+          API_FUTEBOL_KEY: ${{ secrets.API_FUTEBOL_KEY }}
+          OUTPUT_DIR: ${{ github.workspace }}/public/data
+          SERIE_A_ID: "10"
+          SERIE_B_ID: "11"
+          MONTE_CARLO_N: "10000"
+          TOTAL_ROUNDS: "38"
+        working-directory: backend/lambdas/data-pipeline
+        run: python handler.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data/
+          git diff --cached --quiet && echo "No changes" && exit 0
+          git commit -m "chore(data): atualiza JSONs [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+          git push
