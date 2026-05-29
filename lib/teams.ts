@@ -44,6 +44,7 @@ export type Team = {
   current: {
     position: number
     points: number
+    played: number
     // Para Série A: chance de título do Brasileirão.
     // Para Série B: chance de título da Série B.
     titleProb: number

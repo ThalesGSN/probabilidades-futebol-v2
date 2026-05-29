@@ -1,30 +1,82 @@
-import { ArrowUpRight, TrendingDown, TrendingUp } from "lucide-react"
+import { useMemo } from "react"
+import { ArrowUpRight } from "lucide-react"
+import { useProbabilities } from "@/hooks/use-static-data"
+import type { TeamProbabilityRow } from "@/lib/brasileirao"
 
-const liveStats = [
-  {
-    label: "Líder em probabilidade de título",
-    team: "Palmeiras",
-    value: "38,4%",
-    delta: "+4,1 p.p.",
-    trend: "up" as const,
-  },
-  {
-    label: "Maior queda da rodada",
-    team: "Internacional",
-    value: "9,7%",
-    delta: "−6,2 p.p.",
-    trend: "down" as const,
-  },
-  {
-    label: "Em risco de rebaixamento",
-    team: "Vitória",
-    value: "71,8%",
-    delta: "+3,5 p.p.",
-    trend: "up" as const,
-  },
-]
+function formatPct(v: number) {
+  return v.toFixed(1).replace(".", ",") + "%"
+}
+
+function ordinal(n: number) {
+  return `${n}º`
+}
+
+function StatCard({
+  label,
+  team,
+  value,
+  sub,
+}: {
+  label: string
+  team: string
+  value: string
+  sub: string
+}) {
+  return (
+    <div className="flex items-center justify-between gap-4 p-5">
+      <div className="min-w-0">
+        <p className="text-[11px] uppercase tracking-wider text-primary-foreground/60">{label}</p>
+        <p className="mt-1 font-serif text-xl text-primary-foreground">{team}</p>
+      </div>
+      <div className="text-right">
+        <p className="tabular font-serif text-3xl text-primary-foreground">{value}</p>
+        <p className="mt-1 text-xs text-primary-foreground/60">{sub}</p>
+      </div>
+    </div>
+  )
+}
+
+function StatCardSkeleton() {
+  return (
+    <div className="flex items-center justify-between gap-4 p-5 animate-pulse">
+      <div className="space-y-2">
+        <div className="h-2.5 w-32 rounded bg-primary-foreground/10" />
+        <div className="h-5 w-24 rounded bg-primary-foreground/10" />
+      </div>
+      <div className="h-8 w-16 rounded bg-primary-foreground/10" />
+    </div>
+  )
+}
 
 export function HeroSection() {
+  const { data: probs } = useProbabilities("A")
+
+  const currentRound = useMemo(() => {
+    if (!probs?.length) return null
+    return Math.max(...probs.map((p) => p.team.current.played ?? 0)) || null
+  }, [probs])
+
+  const byChampion = useMemo(
+    () => probs ? [...probs].sort((a: TeamProbabilityRow, b: TeamProbabilityRow) => b.champion - a.champion) : null,
+    [probs],
+  )
+  const byRelegation = useMemo(
+    () => probs ? [...probs].sort((a: TeamProbabilityRow, b: TeamProbabilityRow) => b.relegation - a.relegation) : null,
+    [probs],
+  )
+  const byLibertadores = useMemo(
+    () => probs ? [...probs].sort((a: TeamProbabilityRow, b: TeamProbabilityRow) => b.libertadores - a.libertadores) : null,
+    [probs],
+  )
+
+  const leader = byChampion?.[0]
+  const libertadoresLeader = byLibertadores?.[0]
+  const relegationLeader = byRelegation?.[0]
+
+  const roundBadge = currentRound
+    ? `Atualizado · ${ordinal(currentRound)} rodada`
+    : "Atualizado · Brasileirão 2026"
+
   return (
     <section className="relative overflow-hidden border-b border-border bg-primary text-primary-foreground">
       {/* Linhas decorativas tipo marcação de campo */}
@@ -42,7 +94,7 @@ export function HeroSection() {
                 <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-accent opacity-75" />
                 <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-accent" />
               </span>
-              Atualizado após a 31ª rodada · há 2h
+              {roundBadge}
             </div>
 
             <h1 className="font-serif text-5xl leading-[0.95] tracking-tight text-balance sm:text-6xl lg:text-7xl">
@@ -73,34 +125,51 @@ export function HeroSection() {
 
           <div className="lg:col-span-5">
             <div className="mb-4 flex items-baseline justify-between">
-              <span className="text-xs uppercase tracking-[0.18em] text-primary-foreground/60">Estado da rodada</span>
-              <span className="font-mono text-xs text-primary-foreground/60">31 / 38</span>
+              <span className="text-xs uppercase tracking-[0.18em] text-primary-foreground/60">
+                Estado da temporada · Série A
+              </span>
+              {currentRound && (
+                <span className="font-mono text-xs text-primary-foreground/60">
+                  {currentRound} / 38
+                </span>
+              )}
             </div>
 
             <div className="divide-y divide-primary-foreground/10 rounded-md border border-primary-foreground/15 bg-primary-foreground/[0.04]">
-              {liveStats.map((stat) => (
-                <div key={stat.team} className="flex items-center justify-between gap-4 p-5">
-                  <div className="min-w-0">
-                    <p className="text-[11px] uppercase tracking-wider text-primary-foreground/60">{stat.label}</p>
-                    <p className="mt-1 font-serif text-xl text-primary-foreground">{stat.team}</p>
-                  </div>
-                  <div className="text-right">
-                    <p className="tabular font-serif text-3xl text-primary-foreground">{stat.value}</p>
-                    <div
-                      className={`mt-1 inline-flex items-center gap-1 text-xs ${
-                        stat.trend === "up" ? "text-accent" : "text-primary-foreground/60"
-                      }`}
-                    >
-                      {stat.trend === "up" ? (
-                        <TrendingUp className="h-3 w-3" />
-                      ) : (
-                        <TrendingDown className="h-3 w-3" />
-                      )}
-                      <span className="tabular">{stat.delta}</span>
-                    </div>
-                  </div>
-                </div>
-              ))}
+              {!probs ? (
+                <>
+                  <StatCardSkeleton />
+                  <StatCardSkeleton />
+                  <StatCardSkeleton />
+                </>
+              ) : (
+                <>
+                  {leader && (
+                    <StatCard
+                      label="Favorito ao título"
+                      team={leader.team.shortName}
+                      value={formatPct(leader.champion)}
+                      sub={`${ordinal(leader.team.current.position)} · ${leader.team.current.points} pts`}
+                    />
+                  )}
+                  {libertadoresLeader && (
+                    <StatCard
+                      label="Favorito à Libertadores"
+                      team={libertadoresLeader.team.shortName}
+                      value={formatPct(libertadoresLeader.libertadores)}
+                      sub={`${ordinal(libertadoresLeader.team.current.position)} · ${libertadoresLeader.team.current.points} pts`}
+                    />
+                  )}
+                  {relegationLeader && (
+                    <StatCard
+                      label="Maior risco de rebaixamento"
+                      team={relegationLeader.team.shortName}
+                      value={formatPct(relegationLeader.relegation)}
+                      sub={`${ordinal(relegationLeader.team.current.position)} · ${relegationLeader.team.current.points} pts`}
+                    />
+                  )}
+                </>
+              )}
             </div>
           </div>
         </div>
