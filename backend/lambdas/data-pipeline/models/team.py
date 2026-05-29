@@ -16,11 +16,13 @@ class TeamCurrent:
     relegation_prob: float   # % rebaixamento
     expected_points: float
     points_range: tuple[int, int]
+    played: int = 0          # jogos disputados (da tabela da API)
 
     def to_dict(self) -> dict:
         return {
             "position": self.position,
             "points": self.points,
+            "played": self.played,
             "titleProb": round(self.title_prob, 1),
             "g4Prob": round(self.g4_prob, 1),
             "relegationProb": round(self.relegation_prob, 1),

@@ -177,6 +177,7 @@ class ApiFutebolClient:
             current = TeamCurrent(
                 position=pos,
                 points=t.get("pontos", 0),
+                played=t.get("jogos", 0),
                 title_prob=0.0,
                 g4_prob=0.0,
                 relegation_prob=0.0,
@@ -202,7 +203,11 @@ class ApiFutebolClient:
     # ── Resultados ───────────────────────────────────────────────────────────
 
     def fetch_results(self, campeonato_id: int) -> list[MatchResult]:
-        """Retorna todos os resultados de partidas disputadas."""
+        """
+        Retorna todos os resultados de partidas disputadas.
+        Detecta jogos encerrados pela presença do placar, não pelo campo status,
+        porque os valores de status variam entre versões da API.
+        """
         data = self._get(f"/campeonatos/{campeonato_id}/rodadas")
         results: list[MatchResult] = []
 
@@ -210,22 +215,30 @@ class ApiFutebolClient:
         for rodada in rodadas:
             round_num = rodada.get("rodada", rodada.get("numero", 0))
             for jogo in rodada.get("partidas", []):
-                # Só partidas já disputadas têm placar
-                status = jogo.get("status", "")
-                if status not in ("encerrado", "finalizado", "realizado"):
-                    continue
+                placar_m = jogo.get("placar_mandante")
+                placar_v = jogo.get("placar_visitante")
+
+                if placar_m is not None and placar_v is not None:
+                    try:
+                        home_goals = int(placar_m)
+                        away_goals = int(placar_v)
+                    except (ValueError, TypeError):
+                        continue
+                else:
+                    placar = jogo.get("placar", "") or ""
+                    try:
+                        home_goals, away_goals = (int(x) for x in str(placar).split("x"))
+                    except (ValueError, AttributeError):
+                        continue  # sem placar = jogo não disputado
+
                 home_slug = _to_slug(
                     jogo.get("time_mandante", {}).get("nome_popular", "")
                 )
                 away_slug = _to_slug(
                     jogo.get("time_visitante", {}).get("nome_popular", "")
                 )
-                placar = jogo.get("placar", "")
-                try:
-                    home_goals, away_goals = (int(x) for x in str(placar).split("x"))
-                except (ValueError, AttributeError):
-                    home_goals = jogo.get("placar_mandante", 0)
-                    away_goals = jogo.get("placar_visitante", 0)
+                if not home_slug or not away_slug:
+                    continue
 
                 results.append(MatchResult(
                     round=round_num,
@@ -234,21 +247,29 @@ class ApiFutebolClient:
                     home_goals=home_goals,
                     away_goals=away_goals,
                 ))
+
+        logger.info("%d resultados encontrados para campeonato_id=%d", len(results), campeonato_id)
         return results
 
     # ── Próxima rodada ───────────────────────────────────────────────────────
 
     def fetch_next_round_fixtures(self, campeonato_id: int) -> list[dict]:
-        """Retorna os jogos da próxima rodada ainda não disputados."""
+        """
+        Retorna os jogos da próxima rodada ainda não disputados.
+        Detecta jogos pendentes pela ausência de placar.
+        """
         data = self._get(f"/campeonatos/{campeonato_id}/rodadas")
         rodadas = data if isinstance(data, list) else data.get("rodadas", [])
 
+        def _has_score(p: dict) -> bool:
+            if p.get("placar_mandante") is not None and p.get("placar_visitante") is not None:
+                return True
+            placar = p.get("placar", "") or ""
+            return "x" in str(placar).lower()
+
         for rodada in rodadas:
             partidas = rodada.get("partidas", [])
-            pendentes = [
-                p for p in partidas
-                if p.get("status", "") not in ("encerrado", "finalizado", "realizado")
-            ]
+            pendentes = [p for p in partidas if not _has_score(p)]
             if pendentes:
                 round_num = rodada.get("rodada", rodada.get("numero", 0))
                 return [{"round": round_num, **p} for p in pendentes]
