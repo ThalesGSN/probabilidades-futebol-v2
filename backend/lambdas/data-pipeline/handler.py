@@ -30,10 +30,10 @@ from upload import LocalUploader
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s %(message)s")
 logger = logging.getLogger(__name__)
 
-SERIE_A_ID  = int(os.environ.get("SERIE_A_ID", "10"))
-SERIE_B_ID  = int(os.environ.get("SERIE_B_ID", "11"))
-MC_N        = int(os.environ.get("MONTE_CARLO_N", "10000"))
-ROUNDS      = int(os.environ.get("TOTAL_ROUNDS", "38"))
+_SERIE_A_ID_ENV = os.environ.get("SERIE_A_ID")
+_SERIE_B_ID_ENV = os.environ.get("SERIE_B_ID")
+MC_N            = int(os.environ.get("MONTE_CARLO_N", "10000"))
+ROUNDS          = int(os.environ.get("TOTAL_ROUNDS", "38"))
 
 
 def _process_division(
@@ -99,8 +99,17 @@ def handler(event, context):
     client   = ApiFutebolClient()
     uploader = LocalUploader()
 
+    if _SERIE_A_ID_ENV and _SERIE_B_ID_ENV:
+        serie_a_id = int(_SERIE_A_ID_ENV)
+        serie_b_id = int(_SERIE_B_ID_ENV)
+    else:
+        logger.info("SERIE_A_ID/SERIE_B_ID não definidos — descobrindo via API...")
+        ids = client.discover_campeonato_ids()
+        serie_a_id = ids["A"]
+        serie_b_id = ids["B"]
+
     all_teams = []
-    for campeonato_id, division in [(SERIE_A_ID, "A"), (SERIE_B_ID, "B")]:
+    for campeonato_id, division in [(serie_a_id, "A"), (serie_b_id, "B")]:
         teams = _process_division(client, uploader, campeonato_id, division)
         all_teams.extend(teams)
 

@@ -4,9 +4,8 @@ Cliente para https://api.api-futebol.com.br/v1
 Documentação: https://www.api-futebol.com.br/documentacao
 Auth: Authorization: Bearer <API_FUTEBOL_KEY>
 
-IDs de campeonato (confirmar no painel da API para a temporada corrente):
-  Série A 2025: campeonato_id = 10
-  Série B 2025: campeonato_id = 11
+IDs de campeonato são descobertos automaticamente via /campeonatos.
+As variáveis SERIE_A_ID / SERIE_B_ID sobrescrevem a descoberta automática.
 """
 
 import os
@@ -107,6 +106,45 @@ class ApiFutebolClient:
         resp = self._session.get(url, timeout=15)
         resp.raise_for_status()
         return resp.json()
+
+    # ── Descoberta de IDs ────────────────────────────────────────────────────
+
+    def discover_campeonato_ids(self) -> dict[str, int]:
+        """
+        Consulta /campeonatos e retorna os IDs da Série A e B do ano corrente.
+        Retorna {'A': id_a, 'B': id_b}; lança RuntimeError se não encontrar.
+        """
+        import datetime
+        ano = datetime.date.today().year
+        data = self._get("/campeonatos")
+        campeonatos = data if isinstance(data, list) else data.get("campeonatos", [])
+
+        ids: dict[str, int] = {}
+        for c in campeonatos:
+            nome = c.get("nome", "") or ""
+            slug_api = c.get("slug", "") or ""
+            temporada = str(c.get("temporada", "") or c.get("ano", "") or "")
+            cid = c.get("campeonato_id") or c.get("id")
+
+            is_current = str(ano) in temporada or not temporada
+            nome_lower = (nome + slug_api).lower()
+
+            if is_current and "brasileiro" in nome_lower:
+                if "série a" in nome_lower or "serie-a" in nome_lower or nome_lower.endswith("-a"):
+                    ids["A"] = int(cid)
+                    logger.info("Série A descoberta: id=%d nome='%s'", cid, nome)
+                elif "série b" in nome_lower or "serie-b" in nome_lower or nome_lower.endswith("-b"):
+                    ids["B"] = int(cid)
+                    logger.info("Série B descoberta: id=%d nome='%s'", cid, nome)
+
+        missing = [d for d in ("A", "B") if d not in ids]
+        if missing:
+            nomes = [c.get("nome", "") for c in campeonatos]
+            raise RuntimeError(
+                f"Não foi possível descobrir IDs para Série {missing}. "
+                f"Campeonatos disponíveis: {nomes}"
+            )
+        return ids
 
     # ── Times ────────────────────────────────────────────────────────────────
 
