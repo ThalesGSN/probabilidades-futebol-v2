@@ -1,620 +1,232 @@
 {
-  "season": [
-    {
-      "rodada": 1,
-      "titleProb": 3.2,
-      "g4Prob": 21.4,
-      "relegationProb": 21.6,
-      "titleLow": 0,
-      "titleHigh": 11.1,
-      "expectedPoints": 1.8
-    },
-    {
-      "rodada": 2,
-      "titleProb": 2.1,
-      "g4Prob": 20.6,
-      "relegationProb": 23.2,
-      "titleLow": 0,
-      "titleHigh": 9.8,
-      "expectedPoints": 3.1
-    },
-    {
-      "rodada": 3,
-      "titleProb": 9.5,
-      "g4Prob": 19.4,
-      "relegationProb": 23.4,
-      "titleLow": 2,
-      "titleHigh": 16.9,
-      "expectedPoints": 5.1
-    },
-    {
-      "rodada": 4,
-      "titleProb": 8.3,
-      "g4Prob": 24.5,
-      "relegationProb": 21.5,
-      "titleLow": 1.1,
-      "titleHigh": 15.5,
-      "expectedPoints": 6.7
-    },
-    {
-      "rodada": 5,
-      "titleProb": 5,
-      "g4Prob": 27.6,
-      "relegationProb": 22.3,
-      "titleLow": 0,
-      "titleHigh": 12.1,
-      "expectedPoints": 8.9
-    },
-    {
-      "rodada": 6,
-      "titleProb": 7.4,
-      "g4Prob": 30.5,
-      "relegationProb": 18.7,
-      "titleLow": 0.6,
-      "titleHigh": 14.2,
-      "expectedPoints": 10.6
-    },
-    {
-      "rodada": 7,
-      "titleProb": 7.7,
-      "g4Prob": 27,
-      "relegationProb": 20.9,
-      "titleLow": 1.1,
-      "titleHigh": 14.4,
-      "expectedPoints": 12.2
-    },
-    {
-      "rodada": 8,
-      "titleProb": 6.4,
-      "g4Prob": 31.3,
-      "relegationProb": 18.8,
-      "titleLow": 0,
-      "titleHigh": 12.9,
-      "expectedPoints": 13.8
-    },
-    {
-      "rodada": 9,
-      "titleProb": 5.9,
-      "g4Prob": 31.6,
-      "relegationProb": 20.4,
-      "titleLow": 0,
-      "titleHigh": 12.2,
-      "expectedPoints": 14.2
-    },
-    {
-      "rodada": 10,
-      "titleProb": 3.1,
-      "g4Prob": 26.7,
-      "relegationProb": 19.6,
-      "titleLow": 0,
-      "titleHigh": 9.2,
-      "expectedPoints": 15.9
-    },
-    {
-      "rodada": 11,
-      "titleProb": 9.7,
-      "g4Prob": 27.7,
-      "relegationProb": 16.2,
-      "titleLow": 3.8,
-      "titleHigh": 15.6,
-      "expectedPoints": 18.2
-    },
-    {
-      "rodada": 12,
-      "titleProb": 9.2,
-      "g4Prob": 35.7,
-      "relegationProb": 18,
-      "titleLow": 3.5,
-      "titleHigh": 14.9,
-      "expectedPoints": 19.9
-    },
-    {
-      "rodada": 13,
-      "titleProb": 4.6,
-      "g4Prob": 36,
-      "relegationProb": 13.7,
-      "titleLow": 0,
-      "titleHigh": 10,
-      "expectedPoints": 21.7
-    },
-    {
-      "rodada": 14,
-      "titleProb": 8.4,
-      "g4Prob": 31.5,
-      "relegationProb": 15.3,
-      "titleLow": 3.1,
-      "titleHigh": 13.7,
-      "expectedPoints": 23.4
-    },
-    {
-      "rodada": 15,
-      "titleProb": 4.9,
-      "g4Prob": 37.3,
-      "relegationProb": 13.3,
-      "titleLow": 0,
-      "titleHigh": 10,
-      "expectedPoints": 24.5
-    },
-    {
-      "rodada": 16,
-      "titleProb": 7.1,
-      "g4Prob": 41.6,
-      "relegationProb": 11,
-      "titleLow": 2.2,
-      "titleHigh": 12,
-      "expectedPoints": 26
-    },
-    {
-      "rodada": 17,
-      "titleProb": 7.7,
-      "g4Prob": 43.3,
-      "relegationProb": 14.5,
-      "titleLow": 3,
-      "titleHigh": 12.4,
-      "expectedPoints": 28.1
-    },
-    {
-      "rodada": 18,
-      "titleProb": 11.2,
-      "g4Prob": 37.8,
-      "relegationProb": 12.1,
-      "titleLow": 6.7,
-      "titleHigh": 15.8,
-      "expectedPoints": 29.6
-    },
-    {
-      "rodada": 19,
-      "titleProb": 6.8,
-      "g4Prob": 37.8,
-      "relegationProb": 12.1,
-      "titleLow": 2.5,
-      "titleHigh": 11.1,
-      "expectedPoints": 31.9
-    },
-    {
-      "rodada": 20,
-      "titleProb": 8.5,
-      "g4Prob": 45.9,
-      "relegationProb": 10.6,
-      "titleLow": 4.4,
-      "titleHigh": 12.6,
-      "expectedPoints": 32.9
-    },
-    {
-      "rodada": 21,
-      "titleProb": 11.1,
-      "g4Prob": 43.1,
-      "relegationProb": 7.2,
-      "titleLow": 7.1,
-      "titleHigh": 15,
-      "expectedPoints": 34.7
-    },
-    {
-      "rodada": 22,
-      "titleProb": 9.9,
-      "g4Prob": 41.1,
-      "relegationProb": 6.3,
-      "titleLow": 6.2,
-      "titleHigh": 13.6,
-      "expectedPoints": 35.6
-    },
-    {
-      "rodada": 23,
-      "titleProb": 5.1,
-      "g4Prob": 42.9,
-      "relegationProb": 9.2,
-      "titleLow": 1.5,
-      "titleHigh": 8.6,
-      "expectedPoints": 37.5
-    },
-    {
-      "rodada": 24,
-      "titleProb": 5,
-      "g4Prob": 47.9,
-      "relegationProb": 6.6,
-      "titleLow": 1.7,
-      "titleHigh": 8.4,
-      "expectedPoints": 40
-    },
-    {
-      "rodada": 25,
-      "titleProb": 5.9,
-      "g4Prob": 50.7,
-      "relegationProb": 2.4,
-      "titleLow": 2.7,
-      "titleHigh": 9,
-      "expectedPoints": 41.7
-    },
-    {
-      "rodada": 26,
-      "titleProb": 5.4,
-      "g4Prob": 53,
-      "relegationProb": 1.5,
-      "titleLow": 2.4,
-      "titleHigh": 8.3,
-      "expectedPoints": 42.9
-    },
-    {
-      "rodada": 27,
-      "titleProb": 5.4,
-      "g4Prob": 51.1,
-      "relegationProb": 3.3,
-      "titleLow": 2.6,
-      "titleHigh": 8.2,
-      "expectedPoints": 44.1
-    },
-    {
-      "rodada": 28,
-      "titleProb": 6.6,
-      "g4Prob": 49.8,
-      "relegationProb": 4,
-      "titleLow": 4,
-      "titleHigh": 9.1,
-      "expectedPoints": 45.7
-    },
-    {
-      "rodada": 29,
-      "titleProb": 8,
-      "g4Prob": 53.5,
-      "relegationProb": 4.4,
-      "titleLow": 5.6,
-      "titleHigh": 10.4,
-      "expectedPoints": 48.1
-    },
-    {
-      "rodada": 30,
-      "titleProb": 10.4,
-      "g4Prob": 54.7,
-      "relegationProb": 3.3,
-      "titleLow": 8.2,
-      "titleHigh": 12.6,
-      "expectedPoints": 49.3
-    },
-    {
-      "rodada": 31,
-      "titleProb": 12.9,
-      "g4Prob": 53.9,
-      "relegationProb": 3.2,
-      "titleLow": 10.9,
-      "titleHigh": 14.9,
-      "expectedPoints": 50.8
-    }
-  ],
-  "history": [
-    {
-      "year": 2005,
-      "position": 1,
-      "points": 86,
-      "titleProb": 61.6,
-      "champion": false
-    },
-    {
-      "year": 2006,
-      "position": 6,
-      "points": 76,
-      "titleProb": 34.5,
-      "champion": false
-    },
-    {
-      "year": 2007,
-      "position": 8,
-      "points": 71,
-      "titleProb": 29.7,
-      "champion": false
-    },
-    {
-      "year": 2008,
-      "position": 1,
-      "points": 86,
-      "titleProb": 54.5,
-      "champion": false
-    },
-    {
-      "year": 2009,
-      "position": 1,
-      "points": 86,
-      "titleProb": 55.6,
-      "champion": false
-    },
-    {
-      "year": 2010,
-      "position": 5,
-      "points": 76,
-      "titleProb": 42.6,
-      "champion": false
-    },
-    {
-      "year": 2011,
-      "position": 3,
-      "points": 84,
-      "titleProb": 42.6,
-      "champion": false
-    },
-    {
-      "year": 2012,
-      "position": 6,
-      "points": 75,
-      "titleProb": 34.2,
-      "champion": false
-    },
-    {
-      "year": 2013,
-      "position": 4,
-      "points": 79,
-      "titleProb": 38.3,
-      "champion": false
-    },
-    {
-      "year": 2014,
-      "position": 4,
-      "points": 79,
-      "titleProb": 41.6,
-      "champion": false
-    },
-    {
-      "year": 2015,
-      "position": 1,
-      "points": 85,
-      "titleProb": 59.4,
-      "champion": false
-    },
-    {
-      "year": 2016,
-      "position": 6,
-      "points": 77,
-      "titleProb": 38.6,
-      "champion": false
-    },
-    {
-      "year": 2017,
-      "position": 1,
-      "points": 88,
-      "titleProb": 51.9,
-      "champion": false
-    },
-    {
-      "year": 2018,
-      "position": 7,
-      "points": 74,
-      "titleProb": 26.8,
-      "champion": false
-    },
-    {
-      "year": 2019,
-      "position": 1,
-      "points": 88,
-      "titleProb": 54,
-      "champion": false
-    },
-    {
-      "year": 2020,
-      "position": 1,
-      "points": 88,
-      "titleProb": 61.7,
-      "champion": false
-    },
-    {
-      "year": 2021,
-      "position": 7,
-      "points": 74,
-      "titleProb": 31.6,
-      "champion": false
-    },
-    {
-      "year": 2022,
-      "position": 4,
-      "points": 83,
-      "titleProb": 42.2,
-      "champion": false
-    },
-    {
-      "year": 2023,
-      "position": 1,
-      "points": 87,
-      "titleProb": 55.5,
-      "champion": false
-    },
-    {
-      "year": 2024,
-      "position": 6,
-      "points": 74,
-      "titleProb": 38.4,
-      "champion": false
-    },
-    {
-      "year": 2025,
-      "position": 8,
-      "points": 72,
-      "titleProb": 29.7,
-      "champion": false
-    }
-  ],
+  "season": [],
+  "history": [],
   "monteCarlo": [
     {
-      "points": 53,
+      "points": 37,
+      "count": 14,
+      "density": 0.0014
+    },
+    {
+      "points": 38,
+      "count": 15,
+      "density": 0.0015
+    },
+    {
+      "points": 39,
       "count": 18,
       "density": 0.0018
     },
     {
-      "points": 54,
-      "count": 45,
-      "density": 0.0045
+      "points": 40,
+      "count": 36,
+      "density": 0.0036
     },
     {
-      "points": 55,
-      "count": 102,
-      "density": 0.0102
-    },
-    {
-      "points": 56,
-      "count": 173,
-      "density": 0.0173
-    },
-    {
-      "points": 57,
-      "count": 314,
-      "density": 0.0314
-    },
-    {
-      "points": 58,
-      "count": 513,
-      "density": 0.0513
-    },
-    {
-      "points": 59,
-      "count": 710,
-      "density": 0.071
-    },
-    {
-      "points": 60,
-      "count": 930,
-      "density": 0.093
-    },
-    {
-      "points": 61,
-      "count": 1089,
-      "density": 0.1089
-    },
-    {
-      "points": 62,
-      "count": 1206,
-      "density": 0.1206
-    },
-    {
-      "points": 63,
-      "count": 1216,
-      "density": 0.1216
-    },
-    {
-      "points": 64,
-      "count": 1106,
-      "density": 0.1106
-    },
-    {
-      "points": 65,
-      "count": 924,
-      "density": 0.0924
-    },
-    {
-      "points": 66,
-      "count": 671,
-      "density": 0.0671
-    },
-    {
-      "points": 67,
-      "count": 418,
-      "density": 0.0418
-    },
-    {
-      "points": 68,
-      "count": 263,
-      "density": 0.0263
-    },
-    {
-      "points": 69,
-      "count": 145,
-      "density": 0.0145
-    },
-    {
-      "points": 70,
-      "count": 69,
-      "density": 0.0069
-    },
-    {
-      "points": 71,
+      "points": 41,
       "count": 50,
       "density": 0.005
     },
     {
+      "points": 42,
+      "count": 57,
+      "density": 0.0057
+    },
+    {
+      "points": 43,
+      "count": 86,
+      "density": 0.0086
+    },
+    {
+      "points": 44,
+      "count": 95,
+      "density": 0.0095
+    },
+    {
+      "points": 45,
+      "count": 111,
+      "density": 0.0111
+    },
+    {
+      "points": 46,
+      "count": 156,
+      "density": 0.0156
+    },
+    {
+      "points": 47,
+      "count": 182,
+      "density": 0.0182
+    },
+    {
+      "points": 48,
+      "count": 202,
+      "density": 0.0202
+    },
+    {
+      "points": 49,
+      "count": 258,
+      "density": 0.0258
+    },
+    {
+      "points": 50,
+      "count": 303,
+      "density": 0.0303
+    },
+    {
+      "points": 51,
+      "count": 338,
+      "density": 0.0338
+    },
+    {
+      "points": 52,
+      "count": 350,
+      "density": 0.035
+    },
+    {
+      "points": 53,
+      "count": 363,
+      "density": 0.0363
+    },
+    {
+      "points": 54,
+      "count": 434,
+      "density": 0.0434
+    },
+    {
+      "points": 55,
+      "count": 450,
+      "density": 0.045
+    },
+    {
+      "points": 56,
+      "count": 453,
+      "density": 0.0453
+    },
+    {
+      "points": 57,
+      "count": 467,
+      "density": 0.0467
+    },
+    {
+      "points": 58,
+      "count": 490,
+      "density": 0.049
+    },
+    {
+      "points": 59,
+      "count": 504,
+      "density": 0.0504
+    },
+    {
+      "points": 60,
+      "count": 487,
+      "density": 0.0487
+    },
+    {
+      "points": 61,
+      "count": 506,
+      "density": 0.0506
+    },
+    {
+      "points": 62,
+      "count": 477,
+      "density": 0.0477
+    },
+    {
+      "points": 63,
+      "count": 406,
+      "density": 0.0406
+    },
+    {
+      "points": 64,
+      "count": 376,
+      "density": 0.0376
+    },
+    {
+      "points": 65,
+      "count": 364,
+      "density": 0.0364
+    },
+    {
+      "points": 66,
+      "count": 326,
+      "density": 0.0326
+    },
+    {
+      "points": 67,
+      "count": 305,
+      "density": 0.0305
+    },
+    {
+      "points": 68,
+      "count": 258,
+      "density": 0.0258
+    },
+    {
+      "points": 69,
+      "count": 227,
+      "density": 0.0227
+    },
+    {
+      "points": 70,
+      "count": 166,
+      "density": 0.0166
+    },
+    {
+      "points": 71,
+      "count": 144,
+      "density": 0.0144
+    },
+    {
       "points": 72,
-      "count": 18,
-      "density": 0.0018
+      "count": 122,
+      "density": 0.0122
+    },
+    {
+      "points": 73,
+      "count": 91,
+      "density": 0.0091
+    },
+    {
+      "points": 74,
+      "count": 69,
+      "density": 0.0069
+    },
+    {
+      "points": 75,
+      "count": 59,
+      "density": 0.0059
+    },
+    {
+      "points": 76,
+      "count": 38,
+      "density": 0.0038
+    },
+    {
+      "points": 77,
+      "count": 35,
+      "density": 0.0035
+    },
+    {
+      "points": 78,
+      "count": 26,
+      "density": 0.0026
+    },
+    {
+      "points": 79,
+      "count": 17,
+      "density": 0.0017
+    },
+    {
+      "points": 80,
+      "count": 16,
+      "density": 0.0016
+    },
+    {
+      "points": 81,
+      "count": 14,
+      "density": 0.0014
     }
   ],
-  "fixtures": [
-    {
-      "rodada": 27,
-      "date": "2026-04-21",
-      "opponent": "Santos",
-      "home": false,
-      "played": true,
-      "result": {
-        "team": 1,
-        "opponent": 0
-      }
-    },
-    {
-      "rodada": 28,
-      "date": "2026-04-27",
-      "opponent": "Goiás",
-      "home": false,
-      "played": true,
-      "result": {
-        "team": 0,
-        "opponent": 1
-      }
-    },
-    {
-      "rodada": 29,
-      "date": "2026-05-03",
-      "opponent": "Operário-PR",
-      "home": true,
-      "played": true,
-      "result": {
-        "team": 2,
-        "opponent": 2
-      }
-    },
-    {
-      "rodada": 30,
-      "date": "2026-05-09",
-      "opponent": "CRB",
-      "home": false,
-      "played": true,
-      "result": {
-        "team": 0,
-        "opponent": 0
-      }
-    },
-    {
-      "rodada": 31,
-      "date": "2026-05-15",
-      "opponent": "Chapecoense",
-      "home": true,
-      "played": false,
-      "winProb": 42.3,
-      "drawProb": 26,
-      "lossProb": 31.8
-    },
-    {
-      "rodada": 32,
-      "date": "2026-05-21",
-      "opponent": "Ponte Preta",
-      "home": true,
-      "played": false,
-      "winProb": 69.9,
-      "drawProb": 13.6,
-      "lossProb": 16.6
-    },
-    {
-      "rodada": 33,
-      "date": "2026-05-27",
-      "opponent": "América-MG",
-      "home": false,
-      "played": false,
-      "winProb": 48.3,
-      "drawProb": 23.3,
-      "lossProb": 28.4
-    },
-    {
-      "rodada": 34,
-      "date": "2026-06-02",
-      "opponent": "Goiás",
-      "home": false,
-      "played": false,
-      "winProb": 45.9,
-      "drawProb": 24.3,
-      "lossProb": 29.8
-    }
-  ]
+  "fixtures": []
 }

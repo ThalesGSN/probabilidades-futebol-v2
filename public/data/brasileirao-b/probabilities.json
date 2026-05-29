@@ -1,362 +1,602 @@
 [
   {
     "team": {
-      "slug": "santos",
-      "name": "Santos Futebol Clube",
-      "shortName": "Santos",
-      "city": "Santos",
-      "state": "SP",
-      "founded": 1912,
-      "nickname": "Peixe",
+      "slug": "sao-bernardo",
+      "name": "São Bernardo",
+      "shortName": "São Bernardo",
+      "city": "",
+      "state": "",
+      "founded": 0,
+      "nickname": "",
       "division": "B",
-      "brand": "#2A2A2A",
+      "brand": "#888888",
+      "bio": "",
       "current": {
         "position": 1,
-        "points": 58,
-        "titleProb": 34.8,
-        "g4Prob": 91.2,
-        "relegationProb": 0,
-        "expectedPoints": 71.6,
+        "points": 20,
+        "titleProb": 11.3,
+        "g4Prob": 39.7,
+        "relegationProb": 2.1,
+        "expectedPoints": 58.5,
         "pointsRange": [
-          65,
-          79
+          43,
+          74
         ]
-      },
-      "bio": "Oito vezes campeão brasileiro, lidera a Série B com a maior média de público da divisão e busca o retorno à elite."
+      }
     },
-    "champion": 34.8,
-    "libertadores": 91.2,
-    "sulamericana": 27.2,
-    "relegation": 0
-  },
-  {
-    "team": {
-      "slug": "coritiba",
-      "name": "Coritiba Foot Ball Club",
-      "shortName": "Coritiba",
-      "city": "Curitiba",
-      "state": "PR",
-      "founded": 1909,
-      "nickname": "Coxa",
-      "division": "B",
-      "brand": "#1A6B3A",
-      "current": {
-        "position": 3,
-        "points": 51,
-        "titleProb": 14.7,
-        "g4Prob": 67.9,
-        "relegationProb": 0.3,
-        "expectedPoints": 64.2,
-        "pointsRange": [
-          58,
-          71
-        ]
-      },
-      "bio": "Campeão brasileiro de 1985, alterna entre as duas divisões na última década e reformulou seu projeto esportivo em 2025."
-    },
-    "champion": 14.7,
-    "libertadores": 67.9,
-    "sulamericana": 34.3,
-    "relegation": 0.3
-  },
-  {
-    "team": {
-      "slug": "novorizontino",
-      "name": "Grêmio Novorizontino",
-      "shortName": "Novorizontino",
-      "city": "Novo Horizonte",
-      "state": "SP",
-      "founded": 1973,
-      "nickname": "Tigre",
-      "division": "B",
-      "brand": "#1E3F8C",
-      "current": {
-        "position": 4,
-        "points": 49,
-        "titleProb": 9.8,
-        "g4Prob": 54.1,
-        "relegationProb": 0.6,
-        "expectedPoints": 62.4,
-        "pointsRange": [
-          56,
-          69
-        ]
-      },
-      "bio": "Surpresa positiva da última temporada, consolidou-se na briga pelo acesso após duas Séries B consecutivas no G8."
-    },
-    "champion": 9.8,
-    "libertadores": 54.1,
-    "sulamericana": 51.7,
-    "relegation": 0.6
-  },
-  {
-    "team": {
-      "slug": "goias",
-      "name": "Goiás Esporte Clube",
-      "shortName": "Goiás",
-      "city": "Goiânia",
-      "state": "GO",
-      "founded": 1943,
-      "nickname": "Esmeraldino",
-      "division": "B",
-      "brand": "#0F5F3F",
-      "current": {
-        "position": 5,
-        "points": 47,
-        "titleProb": 6.9,
-        "g4Prob": 38.4,
-        "relegationProb": 1.2,
-        "expectedPoints": 60.1,
-        "pointsRange": [
-          53,
-          68
-        ]
-      },
-      "bio": "Maior clube do Centro-Oeste brasileiro, com 12 títulos estaduais consecutivos e tradição em formação de jovens atletas."
-    },
-    "champion": 6.9,
-    "libertadores": 38.4,
-    "sulamericana": 52.1,
-    "relegation": 1.2
+    "champion": 11.3,
+    "libertadores": 39.7,
+    "sulamericana": 55.8,
+    "relegation": 2.1
   },
   {
     "team": {
       "slug": "sport",
-      "name": "Sport Club do Recife",
+      "name": "Sport",
       "shortName": "Sport",
-      "city": "Recife",
-      "state": "PE",
-      "founded": 1905,
-      "nickname": "Leão",
+      "city": "",
+      "state": "",
+      "founded": 0,
+      "nickname": "",
       "division": "B",
       "brand": "#B61E2B",
+      "bio": "",
       "current": {
-        "position": 6,
-        "points": 45,
-        "titleProb": 4.2,
-        "g4Prob": 28.7,
+        "position": 3,
+        "points": 19,
+        "titleProb": 10.8,
+        "g4Prob": 40.7,
         "relegationProb": 1.9,
         "expectedPoints": 58.6,
         "pointsRange": [
-          52,
-          66
+          43,
+          74
         ]
-      },
-      "bio": "Campeão brasileiro de 1987 pela CBF, é a maior torcida do Nordeste e tem na Ilha do Retiro um de seus maiores ativos."
+      }
     },
-    "champion": 4.2,
-    "libertadores": 28.7,
-    "sulamericana": 64.8,
+    "champion": 10.8,
+    "libertadores": 40.7,
+    "sulamericana": 55.2,
     "relegation": 1.9
+  },
+  {
+    "team": {
+      "slug": "fortaleza",
+      "name": "Fortaleza",
+      "shortName": "Fortaleza",
+      "city": "",
+      "state": "",
+      "founded": 0,
+      "nickname": "",
+      "division": "B",
+      "brand": "#888888",
+      "bio": "",
+      "current": {
+        "position": 5,
+        "points": 18,
+        "titleProb": 10.4,
+        "g4Prob": 39.5,
+        "relegationProb": 2.2,
+        "expectedPoints": 58.6,
+        "pointsRange": [
+          43,
+          74
+        ]
+      }
+    },
+    "champion": 10.4,
+    "libertadores": 39.5,
+    "sulamericana": 55.9,
+    "relegation": 2.2
+  },
+  {
+    "team": {
+      "slug": "ceara",
+      "name": "Ceará",
+      "shortName": "Ceará",
+      "city": "",
+      "state": "",
+      "founded": 0,
+      "nickname": "",
+      "division": "B",
+      "brand": "#888888",
+      "bio": "",
+      "current": {
+        "position": 11,
+        "points": 13,
+        "titleProb": 10.0,
+        "g4Prob": 38.3,
+        "relegationProb": 2.4,
+        "expectedPoints": 58.6,
+        "pointsRange": [
+          43,
+          74
+        ]
+      }
+    },
+    "champion": 10.0,
+    "libertadores": 38.3,
+    "sulamericana": 56.6,
+    "relegation": 2.4
+  },
+  {
+    "team": {
+      "slug": "criciuma",
+      "name": "Criciúma",
+      "shortName": "Criciúma",
+      "city": "",
+      "state": "",
+      "founded": 0,
+      "nickname": "",
+      "division": "B",
+      "brand": "#888888",
+      "bio": "",
+      "current": {
+        "position": 9,
+        "points": 14,
+        "titleProb": 9.8,
+        "g4Prob": 37.2,
+        "relegationProb": 2.5,
+        "expectedPoints": 58.4,
+        "pointsRange": [
+          43,
+          74
+        ]
+      }
+    },
+    "champion": 9.8,
+    "libertadores": 37.2,
+    "sulamericana": 57.2,
+    "relegation": 2.5
+  },
+  {
+    "team": {
+      "slug": "novorizontino",
+      "name": "Novorizontino",
+      "shortName": "Novorizontino",
+      "city": "",
+      "state": "",
+      "founded": 0,
+      "nickname": "",
+      "division": "B",
+      "brand": "#1E3F8C",
+      "bio": "",
+      "current": {
+        "position": 7,
+        "points": 16,
+        "titleProb": 9.4,
+        "g4Prob": 38.6,
+        "relegationProb": 2.3,
+        "expectedPoints": 58.5,
+        "pointsRange": [
+          43,
+          74
+        ]
+      }
+    },
+    "champion": 9.4,
+    "libertadores": 38.6,
+    "sulamericana": 56.4,
+    "relegation": 2.3
+  },
+  {
+    "team": {
+      "slug": "operario-pr",
+      "name": "Operário-PR",
+      "shortName": "Operário-PR",
+      "city": "",
+      "state": "",
+      "founded": 0,
+      "nickname": "",
+      "division": "B",
+      "brand": "#1A1A1A",
+      "bio": "",
+      "current": {
+        "position": 13,
+        "points": 13,
+        "titleProb": 9.1,
+        "g4Prob": 36.2,
+        "relegationProb": 2.5,
+        "expectedPoints": 58.3,
+        "pointsRange": [
+          43,
+          74
+        ]
+      }
+    },
+    "champion": 9.1,
+    "libertadores": 36.2,
+    "sulamericana": 57.8,
+    "relegation": 2.5
+  },
+  {
+    "team": {
+      "slug": "avai",
+      "name": "Avaí",
+      "shortName": "Avaí",
+      "city": "",
+      "state": "",
+      "founded": 0,
+      "nickname": "",
+      "division": "B",
+      "brand": "#1E5BA3",
+      "bio": "",
+      "current": {
+        "position": 15,
+        "points": 10,
+        "titleProb": 9.1,
+        "g4Prob": 35.8,
+        "relegationProb": 2.5,
+        "expectedPoints": 58.4,
+        "pointsRange": [
+          43,
+          74
+        ]
+      }
+    },
+    "champion": 9.1,
+    "libertadores": 35.8,
+    "sulamericana": 58.1,
+    "relegation": 2.5
+  },
+  {
+    "team": {
+      "slug": "botafogo-sp",
+      "name": "Botafogo-SP",
+      "shortName": "Botafogo-SP",
+      "city": "",
+      "state": "",
+      "founded": 0,
+      "nickname": "",
+      "division": "B",
+      "brand": "#888888",
+      "bio": "",
+      "current": {
+        "position": 17,
+        "points": 9,
+        "titleProb": 9.1,
+        "g4Prob": 35.7,
+        "relegationProb": 2.5,
+        "expectedPoints": 58.5,
+        "pointsRange": [
+          43,
+          74
+        ]
+      }
+    },
+    "champion": 9.1,
+    "libertadores": 35.7,
+    "sulamericana": 58.1,
+    "relegation": 2.5
+  },
+  {
+    "team": {
+      "slug": "ponte-preta",
+      "name": "Ponte Preta",
+      "shortName": "Ponte Preta",
+      "city": "",
+      "state": "",
+      "founded": 0,
+      "nickname": "",
+      "division": "B",
+      "brand": "#1A1A1A",
+      "bio": "",
+      "current": {
+        "position": 19,
+        "points": 7,
+        "titleProb": 8.7,
+        "g4Prob": 35.1,
+        "relegationProb": 2.6,
+        "expectedPoints": 58.4,
+        "pointsRange": [
+          43,
+          74
+        ]
+      }
+    },
+    "champion": 8.7,
+    "libertadores": 35.1,
+    "sulamericana": 58.5,
+    "relegation": 2.6
+  },
+  {
+    "team": {
+      "slug": "nautico",
+      "name": "Náutico",
+      "shortName": "Náutico",
+      "city": "",
+      "state": "",
+      "founded": 0,
+      "nickname": "",
+      "division": "B",
+      "brand": "#888888",
+      "bio": "",
+      "current": {
+        "position": 2,
+        "points": 19,
+        "titleProb": 0.3,
+        "g4Prob": 2.7,
+        "relegationProb": 35.2,
+        "expectedPoints": 44.5,
+        "pointsRange": [
+          30,
+          60
+        ]
+      }
+    },
+    "champion": 0.3,
+    "libertadores": 2.7,
+    "sulamericana": 72.0,
+    "relegation": 35.2
+  },
+  {
+    "team": {
+      "slug": "goias",
+      "name": "Goiás",
+      "shortName": "Goiás",
+      "city": "",
+      "state": "",
+      "founded": 0,
+      "nickname": "",
+      "division": "B",
+      "brand": "#0F5F3F",
+      "bio": "",
+      "current": {
+        "position": 6,
+        "points": 16,
+        "titleProb": 0.3,
+        "g4Prob": 2.6,
+        "relegationProb": 37.1,
+        "expectedPoints": 44.4,
+        "pointsRange": [
+          30,
+          60
+        ]
+      }
+    },
+    "champion": 0.3,
+    "libertadores": 2.6,
+    "sulamericana": 71.8,
+    "relegation": 37.1
   },
   {
     "team": {
       "slug": "athletic-club",
       "name": "Athletic Club",
-      "shortName": "Athletic",
-      "city": "São João del-Rei",
-      "state": "MG",
-      "founded": 2008,
-      "nickname": "Esquadrão",
+      "shortName": "Athletic Club",
+      "city": "",
+      "state": "",
+      "founded": 0,
+      "nickname": "",
       "division": "B",
       "brand": "#1A1A1A",
-      "current": {
-        "position": 7,
-        "points": 43,
-        "titleProb": 2.6,
-        "g4Prob": 19.4,
-        "relegationProb": 3.1,
-        "expectedPoints": 56.3,
-        "pointsRange": [
-          50,
-          64
-        ]
-      },
-      "bio": "Clube mineiro de ascensão acelerada, conquistou o acesso à Série B em 2023 e estreou na divisão com solidez tática."
-    },
-    "champion": 2.6,
-    "libertadores": 19.4,
-    "sulamericana": 63.8,
-    "relegation": 3.1
-  },
-  {
-    "team": {
-      "slug": "paysandu",
-      "name": "Paysandu Sport Club",
-      "shortName": "Paysandu",
-      "city": "Belém",
-      "state": "PA",
-      "founded": 1914,
-      "nickname": "Papão",
-      "division": "B",
-      "brand": "#1A6B3A",
-      "current": {
-        "position": 8,
-        "points": 42,
-        "titleProb": 1.8,
-        "g4Prob": 16.8,
-        "relegationProb": 4.4,
-        "expectedPoints": 55.4,
-        "pointsRange": [
-          49,
-          63
-        ]
-      },
-      "bio": "Maior torcida do Norte do país, ergueu o histórico título da Copa dos Campeões em 2002 e mantém forte identidade regional."
-    },
-    "champion": 1.8,
-    "libertadores": 16.8,
-    "sulamericana": 68.2,
-    "relegation": 4.4
-  },
-  {
-    "team": {
-      "slug": "avai",
-      "name": "Avaí Futebol Clube",
-      "shortName": "Avaí",
-      "city": "Florianópolis",
-      "state": "SC",
-      "founded": 1923,
-      "nickname": "Leão da Ilha",
-      "division": "B",
-      "brand": "#1E5BA3",
-      "current": {
-        "position": 9,
-        "points": 41,
-        "titleProb": 1.4,
-        "g4Prob": 14.2,
-        "relegationProb": 4.8,
-        "expectedPoints": 54.8,
-        "pointsRange": [
-          48,
-          62
-        ]
-      },
-      "bio": "Tradicional clube catarinense, busca estabilidade na Série B após sucessivas trocas de comissão técnica."
-    },
-    "champion": 1.4,
-    "libertadores": 14.2,
-    "sulamericana": 70.6,
-    "relegation": 4.8
-  },
-  {
-    "team": {
-      "slug": "operario-pr",
-      "name": "Operário Ferroviário Esporte Clube",
-      "shortName": "Operário-PR",
-      "city": "Ponta Grossa",
-      "state": "PR",
-      "founded": 1912,
-      "nickname": "Fantasma",
-      "division": "B",
-      "brand": "#1A1A1A",
+      "bio": "",
       "current": {
         "position": 10,
-        "points": 39,
-        "titleProb": 0.7,
-        "g4Prob": 9.2,
-        "relegationProb": 7.6,
-        "expectedPoints": 52.7,
+        "points": 14,
+        "titleProb": 0.3,
+        "g4Prob": 2.7,
+        "relegationProb": 36.6,
+        "expectedPoints": 44.6,
         "pointsRange": [
-          46,
+          30,
           60
         ]
-      },
-      "bio": "Tradicional clube paranaense que se reergueu nos anos 2010 e tornou-se presença constante na segunda divisão."
+      }
     },
-    "champion": 0.7,
-    "libertadores": 9.2,
-    "sulamericana": 67.2,
-    "relegation": 7.6
+    "champion": 0.3,
+    "libertadores": 2.7,
+    "sulamericana": 71.8,
+    "relegation": 36.6
   },
   {
     "team": {
-      "slug": "ponte-preta",
-      "name": "Associação Atlética Ponte Preta",
-      "shortName": "Ponte Preta",
-      "city": "Campinas",
-      "state": "SP",
-      "founded": 1900,
-      "nickname": "Macaca",
+      "slug": "vila-nova",
+      "name": "Vila Nova",
+      "shortName": "Vila Nova",
+      "city": "",
+      "state": "",
+      "founded": 0,
+      "nickname": "",
       "division": "B",
-      "brand": "#1A1A1A",
+      "brand": "#888888",
+      "bio": "",
       "current": {
-        "position": 11,
-        "points": 38,
-        "titleProb": 0.4,
-        "g4Prob": 6.7,
-        "relegationProb": 12.4,
-        "expectedPoints": 50.9,
+        "position": 4,
+        "points": 19,
+        "titleProb": 0.2,
+        "g4Prob": 2.5,
+        "relegationProb": 36.6,
+        "expectedPoints": 44.4,
         "pointsRange": [
-          44,
-          58
+          30,
+          60
         ]
-      },
-      "bio": "Mais antigo clube em atividade do país, vive temporada delicada e luta para se afastar da zona de rebaixamento."
+      }
     },
-    "champion": 0.4,
-    "libertadores": 6.7,
-    "sulamericana": 76.6,
-    "relegation": 12.4
+    "champion": 0.2,
+    "libertadores": 2.5,
+    "sulamericana": 71.9,
+    "relegation": 36.6
   },
   {
     "team": {
       "slug": "crb",
-      "name": "Clube de Regatas Brasil",
+      "name": "CRB",
       "shortName": "CRB",
-      "city": "Maceió",
-      "state": "AL",
-      "founded": 1912,
-      "nickname": "Galo",
+      "city": "",
+      "state": "",
+      "founded": 0,
+      "nickname": "",
       "division": "B",
       "brand": "#B61E2B",
+      "bio": "",
       "current": {
-        "position": 12,
-        "points": 36,
+        "position": 8,
+        "points": 14,
         "titleProb": 0.2,
-        "g4Prob": 4.1,
-        "relegationProb": 16.8,
-        "expectedPoints": 48.7,
+        "g4Prob": 2.4,
+        "relegationProb": 36.8,
+        "expectedPoints": 44.5,
         "pointsRange": [
-          42,
-          56
+          30,
+          60
         ]
-      },
-      "bio": "Clássico clube alagoano, especialista em decisões na Copa do Nordeste e tradicional escola de revelações."
+      }
     },
     "champion": 0.2,
-    "libertadores": 4.1,
-    "sulamericana": 68.9,
-    "relegation": 16.8
+    "libertadores": 2.4,
+    "sulamericana": 71.9,
+    "relegation": 36.8
   },
   {
     "team": {
-      "slug": "chapecoense",
-      "name": "Associação Chapecoense de Futebol",
-      "shortName": "Chapecoense",
-      "city": "Chapecó",
-      "state": "SC",
-      "founded": 1973,
-      "nickname": "Chape",
+      "slug": "juventude",
+      "name": "Juventude",
+      "shortName": "Juventude",
+      "city": "",
+      "state": "",
+      "founded": 0,
+      "nickname": "",
       "division": "B",
-      "brand": "#0F5F3F",
+      "brand": "#888888",
+      "bio": "",
+      "current": {
+        "position": 12,
+        "points": 13,
+        "titleProb": 0.2,
+        "g4Prob": 2.0,
+        "relegationProb": 38.6,
+        "expectedPoints": 44.4,
+        "pointsRange": [
+          30,
+          60
+        ]
+      }
+    },
+    "champion": 0.2,
+    "libertadores": 2.0,
+    "sulamericana": 71.9,
+    "relegation": 38.6
+  },
+  {
+    "team": {
+      "slug": "atletico-go",
+      "name": "Atlético-GO",
+      "shortName": "Atlético-GO",
+      "city": "",
+      "state": "",
+      "founded": 0,
+      "nickname": "",
+      "division": "B",
+      "brand": "#888888",
+      "bio": "",
       "current": {
         "position": 14,
-        "points": 32,
-        "titleProb": 0.1,
-        "g4Prob": 1.8,
-        "relegationProb": 28.4,
-        "expectedPoints": 44.2,
+        "points": 12,
+        "titleProb": 0.2,
+        "g4Prob": 2.2,
+        "relegationProb": 38.0,
+        "expectedPoints": 44.7,
         "pointsRange": [
-          38,
-          51
+          30,
+          60
         ]
-      },
-      "bio": "Símbolo de superação no futebol mundial, segue em reconstrução técnica após anos turbulentos no calendário nacional."
+      }
     },
-    "champion": 0.1,
-    "libertadores": 1.8,
-    "sulamericana": 78.9,
-    "relegation": 28.4
+    "champion": 0.2,
+    "libertadores": 2.2,
+    "sulamericana": 71.8,
+    "relegation": 38.0
+  },
+  {
+    "team": {
+      "slug": "cuiaba",
+      "name": "Cuiabá",
+      "shortName": "Cuiabá",
+      "city": "",
+      "state": "",
+      "founded": 0,
+      "nickname": "",
+      "division": "B",
+      "brand": "#888888",
+      "bio": "",
+      "current": {
+        "position": 16,
+        "points": 10,
+        "titleProb": 0.2,
+        "g4Prob": 2.2,
+        "relegationProb": 39.1,
+        "expectedPoints": 44.5,
+        "pointsRange": [
+          30,
+          60
+        ]
+      }
+    },
+    "champion": 0.2,
+    "libertadores": 2.2,
+    "sulamericana": 71.6,
+    "relegation": 39.1
+  },
+  {
+    "team": {
+      "slug": "londrina",
+      "name": "Londrina",
+      "shortName": "Londrina",
+      "city": "",
+      "state": "",
+      "founded": 0,
+      "nickname": "",
+      "division": "B",
+      "brand": "#888888",
+      "bio": "",
+      "current": {
+        "position": 18,
+        "points": 8,
+        "titleProb": 0.2,
+        "g4Prob": 2.0,
+        "relegationProb": 38.9,
+        "expectedPoints": 44.6,
+        "pointsRange": [
+          30,
+          60
+        ]
+      }
+    },
+    "champion": 0.2,
+    "libertadores": 2.0,
+    "sulamericana": 71.8,
+    "relegation": 38.9
+  },
+  {
+    "team": {
+      "slug": "america-mg",
+      "name": "América-MG",
+      "shortName": "América-MG",
+      "city": "",
+      "state": "",
+      "founded": 0,
+      "nickname": "",
+      "division": "B",
+      "brand": "#888888",
+      "bio": "",
+      "current": {
+        "position": 20,
+        "points": 3,
+        "titleProb": 0.2,
+        "g4Prob": 1.9,
+        "relegationProb": 39.6,
+        "expectedPoints": 44.6,
+        "pointsRange": [
+          30,
+          60
+        ]
+      }
+    },
+    "champion": 0.2,
+    "libertadores": 1.9,
+    "sulamericana": 71.7,
+    "relegation": 39.6
   }
 ]

@@ -3,1410 +3,3510 @@
     {
       "team": {
         "slug": "palmeiras",
-        "name": "Sociedade Esportiva Palmeiras",
+        "name": "Palmeiras",
         "shortName": "Palmeiras",
-        "city": "São Paulo",
-        "state": "SP",
-        "founded": 1914,
-        "nickname": "Verdão",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
         "division": "A",
         "brand": "#0E5C3A",
+        "bio": "",
         "current": {
-          "position": 2,
-          "points": 62,
-          "titleProb": 41.2,
-          "g4Prob": 96.8,
-          "relegationProb": 0,
-          "expectedPoints": 76.4,
+          "position": 1,
+          "points": 38,
+          "titleProb": 11.0,
+          "g4Prob": 57.0,
+          "relegationProb": 1.9,
+          "expectedPoints": 58.5,
           "pointsRange": [
-            70,
-            83
+            43,
+            74
           ]
-        },
-        "bio": "Time mais consistente da década. Desde 2018, terminou entre os quatro primeiros em todas as edições do Brasileirão."
+        }
       },
       "position": 1,
-      "played": 30,
-      "wins": 24,
-      "draws": 8,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
       "losses": 0,
-      "goalsFor": 52,
-      "goalsAgainst": 7,
-      "goalDiff": 45,
-      "points": 80
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
     },
     {
       "team": {
         "slug": "flamengo",
-        "name": "Clube de Regatas do Flamengo",
+        "name": "Flamengo",
         "shortName": "Flamengo",
-        "city": "Rio de Janeiro",
-        "state": "RJ",
-        "founded": 1895,
-        "nickname": "Mengão",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
         "division": "A",
         "brand": "#B61E2B",
+        "bio": "",
         "current": {
-          "position": 1,
-          "points": 65,
-          "titleProb": 38.7,
-          "g4Prob": 98.2,
-          "relegationProb": 0,
-          "expectedPoints": 78.1,
+          "position": 2,
+          "points": 31,
+          "titleProb": 0.3,
+          "g4Prob": 6.1,
+          "relegationProb": 35.4,
+          "expectedPoints": 44.5,
           "pointsRange": [
-            72,
-            85
+            30,
+            60
           ]
-        },
-        "bio": "Maior torcida do país. Após o título histórico de 2019, manteve-se entre os principais favoritos em todas as temporadas."
+        }
       },
       "position": 2,
-      "played": 30,
-      "wins": 23,
-      "draws": 7,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
       "losses": 0,
-      "goalsFor": 50,
-      "goalsAgainst": 6,
-      "goalDiff": 44,
-      "points": 76
-    },
-    {
-      "team": {
-        "slug": "botafogo",
-        "name": "Botafogo de Futebol e Regatas",
-        "shortName": "Botafogo",
-        "city": "Rio de Janeiro",
-        "state": "RJ",
-        "founded": 1904,
-        "nickname": "Fogão",
-        "division": "A",
-        "brand": "#1A1A1A",
-        "current": {
-          "position": 4,
-          "points": 56,
-          "titleProb": 12.4,
-          "g4Prob": 78.3,
-          "relegationProb": 0.1,
-          "expectedPoints": 68.9,
-          "pointsRange": [
-            62,
-            76
-          ]
-        },
-        "bio": "O renascimento mais comentado do futebol brasileiro. Campeão em 2024 após uma virada matemática histórica."
-      },
-      "position": 3,
-      "played": 30,
-      "wins": 20,
-      "draws": 9,
-      "losses": 1,
-      "goalsFor": 48,
-      "goalsAgainst": 11,
-      "goalDiff": 37,
-      "points": 69
-    },
-    {
-      "team": {
-        "slug": "sao-paulo",
-        "name": "São Paulo Futebol Clube",
-        "shortName": "São Paulo",
-        "city": "São Paulo",
-        "state": "SP",
-        "founded": 1930,
-        "nickname": "Tricolor",
-        "division": "A",
-        "brand": "#A8232E",
-        "current": {
-          "position": 5,
-          "points": 53,
-          "titleProb": 6.7,
-          "g4Prob": 52.4,
-          "relegationProb": 0.2,
-          "expectedPoints": 65.1,
-          "pointsRange": [
-            58,
-            72
-          ]
-        },
-        "bio": "Tricampeão da Libertadores e único brasileiro com três Mundiais. Voltou ao topo em 2024 com seu primeiro Brasileirão."
-      },
-      "position": 4,
-      "played": 30,
-      "wins": 20,
-      "draws": 8,
-      "losses": 2,
-      "goalsFor": 45,
-      "goalsAgainst": 12,
-      "goalDiff": 33,
-      "points": 68
-    },
-    {
-      "team": {
-        "slug": "atletico-mg",
-        "name": "Clube Atlético Mineiro",
-        "shortName": "Atlético-MG",
-        "city": "Belo Horizonte",
-        "state": "MG",
-        "founded": 1908,
-        "nickname": "Galo",
-        "division": "A",
-        "brand": "#2A2A2A",
-        "current": {
-          "position": 6,
-          "points": 51,
-          "titleProb": 4.1,
-          "g4Prob": 41.7,
-          "relegationProb": 0.4,
-          "expectedPoints": 63.2,
-          "pointsRange": [
-            56,
-            71
-          ]
-        },
-        "bio": "Tradição mineira que conquistou o Brasileirão de 2021 com a maior pontuação da era dos pontos corridos."
-      },
-      "position": 5,
-      "played": 30,
-      "wins": 18,
-      "draws": 7,
-      "losses": 5,
-      "goalsFor": 42,
-      "goalsAgainst": 15,
-      "goalDiff": 27,
-      "points": 61
-    },
-    {
-      "team": {
-        "slug": "cruzeiro",
-        "name": "Cruzeiro Esporte Clube",
-        "shortName": "Cruzeiro",
-        "city": "Belo Horizonte",
-        "state": "MG",
-        "founded": 1921,
-        "nickname": "Raposa",
-        "division": "A",
-        "brand": "#1E3F8C",
-        "current": {
-          "position": 7,
-          "points": 49,
-          "titleProb": 2.1,
-          "g4Prob": 28.9,
-          "relegationProb": 0.8,
-          "expectedPoints": 60.3,
-          "pointsRange": [
-            54,
-            67
-          ]
-        },
-        "bio": "Bicampeão brasileiro nos anos 2000 e 2010. Retornou à elite em 2023 e busca reposicionar-se entre os principais."
-      },
-      "position": 6,
-      "played": 30,
-      "wins": 18,
-      "draws": 6,
-      "losses": 6,
-      "goalsFor": 40,
-      "goalsAgainst": 16,
-      "goalDiff": 24,
-      "points": 60
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
     },
     {
       "team": {
         "slug": "fluminense",
-        "name": "Fluminense Football Club",
+        "name": "Fluminense",
         "shortName": "Fluminense",
-        "city": "Rio de Janeiro",
-        "state": "RJ",
-        "founded": 1902,
-        "nickname": "Tricolor",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
         "division": "A",
         "brand": "#7E1E3A",
+        "bio": "",
         "current": {
-          "position": 8,
-          "points": 47,
-          "titleProb": 1.2,
-          "g4Prob": 22.1,
-          "relegationProb": 1.4,
+          "position": 3,
+          "points": 30,
+          "titleProb": 10.5,
+          "g4Prob": 55.5,
+          "relegationProb": 1.9,
+          "expectedPoints": 58.5,
+          "pointsRange": [
+            43,
+            74
+          ]
+        }
+      },
+      "position": 3,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "athletico-pr",
+        "name": "Athletico-PR",
+        "shortName": "Athletico-PR",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#888888",
+        "bio": "",
+        "current": {
+          "position": 4,
+          "points": 27,
+          "titleProb": 0.2,
+          "g4Prob": 5.8,
+          "relegationProb": 35.9,
+          "expectedPoints": 44.5,
+          "pointsRange": [
+            30,
+            60
+          ]
+        }
+      },
+      "position": 4,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "bragantino",
+        "name": "Bragantino",
+        "shortName": "Bragantino",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#888888",
+        "bio": "",
+        "current": {
+          "position": 5,
+          "points": 26,
+          "titleProb": 10.5,
+          "g4Prob": 56.7,
+          "relegationProb": 2.2,
           "expectedPoints": 58.7,
           "pointsRange": [
-            52,
-            66
+            43,
+            74
           ]
-        },
-        "bio": "Campeão da Libertadores em 2023 sob comando de Diniz, em uma das campanhas continentais mais aclamadas da década."
+        }
+      },
+      "position": 5,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "coritiba",
+        "name": "Coritiba",
+        "shortName": "Coritiba",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#1A6B3A",
+        "bio": "",
+        "current": {
+          "position": 6,
+          "points": 26,
+          "titleProb": 0.3,
+          "g4Prob": 5.5,
+          "relegationProb": 37.0,
+          "expectedPoints": 44.3,
+          "pointsRange": [
+            30,
+            60
+          ]
+        }
+      },
+      "position": 6,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "sao-paulo",
+        "name": "São Paulo",
+        "shortName": "São Paulo",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#A8232E",
+        "bio": "",
+        "current": {
+          "position": 7,
+          "points": 25,
+          "titleProb": 9.4,
+          "g4Prob": 54.5,
+          "relegationProb": 2.3,
+          "expectedPoints": 58.4,
+          "pointsRange": [
+            43,
+            74
+          ]
+        }
       },
       "position": 7,
-      "played": 30,
-      "wins": 17,
-      "draws": 7,
-      "losses": 6,
-      "goalsFor": 41,
-      "goalsAgainst": 17,
-      "goalDiff": 24,
-      "points": 58
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "bahia",
+        "name": "Bahia",
+        "shortName": "Bahia",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#888888",
+        "bio": "",
+        "current": {
+          "position": 8,
+          "points": 23,
+          "titleProb": 0.3,
+          "g4Prob": 5.9,
+          "relegationProb": 36.2,
+          "expectedPoints": 44.6,
+          "pointsRange": [
+            30,
+            60
+          ]
+        }
+      },
+      "position": 8,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "cruzeiro",
+        "name": "Cruzeiro",
+        "shortName": "Cruzeiro",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#1E3F8C",
+        "bio": "",
+        "current": {
+          "position": 9,
+          "points": 23,
+          "titleProb": 10.1,
+          "g4Prob": 55.2,
+          "relegationProb": 2.3,
+          "expectedPoints": 58.5,
+          "pointsRange": [
+            43,
+            74
+          ]
+        }
+      },
+      "position": 9,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "botafogo",
+        "name": "Botafogo",
+        "shortName": "Botafogo",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#1A1A1A",
+        "bio": "",
+        "current": {
+          "position": 10,
+          "points": 22,
+          "titleProb": 0.2,
+          "g4Prob": 5.5,
+          "relegationProb": 37.2,
+          "expectedPoints": 44.5,
+          "pointsRange": [
+            30,
+            60
+          ]
+        }
+      },
+      "position": 10,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "vitoria",
+        "name": "Vitória",
+        "shortName": "Vitória",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#888888",
+        "bio": "",
+        "current": {
+          "position": 11,
+          "points": 22,
+          "titleProb": 9.7,
+          "g4Prob": 54.2,
+          "relegationProb": 2.3,
+          "expectedPoints": 58.5,
+          "pointsRange": [
+            43,
+            74
+          ]
+        }
+      },
+      "position": 11,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "atletico-mg",
+        "name": "Atlético-MG",
+        "shortName": "Atlético-MG",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#2A2A2A",
+        "bio": "",
+        "current": {
+          "position": 12,
+          "points": 21,
+          "titleProb": 0.1,
+          "g4Prob": 5.5,
+          "relegationProb": 37.8,
+          "expectedPoints": 44.5,
+          "pointsRange": [
+            30,
+            60
+          ]
+        }
+      },
+      "position": 12,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
     },
     {
       "team": {
         "slug": "internacional",
-        "name": "Sport Club Internacional",
+        "name": "Internacional",
         "shortName": "Internacional",
-        "city": "Porto Alegre",
-        "state": "RS",
-        "founded": 1909,
-        "nickname": "Colorado",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
         "division": "A",
         "brand": "#A8232E",
+        "bio": "",
         "current": {
-          "position": 11,
-          "points": 41,
-          "titleProb": 0.2,
-          "g4Prob": 6.8,
-          "relegationProb": 8.2,
-          "expectedPoints": 52.4,
+          "position": 13,
+          "points": 21,
+          "titleProb": 9.8,
+          "g4Prob": 55.0,
+          "relegationProb": 2.4,
+          "expectedPoints": 58.7,
           "pointsRange": [
-            46,
+            43,
+            74
+          ]
+        }
+      },
+      "position": 13,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "gremio",
+        "name": "Grêmio",
+        "shortName": "Grêmio",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#888888",
+        "bio": "",
+        "current": {
+          "position": 14,
+          "points": 21,
+          "titleProb": 0.2,
+          "g4Prob": 5.3,
+          "relegationProb": 39.3,
+          "expectedPoints": 44.4,
+          "pointsRange": [
+            29,
             60
           ]
-        },
-        "bio": "Bicampeão da Libertadores. Vive temporada de reconstrução após oscilações nas últimas três edições."
+        }
       },
-      "position": 8,
-      "played": 30,
-      "wins": 16,
-      "draws": 9,
-      "losses": 5,
-      "goalsFor": 38,
-      "goalsAgainst": 19,
-      "goalDiff": 19,
-      "points": 57
+      "position": 14,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "corinthians",
+        "name": "Corinthians",
+        "shortName": "Corinthians",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#888888",
+        "bio": "",
+        "current": {
+          "position": 15,
+          "points": 21,
+          "titleProb": 9.7,
+          "g4Prob": 53.1,
+          "relegationProb": 2.5,
+          "expectedPoints": 58.6,
+          "pointsRange": [
+            43,
+            74
+          ]
+        }
+      },
+      "position": 15,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "vasco",
+        "name": "Vasco",
+        "shortName": "Vasco",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#888888",
+        "bio": "",
+        "current": {
+          "position": 16,
+          "points": 20,
+          "titleProb": 0.2,
+          "g4Prob": 5.3,
+          "relegationProb": 39.0,
+          "expectedPoints": 44.5,
+          "pointsRange": [
+            30,
+            60
+          ]
+        }
+      },
+      "position": 16,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "santos",
+        "name": "Santos",
+        "shortName": "Santos",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#2A2A2A",
+        "bio": "",
+        "current": {
+          "position": 17,
+          "points": 18,
+          "titleProb": 8.6,
+          "g4Prob": 51.6,
+          "relegationProb": 2.4,
+          "expectedPoints": 58.4,
+          "pointsRange": [
+            43,
+            74
+          ]
+        }
+      },
+      "position": 17,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "mirassol",
+        "name": "Mirassol",
+        "shortName": "Mirassol",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#888888",
+        "bio": "",
+        "current": {
+          "position": 18,
+          "points": 16,
+          "titleProb": 0.1,
+          "g4Prob": 5.0,
+          "relegationProb": 39.1,
+          "expectedPoints": 44.6,
+          "pointsRange": [
+            30,
+            60
+          ]
+        }
+      },
+      "position": 18,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "remo",
+        "name": "Remo",
+        "shortName": "Remo",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#888888",
+        "bio": "",
+        "current": {
+          "position": 19,
+          "points": 15,
+          "titleProb": 8.7,
+          "g4Prob": 52.4,
+          "relegationProb": 2.7,
+          "expectedPoints": 58.5,
+          "pointsRange": [
+            43,
+            74
+          ]
+        }
+      },
+      "position": 19,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "chapecoense",
+        "name": "Chapecoense",
+        "shortName": "Chapecoense",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#0F5F3F",
+        "bio": "",
+        "current": {
+          "position": 20,
+          "points": 9,
+          "titleProb": 0.1,
+          "g4Prob": 4.8,
+          "relegationProb": 40.1,
+          "expectedPoints": 44.5,
+          "pointsRange": [
+            30,
+            60
+          ]
+        }
+      },
+      "position": 20,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
     }
   ],
   "mandante": [
     {
       "team": {
-        "slug": "flamengo",
-        "name": "Clube de Regatas do Flamengo",
-        "shortName": "Flamengo",
-        "city": "Rio de Janeiro",
-        "state": "RJ",
-        "founded": 1895,
-        "nickname": "Mengão",
-        "division": "A",
-        "brand": "#B61E2B",
-        "current": {
-          "position": 1,
-          "points": 65,
-          "titleProb": 38.7,
-          "g4Prob": 98.2,
-          "relegationProb": 0,
-          "expectedPoints": 78.1,
-          "pointsRange": [
-            72,
-            85
-          ]
-        },
-        "bio": "Maior torcida do país. Após o título histórico de 2019, manteve-se entre os principais favoritos em todas as temporadas."
-      },
-      "position": 1,
-      "played": 15,
-      "wins": 13,
-      "draws": 4,
-      "losses": 0,
-      "goalsFor": 28,
-      "goalsAgainst": 4,
-      "goalDiff": 24,
-      "points": 43
-    },
-    {
-      "team": {
         "slug": "palmeiras",
-        "name": "Sociedade Esportiva Palmeiras",
+        "name": "Palmeiras",
         "shortName": "Palmeiras",
-        "city": "São Paulo",
-        "state": "SP",
-        "founded": 1914,
-        "nickname": "Verdão",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
         "division": "A",
         "brand": "#0E5C3A",
+        "bio": "",
+        "current": {
+          "position": 1,
+          "points": 38,
+          "titleProb": 11.0,
+          "g4Prob": 57.0,
+          "relegationProb": 1.9,
+          "expectedPoints": 58.5,
+          "pointsRange": [
+            43,
+            74
+          ]
+        }
+      },
+      "position": 1,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "flamengo",
+        "name": "Flamengo",
+        "shortName": "Flamengo",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#B61E2B",
+        "bio": "",
         "current": {
           "position": 2,
-          "points": 62,
-          "titleProb": 41.2,
-          "g4Prob": 96.8,
-          "relegationProb": 0,
-          "expectedPoints": 76.4,
+          "points": 31,
+          "titleProb": 0.3,
+          "g4Prob": 6.1,
+          "relegationProb": 35.4,
+          "expectedPoints": 44.5,
           "pointsRange": [
-            70,
-            83
+            30,
+            60
           ]
-        },
-        "bio": "Time mais consistente da década. Desde 2018, terminou entre os quatro primeiros em todas as edições do Brasileirão."
+        }
       },
       "position": 2,
-      "played": 15,
-      "wins": 11,
-      "draws": 4,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
       "losses": 0,
-      "goalsFor": 27,
-      "goalsAgainst": 4,
-      "goalDiff": 23,
-      "points": 37
-    },
-    {
-      "team": {
-        "slug": "botafogo",
-        "name": "Botafogo de Futebol e Regatas",
-        "shortName": "Botafogo",
-        "city": "Rio de Janeiro",
-        "state": "RJ",
-        "founded": 1904,
-        "nickname": "Fogão",
-        "division": "A",
-        "brand": "#1A1A1A",
-        "current": {
-          "position": 4,
-          "points": 56,
-          "titleProb": 12.4,
-          "g4Prob": 78.3,
-          "relegationProb": 0.1,
-          "expectedPoints": 68.9,
-          "pointsRange": [
-            62,
-            76
-          ]
-        },
-        "bio": "O renascimento mais comentado do futebol brasileiro. Campeão em 2024 após uma virada matemática histórica."
-      },
-      "position": 3,
-      "played": 15,
-      "wins": 11,
-      "draws": 4,
-      "losses": 0,
-      "goalsFor": 24,
-      "goalsAgainst": 4,
-      "goalDiff": 20,
-      "points": 37
-    },
-    {
-      "team": {
-        "slug": "atletico-mg",
-        "name": "Clube Atlético Mineiro",
-        "shortName": "Atlético-MG",
-        "city": "Belo Horizonte",
-        "state": "MG",
-        "founded": 1908,
-        "nickname": "Galo",
-        "division": "A",
-        "brand": "#2A2A2A",
-        "current": {
-          "position": 6,
-          "points": 51,
-          "titleProb": 4.1,
-          "g4Prob": 41.7,
-          "relegationProb": 0.4,
-          "expectedPoints": 63.2,
-          "pointsRange": [
-            56,
-            71
-          ]
-        },
-        "bio": "Tradição mineira que conquistou o Brasileirão de 2021 com a maior pontuação da era dos pontos corridos."
-      },
-      "position": 4,
-      "played": 15,
-      "wins": 10,
-      "draws": 4,
-      "losses": 1,
-      "goalsFor": 24,
-      "goalsAgainst": 7,
-      "goalDiff": 17,
-      "points": 34
-    },
-    {
-      "team": {
-        "slug": "cruzeiro",
-        "name": "Cruzeiro Esporte Clube",
-        "shortName": "Cruzeiro",
-        "city": "Belo Horizonte",
-        "state": "MG",
-        "founded": 1921,
-        "nickname": "Raposa",
-        "division": "A",
-        "brand": "#1E3F8C",
-        "current": {
-          "position": 7,
-          "points": 49,
-          "titleProb": 2.1,
-          "g4Prob": 28.9,
-          "relegationProb": 0.8,
-          "expectedPoints": 60.3,
-          "pointsRange": [
-            54,
-            67
-          ]
-        },
-        "bio": "Bicampeão brasileiro nos anos 2000 e 2010. Retornou à elite em 2023 e busca reposicionar-se entre os principais."
-      },
-      "position": 5,
-      "played": 15,
-      "wins": 9,
-      "draws": 3,
-      "losses": 3,
-      "goalsFor": 21,
-      "goalsAgainst": 10,
-      "goalDiff": 11,
-      "points": 30
-    },
-    {
-      "team": {
-        "slug": "sao-paulo",
-        "name": "São Paulo Futebol Clube",
-        "shortName": "São Paulo",
-        "city": "São Paulo",
-        "state": "SP",
-        "founded": 1930,
-        "nickname": "Tricolor",
-        "division": "A",
-        "brand": "#A8232E",
-        "current": {
-          "position": 5,
-          "points": 53,
-          "titleProb": 6.7,
-          "g4Prob": 52.4,
-          "relegationProb": 0.2,
-          "expectedPoints": 65.1,
-          "pointsRange": [
-            58,
-            72
-          ]
-        },
-        "bio": "Tricampeão da Libertadores e único brasileiro com três Mundiais. Voltou ao topo em 2024 com seu primeiro Brasileirão."
-      },
-      "position": 6,
-      "played": 15,
-      "wins": 9,
-      "draws": 3,
-      "losses": 3,
-      "goalsFor": 20,
-      "goalsAgainst": 10,
-      "goalDiff": 10,
-      "points": 30
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
     },
     {
       "team": {
         "slug": "fluminense",
-        "name": "Fluminense Football Club",
+        "name": "Fluminense",
         "shortName": "Fluminense",
-        "city": "Rio de Janeiro",
-        "state": "RJ",
-        "founded": 1902,
-        "nickname": "Tricolor",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
         "division": "A",
         "brand": "#7E1E3A",
+        "bio": "",
         "current": {
-          "position": 8,
-          "points": 47,
-          "titleProb": 1.2,
-          "g4Prob": 22.1,
-          "relegationProb": 1.4,
+          "position": 3,
+          "points": 30,
+          "titleProb": 10.5,
+          "g4Prob": 55.5,
+          "relegationProb": 1.9,
+          "expectedPoints": 58.5,
+          "pointsRange": [
+            43,
+            74
+          ]
+        }
+      },
+      "position": 3,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "athletico-pr",
+        "name": "Athletico-PR",
+        "shortName": "Athletico-PR",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#888888",
+        "bio": "",
+        "current": {
+          "position": 4,
+          "points": 27,
+          "titleProb": 0.2,
+          "g4Prob": 5.8,
+          "relegationProb": 35.9,
+          "expectedPoints": 44.5,
+          "pointsRange": [
+            30,
+            60
+          ]
+        }
+      },
+      "position": 4,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "bragantino",
+        "name": "Bragantino",
+        "shortName": "Bragantino",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#888888",
+        "bio": "",
+        "current": {
+          "position": 5,
+          "points": 26,
+          "titleProb": 10.5,
+          "g4Prob": 56.7,
+          "relegationProb": 2.2,
           "expectedPoints": 58.7,
           "pointsRange": [
-            52,
-            66
+            43,
+            74
           ]
-        },
-        "bio": "Campeão da Libertadores em 2023 sob comando de Diniz, em uma das campanhas continentais mais aclamadas da década."
+        }
+      },
+      "position": 5,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "coritiba",
+        "name": "Coritiba",
+        "shortName": "Coritiba",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#1A6B3A",
+        "bio": "",
+        "current": {
+          "position": 6,
+          "points": 26,
+          "titleProb": 0.3,
+          "g4Prob": 5.5,
+          "relegationProb": 37.0,
+          "expectedPoints": 44.3,
+          "pointsRange": [
+            30,
+            60
+          ]
+        }
+      },
+      "position": 6,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "sao-paulo",
+        "name": "São Paulo",
+        "shortName": "São Paulo",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#A8232E",
+        "bio": "",
+        "current": {
+          "position": 7,
+          "points": 25,
+          "titleProb": 9.4,
+          "g4Prob": 54.5,
+          "relegationProb": 2.3,
+          "expectedPoints": 58.4,
+          "pointsRange": [
+            43,
+            74
+          ]
+        }
       },
       "position": 7,
-      "played": 15,
-      "wins": 8,
-      "draws": 3,
-      "losses": 4,
-      "goalsFor": 19,
-      "goalsAgainst": 12,
-      "goalDiff": 7,
-      "points": 27
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "bahia",
+        "name": "Bahia",
+        "shortName": "Bahia",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#888888",
+        "bio": "",
+        "current": {
+          "position": 8,
+          "points": 23,
+          "titleProb": 0.3,
+          "g4Prob": 5.9,
+          "relegationProb": 36.2,
+          "expectedPoints": 44.6,
+          "pointsRange": [
+            30,
+            60
+          ]
+        }
+      },
+      "position": 8,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "cruzeiro",
+        "name": "Cruzeiro",
+        "shortName": "Cruzeiro",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#1E3F8C",
+        "bio": "",
+        "current": {
+          "position": 9,
+          "points": 23,
+          "titleProb": 10.1,
+          "g4Prob": 55.2,
+          "relegationProb": 2.3,
+          "expectedPoints": 58.5,
+          "pointsRange": [
+            43,
+            74
+          ]
+        }
+      },
+      "position": 9,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "botafogo",
+        "name": "Botafogo",
+        "shortName": "Botafogo",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#1A1A1A",
+        "bio": "",
+        "current": {
+          "position": 10,
+          "points": 22,
+          "titleProb": 0.2,
+          "g4Prob": 5.5,
+          "relegationProb": 37.2,
+          "expectedPoints": 44.5,
+          "pointsRange": [
+            30,
+            60
+          ]
+        }
+      },
+      "position": 10,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "vitoria",
+        "name": "Vitória",
+        "shortName": "Vitória",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#888888",
+        "bio": "",
+        "current": {
+          "position": 11,
+          "points": 22,
+          "titleProb": 9.7,
+          "g4Prob": 54.2,
+          "relegationProb": 2.3,
+          "expectedPoints": 58.5,
+          "pointsRange": [
+            43,
+            74
+          ]
+        }
+      },
+      "position": 11,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "atletico-mg",
+        "name": "Atlético-MG",
+        "shortName": "Atlético-MG",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#2A2A2A",
+        "bio": "",
+        "current": {
+          "position": 12,
+          "points": 21,
+          "titleProb": 0.1,
+          "g4Prob": 5.5,
+          "relegationProb": 37.8,
+          "expectedPoints": 44.5,
+          "pointsRange": [
+            30,
+            60
+          ]
+        }
+      },
+      "position": 12,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
     },
     {
       "team": {
         "slug": "internacional",
-        "name": "Sport Club Internacional",
+        "name": "Internacional",
         "shortName": "Internacional",
-        "city": "Porto Alegre",
-        "state": "RS",
-        "founded": 1909,
-        "nickname": "Colorado",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
         "division": "A",
         "brand": "#A8232E",
+        "bio": "",
         "current": {
-          "position": 11,
-          "points": 41,
-          "titleProb": 0.2,
-          "g4Prob": 6.8,
-          "relegationProb": 8.2,
-          "expectedPoints": 52.4,
+          "position": 13,
+          "points": 21,
+          "titleProb": 9.8,
+          "g4Prob": 55.0,
+          "relegationProb": 2.4,
+          "expectedPoints": 58.7,
           "pointsRange": [
-            46,
+            43,
+            74
+          ]
+        }
+      },
+      "position": 13,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "gremio",
+        "name": "Grêmio",
+        "shortName": "Grêmio",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#888888",
+        "bio": "",
+        "current": {
+          "position": 14,
+          "points": 21,
+          "titleProb": 0.2,
+          "g4Prob": 5.3,
+          "relegationProb": 39.3,
+          "expectedPoints": 44.4,
+          "pointsRange": [
+            29,
             60
           ]
-        },
-        "bio": "Bicampeão da Libertadores. Vive temporada de reconstrução após oscilações nas últimas três edições."
+        }
       },
-      "position": 8,
-      "played": 15,
-      "wins": 7,
-      "draws": 4,
-      "losses": 4,
-      "goalsFor": 17,
-      "goalsAgainst": 13,
-      "goalDiff": 4,
-      "points": 25
+      "position": 14,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "corinthians",
+        "name": "Corinthians",
+        "shortName": "Corinthians",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#888888",
+        "bio": "",
+        "current": {
+          "position": 15,
+          "points": 21,
+          "titleProb": 9.7,
+          "g4Prob": 53.1,
+          "relegationProb": 2.5,
+          "expectedPoints": 58.6,
+          "pointsRange": [
+            43,
+            74
+          ]
+        }
+      },
+      "position": 15,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "vasco",
+        "name": "Vasco",
+        "shortName": "Vasco",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#888888",
+        "bio": "",
+        "current": {
+          "position": 16,
+          "points": 20,
+          "titleProb": 0.2,
+          "g4Prob": 5.3,
+          "relegationProb": 39.0,
+          "expectedPoints": 44.5,
+          "pointsRange": [
+            30,
+            60
+          ]
+        }
+      },
+      "position": 16,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "santos",
+        "name": "Santos",
+        "shortName": "Santos",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#2A2A2A",
+        "bio": "",
+        "current": {
+          "position": 17,
+          "points": 18,
+          "titleProb": 8.6,
+          "g4Prob": 51.6,
+          "relegationProb": 2.4,
+          "expectedPoints": 58.4,
+          "pointsRange": [
+            43,
+            74
+          ]
+        }
+      },
+      "position": 17,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "mirassol",
+        "name": "Mirassol",
+        "shortName": "Mirassol",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#888888",
+        "bio": "",
+        "current": {
+          "position": 18,
+          "points": 16,
+          "titleProb": 0.1,
+          "g4Prob": 5.0,
+          "relegationProb": 39.1,
+          "expectedPoints": 44.6,
+          "pointsRange": [
+            30,
+            60
+          ]
+        }
+      },
+      "position": 18,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "remo",
+        "name": "Remo",
+        "shortName": "Remo",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#888888",
+        "bio": "",
+        "current": {
+          "position": 19,
+          "points": 15,
+          "titleProb": 8.7,
+          "g4Prob": 52.4,
+          "relegationProb": 2.7,
+          "expectedPoints": 58.5,
+          "pointsRange": [
+            43,
+            74
+          ]
+        }
+      },
+      "position": 19,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "chapecoense",
+        "name": "Chapecoense",
+        "shortName": "Chapecoense",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#0F5F3F",
+        "bio": "",
+        "current": {
+          "position": 20,
+          "points": 9,
+          "titleProb": 0.1,
+          "g4Prob": 4.8,
+          "relegationProb": 40.1,
+          "expectedPoints": 44.5,
+          "pointsRange": [
+            30,
+            60
+          ]
+        }
+      },
+      "position": 20,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
     }
   ],
   "visitante": [
     {
       "team": {
-        "slug": "flamengo",
-        "name": "Clube de Regatas do Flamengo",
-        "shortName": "Flamengo",
-        "city": "Rio de Janeiro",
-        "state": "RJ",
-        "founded": 1895,
-        "nickname": "Mengão",
-        "division": "A",
-        "brand": "#B61E2B",
-        "current": {
-          "position": 1,
-          "points": 65,
-          "titleProb": 38.7,
-          "g4Prob": 98.2,
-          "relegationProb": 0,
-          "expectedPoints": 78.1,
-          "pointsRange": [
-            72,
-            85
-          ]
-        },
-        "bio": "Maior torcida do país. Após o título histórico de 2019, manteve-se entre os principais favoritos em todas as temporadas."
-      },
-      "position": 1,
-      "played": 15,
-      "wins": 12,
-      "draws": 4,
-      "losses": 0,
-      "goalsFor": 27,
-      "goalsAgainst": 5,
-      "goalDiff": 22,
-      "points": 40
-    },
-    {
-      "team": {
         "slug": "palmeiras",
-        "name": "Sociedade Esportiva Palmeiras",
+        "name": "Palmeiras",
         "shortName": "Palmeiras",
-        "city": "São Paulo",
-        "state": "SP",
-        "founded": 1914,
-        "nickname": "Verdão",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
         "division": "A",
         "brand": "#0E5C3A",
+        "bio": "",
+        "current": {
+          "position": 1,
+          "points": 38,
+          "titleProb": 11.0,
+          "g4Prob": 57.0,
+          "relegationProb": 1.9,
+          "expectedPoints": 58.5,
+          "pointsRange": [
+            43,
+            74
+          ]
+        }
+      },
+      "position": 1,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "flamengo",
+        "name": "Flamengo",
+        "shortName": "Flamengo",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#B61E2B",
+        "bio": "",
         "current": {
           "position": 2,
-          "points": 62,
-          "titleProb": 41.2,
-          "g4Prob": 96.8,
-          "relegationProb": 0,
-          "expectedPoints": 76.4,
+          "points": 31,
+          "titleProb": 0.3,
+          "g4Prob": 6.1,
+          "relegationProb": 35.4,
+          "expectedPoints": 44.5,
           "pointsRange": [
-            70,
-            83
-          ]
-        },
-        "bio": "Time mais consistente da década. Desde 2018, terminou entre os quatro primeiros em todas as edições do Brasileirão."
-      },
-      "position": 2,
-      "played": 15,
-      "wins": 12,
-      "draws": 3,
-      "losses": 0,
-      "goalsFor": 26,
-      "goalsAgainst": 4,
-      "goalDiff": 22,
-      "points": 39
-    },
-    {
-      "team": {
-        "slug": "botafogo",
-        "name": "Botafogo de Futebol e Regatas",
-        "shortName": "Botafogo",
-        "city": "Rio de Janeiro",
-        "state": "RJ",
-        "founded": 1904,
-        "nickname": "Fogão",
-        "division": "A",
-        "brand": "#1A1A1A",
-        "current": {
-          "position": 4,
-          "points": 56,
-          "titleProb": 12.4,
-          "g4Prob": 78.3,
-          "relegationProb": 0.1,
-          "expectedPoints": 68.9,
-          "pointsRange": [
-            62,
-            76
-          ]
-        },
-        "bio": "O renascimento mais comentado do futebol brasileiro. Campeão em 2024 após uma virada matemática histórica."
-      },
-      "position": 3,
-      "played": 15,
-      "wins": 10,
-      "draws": 4,
-      "losses": 1,
-      "goalsFor": 24,
-      "goalsAgainst": 6,
-      "goalDiff": 18,
-      "points": 34
-    },
-    {
-      "team": {
-        "slug": "sao-paulo",
-        "name": "São Paulo Futebol Clube",
-        "shortName": "São Paulo",
-        "city": "São Paulo",
-        "state": "SP",
-        "founded": 1930,
-        "nickname": "Tricolor",
-        "division": "A",
-        "brand": "#A8232E",
-        "current": {
-          "position": 5,
-          "points": 53,
-          "titleProb": 6.7,
-          "g4Prob": 52.4,
-          "relegationProb": 0.2,
-          "expectedPoints": 65.1,
-          "pointsRange": [
-            58,
-            72
-          ]
-        },
-        "bio": "Tricampeão da Libertadores e único brasileiro com três Mundiais. Voltou ao topo em 2024 com seu primeiro Brasileirão."
-      },
-      "position": 4,
-      "played": 15,
-      "wins": 9,
-      "draws": 4,
-      "losses": 2,
-      "goalsFor": 21,
-      "goalsAgainst": 10,
-      "goalDiff": 11,
-      "points": 31
-    },
-    {
-      "team": {
-        "slug": "atletico-mg",
-        "name": "Clube Atlético Mineiro",
-        "shortName": "Atlético-MG",
-        "city": "Belo Horizonte",
-        "state": "MG",
-        "founded": 1908,
-        "nickname": "Galo",
-        "division": "A",
-        "brand": "#2A2A2A",
-        "current": {
-          "position": 6,
-          "points": 51,
-          "titleProb": 4.1,
-          "g4Prob": 41.7,
-          "relegationProb": 0.4,
-          "expectedPoints": 63.2,
-          "pointsRange": [
-            56,
-            71
-          ]
-        },
-        "bio": "Tradição mineira que conquistou o Brasileirão de 2021 com a maior pontuação da era dos pontos corridos."
-      },
-      "position": 5,
-      "played": 15,
-      "wins": 9,
-      "draws": 3,
-      "losses": 3,
-      "goalsFor": 20,
-      "goalsAgainst": 8,
-      "goalDiff": 12,
-      "points": 30
-    },
-    {
-      "team": {
-        "slug": "cruzeiro",
-        "name": "Cruzeiro Esporte Clube",
-        "shortName": "Cruzeiro",
-        "city": "Belo Horizonte",
-        "state": "MG",
-        "founded": 1921,
-        "nickname": "Raposa",
-        "division": "A",
-        "brand": "#1E3F8C",
-        "current": {
-          "position": 7,
-          "points": 49,
-          "titleProb": 2.1,
-          "g4Prob": 28.9,
-          "relegationProb": 0.8,
-          "expectedPoints": 60.3,
-          "pointsRange": [
-            54,
-            67
-          ]
-        },
-        "bio": "Bicampeão brasileiro nos anos 2000 e 2010. Retornou à elite em 2023 e busca reposicionar-se entre os principais."
-      },
-      "position": 6,
-      "played": 15,
-      "wins": 9,
-      "draws": 3,
-      "losses": 3,
-      "goalsFor": 20,
-      "goalsAgainst": 9,
-      "goalDiff": 11,
-      "points": 30
-    },
-    {
-      "team": {
-        "slug": "internacional",
-        "name": "Sport Club Internacional",
-        "shortName": "Internacional",
-        "city": "Porto Alegre",
-        "state": "RS",
-        "founded": 1909,
-        "nickname": "Colorado",
-        "division": "A",
-        "brand": "#A8232E",
-        "current": {
-          "position": 11,
-          "points": 41,
-          "titleProb": 0.2,
-          "g4Prob": 6.8,
-          "relegationProb": 8.2,
-          "expectedPoints": 52.4,
-          "pointsRange": [
-            46,
+            30,
             60
           ]
-        },
-        "bio": "Bicampeão da Libertadores. Vive temporada de reconstrução após oscilações nas últimas três edições."
+        }
       },
-      "position": 7,
-      "played": 15,
-      "wins": 8,
-      "draws": 3,
-      "losses": 4,
-      "goalsFor": 20,
-      "goalsAgainst": 11,
-      "goalDiff": 9,
-      "points": 27
+      "position": 2,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
     },
     {
       "team": {
         "slug": "fluminense",
-        "name": "Fluminense Football Club",
+        "name": "Fluminense",
         "shortName": "Fluminense",
-        "city": "Rio de Janeiro",
-        "state": "RJ",
-        "founded": 1902,
-        "nickname": "Tricolor",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
         "division": "A",
         "brand": "#7E1E3A",
+        "bio": "",
         "current": {
-          "position": 8,
-          "points": 47,
-          "titleProb": 1.2,
-          "g4Prob": 22.1,
-          "relegationProb": 1.4,
+          "position": 3,
+          "points": 30,
+          "titleProb": 10.5,
+          "g4Prob": 55.5,
+          "relegationProb": 1.9,
+          "expectedPoints": 58.5,
+          "pointsRange": [
+            43,
+            74
+          ]
+        }
+      },
+      "position": 3,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "athletico-pr",
+        "name": "Athletico-PR",
+        "shortName": "Athletico-PR",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#888888",
+        "bio": "",
+        "current": {
+          "position": 4,
+          "points": 27,
+          "titleProb": 0.2,
+          "g4Prob": 5.8,
+          "relegationProb": 35.9,
+          "expectedPoints": 44.5,
+          "pointsRange": [
+            30,
+            60
+          ]
+        }
+      },
+      "position": 4,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "bragantino",
+        "name": "Bragantino",
+        "shortName": "Bragantino",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#888888",
+        "bio": "",
+        "current": {
+          "position": 5,
+          "points": 26,
+          "titleProb": 10.5,
+          "g4Prob": 56.7,
+          "relegationProb": 2.2,
           "expectedPoints": 58.7,
           "pointsRange": [
-            52,
-            66
+            43,
+            74
           ]
-        },
-        "bio": "Campeão da Libertadores em 2023 sob comando de Diniz, em uma das campanhas continentais mais aclamadas da década."
+        }
+      },
+      "position": 5,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "coritiba",
+        "name": "Coritiba",
+        "shortName": "Coritiba",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#1A6B3A",
+        "bio": "",
+        "current": {
+          "position": 6,
+          "points": 26,
+          "titleProb": 0.3,
+          "g4Prob": 5.5,
+          "relegationProb": 37.0,
+          "expectedPoints": 44.3,
+          "pointsRange": [
+            30,
+            60
+          ]
+        }
+      },
+      "position": 6,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "sao-paulo",
+        "name": "São Paulo",
+        "shortName": "São Paulo",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#A8232E",
+        "bio": "",
+        "current": {
+          "position": 7,
+          "points": 25,
+          "titleProb": 9.4,
+          "g4Prob": 54.5,
+          "relegationProb": 2.3,
+          "expectedPoints": 58.4,
+          "pointsRange": [
+            43,
+            74
+          ]
+        }
+      },
+      "position": 7,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "bahia",
+        "name": "Bahia",
+        "shortName": "Bahia",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#888888",
+        "bio": "",
+        "current": {
+          "position": 8,
+          "points": 23,
+          "titleProb": 0.3,
+          "g4Prob": 5.9,
+          "relegationProb": 36.2,
+          "expectedPoints": 44.6,
+          "pointsRange": [
+            30,
+            60
+          ]
+        }
       },
       "position": 8,
-      "played": 15,
-      "wins": 8,
-      "draws": 3,
-      "losses": 4,
-      "goalsFor": 19,
-      "goalsAgainst": 12,
-      "goalDiff": 7,
-      "points": 27
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "cruzeiro",
+        "name": "Cruzeiro",
+        "shortName": "Cruzeiro",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#1E3F8C",
+        "bio": "",
+        "current": {
+          "position": 9,
+          "points": 23,
+          "titleProb": 10.1,
+          "g4Prob": 55.2,
+          "relegationProb": 2.3,
+          "expectedPoints": 58.5,
+          "pointsRange": [
+            43,
+            74
+          ]
+        }
+      },
+      "position": 9,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "botafogo",
+        "name": "Botafogo",
+        "shortName": "Botafogo",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#1A1A1A",
+        "bio": "",
+        "current": {
+          "position": 10,
+          "points": 22,
+          "titleProb": 0.2,
+          "g4Prob": 5.5,
+          "relegationProb": 37.2,
+          "expectedPoints": 44.5,
+          "pointsRange": [
+            30,
+            60
+          ]
+        }
+      },
+      "position": 10,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "vitoria",
+        "name": "Vitória",
+        "shortName": "Vitória",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#888888",
+        "bio": "",
+        "current": {
+          "position": 11,
+          "points": 22,
+          "titleProb": 9.7,
+          "g4Prob": 54.2,
+          "relegationProb": 2.3,
+          "expectedPoints": 58.5,
+          "pointsRange": [
+            43,
+            74
+          ]
+        }
+      },
+      "position": 11,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "atletico-mg",
+        "name": "Atlético-MG",
+        "shortName": "Atlético-MG",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#2A2A2A",
+        "bio": "",
+        "current": {
+          "position": 12,
+          "points": 21,
+          "titleProb": 0.1,
+          "g4Prob": 5.5,
+          "relegationProb": 37.8,
+          "expectedPoints": 44.5,
+          "pointsRange": [
+            30,
+            60
+          ]
+        }
+      },
+      "position": 12,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "internacional",
+        "name": "Internacional",
+        "shortName": "Internacional",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#A8232E",
+        "bio": "",
+        "current": {
+          "position": 13,
+          "points": 21,
+          "titleProb": 9.8,
+          "g4Prob": 55.0,
+          "relegationProb": 2.4,
+          "expectedPoints": 58.7,
+          "pointsRange": [
+            43,
+            74
+          ]
+        }
+      },
+      "position": 13,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "gremio",
+        "name": "Grêmio",
+        "shortName": "Grêmio",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#888888",
+        "bio": "",
+        "current": {
+          "position": 14,
+          "points": 21,
+          "titleProb": 0.2,
+          "g4Prob": 5.3,
+          "relegationProb": 39.3,
+          "expectedPoints": 44.4,
+          "pointsRange": [
+            29,
+            60
+          ]
+        }
+      },
+      "position": 14,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "corinthians",
+        "name": "Corinthians",
+        "shortName": "Corinthians",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#888888",
+        "bio": "",
+        "current": {
+          "position": 15,
+          "points": 21,
+          "titleProb": 9.7,
+          "g4Prob": 53.1,
+          "relegationProb": 2.5,
+          "expectedPoints": 58.6,
+          "pointsRange": [
+            43,
+            74
+          ]
+        }
+      },
+      "position": 15,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "vasco",
+        "name": "Vasco",
+        "shortName": "Vasco",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#888888",
+        "bio": "",
+        "current": {
+          "position": 16,
+          "points": 20,
+          "titleProb": 0.2,
+          "g4Prob": 5.3,
+          "relegationProb": 39.0,
+          "expectedPoints": 44.5,
+          "pointsRange": [
+            30,
+            60
+          ]
+        }
+      },
+      "position": 16,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "santos",
+        "name": "Santos",
+        "shortName": "Santos",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#2A2A2A",
+        "bio": "",
+        "current": {
+          "position": 17,
+          "points": 18,
+          "titleProb": 8.6,
+          "g4Prob": 51.6,
+          "relegationProb": 2.4,
+          "expectedPoints": 58.4,
+          "pointsRange": [
+            43,
+            74
+          ]
+        }
+      },
+      "position": 17,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "mirassol",
+        "name": "Mirassol",
+        "shortName": "Mirassol",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#888888",
+        "bio": "",
+        "current": {
+          "position": 18,
+          "points": 16,
+          "titleProb": 0.1,
+          "g4Prob": 5.0,
+          "relegationProb": 39.1,
+          "expectedPoints": 44.6,
+          "pointsRange": [
+            30,
+            60
+          ]
+        }
+      },
+      "position": 18,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "remo",
+        "name": "Remo",
+        "shortName": "Remo",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#888888",
+        "bio": "",
+        "current": {
+          "position": 19,
+          "points": 15,
+          "titleProb": 8.7,
+          "g4Prob": 52.4,
+          "relegationProb": 2.7,
+          "expectedPoints": 58.5,
+          "pointsRange": [
+            43,
+            74
+          ]
+        }
+      },
+      "position": 19,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "chapecoense",
+        "name": "Chapecoense",
+        "shortName": "Chapecoense",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#0F5F3F",
+        "bio": "",
+        "current": {
+          "position": 20,
+          "points": 9,
+          "titleProb": 0.1,
+          "g4Prob": 4.8,
+          "relegationProb": 40.1,
+          "expectedPoints": 44.5,
+          "pointsRange": [
+            30,
+            60
+          ]
+        }
+      },
+      "position": 20,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
     }
   ],
   "turno": [
     {
       "team": {
         "slug": "palmeiras",
-        "name": "Sociedade Esportiva Palmeiras",
+        "name": "Palmeiras",
         "shortName": "Palmeiras",
-        "city": "São Paulo",
-        "state": "SP",
-        "founded": 1914,
-        "nickname": "Verdão",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
         "division": "A",
         "brand": "#0E5C3A",
+        "bio": "",
         "current": {
-          "position": 2,
-          "points": 62,
-          "titleProb": 41.2,
-          "g4Prob": 96.8,
-          "relegationProb": 0,
-          "expectedPoints": 76.4,
+          "position": 1,
+          "points": 38,
+          "titleProb": 11.0,
+          "g4Prob": 57.0,
+          "relegationProb": 1.9,
+          "expectedPoints": 58.5,
           "pointsRange": [
-            70,
-            83
+            43,
+            74
           ]
-        },
-        "bio": "Time mais consistente da década. Desde 2018, terminou entre os quatro primeiros em todas as edições do Brasileirão."
+        }
       },
       "position": 1,
-      "played": 19,
-      "wins": 16,
-      "draws": 5,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
       "losses": 0,
-      "goalsFor": 37,
-      "goalsAgainst": 7,
-      "goalDiff": 30,
-      "points": 53
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
     },
     {
       "team": {
         "slug": "flamengo",
-        "name": "Clube de Regatas do Flamengo",
+        "name": "Flamengo",
         "shortName": "Flamengo",
-        "city": "Rio de Janeiro",
-        "state": "RJ",
-        "founded": 1895,
-        "nickname": "Mengão",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
         "division": "A",
         "brand": "#B61E2B",
+        "bio": "",
         "current": {
-          "position": 1,
-          "points": 65,
-          "titleProb": 38.7,
-          "g4Prob": 98.2,
-          "relegationProb": 0,
-          "expectedPoints": 78.1,
+          "position": 2,
+          "points": 31,
+          "titleProb": 0.3,
+          "g4Prob": 6.1,
+          "relegationProb": 35.4,
+          "expectedPoints": 44.5,
           "pointsRange": [
-            72,
-            85
+            30,
+            60
           ]
-        },
-        "bio": "Maior torcida do país. Após o título histórico de 2019, manteve-se entre os principais favoritos em todas as temporadas."
+        }
       },
       "position": 2,
-      "played": 19,
-      "wins": 16,
-      "draws": 5,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
       "losses": 0,
-      "goalsFor": 35,
-      "goalsAgainst": 5,
-      "goalDiff": 30,
-      "points": 53
-    },
-    {
-      "team": {
-        "slug": "botafogo",
-        "name": "Botafogo de Futebol e Regatas",
-        "shortName": "Botafogo",
-        "city": "Rio de Janeiro",
-        "state": "RJ",
-        "founded": 1904,
-        "nickname": "Fogão",
-        "division": "A",
-        "brand": "#1A1A1A",
-        "current": {
-          "position": 4,
-          "points": 56,
-          "titleProb": 12.4,
-          "g4Prob": 78.3,
-          "relegationProb": 0.1,
-          "expectedPoints": 68.9,
-          "pointsRange": [
-            62,
-            76
-          ]
-        },
-        "bio": "O renascimento mais comentado do futebol brasileiro. Campeão em 2024 após uma virada matemática histórica."
-      },
-      "position": 3,
-      "played": 19,
-      "wins": 13,
-      "draws": 6,
-      "losses": 0,
-      "goalsFor": 30,
-      "goalsAgainst": 7,
-      "goalDiff": 23,
-      "points": 45
-    },
-    {
-      "team": {
-        "slug": "atletico-mg",
-        "name": "Clube Atlético Mineiro",
-        "shortName": "Atlético-MG",
-        "city": "Belo Horizonte",
-        "state": "MG",
-        "founded": 1908,
-        "nickname": "Galo",
-        "division": "A",
-        "brand": "#2A2A2A",
-        "current": {
-          "position": 6,
-          "points": 51,
-          "titleProb": 4.1,
-          "g4Prob": 41.7,
-          "relegationProb": 0.4,
-          "expectedPoints": 63.2,
-          "pointsRange": [
-            56,
-            71
-          ]
-        },
-        "bio": "Tradição mineira que conquistou o Brasileirão de 2021 com a maior pontuação da era dos pontos corridos."
-      },
-      "position": 4,
-      "played": 19,
-      "wins": 12,
-      "draws": 5,
-      "losses": 2,
-      "goalsFor": 29,
-      "goalsAgainst": 7,
-      "goalDiff": 22,
-      "points": 41
-    },
-    {
-      "team": {
-        "slug": "sao-paulo",
-        "name": "São Paulo Futebol Clube",
-        "shortName": "São Paulo",
-        "city": "São Paulo",
-        "state": "SP",
-        "founded": 1930,
-        "nickname": "Tricolor",
-        "division": "A",
-        "brand": "#A8232E",
-        "current": {
-          "position": 5,
-          "points": 53,
-          "titleProb": 6.7,
-          "g4Prob": 52.4,
-          "relegationProb": 0.2,
-          "expectedPoints": 65.1,
-          "pointsRange": [
-            58,
-            72
-          ]
-        },
-        "bio": "Tricampeão da Libertadores e único brasileiro com três Mundiais. Voltou ao topo em 2024 com seu primeiro Brasileirão."
-      },
-      "position": 5,
-      "played": 19,
-      "wins": 12,
-      "draws": 5,
-      "losses": 2,
-      "goalsFor": 27,
-      "goalsAgainst": 10,
-      "goalDiff": 17,
-      "points": 41
-    },
-    {
-      "team": {
-        "slug": "cruzeiro",
-        "name": "Cruzeiro Esporte Clube",
-        "shortName": "Cruzeiro",
-        "city": "Belo Horizonte",
-        "state": "MG",
-        "founded": 1921,
-        "nickname": "Raposa",
-        "division": "A",
-        "brand": "#1E3F8C",
-        "current": {
-          "position": 7,
-          "points": 49,
-          "titleProb": 2.1,
-          "g4Prob": 28.9,
-          "relegationProb": 0.8,
-          "expectedPoints": 60.3,
-          "pointsRange": [
-            54,
-            67
-          ]
-        },
-        "bio": "Bicampeão brasileiro nos anos 2000 e 2010. Retornou à elite em 2023 e busca reposicionar-se entre os principais."
-      },
-      "position": 6,
-      "played": 19,
-      "wins": 11,
-      "draws": 6,
-      "losses": 2,
-      "goalsFor": 26,
-      "goalsAgainst": 9,
-      "goalDiff": 17,
-      "points": 39
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
     },
     {
       "team": {
         "slug": "fluminense",
-        "name": "Fluminense Football Club",
+        "name": "Fluminense",
         "shortName": "Fluminense",
-        "city": "Rio de Janeiro",
-        "state": "RJ",
-        "founded": 1902,
-        "nickname": "Tricolor",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
         "division": "A",
         "brand": "#7E1E3A",
+        "bio": "",
         "current": {
-          "position": 8,
-          "points": 47,
-          "titleProb": 1.2,
-          "g4Prob": 22.1,
-          "relegationProb": 1.4,
+          "position": 3,
+          "points": 30,
+          "titleProb": 10.5,
+          "g4Prob": 55.5,
+          "relegationProb": 1.9,
+          "expectedPoints": 58.5,
+          "pointsRange": [
+            43,
+            74
+          ]
+        }
+      },
+      "position": 3,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "athletico-pr",
+        "name": "Athletico-PR",
+        "shortName": "Athletico-PR",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#888888",
+        "bio": "",
+        "current": {
+          "position": 4,
+          "points": 27,
+          "titleProb": 0.2,
+          "g4Prob": 5.8,
+          "relegationProb": 35.9,
+          "expectedPoints": 44.5,
+          "pointsRange": [
+            30,
+            60
+          ]
+        }
+      },
+      "position": 4,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "bragantino",
+        "name": "Bragantino",
+        "shortName": "Bragantino",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#888888",
+        "bio": "",
+        "current": {
+          "position": 5,
+          "points": 26,
+          "titleProb": 10.5,
+          "g4Prob": 56.7,
+          "relegationProb": 2.2,
           "expectedPoints": 58.7,
           "pointsRange": [
-            52,
-            66
+            43,
+            74
           ]
-        },
-        "bio": "Campeão da Libertadores em 2023 sob comando de Diniz, em uma das campanhas continentais mais aclamadas da década."
+        }
+      },
+      "position": 5,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "coritiba",
+        "name": "Coritiba",
+        "shortName": "Coritiba",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#1A6B3A",
+        "bio": "",
+        "current": {
+          "position": 6,
+          "points": 26,
+          "titleProb": 0.3,
+          "g4Prob": 5.5,
+          "relegationProb": 37.0,
+          "expectedPoints": 44.3,
+          "pointsRange": [
+            30,
+            60
+          ]
+        }
+      },
+      "position": 6,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "sao-paulo",
+        "name": "São Paulo",
+        "shortName": "São Paulo",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#A8232E",
+        "bio": "",
+        "current": {
+          "position": 7,
+          "points": 25,
+          "titleProb": 9.4,
+          "g4Prob": 54.5,
+          "relegationProb": 2.3,
+          "expectedPoints": 58.4,
+          "pointsRange": [
+            43,
+            74
+          ]
+        }
       },
       "position": 7,
-      "played": 19,
-      "wins": 11,
-      "draws": 4,
-      "losses": 4,
-      "goalsFor": 25,
-      "goalsAgainst": 11,
-      "goalDiff": 14,
-      "points": 37
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "bahia",
+        "name": "Bahia",
+        "shortName": "Bahia",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#888888",
+        "bio": "",
+        "current": {
+          "position": 8,
+          "points": 23,
+          "titleProb": 0.3,
+          "g4Prob": 5.9,
+          "relegationProb": 36.2,
+          "expectedPoints": 44.6,
+          "pointsRange": [
+            30,
+            60
+          ]
+        }
+      },
+      "position": 8,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "cruzeiro",
+        "name": "Cruzeiro",
+        "shortName": "Cruzeiro",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#1E3F8C",
+        "bio": "",
+        "current": {
+          "position": 9,
+          "points": 23,
+          "titleProb": 10.1,
+          "g4Prob": 55.2,
+          "relegationProb": 2.3,
+          "expectedPoints": 58.5,
+          "pointsRange": [
+            43,
+            74
+          ]
+        }
+      },
+      "position": 9,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "botafogo",
+        "name": "Botafogo",
+        "shortName": "Botafogo",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#1A1A1A",
+        "bio": "",
+        "current": {
+          "position": 10,
+          "points": 22,
+          "titleProb": 0.2,
+          "g4Prob": 5.5,
+          "relegationProb": 37.2,
+          "expectedPoints": 44.5,
+          "pointsRange": [
+            30,
+            60
+          ]
+        }
+      },
+      "position": 10,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "vitoria",
+        "name": "Vitória",
+        "shortName": "Vitória",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#888888",
+        "bio": "",
+        "current": {
+          "position": 11,
+          "points": 22,
+          "titleProb": 9.7,
+          "g4Prob": 54.2,
+          "relegationProb": 2.3,
+          "expectedPoints": 58.5,
+          "pointsRange": [
+            43,
+            74
+          ]
+        }
+      },
+      "position": 11,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "atletico-mg",
+        "name": "Atlético-MG",
+        "shortName": "Atlético-MG",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#2A2A2A",
+        "bio": "",
+        "current": {
+          "position": 12,
+          "points": 21,
+          "titleProb": 0.1,
+          "g4Prob": 5.5,
+          "relegationProb": 37.8,
+          "expectedPoints": 44.5,
+          "pointsRange": [
+            30,
+            60
+          ]
+        }
+      },
+      "position": 12,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
     },
     {
       "team": {
         "slug": "internacional",
-        "name": "Sport Club Internacional",
+        "name": "Internacional",
         "shortName": "Internacional",
-        "city": "Porto Alegre",
-        "state": "RS",
-        "founded": 1909,
-        "nickname": "Colorado",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
         "division": "A",
         "brand": "#A8232E",
+        "bio": "",
         "current": {
-          "position": 11,
-          "points": 41,
-          "titleProb": 0.2,
-          "g4Prob": 6.8,
-          "relegationProb": 8.2,
-          "expectedPoints": 52.4,
+          "position": 13,
+          "points": 21,
+          "titleProb": 9.8,
+          "g4Prob": 55.0,
+          "relegationProb": 2.4,
+          "expectedPoints": 58.7,
           "pointsRange": [
-            46,
+            43,
+            74
+          ]
+        }
+      },
+      "position": 13,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "gremio",
+        "name": "Grêmio",
+        "shortName": "Grêmio",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#888888",
+        "bio": "",
+        "current": {
+          "position": 14,
+          "points": 21,
+          "titleProb": 0.2,
+          "g4Prob": 5.3,
+          "relegationProb": 39.3,
+          "expectedPoints": 44.4,
+          "pointsRange": [
+            29,
             60
           ]
-        },
-        "bio": "Bicampeão da Libertadores. Vive temporada de reconstrução após oscilações nas últimas três edições."
+        }
       },
-      "position": 8,
-      "played": 19,
-      "wins": 9,
-      "draws": 5,
-      "losses": 5,
-      "goalsFor": 22,
-      "goalsAgainst": 15,
-      "goalDiff": 7,
-      "points": 32
+      "position": 14,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "corinthians",
+        "name": "Corinthians",
+        "shortName": "Corinthians",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#888888",
+        "bio": "",
+        "current": {
+          "position": 15,
+          "points": 21,
+          "titleProb": 9.7,
+          "g4Prob": 53.1,
+          "relegationProb": 2.5,
+          "expectedPoints": 58.6,
+          "pointsRange": [
+            43,
+            74
+          ]
+        }
+      },
+      "position": 15,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "vasco",
+        "name": "Vasco",
+        "shortName": "Vasco",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#888888",
+        "bio": "",
+        "current": {
+          "position": 16,
+          "points": 20,
+          "titleProb": 0.2,
+          "g4Prob": 5.3,
+          "relegationProb": 39.0,
+          "expectedPoints": 44.5,
+          "pointsRange": [
+            30,
+            60
+          ]
+        }
+      },
+      "position": 16,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "santos",
+        "name": "Santos",
+        "shortName": "Santos",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#2A2A2A",
+        "bio": "",
+        "current": {
+          "position": 17,
+          "points": 18,
+          "titleProb": 8.6,
+          "g4Prob": 51.6,
+          "relegationProb": 2.4,
+          "expectedPoints": 58.4,
+          "pointsRange": [
+            43,
+            74
+          ]
+        }
+      },
+      "position": 17,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "mirassol",
+        "name": "Mirassol",
+        "shortName": "Mirassol",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#888888",
+        "bio": "",
+        "current": {
+          "position": 18,
+          "points": 16,
+          "titleProb": 0.1,
+          "g4Prob": 5.0,
+          "relegationProb": 39.1,
+          "expectedPoints": 44.6,
+          "pointsRange": [
+            30,
+            60
+          ]
+        }
+      },
+      "position": 18,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "remo",
+        "name": "Remo",
+        "shortName": "Remo",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#888888",
+        "bio": "",
+        "current": {
+          "position": 19,
+          "points": 15,
+          "titleProb": 8.7,
+          "g4Prob": 52.4,
+          "relegationProb": 2.7,
+          "expectedPoints": 58.5,
+          "pointsRange": [
+            43,
+            74
+          ]
+        }
+      },
+      "position": 19,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "chapecoense",
+        "name": "Chapecoense",
+        "shortName": "Chapecoense",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#0F5F3F",
+        "bio": "",
+        "current": {
+          "position": 20,
+          "points": 9,
+          "titleProb": 0.1,
+          "g4Prob": 4.8,
+          "relegationProb": 40.1,
+          "expectedPoints": 44.5,
+          "pointsRange": [
+            30,
+            60
+          ]
+        }
+      },
+      "position": 20,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
     }
   ],
   "returno": [
     {
       "team": {
-        "slug": "flamengo",
-        "name": "Clube de Regatas do Flamengo",
-        "shortName": "Flamengo",
-        "city": "Rio de Janeiro",
-        "state": "RJ",
-        "founded": 1895,
-        "nickname": "Mengão",
-        "division": "A",
-        "brand": "#B61E2B",
-        "current": {
-          "position": 1,
-          "points": 65,
-          "titleProb": 38.7,
-          "g4Prob": 98.2,
-          "relegationProb": 0,
-          "expectedPoints": 78.1,
-          "pointsRange": [
-            72,
-            85
-          ]
-        },
-        "bio": "Maior torcida do país. Após o título histórico de 2019, manteve-se entre os principais favoritos em todas as temporadas."
-      },
-      "position": 1,
-      "played": 19,
-      "wins": 16,
-      "draws": 5,
-      "losses": 0,
-      "goalsFor": 36,
-      "goalsAgainst": 6,
-      "goalDiff": 30,
-      "points": 53
-    },
-    {
-      "team": {
         "slug": "palmeiras",
-        "name": "Sociedade Esportiva Palmeiras",
+        "name": "Palmeiras",
         "shortName": "Palmeiras",
-        "city": "São Paulo",
-        "state": "SP",
-        "founded": 1914,
-        "nickname": "Verdão",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
         "division": "A",
         "brand": "#0E5C3A",
+        "bio": "",
+        "current": {
+          "position": 1,
+          "points": 38,
+          "titleProb": 11.0,
+          "g4Prob": 57.0,
+          "relegationProb": 1.9,
+          "expectedPoints": 58.5,
+          "pointsRange": [
+            43,
+            74
+          ]
+        }
+      },
+      "position": 1,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "flamengo",
+        "name": "Flamengo",
+        "shortName": "Flamengo",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#B61E2B",
+        "bio": "",
         "current": {
           "position": 2,
-          "points": 62,
-          "titleProb": 41.2,
-          "g4Prob": 96.8,
-          "relegationProb": 0,
-          "expectedPoints": 76.4,
+          "points": 31,
+          "titleProb": 0.3,
+          "g4Prob": 6.1,
+          "relegationProb": 35.4,
+          "expectedPoints": 44.5,
           "pointsRange": [
-            70,
-            83
+            30,
+            60
           ]
-        },
-        "bio": "Time mais consistente da década. Desde 2018, terminou entre os quatro primeiros em todas as edições do Brasileirão."
+        }
       },
       "position": 2,
-      "played": 19,
-      "wins": 15,
-      "draws": 5,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
       "losses": 0,
-      "goalsFor": 35,
-      "goalsAgainst": 5,
-      "goalDiff": 30,
-      "points": 50
-    },
-    {
-      "team": {
-        "slug": "sao-paulo",
-        "name": "São Paulo Futebol Clube",
-        "shortName": "São Paulo",
-        "city": "São Paulo",
-        "state": "SP",
-        "founded": 1930,
-        "nickname": "Tricolor",
-        "division": "A",
-        "brand": "#A8232E",
-        "current": {
-          "position": 5,
-          "points": 53,
-          "titleProb": 6.7,
-          "g4Prob": 52.4,
-          "relegationProb": 0.2,
-          "expectedPoints": 65.1,
-          "pointsRange": [
-            58,
-            72
-          ]
-        },
-        "bio": "Tricampeão da Libertadores e único brasileiro com três Mundiais. Voltou ao topo em 2024 com seu primeiro Brasileirão."
-      },
-      "position": 3,
-      "played": 19,
-      "wins": 13,
-      "draws": 4,
-      "losses": 2,
-      "goalsFor": 31,
-      "goalsAgainst": 9,
-      "goalDiff": 22,
-      "points": 43
-    },
-    {
-      "team": {
-        "slug": "botafogo",
-        "name": "Botafogo de Futebol e Regatas",
-        "shortName": "Botafogo",
-        "city": "Rio de Janeiro",
-        "state": "RJ",
-        "founded": 1904,
-        "nickname": "Fogão",
-        "division": "A",
-        "brand": "#1A1A1A",
-        "current": {
-          "position": 4,
-          "points": 56,
-          "titleProb": 12.4,
-          "g4Prob": 78.3,
-          "relegationProb": 0.1,
-          "expectedPoints": 68.9,
-          "pointsRange": [
-            62,
-            76
-          ]
-        },
-        "bio": "O renascimento mais comentado do futebol brasileiro. Campeão em 2024 após uma virada matemática histórica."
-      },
-      "position": 4,
-      "played": 19,
-      "wins": 13,
-      "draws": 4,
-      "losses": 2,
-      "goalsFor": 28,
-      "goalsAgainst": 9,
-      "goalDiff": 19,
-      "points": 43
-    },
-    {
-      "team": {
-        "slug": "cruzeiro",
-        "name": "Cruzeiro Esporte Clube",
-        "shortName": "Cruzeiro",
-        "city": "Belo Horizonte",
-        "state": "MG",
-        "founded": 1921,
-        "nickname": "Raposa",
-        "division": "A",
-        "brand": "#1E3F8C",
-        "current": {
-          "position": 7,
-          "points": 49,
-          "titleProb": 2.1,
-          "g4Prob": 28.9,
-          "relegationProb": 0.8,
-          "expectedPoints": 60.3,
-          "pointsRange": [
-            54,
-            67
-          ]
-        },
-        "bio": "Bicampeão brasileiro nos anos 2000 e 2010. Retornou à elite em 2023 e busca reposicionar-se entre os principais."
-      },
-      "position": 5,
-      "played": 19,
-      "wins": 12,
-      "draws": 6,
-      "losses": 1,
-      "goalsFor": 30,
-      "goalsAgainst": 7,
-      "goalDiff": 23,
-      "points": 42
-    },
-    {
-      "team": {
-        "slug": "atletico-mg",
-        "name": "Clube Atlético Mineiro",
-        "shortName": "Atlético-MG",
-        "city": "Belo Horizonte",
-        "state": "MG",
-        "founded": 1908,
-        "nickname": "Galo",
-        "division": "A",
-        "brand": "#2A2A2A",
-        "current": {
-          "position": 6,
-          "points": 51,
-          "titleProb": 4.1,
-          "g4Prob": 41.7,
-          "relegationProb": 0.4,
-          "expectedPoints": 63.2,
-          "pointsRange": [
-            56,
-            71
-          ]
-        },
-        "bio": "Tradição mineira que conquistou o Brasileirão de 2021 com a maior pontuação da era dos pontos corridos."
-      },
-      "position": 6,
-      "played": 19,
-      "wins": 12,
-      "draws": 6,
-      "losses": 1,
-      "goalsFor": 28,
-      "goalsAgainst": 9,
-      "goalDiff": 19,
-      "points": 42
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
     },
     {
       "team": {
         "slug": "fluminense",
-        "name": "Fluminense Football Club",
+        "name": "Fluminense",
         "shortName": "Fluminense",
-        "city": "Rio de Janeiro",
-        "state": "RJ",
-        "founded": 1902,
-        "nickname": "Tricolor",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
         "division": "A",
         "brand": "#7E1E3A",
+        "bio": "",
         "current": {
-          "position": 8,
-          "points": 47,
-          "titleProb": 1.2,
-          "g4Prob": 22.1,
-          "relegationProb": 1.4,
+          "position": 3,
+          "points": 30,
+          "titleProb": 10.5,
+          "g4Prob": 55.5,
+          "relegationProb": 1.9,
+          "expectedPoints": 58.5,
+          "pointsRange": [
+            43,
+            74
+          ]
+        }
+      },
+      "position": 3,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "athletico-pr",
+        "name": "Athletico-PR",
+        "shortName": "Athletico-PR",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#888888",
+        "bio": "",
+        "current": {
+          "position": 4,
+          "points": 27,
+          "titleProb": 0.2,
+          "g4Prob": 5.8,
+          "relegationProb": 35.9,
+          "expectedPoints": 44.5,
+          "pointsRange": [
+            30,
+            60
+          ]
+        }
+      },
+      "position": 4,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "bragantino",
+        "name": "Bragantino",
+        "shortName": "Bragantino",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#888888",
+        "bio": "",
+        "current": {
+          "position": 5,
+          "points": 26,
+          "titleProb": 10.5,
+          "g4Prob": 56.7,
+          "relegationProb": 2.2,
           "expectedPoints": 58.7,
           "pointsRange": [
-            52,
-            66
+            43,
+            74
           ]
-        },
-        "bio": "Campeão da Libertadores em 2023 sob comando de Diniz, em uma das campanhas continentais mais aclamadas da década."
+        }
+      },
+      "position": 5,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "coritiba",
+        "name": "Coritiba",
+        "shortName": "Coritiba",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#1A6B3A",
+        "bio": "",
+        "current": {
+          "position": 6,
+          "points": 26,
+          "titleProb": 0.3,
+          "g4Prob": 5.5,
+          "relegationProb": 37.0,
+          "expectedPoints": 44.3,
+          "pointsRange": [
+            30,
+            60
+          ]
+        }
+      },
+      "position": 6,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "sao-paulo",
+        "name": "São Paulo",
+        "shortName": "São Paulo",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#A8232E",
+        "bio": "",
+        "current": {
+          "position": 7,
+          "points": 25,
+          "titleProb": 9.4,
+          "g4Prob": 54.5,
+          "relegationProb": 2.3,
+          "expectedPoints": 58.4,
+          "pointsRange": [
+            43,
+            74
+          ]
+        }
       },
       "position": 7,
-      "played": 19,
-      "wins": 11,
-      "draws": 4,
-      "losses": 4,
-      "goalsFor": 27,
-      "goalsAgainst": 12,
-      "goalDiff": 15,
-      "points": 37
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "bahia",
+        "name": "Bahia",
+        "shortName": "Bahia",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#888888",
+        "bio": "",
+        "current": {
+          "position": 8,
+          "points": 23,
+          "titleProb": 0.3,
+          "g4Prob": 5.9,
+          "relegationProb": 36.2,
+          "expectedPoints": 44.6,
+          "pointsRange": [
+            30,
+            60
+          ]
+        }
+      },
+      "position": 8,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "cruzeiro",
+        "name": "Cruzeiro",
+        "shortName": "Cruzeiro",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#1E3F8C",
+        "bio": "",
+        "current": {
+          "position": 9,
+          "points": 23,
+          "titleProb": 10.1,
+          "g4Prob": 55.2,
+          "relegationProb": 2.3,
+          "expectedPoints": 58.5,
+          "pointsRange": [
+            43,
+            74
+          ]
+        }
+      },
+      "position": 9,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "botafogo",
+        "name": "Botafogo",
+        "shortName": "Botafogo",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#1A1A1A",
+        "bio": "",
+        "current": {
+          "position": 10,
+          "points": 22,
+          "titleProb": 0.2,
+          "g4Prob": 5.5,
+          "relegationProb": 37.2,
+          "expectedPoints": 44.5,
+          "pointsRange": [
+            30,
+            60
+          ]
+        }
+      },
+      "position": 10,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "vitoria",
+        "name": "Vitória",
+        "shortName": "Vitória",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#888888",
+        "bio": "",
+        "current": {
+          "position": 11,
+          "points": 22,
+          "titleProb": 9.7,
+          "g4Prob": 54.2,
+          "relegationProb": 2.3,
+          "expectedPoints": 58.5,
+          "pointsRange": [
+            43,
+            74
+          ]
+        }
+      },
+      "position": 11,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "atletico-mg",
+        "name": "Atlético-MG",
+        "shortName": "Atlético-MG",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#2A2A2A",
+        "bio": "",
+        "current": {
+          "position": 12,
+          "points": 21,
+          "titleProb": 0.1,
+          "g4Prob": 5.5,
+          "relegationProb": 37.8,
+          "expectedPoints": 44.5,
+          "pointsRange": [
+            30,
+            60
+          ]
+        }
+      },
+      "position": 12,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
     },
     {
       "team": {
         "slug": "internacional",
-        "name": "Sport Club Internacional",
+        "name": "Internacional",
         "shortName": "Internacional",
-        "city": "Porto Alegre",
-        "state": "RS",
-        "founded": 1909,
-        "nickname": "Colorado",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
         "division": "A",
         "brand": "#A8232E",
+        "bio": "",
         "current": {
-          "position": 11,
-          "points": 41,
-          "titleProb": 0.2,
-          "g4Prob": 6.8,
-          "relegationProb": 8.2,
-          "expectedPoints": 52.4,
+          "position": 13,
+          "points": 21,
+          "titleProb": 9.8,
+          "g4Prob": 55.0,
+          "relegationProb": 2.4,
+          "expectedPoints": 58.7,
           "pointsRange": [
-            46,
+            43,
+            74
+          ]
+        }
+      },
+      "position": 13,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "gremio",
+        "name": "Grêmio",
+        "shortName": "Grêmio",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#888888",
+        "bio": "",
+        "current": {
+          "position": 14,
+          "points": 21,
+          "titleProb": 0.2,
+          "g4Prob": 5.3,
+          "relegationProb": 39.3,
+          "expectedPoints": 44.4,
+          "pointsRange": [
+            29,
             60
           ]
-        },
-        "bio": "Bicampeão da Libertadores. Vive temporada de reconstrução após oscilações nas últimas três edições."
+        }
       },
-      "position": 8,
-      "played": 19,
-      "wins": 10,
-      "draws": 5,
-      "losses": 4,
-      "goalsFor": 24,
-      "goalsAgainst": 12,
-      "goalDiff": 12,
-      "points": 35
+      "position": 14,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "corinthians",
+        "name": "Corinthians",
+        "shortName": "Corinthians",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#888888",
+        "bio": "",
+        "current": {
+          "position": 15,
+          "points": 21,
+          "titleProb": 9.7,
+          "g4Prob": 53.1,
+          "relegationProb": 2.5,
+          "expectedPoints": 58.6,
+          "pointsRange": [
+            43,
+            74
+          ]
+        }
+      },
+      "position": 15,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "vasco",
+        "name": "Vasco",
+        "shortName": "Vasco",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#888888",
+        "bio": "",
+        "current": {
+          "position": 16,
+          "points": 20,
+          "titleProb": 0.2,
+          "g4Prob": 5.3,
+          "relegationProb": 39.0,
+          "expectedPoints": 44.5,
+          "pointsRange": [
+            30,
+            60
+          ]
+        }
+      },
+      "position": 16,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "santos",
+        "name": "Santos",
+        "shortName": "Santos",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#2A2A2A",
+        "bio": "",
+        "current": {
+          "position": 17,
+          "points": 18,
+          "titleProb": 8.6,
+          "g4Prob": 51.6,
+          "relegationProb": 2.4,
+          "expectedPoints": 58.4,
+          "pointsRange": [
+            43,
+            74
+          ]
+        }
+      },
+      "position": 17,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "mirassol",
+        "name": "Mirassol",
+        "shortName": "Mirassol",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#888888",
+        "bio": "",
+        "current": {
+          "position": 18,
+          "points": 16,
+          "titleProb": 0.1,
+          "g4Prob": 5.0,
+          "relegationProb": 39.1,
+          "expectedPoints": 44.6,
+          "pointsRange": [
+            30,
+            60
+          ]
+        }
+      },
+      "position": 18,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "remo",
+        "name": "Remo",
+        "shortName": "Remo",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#888888",
+        "bio": "",
+        "current": {
+          "position": 19,
+          "points": 15,
+          "titleProb": 8.7,
+          "g4Prob": 52.4,
+          "relegationProb": 2.7,
+          "expectedPoints": 58.5,
+          "pointsRange": [
+            43,
+            74
+          ]
+        }
+      },
+      "position": 19,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "chapecoense",
+        "name": "Chapecoense",
+        "shortName": "Chapecoense",
+        "city": "",
+        "state": "",
+        "founded": 0,
+        "nickname": "",
+        "division": "A",
+        "brand": "#0F5F3F",
+        "bio": "",
+        "current": {
+          "position": 20,
+          "points": 9,
+          "titleProb": 0.1,
+          "g4Prob": 4.8,
+          "relegationProb": 40.1,
+          "expectedPoints": 44.5,
+          "pointsRange": [
+            30,
+            60
+          ]
+        }
+      },
+      "position": 20,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
     }
   ]
 }

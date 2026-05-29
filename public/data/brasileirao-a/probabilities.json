@@ -2,241 +2,601 @@
   {
     "team": {
       "slug": "palmeiras",
-      "name": "Sociedade Esportiva Palmeiras",
+      "name": "Palmeiras",
       "shortName": "Palmeiras",
-      "city": "São Paulo",
-      "state": "SP",
-      "founded": 1914,
-      "nickname": "Verdão",
+      "city": "",
+      "state": "",
+      "founded": 0,
+      "nickname": "",
       "division": "A",
       "brand": "#0E5C3A",
-      "current": {
-        "position": 2,
-        "points": 62,
-        "titleProb": 41.2,
-        "g4Prob": 96.8,
-        "relegationProb": 0,
-        "expectedPoints": 76.4,
-        "pointsRange": [
-          70,
-          83
-        ]
-      },
-      "bio": "Time mais consistente da década. Desde 2018, terminou entre os quatro primeiros em todas as edições do Brasileirão."
-    },
-    "champion": 41.2,
-    "libertadores": 96.8,
-    "sulamericana": 24.1,
-    "relegation": 0
-  },
-  {
-    "team": {
-      "slug": "flamengo",
-      "name": "Clube de Regatas do Flamengo",
-      "shortName": "Flamengo",
-      "city": "Rio de Janeiro",
-      "state": "RJ",
-      "founded": 1895,
-      "nickname": "Mengão",
-      "division": "A",
-      "brand": "#B61E2B",
+      "bio": "",
       "current": {
         "position": 1,
-        "points": 65,
-        "titleProb": 38.7,
-        "g4Prob": 98.2,
-        "relegationProb": 0,
-        "expectedPoints": 78.1,
+        "points": 38,
+        "titleProb": 11.0,
+        "g4Prob": 57.0,
+        "relegationProb": 1.9,
+        "expectedPoints": 58.5,
         "pointsRange": [
-          72,
-          85
+          43,
+          74
         ]
-      },
-      "bio": "Maior torcida do país. Após o título histórico de 2019, manteve-se entre os principais favoritos em todas as temporadas."
+      }
     },
-    "champion": 38.7,
-    "libertadores": 98.2,
-    "sulamericana": 20,
-    "relegation": 0
-  },
-  {
-    "team": {
-      "slug": "botafogo",
-      "name": "Botafogo de Futebol e Regatas",
-      "shortName": "Botafogo",
-      "city": "Rio de Janeiro",
-      "state": "RJ",
-      "founded": 1904,
-      "nickname": "Fogão",
-      "division": "A",
-      "brand": "#1A1A1A",
-      "current": {
-        "position": 4,
-        "points": 56,
-        "titleProb": 12.4,
-        "g4Prob": 78.3,
-        "relegationProb": 0.1,
-        "expectedPoints": 68.9,
-        "pointsRange": [
-          62,
-          76
-        ]
-      },
-      "bio": "O renascimento mais comentado do futebol brasileiro. Campeão em 2024 após uma virada matemática histórica."
-    },
-    "champion": 12.4,
-    "libertadores": 78.3,
-    "sulamericana": 37.9,
-    "relegation": 0.1
-  },
-  {
-    "team": {
-      "slug": "sao-paulo",
-      "name": "São Paulo Futebol Clube",
-      "shortName": "São Paulo",
-      "city": "São Paulo",
-      "state": "SP",
-      "founded": 1930,
-      "nickname": "Tricolor",
-      "division": "A",
-      "brand": "#A8232E",
-      "current": {
-        "position": 5,
-        "points": 53,
-        "titleProb": 6.7,
-        "g4Prob": 52.4,
-        "relegationProb": 0.2,
-        "expectedPoints": 65.1,
-        "pointsRange": [
-          58,
-          72
-        ]
-      },
-      "bio": "Tricampeão da Libertadores e único brasileiro com três Mundiais. Voltou ao topo em 2024 com seu primeiro Brasileirão."
-    },
-    "champion": 6.7,
-    "libertadores": 52.4,
-    "sulamericana": 53.3,
-    "relegation": 0.2
-  },
-  {
-    "team": {
-      "slug": "atletico-mg",
-      "name": "Clube Atlético Mineiro",
-      "shortName": "Atlético-MG",
-      "city": "Belo Horizonte",
-      "state": "MG",
-      "founded": 1908,
-      "nickname": "Galo",
-      "division": "A",
-      "brand": "#2A2A2A",
-      "current": {
-        "position": 6,
-        "points": 51,
-        "titleProb": 4.1,
-        "g4Prob": 41.7,
-        "relegationProb": 0.4,
-        "expectedPoints": 63.2,
-        "pointsRange": [
-          56,
-          71
-        ]
-      },
-      "bio": "Tradição mineira que conquistou o Brasileirão de 2021 com a maior pontuação da era dos pontos corridos."
-    },
-    "champion": 4.1,
-    "libertadores": 41.7,
-    "sulamericana": 50.9,
-    "relegation": 0.4
-  },
-  {
-    "team": {
-      "slug": "cruzeiro",
-      "name": "Cruzeiro Esporte Clube",
-      "shortName": "Cruzeiro",
-      "city": "Belo Horizonte",
-      "state": "MG",
-      "founded": 1921,
-      "nickname": "Raposa",
-      "division": "A",
-      "brand": "#1E3F8C",
-      "current": {
-        "position": 7,
-        "points": 49,
-        "titleProb": 2.1,
-        "g4Prob": 28.9,
-        "relegationProb": 0.8,
-        "expectedPoints": 60.3,
-        "pointsRange": [
-          54,
-          67
-        ]
-      },
-      "bio": "Bicampeão brasileiro nos anos 2000 e 2010. Retornou à elite em 2023 e busca reposicionar-se entre os principais."
-    },
-    "champion": 2.1,
-    "libertadores": 28.9,
-    "sulamericana": 67.8,
-    "relegation": 0.8
+    "champion": 11.0,
+    "libertadores": 57.0,
+    "sulamericana": 45.5,
+    "relegation": 1.9
   },
   {
     "team": {
       "slug": "fluminense",
-      "name": "Fluminense Football Club",
+      "name": "Fluminense",
       "shortName": "Fluminense",
-      "city": "Rio de Janeiro",
-      "state": "RJ",
-      "founded": 1902,
-      "nickname": "Tricolor",
+      "city": "",
+      "state": "",
+      "founded": 0,
+      "nickname": "",
       "division": "A",
       "brand": "#7E1E3A",
+      "bio": "",
       "current": {
-        "position": 8,
-        "points": 47,
-        "titleProb": 1.2,
-        "g4Prob": 22.1,
-        "relegationProb": 1.4,
+        "position": 3,
+        "points": 30,
+        "titleProb": 10.5,
+        "g4Prob": 55.5,
+        "relegationProb": 1.9,
+        "expectedPoints": 58.5,
+        "pointsRange": [
+          43,
+          74
+        ]
+      }
+    },
+    "champion": 10.5,
+    "libertadores": 55.5,
+    "sulamericana": 46.4,
+    "relegation": 1.9
+  },
+  {
+    "team": {
+      "slug": "bragantino",
+      "name": "Bragantino",
+      "shortName": "Bragantino",
+      "city": "",
+      "state": "",
+      "founded": 0,
+      "nickname": "",
+      "division": "A",
+      "brand": "#888888",
+      "bio": "",
+      "current": {
+        "position": 5,
+        "points": 26,
+        "titleProb": 10.5,
+        "g4Prob": 56.7,
+        "relegationProb": 2.2,
         "expectedPoints": 58.7,
         "pointsRange": [
-          52,
-          66
+          43,
+          74
         ]
-      },
-      "bio": "Campeão da Libertadores em 2023 sob comando de Diniz, em uma das campanhas continentais mais aclamadas da década."
+      }
     },
-    "champion": 1.2,
-    "libertadores": 22.1,
-    "sulamericana": 65.8,
-    "relegation": 1.4
+    "champion": 10.5,
+    "libertadores": 56.7,
+    "sulamericana": 45.6,
+    "relegation": 2.2
+  },
+  {
+    "team": {
+      "slug": "cruzeiro",
+      "name": "Cruzeiro",
+      "shortName": "Cruzeiro",
+      "city": "",
+      "state": "",
+      "founded": 0,
+      "nickname": "",
+      "division": "A",
+      "brand": "#1E3F8C",
+      "bio": "",
+      "current": {
+        "position": 9,
+        "points": 23,
+        "titleProb": 10.1,
+        "g4Prob": 55.2,
+        "relegationProb": 2.3,
+        "expectedPoints": 58.5,
+        "pointsRange": [
+          43,
+          74
+        ]
+      }
+    },
+    "champion": 10.1,
+    "libertadores": 55.2,
+    "sulamericana": 46.5,
+    "relegation": 2.3
   },
   {
     "team": {
       "slug": "internacional",
-      "name": "Sport Club Internacional",
+      "name": "Internacional",
       "shortName": "Internacional",
-      "city": "Porto Alegre",
-      "state": "RS",
-      "founded": 1909,
-      "nickname": "Colorado",
+      "city": "",
+      "state": "",
+      "founded": 0,
+      "nickname": "",
       "division": "A",
       "brand": "#A8232E",
+      "bio": "",
+      "current": {
+        "position": 13,
+        "points": 21,
+        "titleProb": 9.8,
+        "g4Prob": 55.0,
+        "relegationProb": 2.4,
+        "expectedPoints": 58.7,
+        "pointsRange": [
+          43,
+          74
+        ]
+      }
+    },
+    "champion": 9.8,
+    "libertadores": 55.0,
+    "sulamericana": 46.6,
+    "relegation": 2.4
+  },
+  {
+    "team": {
+      "slug": "vitoria",
+      "name": "Vitória",
+      "shortName": "Vitória",
+      "city": "",
+      "state": "",
+      "founded": 0,
+      "nickname": "",
+      "division": "A",
+      "brand": "#888888",
+      "bio": "",
       "current": {
         "position": 11,
-        "points": 41,
-        "titleProb": 0.2,
-        "g4Prob": 6.8,
-        "relegationProb": 8.2,
-        "expectedPoints": 52.4,
+        "points": 22,
+        "titleProb": 9.7,
+        "g4Prob": 54.2,
+        "relegationProb": 2.3,
+        "expectedPoints": 58.5,
         "pointsRange": [
-          46,
+          43,
+          74
+        ]
+      }
+    },
+    "champion": 9.7,
+    "libertadores": 54.2,
+    "sulamericana": 47.1,
+    "relegation": 2.3
+  },
+  {
+    "team": {
+      "slug": "corinthians",
+      "name": "Corinthians",
+      "shortName": "Corinthians",
+      "city": "",
+      "state": "",
+      "founded": 0,
+      "nickname": "",
+      "division": "A",
+      "brand": "#888888",
+      "bio": "",
+      "current": {
+        "position": 15,
+        "points": 21,
+        "titleProb": 9.7,
+        "g4Prob": 53.1,
+        "relegationProb": 2.5,
+        "expectedPoints": 58.6,
+        "pointsRange": [
+          43,
+          74
+        ]
+      }
+    },
+    "champion": 9.7,
+    "libertadores": 53.1,
+    "sulamericana": 47.7,
+    "relegation": 2.5
+  },
+  {
+    "team": {
+      "slug": "sao-paulo",
+      "name": "São Paulo",
+      "shortName": "São Paulo",
+      "city": "",
+      "state": "",
+      "founded": 0,
+      "nickname": "",
+      "division": "A",
+      "brand": "#A8232E",
+      "bio": "",
+      "current": {
+        "position": 7,
+        "points": 25,
+        "titleProb": 9.4,
+        "g4Prob": 54.5,
+        "relegationProb": 2.3,
+        "expectedPoints": 58.4,
+        "pointsRange": [
+          43,
+          74
+        ]
+      }
+    },
+    "champion": 9.4,
+    "libertadores": 54.5,
+    "sulamericana": 46.9,
+    "relegation": 2.3
+  },
+  {
+    "team": {
+      "slug": "remo",
+      "name": "Remo",
+      "shortName": "Remo",
+      "city": "",
+      "state": "",
+      "founded": 0,
+      "nickname": "",
+      "division": "A",
+      "brand": "#888888",
+      "bio": "",
+      "current": {
+        "position": 19,
+        "points": 15,
+        "titleProb": 8.7,
+        "g4Prob": 52.4,
+        "relegationProb": 2.7,
+        "expectedPoints": 58.5,
+        "pointsRange": [
+          43,
+          74
+        ]
+      }
+    },
+    "champion": 8.7,
+    "libertadores": 52.4,
+    "sulamericana": 48.1,
+    "relegation": 2.7
+  },
+  {
+    "team": {
+      "slug": "santos",
+      "name": "Santos",
+      "shortName": "Santos",
+      "city": "",
+      "state": "",
+      "founded": 0,
+      "nickname": "",
+      "division": "A",
+      "brand": "#2A2A2A",
+      "bio": "",
+      "current": {
+        "position": 17,
+        "points": 18,
+        "titleProb": 8.6,
+        "g4Prob": 51.6,
+        "relegationProb": 2.4,
+        "expectedPoints": 58.4,
+        "pointsRange": [
+          43,
+          74
+        ]
+      }
+    },
+    "champion": 8.6,
+    "libertadores": 51.6,
+    "sulamericana": 48.6,
+    "relegation": 2.4
+  },
+  {
+    "team": {
+      "slug": "flamengo",
+      "name": "Flamengo",
+      "shortName": "Flamengo",
+      "city": "",
+      "state": "",
+      "founded": 0,
+      "nickname": "",
+      "division": "A",
+      "brand": "#B61E2B",
+      "bio": "",
+      "current": {
+        "position": 2,
+        "points": 31,
+        "titleProb": 0.3,
+        "g4Prob": 6.1,
+        "relegationProb": 35.4,
+        "expectedPoints": 44.5,
+        "pointsRange": [
+          30,
           60
         ]
-      },
-      "bio": "Bicampeão da Libertadores. Vive temporada de reconstrução após oscilações nas últimas três edições."
+      }
+    },
+    "champion": 0.3,
+    "libertadores": 6.1,
+    "sulamericana": 70.0,
+    "relegation": 35.4
+  },
+  {
+    "team": {
+      "slug": "coritiba",
+      "name": "Coritiba",
+      "shortName": "Coritiba",
+      "city": "",
+      "state": "",
+      "founded": 0,
+      "nickname": "",
+      "division": "A",
+      "brand": "#1A6B3A",
+      "bio": "",
+      "current": {
+        "position": 6,
+        "points": 26,
+        "titleProb": 0.3,
+        "g4Prob": 5.5,
+        "relegationProb": 37.0,
+        "expectedPoints": 44.3,
+        "pointsRange": [
+          30,
+          60
+        ]
+      }
+    },
+    "champion": 0.3,
+    "libertadores": 5.5,
+    "sulamericana": 70.0,
+    "relegation": 37.0
+  },
+  {
+    "team": {
+      "slug": "bahia",
+      "name": "Bahia",
+      "shortName": "Bahia",
+      "city": "",
+      "state": "",
+      "founded": 0,
+      "nickname": "",
+      "division": "A",
+      "brand": "#888888",
+      "bio": "",
+      "current": {
+        "position": 8,
+        "points": 23,
+        "titleProb": 0.3,
+        "g4Prob": 5.9,
+        "relegationProb": 36.2,
+        "expectedPoints": 44.6,
+        "pointsRange": [
+          30,
+          60
+        ]
+      }
+    },
+    "champion": 0.3,
+    "libertadores": 5.9,
+    "sulamericana": 69.9,
+    "relegation": 36.2
+  },
+  {
+    "team": {
+      "slug": "athletico-pr",
+      "name": "Athletico-PR",
+      "shortName": "Athletico-PR",
+      "city": "",
+      "state": "",
+      "founded": 0,
+      "nickname": "",
+      "division": "A",
+      "brand": "#888888",
+      "bio": "",
+      "current": {
+        "position": 4,
+        "points": 27,
+        "titleProb": 0.2,
+        "g4Prob": 5.8,
+        "relegationProb": 35.9,
+        "expectedPoints": 44.5,
+        "pointsRange": [
+          30,
+          60
+        ]
+      }
     },
     "champion": 0.2,
-    "libertadores": 6.8,
-    "sulamericana": 74.9,
-    "relegation": 8.2
+    "libertadores": 5.8,
+    "sulamericana": 70.1,
+    "relegation": 35.9
+  },
+  {
+    "team": {
+      "slug": "botafogo",
+      "name": "Botafogo",
+      "shortName": "Botafogo",
+      "city": "",
+      "state": "",
+      "founded": 0,
+      "nickname": "",
+      "division": "A",
+      "brand": "#1A1A1A",
+      "bio": "",
+      "current": {
+        "position": 10,
+        "points": 22,
+        "titleProb": 0.2,
+        "g4Prob": 5.5,
+        "relegationProb": 37.2,
+        "expectedPoints": 44.5,
+        "pointsRange": [
+          30,
+          60
+        ]
+      }
+    },
+    "champion": 0.2,
+    "libertadores": 5.5,
+    "sulamericana": 70.0,
+    "relegation": 37.2
+  },
+  {
+    "team": {
+      "slug": "gremio",
+      "name": "Grêmio",
+      "shortName": "Grêmio",
+      "city": "",
+      "state": "",
+      "founded": 0,
+      "nickname": "",
+      "division": "A",
+      "brand": "#888888",
+      "bio": "",
+      "current": {
+        "position": 14,
+        "points": 21,
+        "titleProb": 0.2,
+        "g4Prob": 5.3,
+        "relegationProb": 39.3,
+        "expectedPoints": 44.4,
+        "pointsRange": [
+          29,
+          60
+        ]
+      }
+    },
+    "champion": 0.2,
+    "libertadores": 5.3,
+    "sulamericana": 69.7,
+    "relegation": 39.3
+  },
+  {
+    "team": {
+      "slug": "vasco",
+      "name": "Vasco",
+      "shortName": "Vasco",
+      "city": "",
+      "state": "",
+      "founded": 0,
+      "nickname": "",
+      "division": "A",
+      "brand": "#888888",
+      "bio": "",
+      "current": {
+        "position": 16,
+        "points": 20,
+        "titleProb": 0.2,
+        "g4Prob": 5.3,
+        "relegationProb": 39.0,
+        "expectedPoints": 44.5,
+        "pointsRange": [
+          30,
+          60
+        ]
+      }
+    },
+    "champion": 0.2,
+    "libertadores": 5.3,
+    "sulamericana": 69.8,
+    "relegation": 39.0
+  },
+  {
+    "team": {
+      "slug": "atletico-mg",
+      "name": "Atlético-MG",
+      "shortName": "Atlético-MG",
+      "city": "",
+      "state": "",
+      "founded": 0,
+      "nickname": "",
+      "division": "A",
+      "brand": "#2A2A2A",
+      "bio": "",
+      "current": {
+        "position": 12,
+        "points": 21,
+        "titleProb": 0.1,
+        "g4Prob": 5.5,
+        "relegationProb": 37.8,
+        "expectedPoints": 44.5,
+        "pointsRange": [
+          30,
+          60
+        ]
+      }
+    },
+    "champion": 0.1,
+    "libertadores": 5.5,
+    "sulamericana": 69.9,
+    "relegation": 37.8
+  },
+  {
+    "team": {
+      "slug": "mirassol",
+      "name": "Mirassol",
+      "shortName": "Mirassol",
+      "city": "",
+      "state": "",
+      "founded": 0,
+      "nickname": "",
+      "division": "A",
+      "brand": "#888888",
+      "bio": "",
+      "current": {
+        "position": 18,
+        "points": 16,
+        "titleProb": 0.1,
+        "g4Prob": 5.0,
+        "relegationProb": 39.1,
+        "expectedPoints": 44.6,
+        "pointsRange": [
+          30,
+          60
+        ]
+      }
+    },
+    "champion": 0.1,
+    "libertadores": 5.0,
+    "sulamericana": 70.0,
+    "relegation": 39.1
+  },
+  {
+    "team": {
+      "slug": "chapecoense",
+      "name": "Chapecoense",
+      "shortName": "Chapecoense",
+      "city": "",
+      "state": "",
+      "founded": 0,
+      "nickname": "",
+      "division": "A",
+      "brand": "#0F5F3F",
+      "bio": "",
+      "current": {
+        "position": 20,
+        "points": 9,
+        "titleProb": 0.1,
+        "g4Prob": 4.8,
+        "relegationProb": 40.1,
+        "expectedPoints": 44.5,
+        "pointsRange": [
+          30,
+          60
+        ]
+      }
+    },
+    "champion": 0.1,
+    "libertadores": 4.8,
+    "sulamericana": 69.9,
+    "relegation": 40.1
   }
 ]
