@@ -102,11 +102,19 @@ class ApiFutebolClient:
         session.mount("https://", HTTPAdapter(max_retries=retry))
         return session
 
-    def _get(self, path: str) -> Any:
+    def _get(self, path: str, _retries: int = 3) -> Any:
+        import time
         url = f"{BASE_URL}{path}"
-        resp = self._session.get(url, timeout=15)
+        for attempt in range(_retries + 1):
+            resp = self._session.get(url, timeout=15)
+            if resp.status_code == 429:
+                wait = int(resp.headers.get("Retry-After", 60))
+                logger.warning("429 em %s — aguardando %ds (tentativa %d/%d)", path, wait, attempt + 1, _retries + 1)
+                time.sleep(wait)
+                continue
+            resp.raise_for_status()
+            return resp.json()
         resp.raise_for_status()
-        return resp.json()
 
     # ── Descoberta de IDs ────────────────────────────────────────────────────
 
