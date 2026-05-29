@@ -200,53 +200,83 @@ class ApiFutebolClient:
             teams.append(team)
         return teams
 
+    # ── Helpers internos ─────────────────────────────────────────────────────
+
+    def _list_rodadas(self, campeonato_id: int) -> list[dict]:
+        """
+        Retorna a lista de rodadas do campeonato, normalizando as diferentes
+        estruturas que a API pode retornar (list, dict com 'rodadas',
+        dict com chave de fase como 'fase-unica').
+        """
+        data = self._get(f"/campeonatos/{campeonato_id}/rodadas")
+        if isinstance(data, list):
+            return data
+        if isinstance(data, dict):
+            if "rodadas" in data:
+                return data["rodadas"]
+            # Estrutura por fase: {'fase-unica': [...], ...}
+            for v in data.values():
+                if isinstance(v, list) and v and isinstance(v[0], dict):
+                    return v
+        return []
+
+    def _fetch_rodada_detail(self, rodada: dict) -> list[dict]:
+        """
+        Busca as partidas de uma rodada. Se as partidas não estiverem inline
+        (campo 'partidas' vazio), segue o '_link' da rodada.
+        """
+        partidas = rodada.get("partidas") or []
+        if partidas:
+            return partidas
+        link = rodada.get("_link", "")
+        if link:
+            detail = self._get(link)
+            return detail.get("partidas", []) if isinstance(detail, dict) else []
+        return []
+
+    @staticmethod
+    def _score_from_jogo(jogo: dict) -> tuple[int, int] | None:
+        """Extrai (home_goals, away_goals) de um jogo; None se sem placar."""
+        placar_m = jogo.get("placar_mandante")
+        placar_v = jogo.get("placar_visitante")
+        if placar_m is not None and placar_v is not None:
+            try:
+                return int(placar_m), int(placar_v)
+            except (ValueError, TypeError):
+                pass
+        placar = jogo.get("placar", "") or ""
+        try:
+            a, b = str(placar).split("x")
+            return int(a), int(b)
+        except (ValueError, AttributeError):
+            return None
+
     # ── Resultados ───────────────────────────────────────────────────────────
 
     def fetch_results(self, campeonato_id: int) -> list[MatchResult]:
         """
         Retorna todos os resultados de partidas disputadas.
-        Detecta jogos encerrados pela presença do placar, não pelo campo status,
-        porque os valores de status variam entre versões da API.
+        Busca o detalhe de cada rodada encerrada via _link, pois a listagem
+        de rodadas não inclui partidas inline.
         """
-        data = self._get(f"/campeonatos/{campeonato_id}/rodadas")
+        rodadas = self._list_rodadas(campeonato_id)
+        logger.info("%d rodadas listadas para campeonato_id=%d", len(rodadas), campeonato_id)
+
         results: list[MatchResult] = []
-
-        rodadas = data if isinstance(data, list) else data.get("rodadas", [])
-
-        # Diagnóstico: loga estrutura real dos primeiros jogos
-        import json as _json
-        logger.info("Rodadas recebidas: %d | tipo=%s | top-level keys=%s",
-                    len(rodadas), type(data).__name__,
-                    list(data.keys()) if isinstance(data, dict) else "list")
-        for _r in rodadas[:3]:
-            _partidas = _r.get("partidas", [])
-            logger.info("Rodada %s: %d partidas | keys_rodada=%s",
-                        _r.get("rodada", _r.get("numero")), len(_partidas), list(_r.keys()))
-            if _partidas:
-                _j = _partidas[0]
-                logger.info("  Jogo[0] keys=%s", list(_j.keys()))
-                logger.info("  placar_m=%s placar_v=%s placar=%s status=%s",
-                            _j.get("placar_mandante"), _j.get("placar_visitante"),
-                            _j.get("placar"), _j.get("status"))
         for rodada in rodadas:
+            status = (rodada.get("status") or "").lower()
             round_num = rodada.get("rodada", rodada.get("numero", 0))
-            for jogo in rodada.get("partidas", []):
-                placar_m = jogo.get("placar_mandante")
-                placar_v = jogo.get("placar_visitante")
 
-                if placar_m is not None and placar_v is not None:
-                    try:
-                        home_goals = int(placar_m)
-                        away_goals = int(placar_v)
-                    except (ValueError, TypeError):
-                        continue
-                else:
-                    placar = jogo.get("placar", "") or ""
-                    try:
-                        home_goals, away_goals = (int(x) for x in str(placar).split("x"))
-                    except (ValueError, AttributeError):
-                        continue  # sem placar = jogo não disputado
+            # Processa apenas rodadas encerradas (ou todas que tenham detalhes disponíveis)
+            if status and status not in ("encerrado", "finalizado", "realizado"):
+                continue
 
+            partidas = self._fetch_rodada_detail(rodada)
+            for jogo in partidas:
+                score = self._score_from_jogo(jogo)
+                if score is None:
+                    continue
+                home_goals, away_goals = score
                 home_slug = _to_slug(
                     jogo.get("time_mandante", {}).get("nome_popular", "")
                 )
@@ -255,7 +285,6 @@ class ApiFutebolClient:
                 )
                 if not home_slug or not away_slug:
                     continue
-
                 results.append(MatchResult(
                     round=round_num,
                     home_slug=home_slug,
@@ -264,7 +293,7 @@ class ApiFutebolClient:
                     away_goals=away_goals,
                 ))
 
-        logger.info("%d resultados encontrados para campeonato_id=%d", len(results), campeonato_id)
+        logger.info("%d resultados para campeonato_id=%d", len(results), campeonato_id)
         return results
 
     # ── Próxima rodada ───────────────────────────────────────────────────────
@@ -272,21 +301,16 @@ class ApiFutebolClient:
     def fetch_next_round_fixtures(self, campeonato_id: int) -> list[dict]:
         """
         Retorna os jogos da próxima rodada ainda não disputados.
-        Detecta jogos pendentes pela ausência de placar.
+        Busca o detalhe da primeira rodada não encerrada via _link.
         """
-        data = self._get(f"/campeonatos/{campeonato_id}/rodadas")
-        rodadas = data if isinstance(data, list) else data.get("rodadas", [])
-
-        def _has_score(p: dict) -> bool:
-            if p.get("placar_mandante") is not None and p.get("placar_visitante") is not None:
-                return True
-            placar = p.get("placar", "") or ""
-            return "x" in str(placar).lower()
-
+        rodadas = self._list_rodadas(campeonato_id)
         for rodada in rodadas:
-            partidas = rodada.get("partidas", [])
-            pendentes = [p for p in partidas if not _has_score(p)]
+            status = (rodada.get("status") or "").lower()
+            if status in ("encerrado", "finalizado", "realizado"):
+                continue
+            round_num = rodada.get("rodada", rodada.get("numero", 0))
+            partidas = self._fetch_rodada_detail(rodada)
+            pendentes = [p for p in partidas if self._score_from_jogo(p) is None]
             if pendentes:
-                round_num = rodada.get("rodada", rodada.get("numero", 0))
                 return [{"round": round_num, **p} for p in pendentes]
         return []
