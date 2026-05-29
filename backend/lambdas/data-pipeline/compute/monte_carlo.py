@@ -1,4 +1,4 @@
-y"""
+"""
 Modelo de simulação Monte Carlo para o Brasileirão.
 
 Método:
