@@ -119,6 +119,8 @@ class ApiFutebolClient:
         data = self._get("/campeonatos")
         campeonatos = data if isinstance(data, list) else data.get("campeonatos", [])
 
+        _SKIP = {"feminino", "sub-17", "sub-20", "série c", "série d", "serie-c", "serie-d"}
+
         ids: dict[str, int] = {}
         for c in campeonatos:
             nome = c.get("nome", "") or ""
@@ -127,15 +129,25 @@ class ApiFutebolClient:
             cid = c.get("campeonato_id") or c.get("id")
 
             is_current = str(ano) in temporada or not temporada
-            nome_lower = (nome + slug_api).lower()
+            nome_lower = (nome + " " + slug_api).lower()
 
-            if is_current and "brasileiro" in nome_lower:
-                if "série a" in nome_lower or "serie-a" in nome_lower or nome_lower.endswith("-a"):
-                    ids["A"] = int(cid)
-                    logger.info("Série A descoberta: id=%d nome='%s'", cid, nome)
-                elif "série b" in nome_lower or "serie-b" in nome_lower or nome_lower.endswith("-b"):
-                    ids["B"] = int(cid)
-                    logger.info("Série B descoberta: id=%d nome='%s'", cid, nome)
+            if not is_current:
+                continue
+            if not any(k in nome_lower for k in ("brasileiro", "brasileirao")):
+                continue
+            if any(k in nome_lower for k in _SKIP):
+                continue
+
+            if "série b" in nome_lower or "serie-b" in nome_lower:
+                ids["B"] = int(cid)
+                logger.info("Série B descoberta: id=%d nome='%s'", cid, nome)
+            elif "série a" in nome_lower or "serie-a" in nome_lower:
+                ids["A"] = int(cid)
+                logger.info("Série A descoberta: id=%d nome='%s'", cid, nome)
+            elif "A" not in ids:
+                # "Campeonato Brasileiro" sem sufixo de série = Série A
+                ids["A"] = int(cid)
+                logger.info("Série A descoberta: id=%d nome='%s'", cid, nome)
 
         missing = [d for d in ("A", "B") if d not in ids]
         if missing:
