@@ -68,7 +68,7 @@ def build_next_round(
             away=away,
             date=date_str,
             time=time_str,
-            venue=f.get("estadio", {}).get("nome_popular", f"{home.city}, {home.state}"),
+            venue=(f.get("estadio") or {}).get("nome_popular") or f"{home.city}, {home.state}",
             home_win=max(5.0, round(hw, 1)),
             draw=max(5.0, round(draw, 1)),
             away_win=max(5.0, round(aw, 1)),

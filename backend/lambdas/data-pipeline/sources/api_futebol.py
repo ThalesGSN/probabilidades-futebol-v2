@@ -267,13 +267,7 @@ class ApiFutebolClient:
 
         results: list[MatchResult] = []
         for rodada in rodadas:
-            status = (rodada.get("status") or "").lower()
             round_num = rodada.get("rodada", rodada.get("numero", 0))
-
-            # Processa apenas rodadas encerradas (ou todas que tenham detalhes disponíveis)
-            if status and status not in ("encerrado", "finalizado", "realizado"):
-                continue
-
             partidas = self._fetch_rodada_detail(rodada)
             for jogo in partidas:
                 score = self._score_from_jogo(jogo)
@@ -308,12 +302,10 @@ class ApiFutebolClient:
         """
         rodadas = self._list_rodadas(campeonato_id)
         for rodada in rodadas:
-            status = (rodada.get("status") or "").lower()
-            if status in ("encerrado", "finalizado", "realizado"):
-                continue
             round_num = rodada.get("rodada", rodada.get("numero", 0))
             partidas = self._fetch_rodada_detail(rodada)
             pendentes = [p for p in partidas if self._score_from_jogo(p) is None]
             if pendentes:
+                logger.info("Próxima rodada: %d | %d jogos pendentes", round_num, len(pendentes))
                 return [{"round": round_num, **p} for p in pendentes]
         return []
