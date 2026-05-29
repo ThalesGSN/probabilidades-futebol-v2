@@ -161,15 +161,23 @@ class ApiFutebolClient:
     # ── Times ────────────────────────────────────────────────────────────────
 
     def fetch_teams(self, campeonato_id: int, division: str) -> list[Team]:
-        """Retorna todos os times de um campeonato como objetos Team."""
-        data = self._get(f"/campeonatos/{campeonato_id}/times")
+        """
+        Retorna todos os times de um campeonato como objetos Team.
+        Usa /tabela (classificação) como fonte primária — endpoint que a API
+        Futebol expõe para todos os campeonatos.
+        """
+        data = self._get(f"/campeonatos/{campeonato_id}/tabela")
+        rows = data if isinstance(data, list) else data.get("tabela", [])
         teams = []
-        for t in data.get("times", data if isinstance(data, list) else []):
-            slug = _to_slug(t.get("nome_popular", t.get("nome", "")))
+        for pos, t in enumerate(rows, start=1):
+            # A tabela pode aninhar dados do time em "time" ou no próprio objeto
+            time_obj = t.get("time", t)
+            nome_popular = time_obj.get("nome_popular", time_obj.get("nome", ""))
+            slug = _to_slug(nome_popular)
             current = TeamCurrent(
-                position=t.get("posicao", 0),
+                position=pos,
                 points=t.get("pontos", 0),
-                title_prob=0.0,     # preenchido pelo Monte Carlo
+                title_prob=0.0,
                 g4_prob=0.0,
                 relegation_prob=0.0,
                 expected_points=float(t.get("pontos", 0)),
@@ -177,12 +185,12 @@ class ApiFutebolClient:
             )
             team = Team(
                 slug=slug,
-                name=t.get("nome", t.get("nome_popular", slug)),
-                short_name=t.get("nome_popular", slug),
-                city=t.get("cidade", ""),
-                state=t.get("estado", t.get("uf", "")),
-                founded=t.get("fundacao", 0),
-                nickname=t.get("apelido", ""),
+                name=time_obj.get("nome", nome_popular or slug),
+                short_name=nome_popular or slug,
+                city=time_obj.get("cidade", ""),
+                state=time_obj.get("estado", time_obj.get("uf", "")),
+                founded=time_obj.get("fundacao", 0),
+                nickname=time_obj.get("apelido", ""),
                 division=division,
                 brand=_BRAND_MAP.get(slug, "#888888"),
                 bio="",
