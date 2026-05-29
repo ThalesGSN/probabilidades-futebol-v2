@@ -97,7 +97,8 @@ class ApiFutebolClient:
             "Authorization": f"Bearer {self._key}",
             "Accept": "application/json",
         })
-        retry = Retry(total=3, backoff_factor=1, status_forcelist=[429, 500, 502, 503, 504])
+        # 429 removido: re-tentar rate limit consume quota; deixar falhar rápido.
+        retry = Retry(total=3, backoff_factor=1, status_forcelist=[500, 502, 503, 504])
         session.mount("https://", HTTPAdapter(max_retries=retry))
         return session
 

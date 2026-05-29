@@ -28,6 +28,8 @@ jobs:
         env:
           API_FUTEBOL_KEY: ${{ secrets.API_FUTEBOL_KEY }}
           OUTPUT_DIR: ${{ github.workspace }}/public/data
+          SERIE_A_ID: "10"
+          SERIE_B_ID: "14"
           MONTE_CARLO_N: "10000"
           TOTAL_ROUNDS: "38"
         working-directory: backend/lambdas/data-pipeline
