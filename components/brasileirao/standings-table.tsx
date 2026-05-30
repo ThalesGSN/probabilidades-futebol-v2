@@ -2,8 +2,7 @@ import { useState } from "react"
 import { Link } from "react-router-dom"
 import type { Division } from "@/lib/teams"
 import { computeStandingsFromResults, type StandingMode, type StandingRow } from "@/lib/brasileirao"
-import { getTeamsByDivision } from "@/lib/teams"
-import { useStandings, useMatchResults } from "@/hooks/use-static-data"
+import { useStandings, useMatchResults, useTeams } from "@/hooks/use-static-data"
 import { Slider } from "@/components/ui/slider"
 
 const modeLabels: Record<StandingMode, string> = {
@@ -27,13 +26,18 @@ export function StandingsTable({
 
   const { data: standingsJson, isLoading: standingsLoading } = useStandings(division)
   const { data: results, isLoading: resultsLoading } = useMatchResults(division)
+  const { data: allTeams, isLoading: teamsLoading } = useTeams()
 
-  const isLoading = mode === "ultimas-10" ? resultsLoading : standingsLoading
+  const divisionTeams = allTeams?.filter((t) => t.division === division) ?? []
+
+  const isLoading = mode === "ultimas-10"
+    ? resultsLoading || teamsLoading
+    : standingsLoading
 
   let rows: StandingRow[] = []
   if (mode === "ultimas-10") {
-    if (results) {
-      rows = computeStandingsFromResults(results, getTeamsByDivision(division), range)
+    if (results && divisionTeams.length > 0) {
+      rows = computeStandingsFromResults(results, divisionTeams as never, range)
     }
   } else if (standingsJson) {
     rows = standingsJson[mode] ?? []
@@ -59,6 +63,18 @@ export function StandingsTable({
 
   if (isLoading) {
     return <div className="h-64 animate-pulse rounded-sm bg-muted" />
+  }
+
+  if (mode === "ultimas-10" && results?.length === 0) {
+    return (
+      <div className="rounded-sm border border-border bg-card px-6 py-12 text-center">
+        <p className="font-serif text-lg text-foreground">Resultados ainda não disponíveis</p>
+        <p className="mt-2 text-sm text-muted-foreground">
+          Esta visão é gerada a partir dos resultados individuais de cada partida,
+          que serão carregados na próxima execução do pipeline.
+        </p>
+      </div>
+    )
   }
 
   return (
