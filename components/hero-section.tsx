@@ -1,7 +1,14 @@
 import { useMemo } from "react"
 import { ArrowUpRight } from "lucide-react"
-import { useProbabilities } from "@/hooks/use-static-data"
+import { useProbabilities, useMetadata } from "@/hooks/use-static-data"
 import type { TeamProbabilityRow } from "@/lib/brasileirao"
+
+function formatGeneratedAt(iso: string): string {
+  const d = new Date(iso)
+  const day = d.toLocaleDateString("pt-BR", { day: "2-digit", month: "short", timeZone: "America/Sao_Paulo" })
+  const time = d.toLocaleTimeString("pt-BR", { hour: "2-digit", minute: "2-digit", timeZone: "America/Sao_Paulo" })
+  return `${day} às ${time}`
+}
 
 function formatPct(v: number) {
   return v.toFixed(1).replace(".", ",") + "%"
@@ -50,6 +57,7 @@ function StatCardSkeleton() {
 
 export function HeroSection() {
   const { data: probs } = useProbabilities("A")
+  const { data: meta } = useMetadata("A")
 
   const currentRound = useMemo(() => {
     if (!probs?.length) return null
@@ -76,6 +84,7 @@ export function HeroSection() {
   const roundBadge = currentRound
     ? `Atualizado · ${ordinal(currentRound)} rodada`
     : "Atualizado · Brasileirão 2026"
+  const updatedAt = meta?.generatedAt ? formatGeneratedAt(meta.generatedAt) : null
 
   return (
     <section className="relative overflow-hidden border-b border-border bg-primary text-primary-foreground">
@@ -95,6 +104,12 @@ export function HeroSection() {
                 <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-accent" />
               </span>
               {roundBadge}
+              {updatedAt && (
+                <>
+                  <span className="opacity-40">·</span>
+                  <span className="normal-case tracking-normal opacity-70">{updatedAt}</span>
+                </>
+              )}
             </div>
 
             <h1 className="font-serif text-5xl leading-[0.95] tracking-tight text-balance sm:text-6xl lg:text-7xl">

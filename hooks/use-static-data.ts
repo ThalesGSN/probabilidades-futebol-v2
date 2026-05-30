@@ -86,6 +86,15 @@ export function useStats(division: Division) {
   )
 }
 
+export type DivisionMetadata = { generatedAt: string }
+
+export function useMetadata(division: Division) {
+  return useSWR<DivisionMetadata>(
+    `${divPath(division)}/metadata.json`,
+    jsonFetcher,
+  )
+}
+
 export function useTeams() {
   return useSWR<Team[]>("/data/teams.json", jsonFetcher)
 }

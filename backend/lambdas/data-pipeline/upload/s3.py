@@ -6,6 +6,7 @@ A estrutura de chaves espelha public/data/ do frontend.
 import json
 import logging
 import os
+from datetime import datetime, timezone
 import boto3
 from botocore.exceptions import ClientError
 
@@ -57,6 +58,10 @@ class S3Uploader:
     def upload_stats(self, division: str, stats: dict) -> None:
         key = f"brasileirao-{division.lower()}/stats.json"
         self._put(key, {k: [r.to_dict() for r in rows] for k, rows in stats.items()})
+
+    def upload_metadata(self, division: str) -> None:
+        key = f"brasileirao-{division.lower()}/metadata.json"
+        self._put(key, {"generatedAt": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")})
 
     # ── Times ────────────────────────────────────────────────────────────────
 

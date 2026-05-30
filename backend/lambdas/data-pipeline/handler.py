@@ -77,6 +77,7 @@ def _process_division(
     uploader.upload_results(division, results)
     uploader.upload_next_round(division, next_round)
     uploader.upload_stats(division, stats)
+    uploader.upload_metadata(division)
 
     # 8. Páginas por time
     for team in teams:

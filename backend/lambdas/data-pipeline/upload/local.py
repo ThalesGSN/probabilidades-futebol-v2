@@ -8,6 +8,7 @@ OUTPUT_DIR: caminho para o diretório de saída (default: public/data/ na raiz d
 import json
 import logging
 import os
+from datetime import datetime, timezone
 from pathlib import Path
 
 logger = logging.getLogger(__name__)
@@ -51,6 +52,12 @@ class LocalUploader:
         self._write(
             f"brasileirao-{division.lower()}/stats.json",
             {k: [r.to_dict() for r in rows] for k, rows in stats.items()},
+        )
+
+    def upload_metadata(self, division: str) -> None:
+        self._write(
+            f"brasileirao-{division.lower()}/metadata.json",
+            {"generatedAt": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")},
         )
 
     # ── Times ────────────────────────────────────────────────────────────────
