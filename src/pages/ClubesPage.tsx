@@ -2,16 +2,21 @@ import { Link } from "react-router-dom"
 import { ArrowUpRight } from "lucide-react"
 import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
-import { getTeamsByDivision, type Team } from "@/lib/teams"
+import type { Team } from "@/lib/teams"
 import { useDocumentTitle } from "@/src/hooks/use-document-title"
-import { useMetadata } from "@/hooks/use-static-data"
+import { useTeams, useMetadata } from "@/hooks/use-static-data"
 import { formatGeneratedAt } from "@/lib/format-date"
 
 export function ClubesPage() {
   useDocumentTitle("Clubes — Probabilidades no Futebol UFMG")
 
-  const serieA = getTeamsByDivision("A").sort((a, b) => a.current.position - b.current.position)
-  const serieB = getTeamsByDivision("B").sort((a, b) => a.current.position - b.current.position)
+  const { data: allTeams } = useTeams()
+  const serieA = (allTeams?.filter((t) => t.division === "A") ?? []).sort(
+    (a, b) => a.current.position - b.current.position,
+  )
+  const serieB = (allTeams?.filter((t) => t.division === "B") ?? []).sort(
+    (a, b) => a.current.position - b.current.position,
+  )
   const { data: metaA } = useMetadata("A")
   const { data: metaB } = useMetadata("B")
   const updatedAtA = metaA?.generatedAt ? formatGeneratedAt(metaA.generatedAt) : null
@@ -127,9 +132,8 @@ function DivisionSection({
           <div className="lg:col-span-7 lg:pt-2">
             <p className="text-lg leading-relaxed text-muted-foreground text-pretty">{description}</p>
             <div className="mt-6 flex flex-wrap items-center gap-x-8 gap-y-3 font-mono text-[11px] uppercase tracking-wider text-muted-foreground">
-              <span>{teams.length.toString().padStart(2, "0")} clubes</span>
-              <span aria-hidden>·</span>
-              {updatedAt && <span>Atualizado em {updatedAt}</span>}
+              <span>{teams.length > 0 ? `${teams.length.toString().padStart(2, "0")} clubes` : "— clubes"}</span>
+              {updatedAt && <><span aria-hidden>·</span><span>Atualizado em {updatedAt}</span></>}
               <span aria-hidden>·</span>
               <span className={accentText}>10.000 simulações</span>
             </div>
@@ -137,6 +141,19 @@ function DivisionSection({
         </header>
 
         <ul className="mt-10 grid gap-px overflow-hidden rounded-md border border-border bg-border md:grid-cols-2 lg:grid-cols-3">
+          {teams.length === 0 && Array.from({ length: 6 }).map((_, i) => (
+            <li key={i}>
+              <div className="flex h-[148px] flex-col gap-4 bg-card p-6 animate-pulse">
+                <div className="h-3 w-24 rounded bg-muted" />
+                <div className="h-6 w-36 rounded bg-muted" />
+                <div className="mt-auto flex gap-6">
+                  <div className="h-3 w-12 rounded bg-muted" />
+                  <div className="h-3 w-12 rounded bg-muted" />
+                  <div className="h-3 w-12 rounded bg-muted" />
+                </div>
+              </div>
+            </li>
+          ))}
           {teams.map((t) => (
             <li key={t.slug}>
               <Link
