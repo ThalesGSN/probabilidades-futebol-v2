@@ -1,0 +1,169 @@
+{
+  "teams": [
+    {
+      "slug": "sao-bernardo",
+      "shortName": "São Bernardo",
+      "brand": "#888888"
+    },
+    {
+      "slug": "fortaleza",
+      "shortName": "Fortaleza",
+      "brand": "#888888"
+    },
+    {
+      "slug": "sport",
+      "shortName": "Sport",
+      "brand": "#B61E2B"
+    },
+    {
+      "slug": "novorizontino",
+      "shortName": "Novorizontino",
+      "brand": "#1E3F8C"
+    },
+    {
+      "slug": "criciuma",
+      "shortName": "Criciúma",
+      "brand": "#888888"
+    },
+    {
+      "slug": "ceara",
+      "shortName": "Ceará",
+      "brand": "#888888"
+    },
+    {
+      "slug": "operario-pr",
+      "shortName": "Operário-PR",
+      "brand": "#1A1A1A"
+    },
+    {
+      "slug": "avai",
+      "shortName": "Avaí",
+      "brand": "#1E5BA3"
+    },
+    {
+      "slug": "ponte-preta",
+      "shortName": "Ponte Preta",
+      "brand": "#1A1A1A"
+    },
+    {
+      "slug": "botafogo-sp",
+      "shortName": "Botafogo-SP",
+      "brand": "#888888"
+    },
+    {
+      "slug": "nautico",
+      "shortName": "Náutico",
+      "brand": "#888888"
+    },
+    {
+      "slug": "vila-nova",
+      "shortName": "Vila Nova",
+      "brand": "#888888"
+    },
+    {
+      "slug": "goias",
+      "shortName": "Goiás",
+      "brand": "#0F5F3F"
+    },
+    {
+      "slug": "crb",
+      "shortName": "CRB",
+      "brand": "#B61E2B"
+    },
+    {
+      "slug": "atletico-go",
+      "shortName": "Atlético-GO",
+      "brand": "#888888"
+    },
+    {
+      "slug": "cuiaba",
+      "shortName": "Cuiabá",
+      "brand": "#888888"
+    },
+    {
+      "slug": "londrina",
+      "shortName": "Londrina",
+      "brand": "#888888"
+    },
+    {
+      "slug": "america-mg",
+      "shortName": "América-MG",
+      "brand": "#888888"
+    },
+    {
+      "slug": "athletic-club",
+      "shortName": "Athletic Club",
+      "brand": "#1A1A1A"
+    },
+    {
+      "slug": "juventude",
+      "shortName": "Juventude",
+      "brand": "#888888"
+    }
+  ],
+  "series": [
+    {
+      "rodada": 10,
+      "sao-bernardo_titulo": 10.8,
+      "sao-bernardo_g4": 39.7,
+      "sao-bernardo_rebaixamento": 2.2,
+      "fortaleza_titulo": 10.6,
+      "fortaleza_g4": 39.1,
+      "fortaleza_rebaixamento": 2.3,
+      "sport_titulo": 10.4,
+      "sport_g4": 39.0,
+      "sport_rebaixamento": 2.2,
+      "novorizontino_titulo": 10.4,
+      "novorizontino_g4": 38.8,
+      "novorizontino_rebaixamento": 2.5,
+      "criciuma_titulo": 9.6,
+      "criciuma_g4": 37.9,
+      "criciuma_rebaixamento": 2.4,
+      "ceara_titulo": 9.6,
+      "ceara_g4": 37.5,
+      "ceara_rebaixamento": 2.4,
+      "operario-pr_titulo": 9.5,
+      "operario-pr_g4": 37.1,
+      "operario-pr_rebaixamento": 2.6,
+      "avai_titulo": 9.2,
+      "avai_g4": 35.8,
+      "avai_rebaixamento": 2.5,
+      "ponte-preta_titulo": 9.1,
+      "ponte-preta_g4": 35.1,
+      "ponte-preta_rebaixamento": 2.8,
+      "botafogo-sp_titulo": 8.8,
+      "botafogo-sp_g4": 35.4,
+      "botafogo-sp_rebaixamento": 2.7,
+      "nautico_titulo": 0.3,
+      "nautico_g4": 2.7,
+      "nautico_rebaixamento": 35.9,
+      "vila-nova_titulo": 0.3,
+      "vila-nova_g4": 2.5,
+      "vila-nova_rebaixamento": 35.3,
+      "goias_titulo": 0.2,
+      "goias_g4": 2.5,
+      "goias_rebaixamento": 36.4,
+      "crb_titulo": 0.2,
+      "crb_g4": 2.6,
+      "crb_rebaixamento": 36.6,
+      "atletico-go_titulo": 0.2,
+      "atletico-go_g4": 2.4,
+      "atletico-go_rebaixamento": 38.6,
+      "cuiaba_titulo": 0.2,
+      "cuiaba_g4": 2.2,
+      "cuiaba_rebaixamento": 39.1,
+      "londrina_titulo": 0.2,
+      "londrina_g4": 2.1,
+      "londrina_rebaixamento": 39.0,
+      "america-mg_titulo": 0.2,
+      "america-mg_g4": 2.4,
+      "america-mg_rebaixamento": 39.6,
+      "athletic-club_titulo": 0.1,
+      "athletic-club_g4": 2.6,
+      "athletic-club_rebaixamento": 37.3,
+      "juventude_titulo": 0.1,
+      "juventude_g4": 2.4,
+      "juventude_rebaixamento": 37.8
+    }
+  ]
+}

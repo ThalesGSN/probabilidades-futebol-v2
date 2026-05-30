@@ -63,6 +63,36 @@ class S3Uploader:
         key = f"brasileirao-{division.lower()}/metadata.json"
         self._put(key, {"generatedAt": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")})
 
+    def update_cardiogram(self, division: str, round_num: int, prob_rows) -> None:
+        """Acumula snapshot de probabilidades por rodada em cardiogram.json."""
+        key = f"brasileirao-{division.lower()}/cardiogram.json"
+        existing: dict = {}
+        try:
+            obj = self._client.get_object(Bucket=self.bucket, Key=key)
+            existing = json.loads(obj["Body"].read().decode("utf-8"))
+        except ClientError as e:
+            if e.response["Error"]["Code"] not in ("NoSuchKey", "404"):
+                raise
+
+        teams_meta = [
+            {"slug": r.team.slug, "shortName": r.team.short_name, "brand": r.team.brand}
+            for r in prob_rows
+        ]
+        series: list[dict] = existing.get("series", [])
+
+        point: dict = {"rodada": round_num}
+        for r in prob_rows:
+            s = r.team.slug
+            point[f"{s}_titulo"]       = round(r.champion, 1)
+            point[f"{s}_g4"]           = round(r.libertadores, 1)
+            point[f"{s}_rebaixamento"] = round(r.relegation, 1)
+
+        series = [p for p in series if p.get("rodada") != round_num]
+        series.append(point)
+        series.sort(key=lambda p: p["rodada"])
+
+        self._put(key, {"teams": teams_meta, "series": series})
+
     # ── Times ────────────────────────────────────────────────────────────────
 
     def upload_teams_index(self, teams) -> None:

@@ -87,6 +87,16 @@ export function useStats(division: Division) {
 }
 
 export type DivisionMetadata = { generatedAt: string }
+export type CardiogramTeam = { slug: string; shortName: string; brand: string }
+export type CardiogramPoint = { rodada: number } & Record<string, number>
+export type CardiogramData = { teams: CardiogramTeam[]; series: CardiogramPoint[] }
+
+export function useCardiogram(division: Division) {
+  return useSWR<CardiogramData>(
+    `${divPath(division)}/cardiogram.json`,
+    jsonFetcher,
+  )
+}
 
 export function useMetadata(division: Division) {
   return useSWR<DivisionMetadata>(

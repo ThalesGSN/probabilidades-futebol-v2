@@ -3,12 +3,13 @@ import {
   CartesianGrid,
   Line,
   LineChart,
-  ReferenceDot,
   ResponsiveContainer,
   Tooltip,
   XAxis,
   YAxis,
 } from "recharts"
+import { useCardiogram } from "@/hooks/use-static-data"
+import type { CardiogramTeam } from "@/hooks/use-static-data"
 
 type Metric = "titulo" | "g4" | "rebaixamento"
 
@@ -18,59 +19,70 @@ const metrics: { id: Metric; label: string; helper: string }[] = [
   { id: "rebaixamento", label: "Rebaixamento", helper: "Risco de queda à Série B" },
 ]
 
-const teams = [
-  { id: "palmeiras", name: "Palmeiras", color: "var(--color-chart-1)" },
-  { id: "flamengo", name: "Flamengo", color: "var(--color-chart-4)" },
-  { id: "botafogo", name: "Botafogo", color: "var(--color-chart-3)" },
-  { id: "atletico", name: "Atlético-MG", color: "var(--color-chart-2)" },
-] as const
-
-// Série fictícia mas plausível: 31 rodadas x 4 times x 3 métricas
-// (em produção viria do pipeline diário de Monte Carlo)
-// Usamos ruído determinístico (não Math.random) para evitar mismatch de hidratação SSR/CSR.
-const noise = (seed: number) => {
-  const x = Math.sin(seed * 12.9898) * 43758.5453
-  return x - Math.floor(x) - 0.5
-}
-const data = Array.from({ length: 31 }, (_, i) => {
-  const r = i + 1
-  const wave = (offset: number, amp: number, base: number) =>
-    Math.max(0, Math.min(100, base + Math.sin((r + offset) / 3.2) * amp + noise(r + offset * 7) * 4))
-
-  return {
-    rodada: r,
-    palmeiras_titulo: wave(0, 14, 28 + r * 0.4),
-    flamengo_titulo: wave(2, 18, 32 - r * 0.2),
-    botafogo_titulo: wave(5, 12, 18 + Math.sin(r / 4) * 6),
-    atletico_titulo: wave(7, 10, 12 + r * 0.15),
-
-    palmeiras_g4: wave(0, 8, 72 + r * 0.5),
-    flamengo_g4: wave(2, 10, 78 - r * 0.1),
-    botafogo_g4: wave(5, 12, 58 + r * 0.3),
-    atletico_g4: wave(7, 14, 42 + r * 0.6),
-
-    palmeiras_rebaixamento: wave(0, 1, 0.5),
-    flamengo_rebaixamento: wave(2, 1, 0.7),
-    botafogo_rebaixamento: wave(5, 2, 1.4),
-    atletico_rebaixamento: wave(7, 3, 4),
-  }
-})
-
-const annotations = [
-  { rodada: 12, label: "Clássico paulista", team: "palmeiras" },
-  { rodada: 22, label: "Troca de técnico", team: "flamengo" },
-  { rodada: 28, label: "Lesão do artilheiro", team: "botafogo" },
+// Cores fixas para os primeiros N times (por ordem no JSON, que já vem sorted por title_prob)
+const PALETTE = [
+  "var(--color-chart-1)",
+  "var(--color-chart-4)",
+  "var(--color-chart-3)",
+  "var(--color-chart-2)",
+  "var(--color-chart-5)",
 ]
+
+const TOP_N = 4
+
+function useCardiogramData(division: "A" | "B") {
+  const { data } = useCardiogram(division)
+
+  return useMemo(() => {
+    if (!data?.teams?.length || !data?.series?.length) return null
+
+    // Top N times por prob de título na última rodada disponível
+    const lastPoint = data.series[data.series.length - 1]
+    const ranked = [...data.teams]
+      .sort((a, b) =>
+        (lastPoint[`${b.slug}_titulo`] ?? 0) - (lastPoint[`${a.slug}_titulo`] ?? 0),
+      )
+      .slice(0, TOP_N)
+
+    const teams: (CardiogramTeam & { color: string })[] = ranked.map((t, i) => ({
+      ...t,
+      color: PALETTE[i] ?? "var(--color-chart-1)",
+    }))
+
+    return { teams, series: data.series }
+  }, [data])
+}
 
 export function ProbabilityCardiogram() {
   const [metric, setMetric] = useState<Metric>("titulo")
-  const [activeTeams, setActiveTeams] = useState<string[]>(teams.map((t) => t.id))
+  const [activeTeams, setActiveTeams] = useState<string[] | null>(null)
+  const cardiogram = useCardiogramData("A")
+
+  const teams = cardiogram?.teams ?? []
+  const series = cardiogram?.series ?? []
+
+  // Inicializa activeTeams quando os dados chegam
+  const effectiveActive = activeTeams ?? teams.map((t) => t.slug)
 
   const toggleTeam = (id: string) => {
-    setActiveTeams((prev) => (prev.includes(id) ? prev.filter((t) => t !== id) : [...prev, id]))
+    const current = activeTeams ?? teams.map((t) => t.slug)
+    setActiveTeams(current.includes(id) ? current.filter((t) => t !== id) : [...current, id])
   }
 
   const currentMetricLabel = useMemo(() => metrics.find((m) => m.id === metric)?.label, [metric])
+
+  const yDomain = useMemo((): [number, number] => {
+    if (!series.length || !teams.length) return [0, 100]
+    if (metric === "rebaixamento") {
+      const max = Math.max(
+        ...series.flatMap((p) => teams.map((t) => p[`${t.slug}_rebaixamento`] ?? 0)),
+      )
+      return [0, Math.min(100, Math.ceil(max * 1.3 / 5) * 5 || 20)]
+    }
+    return [0, 100]
+  }, [series, teams, metric])
+
+  const lastPoint = series[series.length - 1]
 
   return (
     <section id="brasileirao" className="border-b border-border bg-background">
@@ -112,36 +124,42 @@ export function ProbabilityCardiogram() {
 
               <div>
                 <p className="mb-2 text-xs uppercase tracking-wider text-muted-foreground">Clubes</p>
-                <div className="space-y-1.5">
-                  {teams.map((t) => {
-                    const active = activeTeams.includes(t.id)
-                    return (
-                      <button
-                        key={t.id}
-                        onClick={() => toggleTeam(t.id)}
-                        className={`flex w-full items-center justify-between rounded-sm border px-3 py-2 text-sm transition-colors ${
-                          active
-                            ? "border-border bg-card text-foreground"
-                            : "border-border/60 bg-transparent text-muted-foreground hover:bg-muted/40"
-                        }`}
-                      >
-                        <span className="flex items-center gap-2.5">
-                          <span
-                            className="h-2.5 w-2.5 rounded-full transition-opacity"
-                            style={{
-                              backgroundColor: t.color,
-                              opacity: active ? 1 : 0.25,
-                            }}
-                          />
-                          {t.name}
-                        </span>
-                        <span className="tabular text-xs text-muted-foreground">
-                          {(data[data.length - 1] as Record<string, number>)[`${t.id}_${metric}`]?.toFixed(1)}%
-                        </span>
-                      </button>
-                    )
-                  })}
-                </div>
+                {!cardiogram ? (
+                  <div className="space-y-1.5">
+                    {Array.from({ length: TOP_N }).map((_, i) => (
+                      <div key={i} className="h-9 animate-pulse rounded-sm bg-muted" />
+                    ))}
+                  </div>
+                ) : (
+                  <div className="space-y-1.5">
+                    {teams.map((t) => {
+                      const active = effectiveActive.includes(t.slug)
+                      const currentValue = lastPoint?.[`${t.slug}_${metric}`]
+                      return (
+                        <button
+                          key={t.slug}
+                          onClick={() => toggleTeam(t.slug)}
+                          className={`flex w-full items-center justify-between rounded-sm border px-3 py-2 text-sm transition-colors ${
+                            active
+                              ? "border-border bg-card text-foreground"
+                              : "border-border/60 bg-transparent text-muted-foreground hover:bg-muted/40"
+                          }`}
+                        >
+                          <span className="flex items-center gap-2.5">
+                            <span
+                              className="h-2.5 w-2.5 rounded-full transition-opacity"
+                              style={{ backgroundColor: t.color, opacity: active ? 1 : 0.25 }}
+                            />
+                            {t.shortName}
+                          </span>
+                          <span className="tabular text-xs text-muted-foreground">
+                            {currentValue != null ? `${currentValue.toFixed(1)}%` : "—"}
+                          </span>
+                        </button>
+                      )
+                    })}
+                  </div>
+                )}
               </div>
             </div>
           </div>
@@ -157,98 +175,75 @@ export function ProbabilityCardiogram() {
               </div>
 
               <div className="h-[420px] w-full">
-                <ResponsiveContainer width="100%" height="100%">
-                  <LineChart data={data} margin={{ top: 8, right: 16, bottom: 8, left: -16 }}>
-                    <CartesianGrid stroke="var(--color-border)" strokeDasharray="2 4" vertical={false} />
-                    <XAxis
-                      dataKey="rodada"
-                      stroke="var(--color-muted-foreground)"
-                      tick={{ fontSize: 11, fontFamily: "var(--font-mono)" }}
-                      tickLine={false}
-                      axisLine={{ stroke: "var(--color-border)" }}
-                      label={{
-                        value: "rodada",
-                        position: "insideBottom",
-                        offset: -2,
-                        style: { fontSize: 10, fill: "var(--color-muted-foreground)" },
-                      }}
-                    />
-                    <YAxis
-                      stroke="var(--color-muted-foreground)"
-                      tick={{ fontSize: 11, fontFamily: "var(--font-mono)" }}
-                      tickLine={false}
-                      axisLine={false}
-                      tickFormatter={(v) => `${v}`}
-                      domain={metric === "rebaixamento" ? [0, 20] : [0, 100]}
-                    />
-                    <Tooltip
-                      contentStyle={{
-                        backgroundColor: "var(--color-card)",
-                        border: "1px solid var(--color-border)",
-                        borderRadius: 6,
-                        fontSize: 12,
-                        fontFamily: "var(--font-sans)",
-                      }}
-                      labelFormatter={(v) => `Rodada ${v}`}
-                      formatter={(value: number, name: string) => {
-                        const team = teams.find((t) => name.startsWith(t.id))
-                        return [`${value.toFixed(1)}%`, team?.name ?? name]
-                      }}
-                    />
-                    {teams.map(
-                      (t) =>
-                        activeTeams.includes(t.id) && (
-                          <Line
-                            key={t.id}
-                            type="monotone"
-                            dataKey={`${t.id}_${metric}`}
-                            stroke={t.color}
-                            strokeWidth={2}
-                            dot={false}
-                            activeDot={{ r: 4, strokeWidth: 0 }}
-                            isAnimationActive={false}
-                          />
-                        ),
-                    )}
-                    {annotations
-                      .filter((a) => activeTeams.includes(a.team))
-                      .map((a) => {
-                        const team = teams.find((t) => t.id === a.team)
-                        const point = data[a.rodada - 1] as Record<string, number>
-                        const y = point[`${a.team}_${metric}`]
-                        if (y === undefined) return null
-                        return (
-                          <ReferenceDot
-                            key={`${a.rodada}-${a.team}`}
-                            x={a.rodada}
-                            y={y}
-                            r={4}
-                            fill="var(--color-accent)"
-                            stroke="var(--color-card)"
-                            strokeWidth={2}
-                          />
-                        )
-                      })}
-                  </LineChart>
-                </ResponsiveContainer>
+                {!cardiogram ? (
+                  <div className="flex h-full items-center justify-center">
+                    <div className="h-full w-full animate-pulse rounded bg-muted" />
+                  </div>
+                ) : (
+                  <ResponsiveContainer width="100%" height="100%">
+                    <LineChart data={series} margin={{ top: 8, right: 16, bottom: 8, left: -16 }}>
+                      <CartesianGrid stroke="var(--color-border)" strokeDasharray="2 4" vertical={false} />
+                      <XAxis
+                        dataKey="rodada"
+                        stroke="var(--color-muted-foreground)"
+                        tick={{ fontSize: 11, fontFamily: "var(--font-mono)" }}
+                        tickLine={false}
+                        axisLine={{ stroke: "var(--color-border)" }}
+                        label={{
+                          value: "rodada",
+                          position: "insideBottom",
+                          offset: -2,
+                          style: { fontSize: 10, fill: "var(--color-muted-foreground)" },
+                        }}
+                      />
+                      <YAxis
+                        stroke="var(--color-muted-foreground)"
+                        tick={{ fontSize: 11, fontFamily: "var(--font-mono)" }}
+                        tickLine={false}
+                        axisLine={false}
+                        tickFormatter={(v) => `${v}`}
+                        domain={yDomain}
+                      />
+                      <Tooltip
+                        contentStyle={{
+                          backgroundColor: "var(--color-card)",
+                          border: "1px solid var(--color-border)",
+                          borderRadius: 6,
+                          fontSize: 12,
+                          fontFamily: "var(--font-sans)",
+                        }}
+                        labelFormatter={(v) => `Rodada ${v}`}
+                        formatter={(value: number, name: string) => {
+                          const team = teams.find((t) => name.startsWith(t.slug))
+                          return [`${(value as number).toFixed(1)}%`, team?.shortName ?? name]
+                        }}
+                      />
+                      {teams.map(
+                        (t) =>
+                          effectiveActive.includes(t.slug) && (
+                            <Line
+                              key={t.slug}
+                              type="monotone"
+                              dataKey={`${t.slug}_${metric}`}
+                              stroke={t.color}
+                              strokeWidth={2}
+                              dot={false}
+                              activeDot={{ r: 4, strokeWidth: 0 }}
+                              isAnimationActive={false}
+                              connectNulls
+                            />
+                          ),
+                      )}
+                    </LineChart>
+                  </ResponsiveContainer>
+                )}
               </div>
 
-              <div className="mt-6 grid gap-3 border-t border-border pt-5 sm:grid-cols-3">
-                {annotations.map((a) => {
-                  const team = teams.find((t) => t.id === a.team)
-                  return (
-                    <div key={a.label} className="flex items-start gap-2.5">
-                      <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-accent" />
-                      <div>
-                        <p className="font-mono text-[10px] uppercase tracking-wider text-muted-foreground">
-                          rodada {a.rodada} · {team?.name}
-                        </p>
-                        <p className="text-sm text-foreground">{a.label}</p>
-                      </div>
-                    </div>
-                  )
-                })}
-              </div>
+              {series.length <= 1 && cardiogram && (
+                <p className="mt-4 text-center text-xs text-muted-foreground">
+                  O gráfico ganha curvas a cada nova rodada processada pelo pipeline.
+                </p>
+              )}
             </div>
           </div>
         </div>

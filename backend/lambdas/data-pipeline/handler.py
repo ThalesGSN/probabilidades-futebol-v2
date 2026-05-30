@@ -78,6 +78,7 @@ def _process_division(
     uploader.upload_next_round(division, next_round)
     uploader.upload_stats(division, stats)
     uploader.upload_metadata(division)
+    uploader.update_cardiogram(division, mc.current_round, prob_rows)
 
     # 8. Páginas por time
     for team in teams:
