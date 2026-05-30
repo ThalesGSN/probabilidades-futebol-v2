@@ -4,12 +4,18 @@ import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { getTeamsByDivision, type Team } from "@/lib/teams"
 import { useDocumentTitle } from "@/src/hooks/use-document-title"
+import { useMetadata } from "@/hooks/use-static-data"
+import { formatGeneratedAt } from "@/lib/format-date"
 
 export function ClubesPage() {
   useDocumentTitle("Clubes — Probabilidades no Futebol UFMG")
 
   const serieA = getTeamsByDivision("A").sort((a, b) => a.current.position - b.current.position)
   const serieB = getTeamsByDivision("B").sort((a, b) => a.current.position - b.current.position)
+  const { data: metaA } = useMetadata("A")
+  const { data: metaB } = useMetadata("B")
+  const updatedAtA = metaA?.generatedAt ? formatGeneratedAt(metaA.generatedAt) : null
+  const updatedAtB = metaB?.generatedAt ? formatGeneratedAt(metaB.generatedAt) : null
 
   return (
     <main className="min-h-screen bg-background">
@@ -52,6 +58,7 @@ export function ClubesPage() {
         description="Os 20 clubes que disputam o título do Brasileirão, vagas na Libertadores e a luta contra o rebaixamento."
         teams={serieA}
         accent="primary"
+        updatedAt={updatedAtA}
       />
 
       {/* Série B */}
@@ -62,6 +69,7 @@ export function ClubesPage() {
         description="Os 20 clubes que brigam pelas quatro vagas de acesso à elite e tentam evitar a queda à Série C."
         teams={serieB}
         accent="accent"
+        updatedAt={updatedAtB}
       />
 
       <SiteFooter />
@@ -88,6 +96,7 @@ function DivisionSection({
   description,
   teams,
   accent,
+  updatedAt,
 }: {
   id: string
   eyebrow: string
@@ -95,6 +104,7 @@ function DivisionSection({
   description: string
   teams: Team[]
   accent: "primary" | "accent"
+  updatedAt?: string | null
 }) {
   const accentBar = accent === "primary" ? "bg-primary" : "bg-accent"
   const accentText = accent === "primary" ? "text-primary" : "text-accent"
@@ -119,7 +129,7 @@ function DivisionSection({
             <div className="mt-6 flex flex-wrap items-center gap-x-8 gap-y-3 font-mono text-[11px] uppercase tracking-wider text-muted-foreground">
               <span>{teams.length.toString().padStart(2, "0")} clubes</span>
               <span aria-hidden>·</span>
-              <span>Atualizado após a rodada 31</span>
+              {updatedAt && <span>Atualizado em {updatedAt}</span>}
               <span aria-hidden>·</span>
               <span className={accentText}>10.000 simulações</span>
             </div>

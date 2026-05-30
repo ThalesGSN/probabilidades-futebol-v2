@@ -2,13 +2,7 @@ import { useMemo } from "react"
 import { ArrowUpRight } from "lucide-react"
 import { useProbabilities, useMetadata } from "@/hooks/use-static-data"
 import type { TeamProbabilityRow } from "@/lib/brasileirao"
-
-function formatGeneratedAt(iso: string): string {
-  const d = new Date(iso)
-  const day = d.toLocaleDateString("pt-BR", { day: "2-digit", month: "short", timeZone: "America/Sao_Paulo" })
-  const time = d.toLocaleTimeString("pt-BR", { hour: "2-digit", minute: "2-digit", timeZone: "America/Sao_Paulo" })
-  return `${day} às ${time}`
-}
+import { formatGeneratedAt } from "@/lib/format-date"
 
 function formatPct(v: number) {
   return v.toFixed(1).replace(".", ",") + "%"

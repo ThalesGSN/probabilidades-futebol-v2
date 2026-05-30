@@ -1,9 +1,13 @@
 import { Link } from "react-router-dom"
 import { ChevronLeft } from "lucide-react"
 import type { Team } from "@/lib/teams"
+import { useMetadata } from "@/hooks/use-static-data"
+import { formatGeneratedAt } from "@/lib/format-date"
 
 export function TeamHero({ team }: { team: Team }) {
   const { current } = team
+  const { data: meta } = useMetadata(team.division)
+  const updatedAt = meta?.generatedAt ? formatGeneratedAt(meta.generatedAt) : null
 
   return (
     <section className="relative overflow-hidden border-b border-border bg-primary text-primary-foreground">
@@ -48,7 +52,8 @@ export function TeamHero({ team }: { team: Team }) {
 
           <div className="lg:col-span-5 lg:border-l lg:border-primary-foreground/15 lg:pl-8">
             <p className="text-xs uppercase tracking-[0.18em] text-primary-foreground/60">
-              Brasileirão 2026 · rodada 31 de 38
+              Brasileirão 2026 · rodada {current.played} de 38
+              {updatedAt && <span className="ml-2 normal-case tracking-normal opacity-70">· {updatedAt}</span>}
             </p>
             <div className="mt-6 flex items-baseline gap-3">
               <span className="font-serif text-7xl leading-none tabular">

@@ -7,6 +7,8 @@ import { PointsDistributionTable } from "@/components/brasileirao/points-distrib
 import { StandingsTable } from "@/components/brasileirao/standings-table"
 import { NextRoundTable } from "@/components/brasileirao/next-round-table"
 import { StatsRanking } from "@/components/brasileirao/stats-ranking"
+import { useMetadata } from "@/hooks/use-static-data"
+import { formatGeneratedAt } from "@/lib/format-date"
 
 type SectionKey =
   | "prob-time"
@@ -90,6 +92,8 @@ export function BrasileiraoPanel() {
   const [division, setDivision] = useState<Division>("A")
   const [section, setSection] = useState<SectionKey>("prob-time")
   const [item, setItem] = useState<ItemKey>("champion")
+  const { data: meta } = useMetadata(division)
+  const updatedAt = meta?.generatedAt ? formatGeneratedAt(meta.generatedAt) : null
 
   const currentSection = SECTIONS.find((s) => s.key === section)!
   const currentItem = currentSection.items.find((i) => i.key === item) ?? currentSection.items[0]
@@ -120,6 +124,11 @@ export function BrasileiraoPanel() {
             Probabilidades, classificações e estatísticas das duas divisões do Campeonato Brasileiro,
             atualizadas diariamente após cada rodada.
           </p>
+          {updatedAt && (
+            <p className="mt-3 font-mono text-[11px] text-muted-foreground/70">
+              Dados atualizados em {updatedAt}
+            </p>
+          )}
         </div>
 
         {/* Tabs principais Série A / Série B */}
