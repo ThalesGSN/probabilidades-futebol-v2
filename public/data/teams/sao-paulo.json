@@ -1,236 +1,325 @@
 {
-  "season": [],
+  "season": [
+    {
+      "rodada": 1,
+      "titleProb": 4.9,
+      "g4Prob": 20.1,
+      "relegationProb": 19.6,
+      "titleLow": 0,
+      "titleHigh": 12.7,
+      "expectedPoints": 3
+    },
+    {
+      "rodada": 2,
+      "titleProb": 4.7,
+      "g4Prob": 20.1,
+      "relegationProb": 19.2,
+      "titleLow": 0,
+      "titleHigh": 12.4,
+      "expectedPoints": 4
+    },
+    {
+      "rodada": 3,
+      "titleProb": 4.6,
+      "g4Prob": 20.2,
+      "relegationProb": 18.8,
+      "titleLow": 0,
+      "titleHigh": 12.1,
+      "expectedPoints": 7
+    },
+    {
+      "rodada": 4,
+      "titleProb": 4.5,
+      "g4Prob": 20.3,
+      "relegationProb": 18.4,
+      "titleLow": 0,
+      "titleHigh": 11.9,
+      "expectedPoints": 10
+    },
+    {
+      "rodada": 5,
+      "titleProb": 4.4,
+      "g4Prob": 20.4,
+      "relegationProb": 18.0,
+      "titleLow": 0,
+      "titleHigh": 11.6,
+      "expectedPoints": 13
+    },
+    {
+      "rodada": 6,
+      "titleProb": 4.2,
+      "g4Prob": 20.4,
+      "relegationProb": 17.6,
+      "titleLow": 0,
+      "titleHigh": 11.3,
+      "expectedPoints": 16
+    },
+    {
+      "rodada": 7,
+      "titleProb": 4.1,
+      "g4Prob": 20.5,
+      "relegationProb": 17.2,
+      "titleLow": 0,
+      "titleHigh": 11.0,
+      "expectedPoints": 16
+    },
+    {
+      "rodada": 8,
+      "titleProb": 4.0,
+      "g4Prob": 20.6,
+      "relegationProb": 16.8,
+      "titleLow": 0,
+      "titleHigh": 10.7,
+      "expectedPoints": 16
+    },
+    {
+      "rodada": 9,
+      "titleProb": 3.9,
+      "g4Prob": 20.6,
+      "relegationProb": 16.4,
+      "titleLow": 0,
+      "titleHigh": 10.4,
+      "expectedPoints": 17
+    },
+    {
+      "rodada": 10,
+      "titleProb": 3.7,
+      "g4Prob": 20.7,
+      "relegationProb": 16.0,
+      "titleLow": 0,
+      "titleHigh": 10.2,
+      "expectedPoints": 20
+    },
+    {
+      "rodada": 11,
+      "titleProb": 3.6,
+      "g4Prob": 20.8,
+      "relegationProb": 15.6,
+      "titleLow": 0,
+      "titleHigh": 9.9,
+      "expectedPoints": 20
+    },
+    {
+      "rodada": 12,
+      "titleProb": 3.5,
+      "g4Prob": 20.9,
+      "relegationProb": 15.2,
+      "titleLow": 0,
+      "titleHigh": 9.6,
+      "expectedPoints": 20
+    },
+    {
+      "rodada": 13,
+      "titleProb": 3.4,
+      "g4Prob": 20.9,
+      "relegationProb": 14.8,
+      "titleLow": 0,
+      "titleHigh": 9.3,
+      "expectedPoints": 23
+    },
+    {
+      "rodada": 14,
+      "titleProb": 3.2,
+      "g4Prob": 21.0,
+      "relegationProb": 14.4,
+      "titleLow": 0,
+      "titleHigh": 9.0,
+      "expectedPoints": 24
+    },
+    {
+      "rodada": 15,
+      "titleProb": 3.1,
+      "g4Prob": 21.1,
+      "relegationProb": 14.0,
+      "titleLow": 0,
+      "titleHigh": 8.7,
+      "expectedPoints": 24
+    },
+    {
+      "rodada": 16,
+      "titleProb": 3.0,
+      "g4Prob": 21.1,
+      "relegationProb": 13.6,
+      "titleLow": 0,
+      "titleHigh": 8.5,
+      "expectedPoints": 24
+    },
+    {
+      "rodada": 17,
+      "titleProb": 2.9,
+      "g4Prob": 21.2,
+      "relegationProb": 13.2,
+      "titleLow": 0,
+      "titleHigh": 8.2,
+      "expectedPoints": 25
+    }
+  ],
   "history": [],
   "monteCarlo": [
     {
       "points": 36,
-      "count": 12,
-      "density": 0.0012
+      "count": 14,
+      "density": 0.0014
     },
     {
       "points": 37,
-      "count": 16,
-      "density": 0.0016
+      "count": 19,
+      "density": 0.0019
     },
     {
       "points": 38,
-      "count": 15,
-      "density": 0.0015
+      "count": 34,
+      "density": 0.0034
     },
     {
       "points": 39,
-      "count": 17,
-      "density": 0.0017
-    },
-    {
-      "points": 40,
-      "count": 41,
-      "density": 0.0041
-    },
-    {
-      "points": 41,
       "count": 51,
       "density": 0.0051
     },
     {
+      "points": 40,
+      "count": 92,
+      "density": 0.0092
+    },
+    {
+      "points": 41,
+      "count": 143,
+      "density": 0.0143
+    },
+    {
       "points": 42,
-      "count": 61,
-      "density": 0.0061
+      "count": 174,
+      "density": 0.0174
     },
     {
       "points": 43,
-      "count": 77,
-      "density": 0.0077
+      "count": 234,
+      "density": 0.0234
     },
     {
       "points": 44,
-      "count": 85,
-      "density": 0.0085
+      "count": 297,
+      "density": 0.0297
     },
     {
       "points": 45,
-      "count": 133,
-      "density": 0.0133
+      "count": 372,
+      "density": 0.0372
     },
     {
       "points": 46,
-      "count": 167,
-      "density": 0.0167
+      "count": 421,
+      "density": 0.0421
     },
     {
       "points": 47,
-      "count": 192,
-      "density": 0.0192
+      "count": 475,
+      "density": 0.0475
     },
     {
       "points": 48,
-      "count": 193,
-      "density": 0.0193
+      "count": 607,
+      "density": 0.0607
     },
     {
       "points": 49,
-      "count": 246,
-      "density": 0.0246
+      "count": 618,
+      "density": 0.0618
     },
     {
       "points": 50,
-      "count": 272,
-      "density": 0.0272
+      "count": 632,
+      "density": 0.0632
     },
     {
       "points": 51,
-      "count": 318,
-      "density": 0.0318
+      "count": 673,
+      "density": 0.0673
     },
     {
       "points": 52,
-      "count": 378,
-      "density": 0.0378
+      "count": 656,
+      "density": 0.0656
     },
     {
       "points": 53,
-      "count": 397,
-      "density": 0.0397
+      "count": 590,
+      "density": 0.059
     },
     {
       "points": 54,
-      "count": 458,
-      "density": 0.0458
+      "count": 618,
+      "density": 0.0618
     },
     {
       "points": 55,
-      "count": 472,
-      "density": 0.0472
+      "count": 576,
+      "density": 0.0576
     },
     {
       "points": 56,
-      "count": 494,
-      "density": 0.0494
+      "count": 545,
+      "density": 0.0545
     },
     {
       "points": 57,
-      "count": 464,
-      "density": 0.0464
+      "count": 425,
+      "density": 0.0425
     },
     {
       "points": 58,
-      "count": 496,
-      "density": 0.0496
+      "count": 457,
+      "density": 0.0457
     },
     {
       "points": 59,
-      "count": 459,
-      "density": 0.0459
+      "count": 311,
+      "density": 0.0311
     },
     {
       "points": 60,
-      "count": 485,
-      "density": 0.0485
+      "count": 264,
+      "density": 0.0264
     },
     {
       "points": 61,
-      "count": 462,
-      "density": 0.0462
+      "count": 199,
+      "density": 0.0199
     },
     {
       "points": 62,
-      "count": 444,
-      "density": 0.0444
+      "count": 151,
+      "density": 0.0151
     },
     {
       "points": 63,
-      "count": 420,
-      "density": 0.042
+      "count": 118,
+      "density": 0.0118
     },
     {
       "points": 64,
-      "count": 387,
-      "density": 0.0387
-    },
-    {
-      "points": 65,
-      "count": 347,
-      "density": 0.0347
-    },
-    {
-      "points": 66,
-      "count": 317,
-      "density": 0.0317
-    },
-    {
-      "points": 67,
-      "count": 282,
-      "density": 0.0282
-    },
-    {
-      "points": 68,
-      "count": 238,
-      "density": 0.0238
-    },
-    {
-      "points": 69,
-      "count": 218,
-      "density": 0.0218
-    },
-    {
-      "points": 70,
-      "count": 189,
-      "density": 0.0189
-    },
-    {
-      "points": 71,
-      "count": 156,
-      "density": 0.0156
-    },
-    {
-      "points": 72,
-      "count": 117,
-      "density": 0.0117
-    },
-    {
-      "points": 73,
-      "count": 99,
-      "density": 0.0099
-    },
-    {
-      "points": 74,
       "count": 66,
       "density": 0.0066
     },
     {
-      "points": 75,
-      "count": 64,
-      "density": 0.0064
+      "points": 65,
+      "count": 46,
+      "density": 0.0046
     },
     {
-      "points": 76,
-      "count": 43,
-      "density": 0.0043
+      "points": 66,
+      "count": 45,
+      "density": 0.0045
     },
     {
-      "points": 77,
-      "count": 41,
-      "density": 0.0041
+      "points": 67,
+      "count": 27,
+      "density": 0.0027
     },
     {
-      "points": 78,
-      "count": 20,
-      "density": 0.002
-    },
-    {
-      "points": 79,
-      "count": 21,
-      "density": 0.0021
-    },
-    {
-      "points": 80,
-      "count": 20,
-      "density": 0.002
-    },
-    {
-      "points": 81,
-      "count": 12,
-      "density": 0.0012
+      "points": 69,
+      "count": 13,
+      "density": 0.0013
     }
   ],
   "fixtures": []

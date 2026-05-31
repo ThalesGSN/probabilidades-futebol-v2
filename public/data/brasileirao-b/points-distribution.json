@@ -4,28 +4,28 @@
       "slug": "fortaleza",
       "name": "Fortaleza",
       "shortName": "Fortaleza",
-      "city": "",
-      "state": "",
-      "founded": 0,
-      "nickname": "",
+      "city": "Fortaleza",
+      "state": "CE",
+      "founded": 1918,
+      "nickname": "Leão do Pici",
       "division": "B",
-      "brand": "#888888",
+      "brand": "#0033A0",
       "bio": "",
       "current": {
         "position": 5,
         "points": 18,
-        "played": 10,
-        "titleProb": 10.6,
-        "g4Prob": 39.1,
-        "relegationProb": 2.3,
-        "expectedPoints": 58.5,
+        "played": 11,
+        "titleProb": 37.6,
+        "g4Prob": 79.0,
+        "relegationProb": 0.0,
+        "expectedPoints": 68.0,
         "pointsRange": [
-          43,
-          74
+          55,
+          81
         ]
       }
     },
-    "expected": 58.5,
+    "expected": 68.0,
     "buckets": [
       {
         "range": "25-29",
@@ -37,829 +37,73 @@
         "range": "30-34",
         "min": 30,
         "max": 34,
-        "prob": 0.1
+        "prob": 0.0
       },
       {
         "range": "35-39",
         "min": 35,
         "max": 39,
-        "prob": 0.7
+        "prob": 0.0
       },
       {
         "range": "40-44",
         "min": 40,
         "max": 44,
-        "prob": 3.0
+        "prob": 0.0
       },
       {
         "range": "45-49",
         "min": 45,
         "max": 49,
-        "prob": 9.2
-      },
-      {
-        "range": "50-54",
-        "min": 50,
-        "max": 54,
-        "prob": 18.1
-      },
-      {
-        "range": "55-59",
-        "min": 55,
-        "max": 59,
-        "prob": 24.0
-      },
-      {
-        "range": "60-64",
-        "min": 60,
-        "max": 64,
-        "prob": 22.4
-      },
-      {
-        "range": "65-69",
-        "min": 65,
-        "max": 69,
-        "prob": 13.9
-      },
-      {
-        "range": "70-74",
-        "min": 70,
-        "max": 74,
-        "prob": 6.3
-      },
-      {
-        "range": "75-79",
-        "min": 75,
-        "max": 79,
-        "prob": 1.9
-      },
-      {
-        "range": "80-84",
-        "min": 80,
-        "max": 84,
         "prob": 0.4
       },
       {
-        "range": "85-89",
-        "min": 85,
-        "max": 89,
-        "prob": 0.1
-      }
-    ]
-  },
-  {
-    "team": {
-      "slug": "novorizontino",
-      "name": "Novorizontino",
-      "shortName": "Novorizontino",
-      "city": "",
-      "state": "",
-      "founded": 0,
-      "nickname": "",
-      "division": "B",
-      "brand": "#1E3F8C",
-      "bio": "",
-      "current": {
-        "position": 7,
-        "points": 16,
-        "played": 10,
-        "titleProb": 10.4,
-        "g4Prob": 38.8,
-        "relegationProb": 2.5,
-        "expectedPoints": 58.5,
-        "pointsRange": [
-          42,
-          74
-        ]
-      }
-    },
-    "expected": 58.5,
-    "buckets": [
-      {
-        "range": "25-29",
-        "min": 25,
-        "max": 29,
-        "prob": 0.0
-      },
-      {
-        "range": "30-34",
-        "min": 30,
-        "max": 34,
-        "prob": 0.1
-      },
-      {
-        "range": "35-39",
-        "min": 35,
-        "max": 39,
-        "prob": 0.8
-      },
-      {
-        "range": "40-44",
-        "min": 40,
-        "max": 44,
-        "prob": 3.4
-      },
-      {
-        "range": "45-49",
-        "min": 45,
-        "max": 49,
-        "prob": 8.9
-      },
-      {
         "range": "50-54",
         "min": 50,
         "max": 54,
-        "prob": 17.9
-      },
-      {
-        "range": "55-59",
-        "min": 55,
-        "max": 59,
-        "prob": 23.9
-      },
-      {
-        "range": "60-64",
-        "min": 60,
-        "max": 64,
-        "prob": 22.0
-      },
-      {
-        "range": "65-69",
-        "min": 65,
-        "max": 69,
-        "prob": 14.3
-      },
-      {
-        "range": "70-74",
-        "min": 70,
-        "max": 74,
-        "prob": 6.5
-      },
-      {
-        "range": "75-79",
-        "min": 75,
-        "max": 79,
-        "prob": 1.8
-      },
-      {
-        "range": "80-84",
-        "min": 80,
-        "max": 84,
-        "prob": 0.3
-      },
-      {
-        "range": "85-89",
-        "min": 85,
-        "max": 89,
-        "prob": 0.1
-      }
-    ]
-  },
-  {
-    "team": {
-      "slug": "ceara",
-      "name": "Ceará",
-      "shortName": "Ceará",
-      "city": "",
-      "state": "",
-      "founded": 0,
-      "nickname": "",
-      "division": "B",
-      "brand": "#888888",
-      "bio": "",
-      "current": {
-        "position": 11,
-        "points": 13,
-        "played": 10,
-        "titleProb": 9.6,
-        "g4Prob": 37.5,
-        "relegationProb": 2.4,
-        "expectedPoints": 58.5,
-        "pointsRange": [
-          43,
-          74
-        ]
-      }
-    },
-    "expected": 58.5,
-    "buckets": [
-      {
-        "range": "25-29",
-        "min": 25,
-        "max": 29,
-        "prob": 0.0
-      },
-      {
-        "range": "30-34",
-        "min": 30,
-        "max": 34,
-        "prob": 0.1
-      },
-      {
-        "range": "35-39",
-        "min": 35,
-        "max": 39,
-        "prob": 0.7
-      },
-      {
-        "range": "40-44",
-        "min": 40,
-        "max": 44,
-        "prob": 3.1
-      },
-      {
-        "range": "45-49",
-        "min": 45,
-        "max": 49,
-        "prob": 9.4
-      },
-      {
-        "range": "50-54",
-        "min": 50,
-        "max": 54,
-        "prob": 17.7
-      },
-      {
-        "range": "55-59",
-        "min": 55,
-        "max": 59,
-        "prob": 23.6
-      },
-      {
-        "range": "60-64",
-        "min": 60,
-        "max": 64,
-        "prob": 23.0
-      },
-      {
-        "range": "65-69",
-        "min": 65,
-        "max": 69,
-        "prob": 14.0
-      },
-      {
-        "range": "70-74",
-        "min": 70,
-        "max": 74,
-        "prob": 6.1
-      },
-      {
-        "range": "75-79",
-        "min": 75,
-        "max": 79,
         "prob": 1.9
       },
       {
-        "range": "80-84",
-        "min": 80,
-        "max": 84,
-        "prob": 0.3
-      },
-      {
-        "range": "85-89",
-        "min": 85,
-        "max": 89,
-        "prob": 0.1
-      }
-    ]
-  },
-  {
-    "team": {
-      "slug": "avai",
-      "name": "Avaí",
-      "shortName": "Avaí",
-      "city": "",
-      "state": "",
-      "founded": 0,
-      "nickname": "",
-      "division": "B",
-      "brand": "#1E5BA3",
-      "bio": "",
-      "current": {
-        "position": 15,
-        "points": 10,
-        "played": 10,
-        "titleProb": 9.2,
-        "g4Prob": 35.8,
-        "relegationProb": 2.5,
-        "expectedPoints": 58.5,
-        "pointsRange": [
-          43,
-          74
-        ]
-      }
-    },
-    "expected": 58.5,
-    "buckets": [
-      {
-        "range": "25-29",
-        "min": 25,
-        "max": 29,
-        "prob": 0.0
-      },
-      {
-        "range": "30-34",
-        "min": 30,
-        "max": 34,
-        "prob": 0.1
-      },
-      {
-        "range": "35-39",
-        "min": 35,
-        "max": 39,
-        "prob": 0.8
-      },
-      {
-        "range": "40-44",
-        "min": 40,
-        "max": 44,
-        "prob": 3.1
-      },
-      {
-        "range": "45-49",
-        "min": 45,
-        "max": 49,
-        "prob": 9.1
-      },
-      {
-        "range": "50-54",
-        "min": 50,
-        "max": 54,
-        "prob": 17.6
-      },
-      {
         "range": "55-59",
         "min": 55,
         "max": 59,
-        "prob": 24.6
+        "prob": 8.5
       },
       {
         "range": "60-64",
         "min": 60,
         "max": 64,
-        "prob": 22.5
+        "prob": 19.6
       },
       {
         "range": "65-69",
         "min": 65,
         "max": 69,
-        "prob": 14.0
+        "prob": 27.9
       },
       {
         "range": "70-74",
         "min": 70,
         "max": 74,
-        "prob": 6.0
+        "prob": 24.9
       },
       {
         "range": "75-79",
         "min": 75,
         "max": 79,
-        "prob": 1.8
+        "prob": 12.8
       },
       {
         "range": "80-84",
         "min": 80,
         "max": 84,
-        "prob": 0.4
+        "prob": 3.5
       },
       {
         "range": "85-89",
         "min": 85,
         "max": 89,
-        "prob": 0.1
-      }
-    ]
-  },
-  {
-    "team": {
-      "slug": "sao-bernardo",
-      "name": "São Bernardo",
-      "shortName": "São Bernardo",
-      "city": "",
-      "state": "",
-      "founded": 0,
-      "nickname": "",
-      "division": "B",
-      "brand": "#888888",
-      "bio": "",
-      "current": {
-        "position": 1,
-        "points": 20,
-        "played": 10,
-        "titleProb": 10.8,
-        "g4Prob": 39.7,
-        "relegationProb": 2.2,
-        "expectedPoints": 58.4,
-        "pointsRange": [
-          43,
-          74
-        ]
-      }
-    },
-    "expected": 58.4,
-    "buckets": [
-      {
-        "range": "25-29",
-        "min": 25,
-        "max": 29,
-        "prob": 0.0
-      },
-      {
-        "range": "30-34",
-        "min": 30,
-        "max": 34,
-        "prob": 0.1
-      },
-      {
-        "range": "35-39",
-        "min": 35,
-        "max": 39,
-        "prob": 0.7
-      },
-      {
-        "range": "40-44",
-        "min": 40,
-        "max": 44,
-        "prob": 3.4
-      },
-      {
-        "range": "45-49",
-        "min": 45,
-        "max": 49,
-        "prob": 9.2
-      },
-      {
-        "range": "50-54",
-        "min": 50,
-        "max": 54,
-        "prob": 17.9
-      },
-      {
-        "range": "55-59",
-        "min": 55,
-        "max": 59,
-        "prob": 24.1
-      },
-      {
-        "range": "60-64",
-        "min": 60,
-        "max": 64,
-        "prob": 22.4
-      },
-      {
-        "range": "65-69",
-        "min": 65,
-        "max": 69,
-        "prob": 13.9
-      },
-      {
-        "range": "70-74",
-        "min": 70,
-        "max": 74,
-        "prob": 6.1
-      },
-      {
-        "range": "75-79",
-        "min": 75,
-        "max": 79,
-        "prob": 1.9
-      },
-      {
-        "range": "80-84",
-        "min": 80,
-        "max": 84,
-        "prob": 0.3
-      },
-      {
-        "range": "85-89",
-        "min": 85,
-        "max": 89,
-        "prob": 0.0
-      }
-    ]
-  },
-  {
-    "team": {
-      "slug": "sport",
-      "name": "Sport",
-      "shortName": "Sport",
-      "city": "",
-      "state": "",
-      "founded": 0,
-      "nickname": "",
-      "division": "B",
-      "brand": "#B61E2B",
-      "bio": "",
-      "current": {
-        "position": 3,
-        "points": 19,
-        "played": 10,
-        "titleProb": 10.4,
-        "g4Prob": 39.0,
-        "relegationProb": 2.2,
-        "expectedPoints": 58.4,
-        "pointsRange": [
-          43,
-          74
-        ]
-      }
-    },
-    "expected": 58.4,
-    "buckets": [
-      {
-        "range": "25-29",
-        "min": 25,
-        "max": 29,
-        "prob": 0.0
-      },
-      {
-        "range": "30-34",
-        "min": 30,
-        "max": 34,
-        "prob": 0.1
-      },
-      {
-        "range": "35-39",
-        "min": 35,
-        "max": 39,
-        "prob": 0.7
-      },
-      {
-        "range": "40-44",
-        "min": 40,
-        "max": 44,
-        "prob": 3.2
-      },
-      {
-        "range": "45-49",
-        "min": 45,
-        "max": 49,
-        "prob": 9.4
-      },
-      {
-        "range": "50-54",
-        "min": 50,
-        "max": 54,
-        "prob": 17.7
-      },
-      {
-        "range": "55-59",
-        "min": 55,
-        "max": 59,
-        "prob": 23.9
-      },
-      {
-        "range": "60-64",
-        "min": 60,
-        "max": 64,
-        "prob": 23.0
-      },
-      {
-        "range": "65-69",
-        "min": 65,
-        "max": 69,
-        "prob": 13.9
-      },
-      {
-        "range": "70-74",
-        "min": 70,
-        "max": 74,
-        "prob": 5.9
-      },
-      {
-        "range": "75-79",
-        "min": 75,
-        "max": 79,
-        "prob": 1.7
-      },
-      {
-        "range": "80-84",
-        "min": 80,
-        "max": 84,
-        "prob": 0.4
-      },
-      {
-        "range": "85-89",
-        "min": 85,
-        "max": 89,
-        "prob": 0.0
-      }
-    ]
-  },
-  {
-    "team": {
-      "slug": "criciuma",
-      "name": "Criciúma",
-      "shortName": "Criciúma",
-      "city": "",
-      "state": "",
-      "founded": 0,
-      "nickname": "",
-      "division": "B",
-      "brand": "#888888",
-      "bio": "",
-      "current": {
-        "position": 9,
-        "points": 14,
-        "played": 10,
-        "titleProb": 9.6,
-        "g4Prob": 37.9,
-        "relegationProb": 2.4,
-        "expectedPoints": 58.4,
-        "pointsRange": [
-          43,
-          74
-        ]
-      }
-    },
-    "expected": 58.4,
-    "buckets": [
-      {
-        "range": "25-29",
-        "min": 25,
-        "max": 29,
-        "prob": 0.0
-      },
-      {
-        "range": "30-34",
-        "min": 30,
-        "max": 34,
-        "prob": 0.1
-      },
-      {
-        "range": "35-39",
-        "min": 35,
-        "max": 39,
-        "prob": 0.6
-      },
-      {
-        "range": "40-44",
-        "min": 40,
-        "max": 44,
-        "prob": 3.3
-      },
-      {
-        "range": "45-49",
-        "min": 45,
-        "max": 49,
-        "prob": 8.9
-      },
-      {
-        "range": "50-54",
-        "min": 50,
-        "max": 54,
-        "prob": 18.1
-      },
-      {
-        "range": "55-59",
-        "min": 55,
-        "max": 59,
-        "prob": 24.3
-      },
-      {
-        "range": "60-64",
-        "min": 60,
-        "max": 64,
-        "prob": 22.3
-      },
-      {
-        "range": "65-69",
-        "min": 65,
-        "max": 69,
-        "prob": 14.7
-      },
-      {
-        "range": "70-74",
-        "min": 70,
-        "max": 74,
-        "prob": 5.7
-      },
-      {
-        "range": "75-79",
-        "min": 75,
-        "max": 79,
-        "prob": 1.7
-      },
-      {
-        "range": "80-84",
-        "min": 80,
-        "max": 84,
-        "prob": 0.3
-      },
-      {
-        "range": "85-89",
-        "min": 85,
-        "max": 89,
-        "prob": 0.0
-      }
-    ]
-  },
-  {
-    "team": {
-      "slug": "operario-pr",
-      "name": "Operário-PR",
-      "shortName": "Operário-PR",
-      "city": "",
-      "state": "",
-      "founded": 0,
-      "nickname": "",
-      "division": "B",
-      "brand": "#1A1A1A",
-      "bio": "",
-      "current": {
-        "position": 13,
-        "points": 13,
-        "played": 10,
-        "titleProb": 9.5,
-        "g4Prob": 37.1,
-        "relegationProb": 2.6,
-        "expectedPoints": 58.4,
-        "pointsRange": [
-          43,
-          74
-        ]
-      }
-    },
-    "expected": 58.4,
-    "buckets": [
-      {
-        "range": "25-29",
-        "min": 25,
-        "max": 29,
-        "prob": 0.0
-      },
-      {
-        "range": "30-34",
-        "min": 30,
-        "max": 34,
-        "prob": 0.1
-      },
-      {
-        "range": "35-39",
-        "min": 35,
-        "max": 39,
-        "prob": 0.8
-      },
-      {
-        "range": "40-44",
-        "min": 40,
-        "max": 44,
-        "prob": 3.2
-      },
-      {
-        "range": "45-49",
-        "min": 45,
-        "max": 49,
-        "prob": 9.2
-      },
-      {
-        "range": "50-54",
-        "min": 50,
-        "max": 54,
-        "prob": 18.2
-      },
-      {
-        "range": "55-59",
-        "min": 55,
-        "max": 59,
-        "prob": 23.6
-      },
-      {
-        "range": "60-64",
-        "min": 60,
-        "max": 64,
-        "prob": 22.5
-      },
-      {
-        "range": "65-69",
-        "min": 65,
-        "max": 69,
-        "prob": 13.7
-      },
-      {
-        "range": "70-74",
-        "min": 70,
-        "max": 74,
-        "prob": 6.4
-      },
-      {
-        "range": "75-79",
-        "min": 75,
-        "max": 79,
-        "prob": 1.9
-      },
-      {
-        "range": "80-84",
-        "min": 80,
-        "max": 84,
-        "prob": 0.3
-      },
-      {
-        "range": "85-89",
-        "min": 85,
-        "max": 89,
-        "prob": 0.1
+        "prob": 0.5
       }
     ]
   },
@@ -868,28 +112,28 @@
       "slug": "botafogo-sp",
       "name": "Botafogo-SP",
       "shortName": "Botafogo-SP",
-      "city": "",
-      "state": "",
-      "founded": 0,
-      "nickname": "",
+      "city": "Ribeirão Preto",
+      "state": "SP",
+      "founded": 1898,
+      "nickname": "Pantera",
       "division": "B",
-      "brand": "#888888",
+      "brand": "#2A2A2A",
       "bio": "",
       "current": {
         "position": 17,
         "points": 9,
         "played": 10,
-        "titleProb": 8.8,
-        "g4Prob": 35.4,
-        "relegationProb": 2.7,
-        "expectedPoints": 58.4,
+        "titleProb": 11.9,
+        "g4Prob": 52.0,
+        "relegationProb": 0.1,
+        "expectedPoints": 63.3,
         "pointsRange": [
-          43,
-          75
+          50,
+          76
         ]
       }
     },
-    "expected": 58.4,
+    "expected": 63.3,
     "buckets": [
       {
         "range": "25-29",
@@ -901,175 +145,67 @@
         "range": "30-34",
         "min": 30,
         "max": 34,
-        "prob": 0.1
+        "prob": 0.0
       },
       {
         "range": "35-39",
         "min": 35,
         "max": 39,
-        "prob": 0.7
+        "prob": 0.0
       },
       {
         "range": "40-44",
         "min": 40,
         "max": 44,
-        "prob": 3.1
+        "prob": 0.2
       },
       {
         "range": "45-49",
         "min": 45,
         "max": 49,
-        "prob": 9.6
+        "prob": 1.9
       },
       {
         "range": "50-54",
         "min": 50,
         "max": 54,
-        "prob": 18.1
+        "prob": 6.9
       },
       {
         "range": "55-59",
         "min": 55,
         "max": 59,
-        "prob": 24.3
-      },
-      {
-        "range": "60-64",
-        "min": 60,
-        "max": 64,
-        "prob": 21.8
-      },
-      {
-        "range": "65-69",
-        "min": 65,
-        "max": 69,
-        "prob": 13.5
-      },
-      {
-        "range": "70-74",
-        "min": 70,
-        "max": 74,
-        "prob": 6.1
-      },
-      {
-        "range": "75-79",
-        "min": 75,
-        "max": 79,
-        "prob": 2.0
-      },
-      {
-        "range": "80-84",
-        "min": 80,
-        "max": 84,
-        "prob": 0.5
-      },
-      {
-        "range": "85-89",
-        "min": 85,
-        "max": 89,
-        "prob": 0.1
-      }
-    ]
-  },
-  {
-    "team": {
-      "slug": "ponte-preta",
-      "name": "Ponte Preta",
-      "shortName": "Ponte Preta",
-      "city": "",
-      "state": "",
-      "founded": 0,
-      "nickname": "",
-      "division": "B",
-      "brand": "#1A1A1A",
-      "bio": "",
-      "current": {
-        "position": 19,
-        "points": 7,
-        "played": 10,
-        "titleProb": 9.1,
-        "g4Prob": 35.1,
-        "relegationProb": 2.8,
-        "expectedPoints": 58.4,
-        "pointsRange": [
-          43,
-          74
-        ]
-      }
-    },
-    "expected": 58.4,
-    "buckets": [
-      {
-        "range": "25-29",
-        "min": 25,
-        "max": 29,
-        "prob": 0.0
-      },
-      {
-        "range": "30-34",
-        "min": 30,
-        "max": 34,
-        "prob": 0.1
-      },
-      {
-        "range": "35-39",
-        "min": 35,
-        "max": 39,
-        "prob": 0.7
-      },
-      {
-        "range": "40-44",
-        "min": 40,
-        "max": 44,
-        "prob": 2.9
-      },
-      {
-        "range": "45-49",
-        "min": 45,
-        "max": 49,
-        "prob": 9.3
-      },
-      {
-        "range": "50-54",
-        "min": 50,
-        "max": 54,
         "prob": 18.5
       },
       {
-        "range": "55-59",
-        "min": 55,
-        "max": 59,
-        "prob": 24.1
-      },
-      {
         "range": "60-64",
         "min": 60,
         "max": 64,
-        "prob": 22.1
+        "prob": 29.1
       },
       {
         "range": "65-69",
         "min": 65,
         "max": 69,
-        "prob": 13.9
+        "prob": 25.9
       },
       {
         "range": "70-74",
         "min": 70,
         "max": 74,
-        "prob": 5.9
+        "prob": 13.4
       },
       {
         "range": "75-79",
         "min": 75,
         "max": 79,
-        "prob": 2.0
+        "prob": 3.7
       },
       {
         "range": "80-84",
         "min": 80,
         "max": 84,
-        "prob": 0.3
+        "prob": 0.4
       },
       {
         "range": "85-89",
@@ -1084,88 +220,844 @@
       "slug": "nautico",
       "name": "Náutico",
       "shortName": "Náutico",
-      "city": "",
-      "state": "",
-      "founded": 0,
-      "nickname": "",
+      "city": "Recife",
+      "state": "PE",
+      "founded": 1901,
+      "nickname": "Timbu",
       "division": "B",
-      "brand": "#888888",
+      "brand": "#CC0000",
       "bio": "",
       "current": {
-        "position": 2,
+        "position": 3,
         "points": 19,
-        "played": 10,
-        "titleProb": 0.3,
-        "g4Prob": 2.7,
-        "relegationProb": 35.9,
-        "expectedPoints": 44.6,
+        "played": 11,
+        "titleProb": 12.3,
+        "g4Prob": 50.4,
+        "relegationProb": 0.1,
+        "expectedPoints": 62.5,
         "pointsRange": [
-          30,
-          60
+          49,
+          76
         ]
       }
     },
-    "expected": 44.6,
+    "expected": 62.5,
     "buckets": [
       {
         "range": "25-29",
         "min": 25,
         "max": 29,
-        "prob": 2.0
+        "prob": 0.0
       },
       {
         "range": "30-34",
         "min": 30,
         "max": 34,
-        "prob": 7.4
+        "prob": 0.0
       },
       {
         "range": "35-39",
         "min": 35,
         "max": 39,
-        "prob": 16.4
+        "prob": 0.0
       },
       {
         "range": "40-44",
         "min": 40,
         "max": 44,
-        "prob": 24.6
+        "prob": 0.4
       },
       {
         "range": "45-49",
         "min": 45,
         "max": 49,
-        "prob": 23.6
+        "prob": 2.7
       },
       {
         "range": "50-54",
         "min": 50,
         "max": 54,
-        "prob": 15.8
+        "prob": 9.4
       },
       {
         "range": "55-59",
         "min": 55,
         "max": 59,
-        "prob": 7.2
+        "prob": 20.5
       },
       {
         "range": "60-64",
         "min": 60,
         "max": 64,
-        "prob": 2.2
+        "prob": 27.7
       },
       {
         "range": "65-69",
         "min": 65,
         "max": 69,
-        "prob": 0.5
+        "prob": 23.4
       },
       {
         "range": "70-74",
         "min": 70,
         "max": 74,
+        "prob": 11.6
+      },
+      {
+        "range": "75-79",
+        "min": 75,
+        "max": 79,
+        "prob": 3.5
+      },
+      {
+        "range": "80-84",
+        "min": 80,
+        "max": 84,
+        "prob": 0.6
+      },
+      {
+        "range": "85-89",
+        "min": 85,
+        "max": 89,
         "prob": 0.1
+      }
+    ]
+  },
+  {
+    "team": {
+      "slug": "ponte-preta",
+      "name": "Ponte Preta",
+      "shortName": "Ponte Preta",
+      "city": "Campinas",
+      "state": "SP",
+      "founded": 1900,
+      "nickname": "Macaca",
+      "division": "B",
+      "brand": "#1A1A1A",
+      "bio": "",
+      "current": {
+        "position": 19,
+        "points": 7,
+        "played": 10,
+        "titleProb": 8.1,
+        "g4Prob": 44.1,
+        "relegationProb": 0.1,
+        "expectedPoints": 62.1,
+        "pointsRange": [
+          49,
+          74
+        ]
+      }
+    },
+    "expected": 62.1,
+    "buckets": [
+      {
+        "range": "25-29",
+        "min": 25,
+        "max": 29,
+        "prob": 0.0
+      },
+      {
+        "range": "30-34",
+        "min": 30,
+        "max": 34,
+        "prob": 0.0
+      },
+      {
+        "range": "35-39",
+        "min": 35,
+        "max": 39,
+        "prob": 0.0
+      },
+      {
+        "range": "40-44",
+        "min": 40,
+        "max": 44,
+        "prob": 0.3
+      },
+      {
+        "range": "45-49",
+        "min": 45,
+        "max": 49,
+        "prob": 2.5
+      },
+      {
+        "range": "50-54",
+        "min": 50,
+        "max": 54,
+        "prob": 9.2
+      },
+      {
+        "range": "55-59",
+        "min": 55,
+        "max": 59,
+        "prob": 21.6
+      },
+      {
+        "range": "60-64",
+        "min": 60,
+        "max": 64,
+        "prob": 29.4
+      },
+      {
+        "range": "65-69",
+        "min": 65,
+        "max": 69,
+        "prob": 24.3
+      },
+      {
+        "range": "70-74",
+        "min": 70,
+        "max": 74,
+        "prob": 10.4
+      },
+      {
+        "range": "75-79",
+        "min": 75,
+        "max": 79,
+        "prob": 1.9
+      },
+      {
+        "range": "80-84",
+        "min": 80,
+        "max": 84,
+        "prob": 0.2
+      },
+      {
+        "range": "85-89",
+        "min": 85,
+        "max": 89,
+        "prob": 0.0
+      }
+    ]
+  },
+  {
+    "team": {
+      "slug": "sport",
+      "name": "Sport",
+      "shortName": "Sport",
+      "city": "Recife",
+      "state": "PE",
+      "founded": 1905,
+      "nickname": "Leão",
+      "division": "B",
+      "brand": "#CC0000",
+      "bio": "",
+      "current": {
+        "position": 1,
+        "points": 22,
+        "played": 11,
+        "titleProb": 9.8,
+        "g4Prob": 46.1,
+        "relegationProb": 0.0,
+        "expectedPoints": 61.6,
+        "pointsRange": [
+          49,
+          75
+        ]
+      }
+    },
+    "expected": 61.6,
+    "buckets": [
+      {
+        "range": "25-29",
+        "min": 25,
+        "max": 29,
+        "prob": 0.0
+      },
+      {
+        "range": "30-34",
+        "min": 30,
+        "max": 34,
+        "prob": 0.0
+      },
+      {
+        "range": "35-39",
+        "min": 35,
+        "max": 39,
+        "prob": 0.0
+      },
+      {
+        "range": "40-44",
+        "min": 40,
+        "max": 44,
+        "prob": 0.4
+      },
+      {
+        "range": "45-49",
+        "min": 45,
+        "max": 49,
+        "prob": 2.7
+      },
+      {
+        "range": "50-54",
+        "min": 50,
+        "max": 54,
+        "prob": 12.1
+      },
+      {
+        "range": "55-59",
+        "min": 55,
+        "max": 59,
+        "prob": 23.0
+      },
+      {
+        "range": "60-64",
+        "min": 60,
+        "max": 64,
+        "prob": 28.6
+      },
+      {
+        "range": "65-69",
+        "min": 65,
+        "max": 69,
+        "prob": 21.6
+      },
+      {
+        "range": "70-74",
+        "min": 70,
+        "max": 74,
+        "prob": 8.8
+      },
+      {
+        "range": "75-79",
+        "min": 75,
+        "max": 79,
+        "prob": 2.2
+      },
+      {
+        "range": "80-84",
+        "min": 80,
+        "max": 84,
+        "prob": 0.4
+      },
+      {
+        "range": "85-89",
+        "min": 85,
+        "max": 89,
+        "prob": 0.0
+      }
+    ]
+  },
+  {
+    "team": {
+      "slug": "crb",
+      "name": "CRB",
+      "shortName": "CRB",
+      "city": "Maceió",
+      "state": "AL",
+      "founded": 1912,
+      "nickname": "Regatas",
+      "division": "B",
+      "brand": "#CC0000",
+      "bio": "",
+      "current": {
+        "position": 11,
+        "points": 14,
+        "played": 10,
+        "titleProb": 8.7,
+        "g4Prob": 42.4,
+        "relegationProb": 0.2,
+        "expectedPoints": 61.6,
+        "pointsRange": [
+          48,
+          75
+        ]
+      }
+    },
+    "expected": 61.6,
+    "buckets": [
+      {
+        "range": "25-29",
+        "min": 25,
+        "max": 29,
+        "prob": 0.0
+      },
+      {
+        "range": "30-34",
+        "min": 30,
+        "max": 34,
+        "prob": 0.0
+      },
+      {
+        "range": "35-39",
+        "min": 35,
+        "max": 39,
+        "prob": 0.1
+      },
+      {
+        "range": "40-44",
+        "min": 40,
+        "max": 44,
+        "prob": 0.6
+      },
+      {
+        "range": "45-49",
+        "min": 45,
+        "max": 49,
+        "prob": 3.6
+      },
+      {
+        "range": "50-54",
+        "min": 50,
+        "max": 54,
+        "prob": 10.6
+      },
+      {
+        "range": "55-59",
+        "min": 55,
+        "max": 59,
+        "prob": 22.8
+      },
+      {
+        "range": "60-64",
+        "min": 60,
+        "max": 64,
+        "prob": 28.3
+      },
+      {
+        "range": "65-69",
+        "min": 65,
+        "max": 69,
+        "prob": 21.5
+      },
+      {
+        "range": "70-74",
+        "min": 70,
+        "max": 74,
+        "prob": 9.7
+      },
+      {
+        "range": "75-79",
+        "min": 75,
+        "max": 79,
+        "prob": 2.5
+      },
+      {
+        "range": "80-84",
+        "min": 80,
+        "max": 84,
+        "prob": 0.3
+      },
+      {
+        "range": "85-89",
+        "min": 85,
+        "max": 89,
+        "prob": 0.0
+      }
+    ]
+  },
+  {
+    "team": {
+      "slug": "criciuma",
+      "name": "Criciúma",
+      "shortName": "Criciúma",
+      "city": "Criciúma",
+      "state": "SC",
+      "founded": 1947,
+      "nickname": "Tigre",
+      "division": "B",
+      "brand": "#C8A200",
+      "bio": "",
+      "current": {
+        "position": 7,
+        "points": 17,
+        "played": 11,
+        "titleProb": 6.8,
+        "g4Prob": 38.2,
+        "relegationProb": 0.1,
+        "expectedPoints": 60.8,
+        "pointsRange": [
+          48,
+          74
+        ]
+      }
+    },
+    "expected": 60.8,
+    "buckets": [
+      {
+        "range": "25-29",
+        "min": 25,
+        "max": 29,
+        "prob": 0.0
+      },
+      {
+        "range": "30-34",
+        "min": 30,
+        "max": 34,
+        "prob": 0.0
+      },
+      {
+        "range": "35-39",
+        "min": 35,
+        "max": 39,
+        "prob": 0.1
+      },
+      {
+        "range": "40-44",
+        "min": 40,
+        "max": 44,
+        "prob": 0.6
+      },
+      {
+        "range": "45-49",
+        "min": 45,
+        "max": 49,
+        "prob": 3.7
+      },
+      {
+        "range": "50-54",
+        "min": 50,
+        "max": 54,
+        "prob": 13.0
+      },
+      {
+        "range": "55-59",
+        "min": 55,
+        "max": 59,
+        "prob": 25.4
+      },
+      {
+        "range": "60-64",
+        "min": 60,
+        "max": 64,
+        "prob": 28.3
+      },
+      {
+        "range": "65-69",
+        "min": 65,
+        "max": 69,
+        "prob": 19.2
+      },
+      {
+        "range": "70-74",
+        "min": 70,
+        "max": 74,
+        "prob": 7.7
+      },
+      {
+        "range": "75-79",
+        "min": 75,
+        "max": 79,
+        "prob": 1.8
+      },
+      {
+        "range": "80-84",
+        "min": 80,
+        "max": 84,
+        "prob": 0.2
+      },
+      {
+        "range": "85-89",
+        "min": 85,
+        "max": 89,
+        "prob": 0.0
+      }
+    ]
+  },
+  {
+    "team": {
+      "slug": "atletico-go",
+      "name": "Atlético-GO",
+      "shortName": "Atlético-GO",
+      "city": "Goiânia",
+      "state": "GO",
+      "founded": 1937,
+      "nickname": "Dragão",
+      "division": "B",
+      "brand": "#CC0000",
+      "bio": "",
+      "current": {
+        "position": 13,
+        "points": 13,
+        "played": 11,
+        "titleProb": 3.2,
+        "g4Prob": 23.1,
+        "relegationProb": 0.7,
+        "expectedPoints": 58.2,
+        "pointsRange": [
+          45,
+          71
+        ]
+      }
+    },
+    "expected": 58.2,
+    "buckets": [
+      {
+        "range": "25-29",
+        "min": 25,
+        "max": 29,
+        "prob": 0.0
+      },
+      {
+        "range": "30-34",
+        "min": 30,
+        "max": 34,
+        "prob": 0.0
+      },
+      {
+        "range": "35-39",
+        "min": 35,
+        "max": 39,
+        "prob": 0.3
+      },
+      {
+        "range": "40-44",
+        "min": 40,
+        "max": 44,
+        "prob": 1.8
+      },
+      {
+        "range": "45-49",
+        "min": 45,
+        "max": 49,
+        "prob": 7.6
+      },
+      {
+        "range": "50-54",
+        "min": 50,
+        "max": 54,
+        "prob": 18.8
+      },
+      {
+        "range": "55-59",
+        "min": 55,
+        "max": 59,
+        "prob": 28.8
+      },
+      {
+        "range": "60-64",
+        "min": 60,
+        "max": 64,
+        "prob": 24.7
+      },
+      {
+        "range": "65-69",
+        "min": 65,
+        "max": 69,
+        "prob": 13.5
+      },
+      {
+        "range": "70-74",
+        "min": 70,
+        "max": 74,
+        "prob": 3.7
+      },
+      {
+        "range": "75-79",
+        "min": 75,
+        "max": 79,
+        "prob": 0.7
+      },
+      {
+        "range": "80-84",
+        "min": 80,
+        "max": 84,
+        "prob": 0.1
+      },
+      {
+        "range": "85-89",
+        "min": 85,
+        "max": 89,
+        "prob": 0.0
+      }
+    ]
+  },
+  {
+    "team": {
+      "slug": "sao-bernardo",
+      "name": "São Bernardo",
+      "shortName": "São Bernardo",
+      "city": "São Bernardo do Campo",
+      "state": "SP",
+      "founded": 2005,
+      "nickname": "Tigre",
+      "division": "B",
+      "brand": "#CC0000",
+      "bio": "",
+      "current": {
+        "position": 2,
+        "points": 20,
+        "played": 10,
+        "titleProb": 0.7,
+        "g4Prob": 9.5,
+        "relegationProb": 1.5,
+        "expectedPoints": 53.0,
+        "pointsRange": [
+          41,
+          66
+        ]
+      }
+    },
+    "expected": 53.0,
+    "buckets": [
+      {
+        "range": "25-29",
+        "min": 25,
+        "max": 29,
+        "prob": 0.0
+      },
+      {
+        "range": "30-34",
+        "min": 30,
+        "max": 34,
+        "prob": 0.1
+      },
+      {
+        "range": "35-39",
+        "min": 35,
+        "max": 39,
+        "prob": 1.5
+      },
+      {
+        "range": "40-44",
+        "min": 40,
+        "max": 44,
+        "prob": 7.5
+      },
+      {
+        "range": "45-49",
+        "min": 45,
+        "max": 49,
+        "prob": 20.9
+      },
+      {
+        "range": "50-54",
+        "min": 50,
+        "max": 54,
+        "prob": 29.4
+      },
+      {
+        "range": "55-59",
+        "min": 55,
+        "max": 59,
+        "prob": 24.0
+      },
+      {
+        "range": "60-64",
+        "min": 60,
+        "max": 64,
+        "prob": 12.6
+      },
+      {
+        "range": "65-69",
+        "min": 65,
+        "max": 69,
+        "prob": 3.2
+      },
+      {
+        "range": "70-74",
+        "min": 70,
+        "max": 74,
+        "prob": 0.5
+      },
+      {
+        "range": "75-79",
+        "min": 75,
+        "max": 79,
+        "prob": 0.1
+      },
+      {
+        "range": "80-84",
+        "min": 80,
+        "max": 84,
+        "prob": 0.0
+      },
+      {
+        "range": "85-89",
+        "min": 85,
+        "max": 89,
+        "prob": 0.0
+      }
+    ]
+  },
+  {
+    "team": {
+      "slug": "novorizontino",
+      "name": "Novorizontino",
+      "shortName": "Novorizontino",
+      "city": "Novo Horizonte",
+      "state": "SP",
+      "founded": 1930,
+      "nickname": "Tigre",
+      "division": "B",
+      "brand": "#1E3F8C",
+      "bio": "",
+      "current": {
+        "position": 9,
+        "points": 16,
+        "played": 10,
+        "titleProb": 0.4,
+        "g4Prob": 6.2,
+        "relegationProb": 1.7,
+        "expectedPoints": 53.0,
+        "pointsRange": [
+          41,
+          66
+        ]
+      }
+    },
+    "expected": 53.0,
+    "buckets": [
+      {
+        "range": "25-29",
+        "min": 25,
+        "max": 29,
+        "prob": 0.0
+      },
+      {
+        "range": "30-34",
+        "min": 30,
+        "max": 34,
+        "prob": 0.1
+      },
+      {
+        "range": "35-39",
+        "min": 35,
+        "max": 39,
+        "prob": 1.5
+      },
+      {
+        "range": "40-44",
+        "min": 40,
+        "max": 44,
+        "prob": 7.7
+      },
+      {
+        "range": "45-49",
+        "min": 45,
+        "max": 49,
+        "prob": 20.3
+      },
+      {
+        "range": "50-54",
+        "min": 50,
+        "max": 54,
+        "prob": 30.1
+      },
+      {
+        "range": "55-59",
+        "min": 55,
+        "max": 59,
+        "prob": 24.8
+      },
+      {
+        "range": "60-64",
+        "min": 60,
+        "max": 64,
+        "prob": 11.8
+      },
+      {
+        "range": "65-69",
+        "min": 65,
+        "max": 69,
+        "prob": 3.2
+      },
+      {
+        "range": "70-74",
+        "min": 70,
+        "max": 74,
+        "prob": 0.5
       },
       {
         "range": "75-79",
@@ -1192,736 +1084,88 @@
       "slug": "vila-nova",
       "name": "Vila Nova",
       "shortName": "Vila Nova",
-      "city": "",
-      "state": "",
-      "founded": 0,
-      "nickname": "",
+      "city": "Goiânia",
+      "state": "GO",
+      "founded": 1943,
+      "nickname": "Tigre",
       "division": "B",
-      "brand": "#888888",
+      "brand": "#CC0000",
       "bio": "",
       "current": {
         "position": 4,
         "points": 19,
         "played": 10,
         "titleProb": 0.3,
-        "g4Prob": 2.5,
-        "relegationProb": 35.3,
-        "expectedPoints": 44.6,
+        "g4Prob": 4.8,
+        "relegationProb": 4.8,
+        "expectedPoints": 50.2,
         "pointsRange": [
-          30,
-          60
+          37,
+          64
         ]
       }
     },
-    "expected": 44.6,
+    "expected": 50.2,
     "buckets": [
       {
         "range": "25-29",
         "min": 25,
         "max": 29,
-        "prob": 1.9
+        "prob": 0.0
       },
       {
         "range": "30-34",
         "min": 30,
         "max": 34,
-        "prob": 6.8
+        "prob": 0.7
       },
       {
         "range": "35-39",
         "min": 35,
         "max": 39,
-        "prob": 17.0
+        "prob": 4.5
       },
       {
         "range": "40-44",
         "min": 40,
         "max": 44,
-        "prob": 24.3
+        "prob": 14.9
       },
       {
         "range": "45-49",
         "min": 45,
         "max": 49,
-        "prob": 23.4
+        "prob": 26.5
       },
       {
         "range": "50-54",
         "min": 50,
         "max": 54,
-        "prob": 16.1
+        "prob": 27.2
       },
       {
         "range": "55-59",
         "min": 55,
         "max": 59,
-        "prob": 7.2
+        "prob": 17.5
       },
       {
         "range": "60-64",
         "min": 60,
         "max": 64,
-        "prob": 2.4
+        "prob": 6.7
       },
       {
         "range": "65-69",
         "min": 65,
         "max": 69,
-        "prob": 0.5
+        "prob": 1.7
       },
       {
         "range": "70-74",
         "min": 70,
         "max": 74,
-        "prob": 0.1
-      },
-      {
-        "range": "75-79",
-        "min": 75,
-        "max": 79,
-        "prob": 0.0
-      },
-      {
-        "range": "80-84",
-        "min": 80,
-        "max": 84,
-        "prob": 0.0
-      },
-      {
-        "range": "85-89",
-        "min": 85,
-        "max": 89,
-        "prob": 0.0
-      }
-    ]
-  },
-  {
-    "team": {
-      "slug": "athletic-club",
-      "name": "Athletic Club",
-      "shortName": "Athletic Club",
-      "city": "",
-      "state": "",
-      "founded": 0,
-      "nickname": "",
-      "division": "B",
-      "brand": "#1A1A1A",
-      "bio": "",
-      "current": {
-        "position": 10,
-        "points": 14,
-        "played": 10,
-        "titleProb": 0.1,
-        "g4Prob": 2.6,
-        "relegationProb": 37.3,
-        "expectedPoints": 44.6,
-        "pointsRange": [
-          30,
-          60
-        ]
-      }
-    },
-    "expected": 44.6,
-    "buckets": [
-      {
-        "range": "25-29",
-        "min": 25,
-        "max": 29,
-        "prob": 1.6
-      },
-      {
-        "range": "30-34",
-        "min": 30,
-        "max": 34,
-        "prob": 7.0
-      },
-      {
-        "range": "35-39",
-        "min": 35,
-        "max": 39,
-        "prob": 17.3
-      },
-      {
-        "range": "40-44",
-        "min": 40,
-        "max": 44,
-        "prob": 24.4
-      },
-      {
-        "range": "45-49",
-        "min": 45,
-        "max": 49,
-        "prob": 23.5
-      },
-      {
-        "range": "50-54",
-        "min": 50,
-        "max": 54,
-        "prob": 16.0
-      },
-      {
-        "range": "55-59",
-        "min": 55,
-        "max": 59,
-        "prob": 7.1
-      },
-      {
-        "range": "60-64",
-        "min": 60,
-        "max": 64,
-        "prob": 2.2
-      },
-      {
-        "range": "65-69",
-        "min": 65,
-        "max": 69,
-        "prob": 0.5
-      },
-      {
-        "range": "70-74",
-        "min": 70,
-        "max": 74,
-        "prob": 0.1
-      },
-      {
-        "range": "75-79",
-        "min": 75,
-        "max": 79,
-        "prob": 0.0
-      },
-      {
-        "range": "80-84",
-        "min": 80,
-        "max": 84,
-        "prob": 0.0
-      },
-      {
-        "range": "85-89",
-        "min": 85,
-        "max": 89,
-        "prob": 0.0
-      }
-    ]
-  },
-  {
-    "team": {
-      "slug": "atletico-go",
-      "name": "Atlético-GO",
-      "shortName": "Atlético-GO",
-      "city": "",
-      "state": "",
-      "founded": 0,
-      "nickname": "",
-      "division": "B",
-      "brand": "#888888",
-      "bio": "",
-      "current": {
-        "position": 14,
-        "points": 12,
-        "played": 10,
-        "titleProb": 0.2,
-        "g4Prob": 2.4,
-        "relegationProb": 38.6,
-        "expectedPoints": 44.6,
-        "pointsRange": [
-          30,
-          60
-        ]
-      }
-    },
-    "expected": 44.6,
-    "buckets": [
-      {
-        "range": "25-29",
-        "min": 25,
-        "max": 29,
-        "prob": 1.9
-      },
-      {
-        "range": "30-34",
-        "min": 30,
-        "max": 34,
-        "prob": 7.6
-      },
-      {
-        "range": "35-39",
-        "min": 35,
-        "max": 39,
-        "prob": 16.4
-      },
-      {
-        "range": "40-44",
-        "min": 40,
-        "max": 44,
-        "prob": 24.0
-      },
-      {
-        "range": "45-49",
-        "min": 45,
-        "max": 49,
-        "prob": 23.6
-      },
-      {
-        "range": "50-54",
-        "min": 50,
-        "max": 54,
-        "prob": 15.8
-      },
-      {
-        "range": "55-59",
-        "min": 55,
-        "max": 59,
-        "prob": 7.3
-      },
-      {
-        "range": "60-64",
-        "min": 60,
-        "max": 64,
-        "prob": 2.4
-      },
-      {
-        "range": "65-69",
-        "min": 65,
-        "max": 69,
-        "prob": 0.5
-      },
-      {
-        "range": "70-74",
-        "min": 70,
-        "max": 74,
-        "prob": 0.1
-      },
-      {
-        "range": "75-79",
-        "min": 75,
-        "max": 79,
-        "prob": 0.0
-      },
-      {
-        "range": "80-84",
-        "min": 80,
-        "max": 84,
-        "prob": 0.0
-      },
-      {
-        "range": "85-89",
-        "min": 85,
-        "max": 89,
-        "prob": 0.0
-      }
-    ]
-  },
-  {
-    "team": {
-      "slug": "londrina",
-      "name": "Londrina",
-      "shortName": "Londrina",
-      "city": "",
-      "state": "",
-      "founded": 0,
-      "nickname": "",
-      "division": "B",
-      "brand": "#888888",
-      "bio": "",
-      "current": {
-        "position": 18,
-        "points": 8,
-        "played": 10,
-        "titleProb": 0.2,
-        "g4Prob": 2.1,
-        "relegationProb": 39.0,
-        "expectedPoints": 44.6,
-        "pointsRange": [
-          29,
-          60
-        ]
-      }
-    },
-    "expected": 44.6,
-    "buckets": [
-      {
-        "range": "25-29",
-        "min": 25,
-        "max": 29,
-        "prob": 2.1
-      },
-      {
-        "range": "30-34",
-        "min": 30,
-        "max": 34,
-        "prob": 7.1
-      },
-      {
-        "range": "35-39",
-        "min": 35,
-        "max": 39,
-        "prob": 16.3
-      },
-      {
-        "range": "40-44",
-        "min": 40,
-        "max": 44,
-        "prob": 23.7
-      },
-      {
-        "range": "45-49",
-        "min": 45,
-        "max": 49,
-        "prob": 24.1
-      },
-      {
-        "range": "50-54",
-        "min": 50,
-        "max": 54,
-        "prob": 16.4
-      },
-      {
-        "range": "55-59",
-        "min": 55,
-        "max": 59,
-        "prob": 7.0
-      },
-      {
-        "range": "60-64",
-        "min": 60,
-        "max": 64,
-        "prob": 2.3
-      },
-      {
-        "range": "65-69",
-        "min": 65,
-        "max": 69,
-        "prob": 0.5
-      },
-      {
-        "range": "70-74",
-        "min": 70,
-        "max": 74,
-        "prob": 0.1
-      },
-      {
-        "range": "75-79",
-        "min": 75,
-        "max": 79,
-        "prob": 0.0
-      },
-      {
-        "range": "80-84",
-        "min": 80,
-        "max": 84,
-        "prob": 0.0
-      },
-      {
-        "range": "85-89",
-        "min": 85,
-        "max": 89,
-        "prob": 0.0
-      }
-    ]
-  },
-  {
-    "team": {
-      "slug": "america-mg",
-      "name": "América-MG",
-      "shortName": "América-MG",
-      "city": "",
-      "state": "",
-      "founded": 0,
-      "nickname": "",
-      "division": "B",
-      "brand": "#888888",
-      "bio": "",
-      "current": {
-        "position": 20,
-        "points": 3,
-        "played": 10,
-        "titleProb": 0.2,
-        "g4Prob": 2.4,
-        "relegationProb": 39.6,
-        "expectedPoints": 44.6,
-        "pointsRange": [
-          30,
-          60
-        ]
-      }
-    },
-    "expected": 44.6,
-    "buckets": [
-      {
-        "range": "25-29",
-        "min": 25,
-        "max": 29,
-        "prob": 2.2
-      },
-      {
-        "range": "30-34",
-        "min": 30,
-        "max": 34,
-        "prob": 6.9
-      },
-      {
-        "range": "35-39",
-        "min": 35,
-        "max": 39,
-        "prob": 16.5
-      },
-      {
-        "range": "40-44",
-        "min": 40,
-        "max": 44,
-        "prob": 24.3
-      },
-      {
-        "range": "45-49",
-        "min": 45,
-        "max": 49,
-        "prob": 23.5
-      },
-      {
-        "range": "50-54",
-        "min": 50,
-        "max": 54,
-        "prob": 16.6
-      },
-      {
-        "range": "55-59",
-        "min": 55,
-        "max": 59,
-        "prob": 6.9
-      },
-      {
-        "range": "60-64",
-        "min": 60,
-        "max": 64,
-        "prob": 2.3
-      },
-      {
-        "range": "65-69",
-        "min": 65,
-        "max": 69,
-        "prob": 0.6
-      },
-      {
-        "range": "70-74",
-        "min": 70,
-        "max": 74,
-        "prob": 0.1
-      },
-      {
-        "range": "75-79",
-        "min": 75,
-        "max": 79,
-        "prob": 0.0
-      },
-      {
-        "range": "80-84",
-        "min": 80,
-        "max": 84,
-        "prob": 0.0
-      },
-      {
-        "range": "85-89",
-        "min": 85,
-        "max": 89,
-        "prob": 0.0
-      }
-    ]
-  },
-  {
-    "team": {
-      "slug": "goias",
-      "name": "Goiás",
-      "shortName": "Goiás",
-      "city": "",
-      "state": "",
-      "founded": 0,
-      "nickname": "",
-      "division": "B",
-      "brand": "#0F5F3F",
-      "bio": "",
-      "current": {
-        "position": 6,
-        "points": 16,
-        "played": 10,
-        "titleProb": 0.2,
-        "g4Prob": 2.5,
-        "relegationProb": 36.4,
-        "expectedPoints": 44.5,
-        "pointsRange": [
-          30,
-          60
-        ]
-      }
-    },
-    "expected": 44.5,
-    "buckets": [
-      {
-        "range": "25-29",
-        "min": 25,
-        "max": 29,
-        "prob": 1.8
-      },
-      {
-        "range": "30-34",
-        "min": 30,
-        "max": 34,
-        "prob": 7.8
-      },
-      {
-        "range": "35-39",
-        "min": 35,
-        "max": 39,
-        "prob": 16.2
-      },
-      {
-        "range": "40-44",
-        "min": 40,
-        "max": 44,
-        "prob": 24.4
-      },
-      {
-        "range": "45-49",
-        "min": 45,
-        "max": 49,
-        "prob": 23.7
-      },
-      {
-        "range": "50-54",
-        "min": 50,
-        "max": 54,
-        "prob": 16.0
-      },
-      {
-        "range": "55-59",
-        "min": 55,
-        "max": 59,
-        "prob": 7.0
-      },
-      {
-        "range": "60-64",
-        "min": 60,
-        "max": 64,
-        "prob": 2.2
-      },
-      {
-        "range": "65-69",
-        "min": 65,
-        "max": 69,
-        "prob": 0.5
-      },
-      {
-        "range": "70-74",
-        "min": 70,
-        "max": 74,
-        "prob": 0.1
-      },
-      {
-        "range": "75-79",
-        "min": 75,
-        "max": 79,
-        "prob": 0.0
-      },
-      {
-        "range": "80-84",
-        "min": 80,
-        "max": 84,
-        "prob": 0.0
-      },
-      {
-        "range": "85-89",
-        "min": 85,
-        "max": 89,
-        "prob": 0.0
-      }
-    ]
-  },
-  {
-    "team": {
-      "slug": "crb",
-      "name": "CRB",
-      "shortName": "CRB",
-      "city": "",
-      "state": "",
-      "founded": 0,
-      "nickname": "",
-      "division": "B",
-      "brand": "#B61E2B",
-      "bio": "",
-      "current": {
-        "position": 8,
-        "points": 14,
-        "played": 10,
-        "titleProb": 0.2,
-        "g4Prob": 2.6,
-        "relegationProb": 36.6,
-        "expectedPoints": 44.5,
-        "pointsRange": [
-          30,
-          60
-        ]
-      }
-    },
-    "expected": 44.5,
-    "buckets": [
-      {
-        "range": "25-29",
-        "min": 25,
-        "max": 29,
-        "prob": 1.9
-      },
-      {
-        "range": "30-34",
-        "min": 30,
-        "max": 34,
-        "prob": 7.6
-      },
-      {
-        "range": "35-39",
-        "min": 35,
-        "max": 39,
-        "prob": 16.5
-      },
-      {
-        "range": "40-44",
-        "min": 40,
-        "max": 44,
-        "prob": 24.3
-      },
-      {
-        "range": "45-49",
-        "min": 45,
-        "max": 49,
-        "prob": 23.5
-      },
-      {
-        "range": "50-54",
-        "min": 50,
-        "max": 54,
-        "prob": 15.8
-      },
-      {
-        "range": "55-59",
-        "min": 55,
-        "max": 59,
-        "prob": 7.0
-      },
-      {
-        "range": "60-64",
-        "min": 60,
-        "max": 64,
-        "prob": 2.4
-      },
-      {
-        "range": "65-69",
-        "min": 65,
-        "max": 69,
-        "prob": 0.6
-      },
-      {
-        "range": "70-74",
-        "min": 70,
-        "max": 74,
-        "prob": 0.1
+        "prob": 0.2
       },
       {
         "range": "75-79",
@@ -1948,88 +1192,304 @@
       "slug": "juventude",
       "name": "Juventude",
       "shortName": "Juventude",
-      "city": "",
-      "state": "",
-      "founded": 0,
-      "nickname": "",
+      "city": "Caxias do Sul",
+      "state": "RS",
+      "founded": 1913,
+      "nickname": "Papo",
       "division": "B",
-      "brand": "#888888",
+      "brand": "#0F5F3F",
       "bio": "",
       "current": {
-        "position": 12,
-        "points": 13,
-        "played": 10,
+        "position": 10,
+        "points": 16,
+        "played": 11,
         "titleProb": 0.1,
-        "g4Prob": 2.4,
-        "relegationProb": 37.8,
-        "expectedPoints": 44.5,
+        "g4Prob": 2.5,
+        "relegationProb": 3.9,
+        "expectedPoints": 50.1,
         "pointsRange": [
-          30,
-          60
+          38,
+          63
         ]
       }
     },
-    "expected": 44.5,
+    "expected": 50.1,
     "buckets": [
       {
         "range": "25-29",
         "min": 25,
         "max": 29,
-        "prob": 1.8
+        "prob": 0.0
       },
       {
         "range": "30-34",
         "min": 30,
         "max": 34,
-        "prob": 7.2
+        "prob": 0.4
       },
       {
         "range": "35-39",
         "min": 35,
         "max": 39,
-        "prob": 16.7
+        "prob": 3.9
       },
       {
         "range": "40-44",
         "min": 40,
         "max": 44,
-        "prob": 24.7
+        "prob": 14.5
       },
       {
         "range": "45-49",
         "min": 45,
         "max": 49,
-        "prob": 23.4
+        "prob": 28.4
       },
       {
         "range": "50-54",
         "min": 50,
         "max": 54,
-        "prob": 15.5
+        "prob": 28.5
       },
       {
         "range": "55-59",
         "min": 55,
         "max": 59,
-        "prob": 7.4
+        "prob": 16.9
       },
       {
         "range": "60-64",
         "min": 60,
         "max": 64,
-        "prob": 2.3
+        "prob": 6.2
       },
       {
         "range": "65-69",
         "min": 65,
         "max": 69,
-        "prob": 0.5
+        "prob": 1.0
       },
       {
         "range": "70-74",
         "min": 70,
         "max": 74,
+        "prob": 0.2
+      },
+      {
+        "range": "75-79",
+        "min": 75,
+        "max": 79,
+        "prob": 0.0
+      },
+      {
+        "range": "80-84",
+        "min": 80,
+        "max": 84,
+        "prob": 0.0
+      },
+      {
+        "range": "85-89",
+        "min": 85,
+        "max": 89,
+        "prob": 0.0
+      }
+    ]
+  },
+  {
+    "team": {
+      "slug": "athletic-club",
+      "name": "Athletic Club",
+      "shortName": "Athletic Club",
+      "city": "São João del-Rei",
+      "state": "MG",
+      "founded": 1909,
+      "nickname": "Máquina",
+      "division": "B",
+      "brand": "#1A1A1A",
+      "bio": "",
+      "current": {
+        "position": 8,
+        "points": 17,
+        "played": 11,
+        "titleProb": 0.0,
+        "g4Prob": 0.9,
+        "relegationProb": 12.0,
+        "expectedPoints": 46.6,
+        "pointsRange": [
+          34,
+          59
+        ]
+      }
+    },
+    "expected": 46.6,
+    "buckets": [
+      {
+        "range": "25-29",
+        "min": 25,
+        "max": 29,
+        "prob": 0.2
+      },
+      {
+        "range": "30-34",
+        "min": 30,
+        "max": 34,
+        "prob": 2.4
+      },
+      {
+        "range": "35-39",
+        "min": 35,
+        "max": 39,
+        "prob": 10.3
+      },
+      {
+        "range": "40-44",
+        "min": 40,
+        "max": 44,
+        "prob": 24.6
+      },
+      {
+        "range": "45-49",
+        "min": 45,
+        "max": 49,
+        "prob": 30.6
+      },
+      {
+        "range": "50-54",
+        "min": 50,
+        "max": 54,
+        "prob": 21.0
+      },
+      {
+        "range": "55-59",
+        "min": 55,
+        "max": 59,
+        "prob": 8.5
+      },
+      {
+        "range": "60-64",
+        "min": 60,
+        "max": 64,
+        "prob": 2.1
+      },
+      {
+        "range": "65-69",
+        "min": 65,
+        "max": 69,
+        "prob": 0.3
+      },
+      {
+        "range": "70-74",
+        "min": 70,
+        "max": 74,
+        "prob": 0.0
+      },
+      {
+        "range": "75-79",
+        "min": 75,
+        "max": 79,
+        "prob": 0.0
+      },
+      {
+        "range": "80-84",
+        "min": 80,
+        "max": 84,
+        "prob": 0.0
+      },
+      {
+        "range": "85-89",
+        "min": 85,
+        "max": 89,
+        "prob": 0.0
+      }
+    ]
+  },
+  {
+    "team": {
+      "slug": "avai",
+      "name": "Avaí",
+      "shortName": "Avaí",
+      "city": "Florianópolis",
+      "state": "SC",
+      "founded": 1923,
+      "nickname": "Leão da Ilha",
+      "division": "B",
+      "brand": "#1E5BA3",
+      "bio": "",
+      "current": {
+        "position": 15,
+        "points": 10,
+        "played": 11,
+        "titleProb": 0.0,
+        "g4Prob": 0.4,
+        "relegationProb": 17.2,
+        "expectedPoints": 46.3,
+        "pointsRange": [
+          35,
+          58
+        ]
+      }
+    },
+    "expected": 46.3,
+    "buckets": [
+      {
+        "range": "25-29",
+        "min": 25,
+        "max": 29,
+        "prob": 0.2
+      },
+      {
+        "range": "30-34",
+        "min": 30,
+        "max": 34,
+        "prob": 1.8
+      },
+      {
+        "range": "35-39",
+        "min": 35,
+        "max": 39,
+        "prob": 10.3
+      },
+      {
+        "range": "40-44",
+        "min": 40,
+        "max": 44,
+        "prob": 26.2
+      },
+      {
+        "range": "45-49",
+        "min": 45,
+        "max": 49,
+        "prob": 32.8
+      },
+      {
+        "range": "50-54",
+        "min": 50,
+        "max": 54,
+        "prob": 20.3
+      },
+      {
+        "range": "55-59",
+        "min": 55,
+        "max": 59,
+        "prob": 6.8
+      },
+      {
+        "range": "60-64",
+        "min": 60,
+        "max": 64,
+        "prob": 1.5
+      },
+      {
+        "range": "65-69",
+        "min": 65,
+        "max": 69,
         "prob": 0.1
+      },
+      {
+        "range": "70-74",
+        "min": 70,
+        "max": 74,
+        "prob": 0.0
       },
       {
         "range": "75-79",
@@ -2056,52 +1516,52 @@
       "slug": "cuiaba",
       "name": "Cuiabá",
       "shortName": "Cuiabá",
-      "city": "",
-      "state": "",
-      "founded": 0,
-      "nickname": "",
+      "city": "Cuiabá",
+      "state": "MT",
+      "founded": 2001,
+      "nickname": "Dourado",
       "division": "B",
-      "brand": "#888888",
+      "brand": "#C8A200",
       "bio": "",
       "current": {
         "position": 16,
         "points": 10,
         "played": 10,
-        "titleProb": 0.2,
-        "g4Prob": 2.2,
-        "relegationProb": 39.1,
-        "expectedPoints": 44.5,
+        "titleProb": 0.0,
+        "g4Prob": 0.0,
+        "relegationProb": 37.8,
+        "expectedPoints": 42.4,
         "pointsRange": [
-          30,
-          60
+          31,
+          54
         ]
       }
     },
-    "expected": 44.5,
+    "expected": 42.4,
     "buckets": [
       {
         "range": "25-29",
         "min": 25,
         "max": 29,
-        "prob": 1.8
+        "prob": 1.0
       },
       {
         "range": "30-34",
         "min": 30,
         "max": 34,
-        "prob": 6.9
+        "prob": 7.3
       },
       {
         "range": "35-39",
         "min": 35,
         "max": 39,
-        "prob": 16.6
+        "prob": 23.6
       },
       {
         "range": "40-44",
         "min": 40,
         "max": 44,
-        "prob": 24.9
+        "prob": 32.9
       },
       {
         "range": "45-49",
@@ -2113,31 +1573,571 @@
         "range": "50-54",
         "min": 50,
         "max": 54,
-        "prob": 15.1
+        "prob": 9.3
       },
       {
         "range": "55-59",
         "min": 55,
         "max": 59,
-        "prob": 7.4
+        "prob": 1.7
       },
       {
         "range": "60-64",
         "min": 60,
         "max": 64,
-        "prob": 2.3
+        "prob": 0.2
       },
       {
         "range": "65-69",
         "min": 65,
         "max": 69,
-        "prob": 0.5
+        "prob": 0.0
       },
       {
         "range": "70-74",
         "min": 70,
         "max": 74,
+        "prob": 0.0
+      },
+      {
+        "range": "75-79",
+        "min": 75,
+        "max": 79,
+        "prob": 0.0
+      },
+      {
+        "range": "80-84",
+        "min": 80,
+        "max": 84,
+        "prob": 0.0
+      },
+      {
+        "range": "85-89",
+        "min": 85,
+        "max": 89,
+        "prob": 0.0
+      }
+    ]
+  },
+  {
+    "team": {
+      "slug": "goias",
+      "name": "Goiás",
+      "shortName": "Goiás",
+      "city": "Goiânia",
+      "state": "GO",
+      "founded": 1943,
+      "nickname": "Esmeraldino",
+      "division": "B",
+      "brand": "#0F5F3F",
+      "bio": "",
+      "current": {
+        "position": 6,
+        "points": 17,
+        "played": 11,
+        "titleProb": 0.0,
+        "g4Prob": 0.2,
+        "relegationProb": 37.5,
+        "expectedPoints": 41.4,
+        "pointsRange": [
+          30,
+          54
+        ]
+      }
+    },
+    "expected": 41.4,
+    "buckets": [
+      {
+        "range": "25-29",
+        "min": 25,
+        "max": 29,
+        "prob": 1.9
+      },
+      {
+        "range": "30-34",
+        "min": 30,
+        "max": 34,
+        "prob": 11.3
+      },
+      {
+        "range": "35-39",
+        "min": 35,
+        "max": 39,
+        "prob": 25.7
+      },
+      {
+        "range": "40-44",
+        "min": 40,
+        "max": 44,
+        "prob": 30.4
+      },
+      {
+        "range": "45-49",
+        "min": 45,
+        "max": 49,
+        "prob": 20.4
+      },
+      {
+        "range": "50-54",
+        "min": 50,
+        "max": 54,
+        "prob": 7.9
+      },
+      {
+        "range": "55-59",
+        "min": 55,
+        "max": 59,
+        "prob": 2.0
+      },
+      {
+        "range": "60-64",
+        "min": 60,
+        "max": 64,
+        "prob": 0.3
+      },
+      {
+        "range": "65-69",
+        "min": 65,
+        "max": 69,
+        "prob": 0.0
+      },
+      {
+        "range": "70-74",
+        "min": 70,
+        "max": 74,
+        "prob": 0.0
+      },
+      {
+        "range": "75-79",
+        "min": 75,
+        "max": 79,
+        "prob": 0.0
+      },
+      {
+        "range": "80-84",
+        "min": 80,
+        "max": 84,
+        "prob": 0.0
+      },
+      {
+        "range": "85-89",
+        "min": 85,
+        "max": 89,
+        "prob": 0.0
+      }
+    ]
+  },
+  {
+    "team": {
+      "slug": "operario-pr",
+      "name": "Operário-PR",
+      "shortName": "Operário-PR",
+      "city": "Ponta Grossa",
+      "state": "PR",
+      "founded": 1912,
+      "nickname": "Fantasma",
+      "division": "B",
+      "brand": "#1A1A1A",
+      "bio": "",
+      "current": {
+        "position": 14,
+        "points": 13,
+        "played": 10,
+        "titleProb": 0.0,
+        "g4Prob": 0.1,
+        "relegationProb": 42.8,
+        "expectedPoints": 41.1,
+        "pointsRange": [
+          29,
+          54
+        ]
+      }
+    },
+    "expected": 41.1,
+    "buckets": [
+      {
+        "range": "25-29",
+        "min": 25,
+        "max": 29,
+        "prob": 2.6
+      },
+      {
+        "range": "30-34",
+        "min": 30,
+        "max": 34,
+        "prob": 12.2
+      },
+      {
+        "range": "35-39",
+        "min": 35,
+        "max": 39,
+        "prob": 25.9
+      },
+      {
+        "range": "40-44",
+        "min": 40,
+        "max": 44,
+        "prob": 29.9
+      },
+      {
+        "range": "45-49",
+        "min": 45,
+        "max": 49,
+        "prob": 19.7
+      },
+      {
+        "range": "50-54",
+        "min": 50,
+        "max": 54,
+        "prob": 7.4
+      },
+      {
+        "range": "55-59",
+        "min": 55,
+        "max": 59,
+        "prob": 1.7
+      },
+      {
+        "range": "60-64",
+        "min": 60,
+        "max": 64,
+        "prob": 0.3
+      },
+      {
+        "range": "65-69",
+        "min": 65,
+        "max": 69,
+        "prob": 0.0
+      },
+      {
+        "range": "70-74",
+        "min": 70,
+        "max": 74,
+        "prob": 0.0
+      },
+      {
+        "range": "75-79",
+        "min": 75,
+        "max": 79,
+        "prob": 0.0
+      },
+      {
+        "range": "80-84",
+        "min": 80,
+        "max": 84,
+        "prob": 0.0
+      },
+      {
+        "range": "85-89",
+        "min": 85,
+        "max": 89,
+        "prob": 0.0
+      }
+    ]
+  },
+  {
+    "team": {
+      "slug": "ceara",
+      "name": "Ceará",
+      "shortName": "Ceará",
+      "city": "Fortaleza",
+      "state": "CE",
+      "founded": 1914,
+      "nickname": "Vozão",
+      "division": "B",
+      "brand": "#2A2A2A",
+      "bio": "",
+      "current": {
+        "position": 12,
+        "points": 13,
+        "played": 10,
+        "titleProb": 0.0,
+        "g4Prob": 0.1,
+        "relegationProb": 44.0,
+        "expectedPoints": 40.7,
+        "pointsRange": [
+          28,
+          54
+        ]
+      }
+    },
+    "expected": 40.7,
+    "buckets": [
+      {
+        "range": "25-29",
+        "min": 25,
+        "max": 29,
+        "prob": 3.7
+      },
+      {
+        "range": "30-34",
+        "min": 30,
+        "max": 34,
+        "prob": 13.6
+      },
+      {
+        "range": "35-39",
+        "min": 35,
+        "max": 39,
+        "prob": 26.6
+      },
+      {
+        "range": "40-44",
+        "min": 40,
+        "max": 44,
+        "prob": 28.3
+      },
+      {
+        "range": "45-49",
+        "min": 45,
+        "max": 49,
+        "prob": 18.1
+      },
+      {
+        "range": "50-54",
+        "min": 50,
+        "max": 54,
+        "prob": 7.2
+      },
+      {
+        "range": "55-59",
+        "min": 55,
+        "max": 59,
+        "prob": 1.9
+      },
+      {
+        "range": "60-64",
+        "min": 60,
+        "max": 64,
+        "prob": 0.2
+      },
+      {
+        "range": "65-69",
+        "min": 65,
+        "max": 69,
+        "prob": 0.0
+      },
+      {
+        "range": "70-74",
+        "min": 70,
+        "max": 74,
+        "prob": 0.0
+      },
+      {
+        "range": "75-79",
+        "min": 75,
+        "max": 79,
+        "prob": 0.0
+      },
+      {
+        "range": "80-84",
+        "min": 80,
+        "max": 84,
+        "prob": 0.0
+      },
+      {
+        "range": "85-89",
+        "min": 85,
+        "max": 89,
+        "prob": 0.0
+      }
+    ]
+  },
+  {
+    "team": {
+      "slug": "londrina",
+      "name": "Londrina",
+      "shortName": "Londrina",
+      "city": "Londrina",
+      "state": "PR",
+      "founded": 1956,
+      "nickname": "Tubarão",
+      "division": "B",
+      "brand": "#1A1A1A",
+      "bio": "",
+      "current": {
+        "position": 18,
+        "points": 8,
+        "played": 10,
+        "titleProb": 0.0,
+        "g4Prob": 0.0,
+        "relegationProb": 96.2,
+        "expectedPoints": 29.2,
+        "pointsRange": [
+          18,
+          42
+        ]
+      }
+    },
+    "expected": 29.2,
+    "buckets": [
+      {
+        "range": "25-29",
+        "min": 25,
+        "max": 29,
+        "prob": 30.5
+      },
+      {
+        "range": "30-34",
+        "min": 30,
+        "max": 34,
+        "prob": 28.5
+      },
+      {
+        "range": "35-39",
+        "min": 35,
+        "max": 39,
+        "prob": 13.6
+      },
+      {
+        "range": "40-44",
+        "min": 40,
+        "max": 44,
+        "prob": 4.4
+      },
+      {
+        "range": "45-49",
+        "min": 45,
+        "max": 49,
+        "prob": 0.7
+      },
+      {
+        "range": "50-54",
+        "min": 50,
+        "max": 54,
         "prob": 0.1
+      },
+      {
+        "range": "55-59",
+        "min": 55,
+        "max": 59,
+        "prob": 0.0
+      },
+      {
+        "range": "60-64",
+        "min": 60,
+        "max": 64,
+        "prob": 0.0
+      },
+      {
+        "range": "65-69",
+        "min": 65,
+        "max": 69,
+        "prob": 0.0
+      },
+      {
+        "range": "70-74",
+        "min": 70,
+        "max": 74,
+        "prob": 0.0
+      },
+      {
+        "range": "75-79",
+        "min": 75,
+        "max": 79,
+        "prob": 0.0
+      },
+      {
+        "range": "80-84",
+        "min": 80,
+        "max": 84,
+        "prob": 0.0
+      },
+      {
+        "range": "85-89",
+        "min": 85,
+        "max": 89,
+        "prob": 0.0
+      }
+    ]
+  },
+  {
+    "team": {
+      "slug": "america-mg",
+      "name": "América-MG",
+      "shortName": "América-MG",
+      "city": "Belo Horizonte",
+      "state": "MG",
+      "founded": 1912,
+      "nickname": "Coelho",
+      "division": "B",
+      "brand": "#006B3E",
+      "bio": "",
+      "current": {
+        "position": 20,
+        "points": 3,
+        "played": 11,
+        "titleProb": 0.0,
+        "g4Prob": 0.0,
+        "relegationProb": 99.5,
+        "expectedPoints": 23.1,
+        "pointsRange": [
+          13,
+          35
+        ]
+      }
+    },
+    "expected": 23.1,
+    "buckets": [
+      {
+        "range": "25-29",
+        "min": 25,
+        "max": 29,
+        "prob": 25.4
+      },
+      {
+        "range": "30-34",
+        "min": 30,
+        "max": 34,
+        "prob": 10.6
+      },
+      {
+        "range": "35-39",
+        "min": 35,
+        "max": 39,
+        "prob": 2.7
+      },
+      {
+        "range": "40-44",
+        "min": 40,
+        "max": 44,
+        "prob": 0.5
+      },
+      {
+        "range": "45-49",
+        "min": 45,
+        "max": 49,
+        "prob": 0.0
+      },
+      {
+        "range": "50-54",
+        "min": 50,
+        "max": 54,
+        "prob": 0.0
+      },
+      {
+        "range": "55-59",
+        "min": 55,
+        "max": 59,
+        "prob": 0.0
+      },
+      {
+        "range": "60-64",
+        "min": 60,
+        "max": 64,
+        "prob": 0.0
+      },
+      {
+        "range": "65-69",
+        "min": 65,
+        "max": 69,
+        "prob": 0.0
+      },
+      {
+        "range": "70-74",
+        "min": 70,
+        "max": 74,
+        "prob": 0.0
       },
       {
         "range": "75-79",

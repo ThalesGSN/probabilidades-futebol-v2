@@ -1,1 +1,737 @@
-[]
+[
+  {
+    "round": 1,
+    "homeSlug": "vila-nova",
+    "awaySlug": "crb",
+    "homeGoals": 2,
+    "awayGoals": 2
+  },
+  {
+    "round": 1,
+    "homeSlug": "ceara",
+    "awaySlug": "sao-bernardo",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 1,
+    "homeSlug": "operario-pr",
+    "awaySlug": "atletico-go",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "round": 1,
+    "homeSlug": "botafogo-sp",
+    "awaySlug": "fortaleza",
+    "homeGoals": 4,
+    "awayGoals": 0
+  },
+  {
+    "round": 1,
+    "homeSlug": "cuiaba",
+    "awaySlug": "sport",
+    "homeGoals": 0,
+    "awayGoals": 0
+  },
+  {
+    "round": 1,
+    "homeSlug": "avai",
+    "awaySlug": "juventude",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "round": 1,
+    "homeSlug": "nautico",
+    "awaySlug": "criciuma",
+    "homeGoals": 0,
+    "awayGoals": 1
+  },
+  {
+    "round": 1,
+    "homeSlug": "athletic-club",
+    "awaySlug": "ponte-preta",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 1,
+    "homeSlug": "goias",
+    "awaySlug": "america-mg",
+    "homeGoals": 3,
+    "awayGoals": 1
+  },
+  {
+    "round": 1,
+    "homeSlug": "novorizontino",
+    "awaySlug": "londrina",
+    "homeGoals": 1,
+    "awayGoals": 3
+  },
+  {
+    "round": 2,
+    "homeSlug": "juventude",
+    "awaySlug": "novorizontino",
+    "homeGoals": 0,
+    "awayGoals": 0
+  },
+  {
+    "round": 2,
+    "homeSlug": "fortaleza",
+    "awaySlug": "cuiaba",
+    "homeGoals": 0,
+    "awayGoals": 0
+  },
+  {
+    "round": 2,
+    "homeSlug": "america-mg",
+    "awaySlug": "botafogo-sp",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "round": 2,
+    "homeSlug": "londrina",
+    "awaySlug": "goias",
+    "homeGoals": 2,
+    "awayGoals": 2
+  },
+  {
+    "round": 2,
+    "homeSlug": "atletico-go",
+    "awaySlug": "nautico",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "round": 2,
+    "homeSlug": "sport",
+    "awaySlug": "vila-nova",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 2,
+    "homeSlug": "ponte-preta",
+    "awaySlug": "ceara",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 2,
+    "homeSlug": "criciuma",
+    "awaySlug": "athletic-club",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 2,
+    "homeSlug": "crb",
+    "awaySlug": "avai",
+    "homeGoals": 0,
+    "awayGoals": 1
+  },
+  {
+    "round": 2,
+    "homeSlug": "sao-bernardo",
+    "awaySlug": "operario-pr",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "round": 3,
+    "homeSlug": "fortaleza",
+    "awaySlug": "juventude",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 3,
+    "homeSlug": "nautico",
+    "awaySlug": "ponte-preta",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "round": 3,
+    "homeSlug": "cuiaba",
+    "awaySlug": "ceara",
+    "homeGoals": 0,
+    "awayGoals": 2
+  },
+  {
+    "round": 3,
+    "homeSlug": "vila-nova",
+    "awaySlug": "atletico-go",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 3,
+    "homeSlug": "londrina",
+    "awaySlug": "sport",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "round": 3,
+    "homeSlug": "avai",
+    "awaySlug": "operario-pr",
+    "homeGoals": 0,
+    "awayGoals": 0
+  },
+  {
+    "round": 3,
+    "homeSlug": "novorizontino",
+    "awaySlug": "crb",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 3,
+    "homeSlug": "athletic-club",
+    "awaySlug": "america-mg",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 3,
+    "homeSlug": "botafogo-sp",
+    "awaySlug": "sao-bernardo",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "round": 3,
+    "homeSlug": "goias",
+    "awaySlug": "criciuma",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "round": 4,
+    "homeSlug": "criciuma",
+    "awaySlug": "botafogo-sp",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "round": 4,
+    "homeSlug": "juventude",
+    "awaySlug": "goias",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "round": 4,
+    "homeSlug": "ponte-preta",
+    "awaySlug": "vila-nova",
+    "homeGoals": 0,
+    "awayGoals": 1
+  },
+  {
+    "round": 4,
+    "homeSlug": "sport",
+    "awaySlug": "avai",
+    "homeGoals": 2,
+    "awayGoals": 2
+  },
+  {
+    "round": 4,
+    "homeSlug": "ceara",
+    "awaySlug": "nautico",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "round": 4,
+    "homeSlug": "sao-bernardo",
+    "awaySlug": "fortaleza",
+    "homeGoals": 0,
+    "awayGoals": 1
+  },
+  {
+    "round": 4,
+    "homeSlug": "america-mg",
+    "awaySlug": "novorizontino",
+    "homeGoals": 0,
+    "awayGoals": 3
+  },
+  {
+    "round": 4,
+    "homeSlug": "operario-pr",
+    "awaySlug": "cuiaba",
+    "homeGoals": 0,
+    "awayGoals": 0
+  },
+  {
+    "round": 4,
+    "homeSlug": "crb",
+    "awaySlug": "athletic-club",
+    "homeGoals": 2,
+    "awayGoals": 3
+  },
+  {
+    "round": 4,
+    "homeSlug": "atletico-go",
+    "awaySlug": "londrina",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 5,
+    "homeSlug": "america-mg",
+    "awaySlug": "sport",
+    "homeGoals": 0,
+    "awayGoals": 0
+  },
+  {
+    "round": 5,
+    "homeSlug": "nautico",
+    "awaySlug": "sao-bernardo",
+    "homeGoals": 0,
+    "awayGoals": 3
+  },
+  {
+    "round": 5,
+    "homeSlug": "vila-nova",
+    "awaySlug": "operario-pr",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 5,
+    "homeSlug": "avai",
+    "awaySlug": "ponte-preta",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "round": 5,
+    "homeSlug": "crb",
+    "awaySlug": "juventude",
+    "homeGoals": 0,
+    "awayGoals": 1
+  },
+  {
+    "round": 5,
+    "homeSlug": "botafogo-sp",
+    "awaySlug": "atletico-go",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 5,
+    "homeSlug": "londrina",
+    "awaySlug": "ceara",
+    "homeGoals": 0,
+    "awayGoals": 0
+  },
+  {
+    "round": 5,
+    "homeSlug": "goias",
+    "awaySlug": "cuiaba",
+    "homeGoals": 0,
+    "awayGoals": 2
+  },
+  {
+    "round": 5,
+    "homeSlug": "novorizontino",
+    "awaySlug": "athletic-club",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 5,
+    "homeSlug": "fortaleza",
+    "awaySlug": "criciuma",
+    "homeGoals": 3,
+    "awayGoals": 2
+  },
+  {
+    "round": 6,
+    "homeSlug": "cuiaba",
+    "awaySlug": "botafogo-sp",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 6,
+    "homeSlug": "ponte-preta",
+    "awaySlug": "america-mg",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "round": 6,
+    "homeSlug": "sport",
+    "awaySlug": "novorizontino",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "round": 6,
+    "homeSlug": "juventude",
+    "awaySlug": "londrina",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "round": 6,
+    "homeSlug": "sao-bernardo",
+    "awaySlug": "goias",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "round": 6,
+    "homeSlug": "operario-pr",
+    "awaySlug": "fortaleza",
+    "homeGoals": 0,
+    "awayGoals": 0
+  },
+  {
+    "round": 6,
+    "homeSlug": "ceara",
+    "awaySlug": "vila-nova",
+    "homeGoals": 3,
+    "awayGoals": 3
+  },
+  {
+    "round": 6,
+    "homeSlug": "atletico-go",
+    "awaySlug": "avai",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 6,
+    "homeSlug": "criciuma",
+    "awaySlug": "crb",
+    "homeGoals": 3,
+    "awayGoals": 1
+  },
+  {
+    "round": 6,
+    "homeSlug": "athletic-club",
+    "awaySlug": "nautico",
+    "homeGoals": 0,
+    "awayGoals": 1
+  },
+  {
+    "round": 7,
+    "homeSlug": "botafogo-sp",
+    "awaySlug": "nautico",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 7,
+    "homeSlug": "cuiaba",
+    "awaySlug": "criciuma",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 7,
+    "homeSlug": "fortaleza",
+    "awaySlug": "goias",
+    "homeGoals": 4,
+    "awayGoals": 1
+  },
+  {
+    "round": 7,
+    "homeSlug": "sao-bernardo",
+    "awaySlug": "ponte-preta",
+    "homeGoals": 3,
+    "awayGoals": 0
+  },
+  {
+    "round": 7,
+    "homeSlug": "operario-pr",
+    "awaySlug": "londrina",
+    "homeGoals": 3,
+    "awayGoals": 0
+  },
+  {
+    "round": 7,
+    "homeSlug": "sport",
+    "awaySlug": "ceara",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "round": 7,
+    "homeSlug": "atletico-go",
+    "awaySlug": "juventude",
+    "homeGoals": 0,
+    "awayGoals": 0
+  },
+  {
+    "round": 7,
+    "homeSlug": "america-mg",
+    "awaySlug": "crb",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "round": 7,
+    "homeSlug": "avai",
+    "awaySlug": "novorizontino",
+    "homeGoals": 3,
+    "awayGoals": 3
+  },
+  {
+    "round": 7,
+    "homeSlug": "vila-nova",
+    "awaySlug": "athletic-club",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 8,
+    "homeSlug": "goias",
+    "awaySlug": "vila-nova",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "round": 8,
+    "homeSlug": "athletic-club",
+    "awaySlug": "cuiaba",
+    "homeGoals": 0,
+    "awayGoals": 0
+  },
+  {
+    "round": 8,
+    "homeSlug": "ponte-preta",
+    "awaySlug": "sport",
+    "homeGoals": 1,
+    "awayGoals": 3
+  },
+  {
+    "round": 8,
+    "homeSlug": "ceara",
+    "awaySlug": "atletico-go",
+    "homeGoals": 0,
+    "awayGoals": 1
+  },
+  {
+    "round": 8,
+    "homeSlug": "crb",
+    "awaySlug": "operario-pr",
+    "homeGoals": 3,
+    "awayGoals": 0
+  },
+  {
+    "round": 8,
+    "homeSlug": "juventude",
+    "awaySlug": "criciuma",
+    "homeGoals": 0,
+    "awayGoals": 0
+  },
+  {
+    "round": 8,
+    "homeSlug": "nautico",
+    "awaySlug": "america-mg",
+    "homeGoals": 4,
+    "awayGoals": 0
+  },
+  {
+    "round": 8,
+    "homeSlug": "avai",
+    "awaySlug": "fortaleza",
+    "homeGoals": 0,
+    "awayGoals": 0
+  },
+  {
+    "round": 8,
+    "homeSlug": "novorizontino",
+    "awaySlug": "botafogo-sp",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "round": 8,
+    "homeSlug": "londrina",
+    "awaySlug": "sao-bernardo",
+    "homeGoals": 1,
+    "awayGoals": 3
+  },
+  {
+    "round": 9,
+    "homeSlug": "sao-bernardo",
+    "awaySlug": "america-mg",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 9,
+    "homeSlug": "operario-pr",
+    "awaySlug": "nautico",
+    "homeGoals": 2,
+    "awayGoals": 6
+  },
+  {
+    "round": 9,
+    "homeSlug": "goias",
+    "awaySlug": "botafogo-sp",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "round": 9,
+    "homeSlug": "cuiaba",
+    "awaySlug": "novorizontino",
+    "homeGoals": 0,
+    "awayGoals": 0
+  },
+  {
+    "round": 9,
+    "homeSlug": "athletic-club",
+    "awaySlug": "juventude",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 9,
+    "homeSlug": "vila-nova",
+    "awaySlug": "avai",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "round": 9,
+    "homeSlug": "ceara",
+    "awaySlug": "fortaleza",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 9,
+    "homeSlug": "criciuma",
+    "awaySlug": "atletico-go",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 9,
+    "homeSlug": "sport",
+    "awaySlug": "crb",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "round": 9,
+    "homeSlug": "ponte-preta",
+    "awaySlug": "londrina",
+    "homeGoals": 1,
+    "awayGoals": 4
+  },
+  {
+    "round": 10,
+    "homeSlug": "nautico",
+    "awaySlug": "cuiaba",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "round": 10,
+    "homeSlug": "novorizontino",
+    "awaySlug": "ceara",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 10,
+    "homeSlug": "fortaleza",
+    "awaySlug": "londrina",
+    "homeGoals": 3,
+    "awayGoals": 0
+  },
+  {
+    "round": 10,
+    "homeSlug": "juventude",
+    "awaySlug": "sport",
+    "homeGoals": 0,
+    "awayGoals": 1
+  },
+  {
+    "round": 10,
+    "homeSlug": "atletico-go",
+    "awaySlug": "sao-bernardo",
+    "homeGoals": 0,
+    "awayGoals": 1
+  },
+  {
+    "round": 10,
+    "homeSlug": "crb",
+    "awaySlug": "ponte-preta",
+    "homeGoals": 4,
+    "awayGoals": 2
+  },
+  {
+    "round": 10,
+    "homeSlug": "america-mg",
+    "awaySlug": "vila-nova",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "round": 10,
+    "homeSlug": "avai",
+    "awaySlug": "goias",
+    "homeGoals": 0,
+    "awayGoals": 2
+  },
+  {
+    "round": 10,
+    "homeSlug": "operario-pr",
+    "awaySlug": "criciuma",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 10,
+    "homeSlug": "botafogo-sp",
+    "awaySlug": "athletic-club",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "round": 11,
+    "homeSlug": "juventude",
+    "awaySlug": "america-mg",
+    "homeGoals": 3,
+    "awayGoals": 0
+  },
+  {
+    "round": 11,
+    "homeSlug": "atletico-go",
+    "awaySlug": "goias",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 11,
+    "homeSlug": "avai",
+    "awaySlug": "criciuma",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "round": 11,
+    "homeSlug": "athletic-club",
+    "awaySlug": "fortaleza",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "round": 11,
+    "homeSlug": "sport",
+    "awaySlug": "nautico",
+    "homeGoals": 2,
+    "awayGoals": 0
+  }
+]

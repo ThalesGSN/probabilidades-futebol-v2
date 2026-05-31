@@ -1,1 +1,1206 @@
-[]
+[
+  {
+    "round": 1,
+    "homeSlug": "atletico-mg",
+    "awaySlug": "palmeiras",
+    "homeGoals": 2,
+    "awayGoals": 2
+  },
+  {
+    "round": 1,
+    "homeSlug": "internacional",
+    "awaySlug": "athletico-pr",
+    "homeGoals": 0,
+    "awayGoals": 1
+  },
+  {
+    "round": 1,
+    "homeSlug": "coritiba",
+    "awaySlug": "bragantino",
+    "homeGoals": 0,
+    "awayGoals": 1
+  },
+  {
+    "round": 1,
+    "homeSlug": "vitoria",
+    "awaySlug": "remo",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "round": 1,
+    "homeSlug": "fluminense",
+    "awaySlug": "gremio",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 1,
+    "homeSlug": "corinthians",
+    "awaySlug": "bahia",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "round": 1,
+    "homeSlug": "chapecoense",
+    "awaySlug": "santos",
+    "homeGoals": 4,
+    "awayGoals": 2
+  },
+  {
+    "round": 1,
+    "homeSlug": "sao-paulo",
+    "awaySlug": "flamengo",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 1,
+    "homeSlug": "mirassol",
+    "awaySlug": "vasco",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 1,
+    "homeSlug": "botafogo",
+    "awaySlug": "cruzeiro",
+    "homeGoals": 4,
+    "awayGoals": 0
+  },
+  {
+    "round": 2,
+    "homeSlug": "flamengo",
+    "awaySlug": "internacional",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 2,
+    "homeSlug": "bragantino",
+    "awaySlug": "atletico-mg",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "round": 2,
+    "homeSlug": "santos",
+    "awaySlug": "sao-paulo",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 2,
+    "homeSlug": "remo",
+    "awaySlug": "mirassol",
+    "homeGoals": 2,
+    "awayGoals": 2
+  },
+  {
+    "round": 2,
+    "homeSlug": "palmeiras",
+    "awaySlug": "vitoria",
+    "homeGoals": 5,
+    "awayGoals": 1
+  },
+  {
+    "round": 2,
+    "homeSlug": "gremio",
+    "awaySlug": "botafogo",
+    "homeGoals": 5,
+    "awayGoals": 3
+  },
+  {
+    "round": 2,
+    "homeSlug": "bahia",
+    "awaySlug": "fluminense",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 2,
+    "homeSlug": "vasco",
+    "awaySlug": "chapecoense",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 2,
+    "homeSlug": "cruzeiro",
+    "awaySlug": "coritiba",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "round": 2,
+    "homeSlug": "athletico-pr",
+    "awaySlug": "corinthians",
+    "homeGoals": 0,
+    "awayGoals": 1
+  },
+  {
+    "round": 3,
+    "homeSlug": "vitoria",
+    "awaySlug": "flamengo",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "round": 3,
+    "homeSlug": "mirassol",
+    "awaySlug": "cruzeiro",
+    "homeGoals": 2,
+    "awayGoals": 2
+  },
+  {
+    "round": 3,
+    "homeSlug": "chapecoense",
+    "awaySlug": "coritiba",
+    "homeGoals": 3,
+    "awayGoals": 3
+  },
+  {
+    "round": 3,
+    "homeSlug": "atletico-mg",
+    "awaySlug": "remo",
+    "homeGoals": 3,
+    "awayGoals": 3
+  },
+  {
+    "round": 3,
+    "homeSlug": "vasco",
+    "awaySlug": "bahia",
+    "homeGoals": 0,
+    "awayGoals": 1
+  },
+  {
+    "round": 3,
+    "homeSlug": "sao-paulo",
+    "awaySlug": "gremio",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "round": 3,
+    "homeSlug": "athletico-pr",
+    "awaySlug": "santos",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 3,
+    "homeSlug": "fluminense",
+    "awaySlug": "botafogo",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "round": 3,
+    "homeSlug": "corinthians",
+    "awaySlug": "bragantino",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "round": 3,
+    "homeSlug": "internacional",
+    "awaySlug": "palmeiras",
+    "homeGoals": 1,
+    "awayGoals": 3
+  },
+  {
+    "round": 4,
+    "homeSlug": "bragantino",
+    "awaySlug": "athletico-pr",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 4,
+    "homeSlug": "remo",
+    "awaySlug": "internacional",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 4,
+    "homeSlug": "coritiba",
+    "awaySlug": "sao-paulo",
+    "homeGoals": 0,
+    "awayGoals": 1
+  },
+  {
+    "round": 4,
+    "homeSlug": "cruzeiro",
+    "awaySlug": "corinthians",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 4,
+    "homeSlug": "palmeiras",
+    "awaySlug": "fluminense",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 4,
+    "homeSlug": "gremio",
+    "awaySlug": "atletico-mg",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 4,
+    "homeSlug": "santos",
+    "awaySlug": "vasco",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 5,
+    "homeSlug": "mirassol",
+    "awaySlug": "santos",
+    "homeGoals": 2,
+    "awayGoals": 2
+  },
+  {
+    "round": 5,
+    "homeSlug": "atletico-mg",
+    "awaySlug": "internacional",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "round": 5,
+    "homeSlug": "bahia",
+    "awaySlug": "vitoria",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 5,
+    "homeSlug": "flamengo",
+    "awaySlug": "cruzeiro",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "round": 5,
+    "homeSlug": "corinthians",
+    "awaySlug": "coritiba",
+    "homeGoals": 0,
+    "awayGoals": 2
+  },
+  {
+    "round": 5,
+    "homeSlug": "remo",
+    "awaySlug": "fluminense",
+    "homeGoals": 0,
+    "awayGoals": 2
+  },
+  {
+    "round": 5,
+    "homeSlug": "vasco",
+    "awaySlug": "palmeiras",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 5,
+    "homeSlug": "sao-paulo",
+    "awaySlug": "chapecoense",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "round": 5,
+    "homeSlug": "gremio",
+    "awaySlug": "bragantino",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 5,
+    "homeSlug": "athletico-pr",
+    "awaySlug": "botafogo",
+    "homeGoals": 4,
+    "awayGoals": 1
+  },
+  {
+    "round": 6,
+    "homeSlug": "vitoria",
+    "awaySlug": "atletico-mg",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "round": 6,
+    "homeSlug": "botafogo",
+    "awaySlug": "flamengo",
+    "homeGoals": 0,
+    "awayGoals": 3
+  },
+  {
+    "round": 6,
+    "homeSlug": "fluminense",
+    "awaySlug": "athletico-pr",
+    "homeGoals": 3,
+    "awayGoals": 2
+  },
+  {
+    "round": 6,
+    "homeSlug": "santos",
+    "awaySlug": "corinthians",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 6,
+    "homeSlug": "internacional",
+    "awaySlug": "bahia",
+    "homeGoals": 0,
+    "awayGoals": 1
+  },
+  {
+    "round": 6,
+    "homeSlug": "palmeiras",
+    "awaySlug": "mirassol",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "round": 6,
+    "homeSlug": "coritiba",
+    "awaySlug": "remo",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "round": 6,
+    "homeSlug": "bragantino",
+    "awaySlug": "sao-paulo",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "round": 6,
+    "homeSlug": "cruzeiro",
+    "awaySlug": "vasco",
+    "homeGoals": 3,
+    "awayGoals": 3
+  },
+  {
+    "round": 6,
+    "homeSlug": "chapecoense",
+    "awaySlug": "gremio",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 7,
+    "homeSlug": "palmeiras",
+    "awaySlug": "botafogo",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 7,
+    "homeSlug": "bahia",
+    "awaySlug": "bragantino",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "round": 7,
+    "homeSlug": "athletico-pr",
+    "awaySlug": "cruzeiro",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 7,
+    "homeSlug": "mirassol",
+    "awaySlug": "coritiba",
+    "homeGoals": 0,
+    "awayGoals": 1
+  },
+  {
+    "round": 7,
+    "homeSlug": "atletico-mg",
+    "awaySlug": "sao-paulo",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "round": 7,
+    "homeSlug": "vasco",
+    "awaySlug": "fluminense",
+    "homeGoals": 3,
+    "awayGoals": 2
+  },
+  {
+    "round": 7,
+    "homeSlug": "santos",
+    "awaySlug": "internacional",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "round": 7,
+    "homeSlug": "gremio",
+    "awaySlug": "vitoria",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "round": 7,
+    "homeSlug": "flamengo",
+    "awaySlug": "remo",
+    "homeGoals": 3,
+    "awayGoals": 0
+  },
+  {
+    "round": 7,
+    "homeSlug": "chapecoense",
+    "awaySlug": "corinthians",
+    "homeGoals": 0,
+    "awayGoals": 0
+  },
+  {
+    "round": 8,
+    "homeSlug": "bragantino",
+    "awaySlug": "botafogo",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "round": 8,
+    "homeSlug": "fluminense",
+    "awaySlug": "atletico-mg",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "round": 8,
+    "homeSlug": "sao-paulo",
+    "awaySlug": "palmeiras",
+    "homeGoals": 0,
+    "awayGoals": 1
+  },
+  {
+    "round": 8,
+    "homeSlug": "vasco",
+    "awaySlug": "gremio",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 8,
+    "homeSlug": "cruzeiro",
+    "awaySlug": "santos",
+    "homeGoals": 0,
+    "awayGoals": 0
+  },
+  {
+    "round": 8,
+    "homeSlug": "athletico-pr",
+    "awaySlug": "coritiba",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "round": 8,
+    "homeSlug": "remo",
+    "awaySlug": "bahia",
+    "homeGoals": 4,
+    "awayGoals": 1
+  },
+  {
+    "round": 8,
+    "homeSlug": "internacional",
+    "awaySlug": "chapecoense",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "round": 8,
+    "homeSlug": "vitoria",
+    "awaySlug": "mirassol",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "round": 8,
+    "homeSlug": "corinthians",
+    "awaySlug": "flamengo",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 9,
+    "homeSlug": "botafogo",
+    "awaySlug": "mirassol",
+    "homeGoals": 3,
+    "awayGoals": 2
+  },
+  {
+    "round": 9,
+    "homeSlug": "internacional",
+    "awaySlug": "sao-paulo",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 9,
+    "homeSlug": "cruzeiro",
+    "awaySlug": "vitoria",
+    "homeGoals": 3,
+    "awayGoals": 0
+  },
+  {
+    "round": 9,
+    "homeSlug": "bahia",
+    "awaySlug": "athletico-pr",
+    "homeGoals": 3,
+    "awayGoals": 0
+  },
+  {
+    "round": 9,
+    "homeSlug": "coritiba",
+    "awaySlug": "vasco",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 9,
+    "homeSlug": "fluminense",
+    "awaySlug": "corinthians",
+    "homeGoals": 3,
+    "awayGoals": 1
+  },
+  {
+    "round": 9,
+    "homeSlug": "santos",
+    "awaySlug": "remo",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "round": 9,
+    "homeSlug": "chapecoense",
+    "awaySlug": "atletico-mg",
+    "homeGoals": 0,
+    "awayGoals": 4
+  },
+  {
+    "round": 9,
+    "homeSlug": "palmeiras",
+    "awaySlug": "gremio",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 9,
+    "homeSlug": "bragantino",
+    "awaySlug": "flamengo",
+    "homeGoals": 3,
+    "awayGoals": 0
+  },
+  {
+    "round": 10,
+    "homeSlug": "sao-paulo",
+    "awaySlug": "cruzeiro",
+    "homeGoals": 4,
+    "awayGoals": 1
+  },
+  {
+    "round": 10,
+    "homeSlug": "coritiba",
+    "awaySlug": "fluminense",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 10,
+    "homeSlug": "vasco",
+    "awaySlug": "botafogo",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "round": 10,
+    "homeSlug": "chapecoense",
+    "awaySlug": "vitoria",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 10,
+    "homeSlug": "flamengo",
+    "awaySlug": "santos",
+    "homeGoals": 3,
+    "awayGoals": 1
+  },
+  {
+    "round": 10,
+    "homeSlug": "atletico-mg",
+    "awaySlug": "athletico-pr",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 10,
+    "homeSlug": "corinthians",
+    "awaySlug": "internacional",
+    "homeGoals": 0,
+    "awayGoals": 1
+  },
+  {
+    "round": 10,
+    "homeSlug": "bahia",
+    "awaySlug": "palmeiras",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "round": 10,
+    "homeSlug": "mirassol",
+    "awaySlug": "bragantino",
+    "homeGoals": 0,
+    "awayGoals": 1
+  },
+  {
+    "round": 10,
+    "homeSlug": "gremio",
+    "awaySlug": "remo",
+    "homeGoals": 0,
+    "awayGoals": 0
+  },
+  {
+    "round": 11,
+    "homeSlug": "vitoria",
+    "awaySlug": "sao-paulo",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "round": 11,
+    "homeSlug": "remo",
+    "awaySlug": "vasco",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 11,
+    "homeSlug": "mirassol",
+    "awaySlug": "bahia",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "round": 11,
+    "homeSlug": "santos",
+    "awaySlug": "atletico-mg",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "round": 11,
+    "homeSlug": "internacional",
+    "awaySlug": "gremio",
+    "homeGoals": 0,
+    "awayGoals": 0
+  },
+  {
+    "round": 11,
+    "homeSlug": "athletico-pr",
+    "awaySlug": "chapecoense",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "round": 11,
+    "homeSlug": "botafogo",
+    "awaySlug": "coritiba",
+    "homeGoals": 2,
+    "awayGoals": 2
+  },
+  {
+    "round": 11,
+    "homeSlug": "fluminense",
+    "awaySlug": "flamengo",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "round": 11,
+    "homeSlug": "corinthians",
+    "awaySlug": "palmeiras",
+    "homeGoals": 0,
+    "awayGoals": 0
+  },
+  {
+    "round": 11,
+    "homeSlug": "cruzeiro",
+    "awaySlug": "bragantino",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 12,
+    "homeSlug": "vasco",
+    "awaySlug": "sao-paulo",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 12,
+    "homeSlug": "chapecoense",
+    "awaySlug": "botafogo",
+    "homeGoals": 1,
+    "awayGoals": 4
+  },
+  {
+    "round": 12,
+    "homeSlug": "vitoria",
+    "awaySlug": "corinthians",
+    "homeGoals": 0,
+    "awayGoals": 0
+  },
+  {
+    "round": 12,
+    "homeSlug": "cruzeiro",
+    "awaySlug": "gremio",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "round": 12,
+    "homeSlug": "internacional",
+    "awaySlug": "mirassol",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "round": 12,
+    "homeSlug": "santos",
+    "awaySlug": "fluminense",
+    "homeGoals": 2,
+    "awayGoals": 3
+  },
+  {
+    "round": 12,
+    "homeSlug": "coritiba",
+    "awaySlug": "atletico-mg",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "round": 12,
+    "homeSlug": "palmeiras",
+    "awaySlug": "athletico-pr",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "round": 12,
+    "homeSlug": "bragantino",
+    "awaySlug": "remo",
+    "homeGoals": 4,
+    "awayGoals": 2
+  },
+  {
+    "round": 12,
+    "homeSlug": "flamengo",
+    "awaySlug": "bahia",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "round": 13,
+    "homeSlug": "botafogo",
+    "awaySlug": "internacional",
+    "homeGoals": 2,
+    "awayGoals": 2
+  },
+  {
+    "round": 13,
+    "homeSlug": "bahia",
+    "awaySlug": "santos",
+    "homeGoals": 2,
+    "awayGoals": 2
+  },
+  {
+    "round": 13,
+    "homeSlug": "remo",
+    "awaySlug": "cruzeiro",
+    "homeGoals": 0,
+    "awayGoals": 1
+  },
+  {
+    "round": 13,
+    "homeSlug": "sao-paulo",
+    "awaySlug": "mirassol",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "round": 13,
+    "homeSlug": "corinthians",
+    "awaySlug": "vasco",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "round": 13,
+    "homeSlug": "gremio",
+    "awaySlug": "coritiba",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "round": 13,
+    "homeSlug": "bragantino",
+    "awaySlug": "palmeiras",
+    "homeGoals": 0,
+    "awayGoals": 1
+  },
+  {
+    "round": 13,
+    "homeSlug": "athletico-pr",
+    "awaySlug": "vitoria",
+    "homeGoals": 3,
+    "awayGoals": 1
+  },
+  {
+    "round": 13,
+    "homeSlug": "fluminense",
+    "awaySlug": "chapecoense",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 13,
+    "homeSlug": "atletico-mg",
+    "awaySlug": "flamengo",
+    "homeGoals": 0,
+    "awayGoals": 4
+  },
+  {
+    "round": 14,
+    "homeSlug": "botafogo",
+    "awaySlug": "remo",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "round": 14,
+    "homeSlug": "palmeiras",
+    "awaySlug": "santos",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 14,
+    "homeSlug": "vitoria",
+    "awaySlug": "coritiba",
+    "homeGoals": 4,
+    "awayGoals": 1
+  },
+  {
+    "round": 14,
+    "homeSlug": "athletico-pr",
+    "awaySlug": "gremio",
+    "homeGoals": 0,
+    "awayGoals": 0
+  },
+  {
+    "round": 14,
+    "homeSlug": "cruzeiro",
+    "awaySlug": "atletico-mg",
+    "homeGoals": 1,
+    "awayGoals": 3
+  },
+  {
+    "round": 14,
+    "homeSlug": "flamengo",
+    "awaySlug": "vasco",
+    "homeGoals": 2,
+    "awayGoals": 2
+  },
+  {
+    "round": 14,
+    "homeSlug": "sao-paulo",
+    "awaySlug": "bahia",
+    "homeGoals": 2,
+    "awayGoals": 2
+  },
+  {
+    "round": 14,
+    "homeSlug": "internacional",
+    "awaySlug": "fluminense",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "round": 14,
+    "homeSlug": "chapecoense",
+    "awaySlug": "bragantino",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "round": 14,
+    "homeSlug": "mirassol",
+    "awaySlug": "corinthians",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 15,
+    "homeSlug": "coritiba",
+    "awaySlug": "internacional",
+    "homeGoals": 2,
+    "awayGoals": 2
+  },
+  {
+    "round": 15,
+    "homeSlug": "fluminense",
+    "awaySlug": "vitoria",
+    "homeGoals": 2,
+    "awayGoals": 2
+  },
+  {
+    "round": 15,
+    "homeSlug": "bahia",
+    "awaySlug": "cruzeiro",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "round": 15,
+    "homeSlug": "atletico-mg",
+    "awaySlug": "botafogo",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 15,
+    "homeSlug": "remo",
+    "awaySlug": "palmeiras",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 15,
+    "homeSlug": "santos",
+    "awaySlug": "bragantino",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "round": 15,
+    "homeSlug": "corinthians",
+    "awaySlug": "sao-paulo",
+    "homeGoals": 3,
+    "awayGoals": 2
+  },
+  {
+    "round": 15,
+    "homeSlug": "mirassol",
+    "awaySlug": "chapecoense",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 15,
+    "homeSlug": "gremio",
+    "awaySlug": "flamengo",
+    "homeGoals": 0,
+    "awayGoals": 1
+  },
+  {
+    "round": 15,
+    "homeSlug": "vasco",
+    "awaySlug": "athletico-pr",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "round": 16,
+    "homeSlug": "atletico-mg",
+    "awaySlug": "mirassol",
+    "homeGoals": 3,
+    "awayGoals": 1
+  },
+  {
+    "round": 16,
+    "homeSlug": "internacional",
+    "awaySlug": "vasco",
+    "homeGoals": 4,
+    "awayGoals": 1
+  },
+  {
+    "round": 16,
+    "homeSlug": "fluminense",
+    "awaySlug": "sao-paulo",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 16,
+    "homeSlug": "palmeiras",
+    "awaySlug": "cruzeiro",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 16,
+    "homeSlug": "santos",
+    "awaySlug": "coritiba",
+    "homeGoals": 0,
+    "awayGoals": 3
+  },
+  {
+    "round": 16,
+    "homeSlug": "botafogo",
+    "awaySlug": "corinthians",
+    "homeGoals": 3,
+    "awayGoals": 1
+  },
+  {
+    "round": 16,
+    "homeSlug": "bahia",
+    "awaySlug": "gremio",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 16,
+    "homeSlug": "bragantino",
+    "awaySlug": "vitoria",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "round": 16,
+    "homeSlug": "chapecoense",
+    "awaySlug": "remo",
+    "homeGoals": 2,
+    "awayGoals": 3
+  },
+  {
+    "round": 16,
+    "homeSlug": "athletico-pr",
+    "awaySlug": "flamengo",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 17,
+    "homeSlug": "sao-paulo",
+    "awaySlug": "botafogo",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 17,
+    "homeSlug": "vitoria",
+    "awaySlug": "internacional",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "round": 17,
+    "homeSlug": "mirassol",
+    "awaySlug": "fluminense",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "round": 17,
+    "homeSlug": "gremio",
+    "awaySlug": "santos",
+    "homeGoals": 3,
+    "awayGoals": 2
+  },
+  {
+    "round": 17,
+    "homeSlug": "flamengo",
+    "awaySlug": "palmeiras",
+    "homeGoals": 0,
+    "awayGoals": 3
+  },
+  {
+    "round": 17,
+    "homeSlug": "cruzeiro",
+    "awaySlug": "chapecoense",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 17,
+    "homeSlug": "remo",
+    "awaySlug": "athletico-pr",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "round": 17,
+    "homeSlug": "corinthians",
+    "awaySlug": "atletico-mg",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "round": 17,
+    "homeSlug": "vasco",
+    "awaySlug": "bragantino",
+    "homeGoals": 0,
+    "awayGoals": 3
+  },
+  {
+    "round": 17,
+    "homeSlug": "coritiba",
+    "awaySlug": "bahia",
+    "homeGoals": 3,
+    "awayGoals": 2
+  },
+  {
+    "round": 18,
+    "homeSlug": "flamengo",
+    "awaySlug": "coritiba",
+    "homeGoals": 3,
+    "awayGoals": 0
+  },
+  {
+    "round": 18,
+    "homeSlug": "athletico-pr",
+    "awaySlug": "mirassol",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "round": 18,
+    "homeSlug": "gremio",
+    "awaySlug": "corinthians",
+    "homeGoals": 1,
+    "awayGoals": 3
+  },
+  {
+    "round": 18,
+    "homeSlug": "bahia",
+    "awaySlug": "botafogo",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "round": 18,
+    "homeSlug": "santos",
+    "awaySlug": "vitoria",
+    "homeGoals": 3,
+    "awayGoals": 1
+  }
+]

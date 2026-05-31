@@ -3,47 +3,32 @@
     {
       "slug": "palmeiras",
       "shortName": "Palmeiras",
-      "brand": "#0E5C3A"
+      "brand": "#006B3E"
     },
     {
-      "slug": "fluminense",
-      "shortName": "Fluminense",
-      "brand": "#7E1E3A"
-    },
-    {
-      "slug": "sao-paulo",
-      "shortName": "São Paulo",
-      "brand": "#A8232E"
+      "slug": "athletico-pr",
+      "shortName": "Athletico-PR",
+      "brand": "#CC0000"
     },
     {
       "slug": "bragantino",
       "shortName": "Bragantino",
-      "brand": "#888888"
+      "brand": "#CC0000"
     },
     {
-      "slug": "cruzeiro",
-      "shortName": "Cruzeiro",
-      "brand": "#1E3F8C"
+      "slug": "flamengo",
+      "shortName": "Flamengo",
+      "brand": "#CC0000"
     },
     {
-      "slug": "vitoria",
-      "shortName": "Vitória",
-      "brand": "#888888"
+      "slug": "botafogo",
+      "shortName": "Botafogo",
+      "brand": "#1A1A1A"
     },
     {
       "slug": "corinthians",
       "shortName": "Corinthians",
-      "brand": "#888888"
-    },
-    {
-      "slug": "internacional",
-      "shortName": "Internacional",
-      "brand": "#A8232E"
-    },
-    {
-      "slug": "remo",
-      "shortName": "Remo",
-      "brand": "#888888"
+      "brand": "#2A2A2A"
     },
     {
       "slug": "santos",
@@ -56,19 +41,39 @@
       "brand": "#1A6B3A"
     },
     {
-      "slug": "flamengo",
-      "shortName": "Flamengo",
-      "brand": "#B61E2B"
+      "slug": "fluminense",
+      "shortName": "Fluminense",
+      "brand": "#8B0032"
     },
     {
-      "slug": "athletico-pr",
-      "shortName": "Athletico-PR",
-      "brand": "#888888"
+      "slug": "sao-paulo",
+      "shortName": "São Paulo",
+      "brand": "#A8232E"
     },
     {
-      "slug": "botafogo",
-      "shortName": "Botafogo",
-      "brand": "#1A1A1A"
+      "slug": "vasco",
+      "shortName": "Vasco",
+      "brand": "#2A2A2A"
+    },
+    {
+      "slug": "remo",
+      "shortName": "Remo",
+      "brand": "#003580"
+    },
+    {
+      "slug": "bahia",
+      "shortName": "Bahia",
+      "brand": "#0044AA"
+    },
+    {
+      "slug": "cruzeiro",
+      "shortName": "Cruzeiro",
+      "brand": "#1E3F8C"
+    },
+    {
+      "slug": "vitoria",
+      "shortName": "Vitória",
+      "brand": "#CC0000"
     },
     {
       "slug": "atletico-mg",
@@ -76,29 +81,24 @@
       "brand": "#2A2A2A"
     },
     {
-      "slug": "vasco",
-      "shortName": "Vasco",
-      "brand": "#888888"
+      "slug": "internacional",
+      "shortName": "Internacional",
+      "brand": "#A8232E"
+    },
+    {
+      "slug": "gremio",
+      "shortName": "Grêmio",
+      "brand": "#1A558C"
     },
     {
       "slug": "mirassol",
       "shortName": "Mirassol",
-      "brand": "#888888"
+      "brand": "#C8A200"
     },
     {
       "slug": "chapecoense",
       "shortName": "Chapecoense",
       "brand": "#0F5F3F"
-    },
-    {
-      "slug": "bahia",
-      "shortName": "Bahia",
-      "brand": "#888888"
-    },
-    {
-      "slug": "gremio",
-      "shortName": "Grêmio",
-      "brand": "#888888"
     }
   ],
   "series": [
@@ -164,6 +164,69 @@
       "gremio_titulo": 0.1,
       "gremio_g4": 5.5,
       "gremio_rebaixamento": 37.9
+    },
+    {
+      "rodada": 18,
+      "palmeiras_titulo": 77.4,
+      "palmeiras_g4": 99.3,
+      "palmeiras_rebaixamento": 0.0,
+      "athletico-pr_titulo": 10.2,
+      "athletico-pr_g4": 87.2,
+      "athletico-pr_rebaixamento": 0.0,
+      "bragantino_titulo": 3.5,
+      "bragantino_g4": 73.0,
+      "bragantino_rebaixamento": 0.1,
+      "flamengo_titulo": 3.4,
+      "flamengo_g4": 39.5,
+      "flamengo_rebaixamento": 0.6,
+      "botafogo_titulo": 2.8,
+      "botafogo_g4": 66.7,
+      "botafogo_rebaixamento": 0.4,
+      "corinthians_titulo": 1.3,
+      "corinthians_g4": 54.4,
+      "corinthians_rebaixamento": 0.8,
+      "santos_titulo": 0.4,
+      "santos_g4": 29.0,
+      "santos_rebaixamento": 4.0,
+      "coritiba_titulo": 0.3,
+      "coritiba_g4": 34.7,
+      "coritiba_rebaixamento": 1.9,
+      "fluminense_titulo": 0.2,
+      "fluminense_g4": 21.0,
+      "fluminense_rebaixamento": 3.6,
+      "sao-paulo_titulo": 0.2,
+      "sao-paulo_g4": 22.7,
+      "sao-paulo_rebaixamento": 4.7,
+      "vasco_titulo": 0.2,
+      "vasco_g4": 23.3,
+      "vasco_rebaixamento": 6.4,
+      "remo_titulo": 0.1,
+      "remo_g4": 23.3,
+      "remo_rebaixamento": 4.2,
+      "bahia_titulo": 0.0,
+      "bahia_g4": 6.8,
+      "bahia_rebaixamento": 17.0,
+      "cruzeiro_titulo": 0.0,
+      "cruzeiro_g4": 2.4,
+      "cruzeiro_rebaixamento": 33.7,
+      "vitoria_titulo": 0.0,
+      "vitoria_g4": 0.5,
+      "vitoria_rebaixamento": 62.0,
+      "atletico-mg_titulo": 0.0,
+      "atletico-mg_g4": 10.5,
+      "atletico-mg_rebaixamento": 12.0,
+      "internacional_titulo": 0.0,
+      "internacional_g4": 4.2,
+      "internacional_rebaixamento": 23.2,
+      "gremio_titulo": 0.0,
+      "gremio_g4": 1.3,
+      "gremio_rebaixamento": 45.9,
+      "mirassol_titulo": 0.0,
+      "mirassol_g4": 0.2,
+      "mirassol_rebaixamento": 80.1,
+      "chapecoense_titulo": 0.0,
+      "chapecoense_g4": 0.0,
+      "chapecoense_rebaixamento": 99.5
     }
   ]
 }

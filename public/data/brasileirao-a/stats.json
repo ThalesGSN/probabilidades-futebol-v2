@@ -5,28 +5,28 @@
         "slug": "palmeiras",
         "name": "Palmeiras",
         "shortName": "Palmeiras",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "city": "São Paulo",
+        "state": "SP",
+        "founded": 1914,
+        "nickname": "Verdão",
         "division": "A",
-        "brand": "#0E5C3A",
+        "brand": "#006B3E",
         "bio": "",
         "current": {
           "position": 1,
           "points": 38,
           "played": 17,
-          "titleProb": 10.8,
-          "g4Prob": 57.5,
-          "relegationProb": 1.8,
-          "expectedPoints": 58.5,
+          "titleProb": 77.4,
+          "g4Prob": 99.3,
+          "relegationProb": 0.0,
+          "expectedPoints": 71.8,
           "pointsRange": [
-            43,
-            74
+            60,
+            83
           ]
         }
       },
-      "value": 0,
+      "value": 5,
       "detail": "jogos · encerrada"
     },
     {
@@ -34,144 +34,28 @@
         "slug": "flamengo",
         "name": "Flamengo",
         "shortName": "Flamengo",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "city": "Rio de Janeiro",
+        "state": "RJ",
+        "founded": 1895,
+        "nickname": "Mengão",
         "division": "A",
-        "brand": "#B61E2B",
+        "brand": "#CC0000",
         "bio": "",
         "current": {
           "position": 2,
-          "points": 31,
-          "played": 16,
-          "titleProb": 0.2,
-          "g4Prob": 6.3,
-          "relegationProb": 35.5,
-          "expectedPoints": 44.5,
-          "pointsRange": [
-            30,
-            60
-          ]
-        }
-      },
-      "value": 0,
-      "detail": "jogos · encerrada"
-    },
-    {
-      "team": {
-        "slug": "fluminense",
-        "name": "Fluminense",
-        "shortName": "Fluminense",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
-        "division": "A",
-        "brand": "#7E1E3A",
-        "bio": "",
-        "current": {
-          "position": 3,
-          "points": 30,
+          "points": 34,
           "played": 17,
-          "titleProb": 10.4,
-          "g4Prob": 57.0,
-          "relegationProb": 2.4,
-          "expectedPoints": 58.6,
+          "titleProb": 3.4,
+          "g4Prob": 39.5,
+          "relegationProb": 0.6,
+          "expectedPoints": 55.0,
           "pointsRange": [
-            43,
-            74
+            44,
+            67
           ]
         }
       },
-      "value": 0,
-      "detail": "jogos · encerrada"
-    },
-    {
-      "team": {
-        "slug": "athletico-pr",
-        "name": "Athletico-PR",
-        "shortName": "Athletico-PR",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
-        "division": "A",
-        "brand": "#888888",
-        "bio": "",
-        "current": {
-          "position": 4,
-          "points": 27,
-          "played": 17,
-          "titleProb": 0.2,
-          "g4Prob": 6.2,
-          "relegationProb": 36.6,
-          "expectedPoints": 44.5,
-          "pointsRange": [
-            30,
-            60
-          ]
-        }
-      },
-      "value": 0,
-      "detail": "jogos · encerrada"
-    },
-    {
-      "team": {
-        "slug": "bragantino",
-        "name": "Bragantino",
-        "shortName": "Bragantino",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
-        "division": "A",
-        "brand": "#888888",
-        "bio": "",
-        "current": {
-          "position": 5,
-          "points": 26,
-          "played": 17,
-          "titleProb": 10.0,
-          "g4Prob": 55.9,
-          "relegationProb": 2.2,
-          "expectedPoints": 58.4,
-          "pointsRange": [
-            43,
-            74
-          ]
-        }
-      },
-      "value": 0,
-      "detail": "jogos · encerrada"
-    },
-    {
-      "team": {
-        "slug": "coritiba",
-        "name": "Coritiba",
-        "shortName": "Coritiba",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
-        "division": "A",
-        "brand": "#1A6B3A",
-        "bio": "",
-        "current": {
-          "position": 6,
-          "points": 26,
-          "played": 17,
-          "titleProb": 0.3,
-          "g4Prob": 5.9,
-          "relegationProb": 36.9,
-          "expectedPoints": 44.5,
-          "pointsRange": [
-            30,
-            60
-          ]
-        }
-      },
-      "value": 0,
+      "value": 4,
       "detail": "jogos · encerrada"
     },
     {
@@ -179,57 +63,57 @@
         "slug": "sao-paulo",
         "name": "São Paulo",
         "shortName": "São Paulo",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "city": "São Paulo",
+        "state": "SP",
+        "founded": 1930,
+        "nickname": "Tricolor Paulista",
         "division": "A",
         "brand": "#A8232E",
         "bio": "",
         "current": {
-          "position": 7,
+          "position": 8,
           "points": 25,
           "played": 17,
-          "titleProb": 10.4,
-          "g4Prob": 54.9,
-          "relegationProb": 2.3,
-          "expectedPoints": 58.5,
+          "titleProb": 0.2,
+          "g4Prob": 22.7,
+          "relegationProb": 4.7,
+          "expectedPoints": 51.8,
           "pointsRange": [
-            43,
-            74
+            41,
+            63
           ]
         }
       },
-      "value": 0,
+      "value": 4,
       "detail": "jogos · encerrada"
     },
     {
       "team": {
-        "slug": "bahia",
-        "name": "Bahia",
-        "shortName": "Bahia",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "slug": "coritiba",
+        "name": "Coritiba",
+        "shortName": "Coritiba",
+        "city": "Curitiba",
+        "state": "PR",
+        "founded": 1909,
+        "nickname": "Coxa-Branca",
         "division": "A",
-        "brand": "#888888",
+        "brand": "#1A6B3A",
         "bio": "",
         "current": {
-          "position": 8,
-          "points": 23,
-          "played": 16,
-          "titleProb": 0.1,
-          "g4Prob": 5.7,
-          "relegationProb": 37.1,
-          "expectedPoints": 44.5,
+          "position": 7,
+          "points": 26,
+          "played": 18,
+          "titleProb": 0.3,
+          "g4Prob": 34.7,
+          "relegationProb": 1.9,
+          "expectedPoints": 54.1,
           "pointsRange": [
-            30,
-            60
+            43,
+            65
           ]
         }
       },
-      "value": 0,
+      "value": 3,
       "detail": "jogos · encerrada"
     },
     {
@@ -237,28 +121,28 @@
         "slug": "cruzeiro",
         "name": "Cruzeiro",
         "shortName": "Cruzeiro",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "city": "Belo Horizonte",
+        "state": "MG",
+        "founded": 1921,
+        "nickname": "Raposa",
         "division": "A",
         "brand": "#1E3F8C",
         "bio": "",
         "current": {
-          "position": 9,
+          "position": 10,
           "points": 23,
           "played": 17,
-          "titleProb": 9.5,
-          "g4Prob": 54.3,
-          "relegationProb": 2.1,
-          "expectedPoints": 58.5,
+          "titleProb": 0.0,
+          "g4Prob": 2.4,
+          "relegationProb": 33.7,
+          "expectedPoints": 44.5,
           "pointsRange": [
-            43,
-            74
+            34,
+            56
           ]
         }
       },
-      "value": 0,
+      "value": 3,
       "detail": "jogos · encerrada"
     },
     {
@@ -266,144 +150,144 @@
         "slug": "botafogo",
         "name": "Botafogo",
         "shortName": "Botafogo",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "city": "Rio de Janeiro",
+        "state": "RJ",
+        "founded": 1904,
+        "nickname": "Estrela Solitária",
         "division": "A",
         "brand": "#1A1A1A",
         "bio": "",
         "current": {
-          "position": 10,
-          "points": 22,
-          "played": 16,
-          "titleProb": 0.2,
-          "g4Prob": 5.2,
-          "relegationProb": 37.0,
-          "expectedPoints": 44.5,
-          "pointsRange": [
-            30,
-            60
-          ]
-        }
-      },
-      "value": 0,
-      "detail": "jogos · encerrada"
-    },
-    {
-      "team": {
-        "slug": "vitoria",
-        "name": "Vitória",
-        "shortName": "Vitória",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
-        "division": "A",
-        "brand": "#888888",
-        "bio": "",
-        "current": {
           "position": 11,
           "points": 22,
-          "played": 16,
-          "titleProb": 9.5,
-          "g4Prob": 53.8,
-          "relegationProb": 2.1,
-          "expectedPoints": 58.4,
+          "played": 17,
+          "titleProb": 2.8,
+          "g4Prob": 66.7,
+          "relegationProb": 0.4,
+          "expectedPoints": 59.3,
           "pointsRange": [
-            43,
-            74
+            48,
+            71
           ]
         }
       },
-      "value": 0,
+      "value": 3,
       "detail": "jogos · encerrada"
     },
     {
       "team": {
-        "slug": "atletico-mg",
-        "name": "Atlético-MG",
-        "shortName": "Atlético-MG",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "slug": "athletico-pr",
+        "name": "Athletico-PR",
+        "shortName": "Athletico-PR",
+        "city": "Curitiba",
+        "state": "PR",
+        "founded": 1924,
+        "nickname": "Furacão",
         "division": "A",
-        "brand": "#2A2A2A",
+        "brand": "#CC0000",
         "bio": "",
         "current": {
-          "position": 12,
-          "points": 21,
+          "position": 3,
+          "points": 30,
+          "played": 18,
+          "titleProb": 10.2,
+          "g4Prob": 87.2,
+          "relegationProb": 0.0,
+          "expectedPoints": 63.1,
+          "pointsRange": [
+            52,
+            75
+          ]
+        }
+      },
+      "value": 2,
+      "detail": "jogos · ainda em curso"
+    },
+    {
+      "team": {
+        "slug": "fluminense",
+        "name": "Fluminense",
+        "shortName": "Fluminense",
+        "city": "Rio de Janeiro",
+        "state": "RJ",
+        "founded": 1902,
+        "nickname": "Tricolor",
+        "division": "A",
+        "brand": "#8B0032",
+        "bio": "",
+        "current": {
+          "position": 4,
+          "points": 30,
           "played": 17,
           "titleProb": 0.2,
-          "g4Prob": 5.3,
-          "relegationProb": 37.6,
-          "expectedPoints": 44.5,
+          "g4Prob": 21.0,
+          "relegationProb": 3.6,
+          "expectedPoints": 51.9,
           "pointsRange": [
-            30,
-            60
+            41,
+            63
           ]
         }
       },
-      "value": 0,
+      "value": 2,
       "detail": "jogos · encerrada"
     },
     {
       "team": {
-        "slug": "internacional",
-        "name": "Internacional",
-        "shortName": "Internacional",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "slug": "bragantino",
+        "name": "Bragantino",
+        "shortName": "Bragantino",
+        "city": "Bragança Paulista",
+        "state": "SP",
+        "founded": 1928,
+        "nickname": "Massa Bruta",
         "division": "A",
-        "brand": "#A8232E",
+        "brand": "#CC0000",
         "bio": "",
         "current": {
-          "position": 13,
-          "points": 21,
+          "position": 5,
+          "points": 26,
           "played": 17,
-          "titleProb": 9.4,
-          "g4Prob": 53.4,
-          "relegationProb": 2.5,
-          "expectedPoints": 58.4,
+          "titleProb": 3.5,
+          "g4Prob": 73.0,
+          "relegationProb": 0.1,
+          "expectedPoints": 59.9,
           "pointsRange": [
-            43,
-            74
+            48,
+            71
           ]
         }
       },
-      "value": 0,
-      "detail": "jogos · encerrada"
+      "value": 2,
+      "detail": "jogos · ainda em curso"
     },
     {
       "team": {
-        "slug": "gremio",
-        "name": "Grêmio",
-        "shortName": "Grêmio",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "slug": "bahia",
+        "name": "Bahia",
+        "shortName": "Bahia",
+        "city": "Salvador",
+        "state": "BA",
+        "founded": 1931,
+        "nickname": "Esquadrão",
         "division": "A",
-        "brand": "#888888",
+        "brand": "#0044AA",
         "bio": "",
         "current": {
-          "position": 14,
-          "points": 21,
+          "position": 6,
+          "points": 26,
           "played": 17,
-          "titleProb": 0.1,
-          "g4Prob": 5.5,
-          "relegationProb": 37.9,
-          "expectedPoints": 44.6,
+          "titleProb": 0.0,
+          "g4Prob": 6.8,
+          "relegationProb": 17.0,
+          "expectedPoints": 47.2,
           "pointsRange": [
-            30,
-            60
+            37,
+            59
           ]
         }
       },
-      "value": 0,
+      "value": 2,
       "detail": "jogos · encerrada"
     },
     {
@@ -411,28 +295,86 @@
         "slug": "corinthians",
         "name": "Corinthians",
         "shortName": "Corinthians",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "city": "São Paulo",
+        "state": "SP",
+        "founded": 1910,
+        "nickname": "Timão",
         "division": "A",
-        "brand": "#888888",
+        "brand": "#2A2A2A",
         "bio": "",
         "current": {
-          "position": 15,
-          "points": 21,
-          "played": 17,
-          "titleProb": 9.5,
-          "g4Prob": 54.0,
-          "relegationProb": 2.6,
-          "expectedPoints": 58.6,
+          "position": 9,
+          "points": 24,
+          "played": 18,
+          "titleProb": 1.3,
+          "g4Prob": 54.4,
+          "relegationProb": 0.8,
+          "expectedPoints": 57.3,
           "pointsRange": [
-            43,
-            74
+            46,
+            69
           ]
         }
       },
-      "value": 0,
+      "value": 2,
+      "detail": "jogos · ainda em curso"
+    },
+    {
+      "team": {
+        "slug": "atletico-mg",
+        "name": "Atlético-MG",
+        "shortName": "Atlético-MG",
+        "city": "Belo Horizonte",
+        "state": "MG",
+        "founded": 1908,
+        "nickname": "Galo",
+        "division": "A",
+        "brand": "#2A2A2A",
+        "bio": "",
+        "current": {
+          "position": 13,
+          "points": 21,
+          "played": 17,
+          "titleProb": 0.0,
+          "g4Prob": 10.5,
+          "relegationProb": 12.0,
+          "expectedPoints": 49.7,
+          "pointsRange": [
+            38,
+            61
+          ]
+        }
+      },
+      "value": 2,
+      "detail": "jogos · encerrada"
+    },
+    {
+      "team": {
+        "slug": "internacional",
+        "name": "Internacional",
+        "shortName": "Internacional",
+        "city": "Porto Alegre",
+        "state": "RS",
+        "founded": 1909,
+        "nickname": "Colorado",
+        "division": "A",
+        "brand": "#A8232E",
+        "bio": "",
+        "current": {
+          "position": 14,
+          "points": 21,
+          "played": 17,
+          "titleProb": 0.0,
+          "g4Prob": 4.2,
+          "relegationProb": 23.2,
+          "expectedPoints": 46.9,
+          "pointsRange": [
+            36,
+            58
+          ]
+        }
+      },
+      "value": 2,
       "detail": "jogos · encerrada"
     },
     {
@@ -440,28 +382,57 @@
         "slug": "vasco",
         "name": "Vasco",
         "shortName": "Vasco",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "city": "Rio de Janeiro",
+        "state": "RJ",
+        "founded": 1898,
+        "nickname": "Cruz-Maltino",
         "division": "A",
-        "brand": "#888888",
+        "brand": "#2A2A2A",
         "bio": "",
         "current": {
-          "position": 16,
+          "position": 17,
           "points": 20,
           "played": 17,
           "titleProb": 0.2,
-          "g4Prob": 5.0,
-          "relegationProb": 39.4,
-          "expectedPoints": 44.4,
+          "g4Prob": 23.3,
+          "relegationProb": 6.4,
+          "expectedPoints": 52.9,
           "pointsRange": [
-            30,
-            60
+            41,
+            65
           ]
         }
       },
-      "value": 0,
+      "value": 2,
+      "detail": "jogos · encerrada"
+    },
+    {
+      "team": {
+        "slug": "vitoria",
+        "name": "Vitória",
+        "shortName": "Vitória",
+        "city": "Salvador",
+        "state": "BA",
+        "founded": 1899,
+        "nickname": "Leão",
+        "division": "A",
+        "brand": "#CC0000",
+        "bio": "",
+        "current": {
+          "position": 12,
+          "points": 22,
+          "played": 17,
+          "titleProb": 0.0,
+          "g4Prob": 0.5,
+          "relegationProb": 62.0,
+          "expectedPoints": 40.9,
+          "pointsRange": [
+            31,
+            52
+          ]
+        }
+      },
+      "value": 1,
       "detail": "jogos · encerrada"
     },
     {
@@ -469,28 +440,57 @@
         "slug": "santos",
         "name": "Santos",
         "shortName": "Santos",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "city": "Santos",
+        "state": "SP",
+        "founded": 1912,
+        "nickname": "Peixe",
         "division": "A",
         "brand": "#2A2A2A",
         "bio": "",
         "current": {
-          "position": 17,
-          "points": 18,
-          "played": 17,
-          "titleProb": 9.0,
-          "g4Prob": 52.7,
-          "relegationProb": 2.5,
-          "expectedPoints": 58.5,
+          "position": 15,
+          "points": 21,
+          "played": 18,
+          "titleProb": 0.4,
+          "g4Prob": 29.0,
+          "relegationProb": 4.0,
+          "expectedPoints": 53.8,
           "pointsRange": [
-            43,
-            74
+            42,
+            65
           ]
         }
       },
-      "value": 0,
+      "value": 1,
+      "detail": "jogos · ainda em curso"
+    },
+    {
+      "team": {
+        "slug": "gremio",
+        "name": "Grêmio",
+        "shortName": "Grêmio",
+        "city": "Porto Alegre",
+        "state": "RS",
+        "founded": 1903,
+        "nickname": "Tricolor Gaúcho",
+        "division": "A",
+        "brand": "#1A558C",
+        "bio": "",
+        "current": {
+          "position": 16,
+          "points": 21,
+          "played": 18,
+          "titleProb": 0.0,
+          "g4Prob": 1.3,
+          "relegationProb": 45.9,
+          "expectedPoints": 43.5,
+          "pointsRange": [
+            33,
+            55
+          ]
+        }
+      },
+      "value": 1,
       "detail": "jogos · encerrada"
     },
     {
@@ -498,28 +498,28 @@
         "slug": "mirassol",
         "name": "Mirassol",
         "shortName": "Mirassol",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "city": "Mirassol",
+        "state": "SP",
+        "founded": 1925,
+        "nickname": "Leão do Interior",
         "division": "A",
-        "brand": "#888888",
+        "brand": "#C8A200",
         "bio": "",
         "current": {
           "position": 18,
           "points": 16,
-          "played": 16,
-          "titleProb": 0.2,
-          "g4Prob": 5.0,
-          "relegationProb": 39.5,
-          "expectedPoints": 44.5,
+          "played": 17,
+          "titleProb": 0.0,
+          "g4Prob": 0.2,
+          "relegationProb": 80.1,
+          "expectedPoints": 38.4,
           "pointsRange": [
-            30,
-            60
+            28,
+            50
           ]
         }
       },
-      "value": 0,
+      "value": 1,
       "detail": "jogos · encerrada"
     },
     {
@@ -527,28 +527,28 @@
         "slug": "remo",
         "name": "Remo",
         "shortName": "Remo",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "city": "Belém",
+        "state": "PA",
+        "founded": 1905,
+        "nickname": "Leão Azul",
         "division": "A",
-        "brand": "#888888",
+        "brand": "#003580",
         "bio": "",
         "current": {
           "position": 19,
           "points": 15,
           "played": 17,
-          "titleProb": 9.4,
-          "g4Prob": 51.4,
-          "relegationProb": 2.8,
-          "expectedPoints": 58.4,
+          "titleProb": 0.1,
+          "g4Prob": 23.3,
+          "relegationProb": 4.2,
+          "expectedPoints": 53.0,
           "pointsRange": [
-            43,
-            74
+            41,
+            64
           ]
         }
       },
-      "value": 0,
+      "value": 1,
       "detail": "jogos · encerrada"
     },
     {
@@ -556,10 +556,10 @@
         "slug": "chapecoense",
         "name": "Chapecoense",
         "shortName": "Chapecoense",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "city": "Chapecó",
+        "state": "SC",
+        "founded": 1973,
+        "nickname": "Verdão do Oeste",
         "division": "A",
         "brand": "#0F5F3F",
         "bio": "",
@@ -567,17 +567,17 @@
           "position": 20,
           "points": 9,
           "played": 16,
-          "titleProb": 0.2,
-          "g4Prob": 5.0,
-          "relegationProb": 39.2,
-          "expectedPoints": 44.6,
+          "titleProb": 0.0,
+          "g4Prob": 0.0,
+          "relegationProb": 99.5,
+          "expectedPoints": 26.9,
           "pointsRange": [
-            30,
-            60
+            17,
+            38
           ]
         }
       },
-      "value": 0,
+      "value": 1,
       "detail": "jogos · encerrada"
     }
   ],
@@ -587,28 +587,28 @@
         "slug": "palmeiras",
         "name": "Palmeiras",
         "shortName": "Palmeiras",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "city": "São Paulo",
+        "state": "SP",
+        "founded": 1914,
+        "nickname": "Verdão",
         "division": "A",
-        "brand": "#0E5C3A",
+        "brand": "#006B3E",
         "bio": "",
         "current": {
           "position": 1,
           "points": 38,
           "played": 17,
-          "titleProb": 10.8,
-          "g4Prob": 57.5,
-          "relegationProb": 1.8,
-          "expectedPoints": 58.5,
+          "titleProb": 77.4,
+          "g4Prob": 99.3,
+          "relegationProb": 0.0,
+          "expectedPoints": 71.8,
           "pointsRange": [
-            43,
-            74
+            60,
+            83
           ]
         }
       },
-      "value": 0,
+      "value": 1,
       "detail": "jogos · encerrada"
     },
     {
@@ -616,28 +616,28 @@
         "slug": "flamengo",
         "name": "Flamengo",
         "shortName": "Flamengo",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "city": "Rio de Janeiro",
+        "state": "RJ",
+        "founded": 1895,
+        "nickname": "Mengão",
         "division": "A",
-        "brand": "#B61E2B",
+        "brand": "#CC0000",
         "bio": "",
         "current": {
           "position": 2,
-          "points": 31,
-          "played": 16,
-          "titleProb": 0.2,
-          "g4Prob": 6.3,
-          "relegationProb": 35.5,
-          "expectedPoints": 44.5,
+          "points": 34,
+          "played": 17,
+          "titleProb": 3.4,
+          "g4Prob": 39.5,
+          "relegationProb": 0.6,
+          "expectedPoints": 55.0,
           "pointsRange": [
-            30,
-            60
+            44,
+            67
           ]
         }
       },
-      "value": 0,
+      "value": 1,
       "detail": "jogos · encerrada"
     },
     {
@@ -645,28 +645,57 @@
         "slug": "fluminense",
         "name": "Fluminense",
         "shortName": "Fluminense",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "city": "Rio de Janeiro",
+        "state": "RJ",
+        "founded": 1902,
+        "nickname": "Tricolor",
         "division": "A",
-        "brand": "#7E1E3A",
+        "brand": "#8B0032",
         "bio": "",
         "current": {
-          "position": 3,
+          "position": 4,
           "points": 30,
           "played": 17,
-          "titleProb": 10.4,
-          "g4Prob": 57.0,
-          "relegationProb": 2.4,
-          "expectedPoints": 58.6,
+          "titleProb": 0.2,
+          "g4Prob": 21.0,
+          "relegationProb": 3.6,
+          "expectedPoints": 51.9,
           "pointsRange": [
-            43,
-            74
+            41,
+            63
           ]
         }
       },
-      "value": 0,
+      "value": 1,
+      "detail": "jogos · ainda em curso"
+    },
+    {
+      "team": {
+        "slug": "bahia",
+        "name": "Bahia",
+        "shortName": "Bahia",
+        "city": "Salvador",
+        "state": "BA",
+        "founded": 1931,
+        "nickname": "Esquadrão",
+        "division": "A",
+        "brand": "#0044AA",
+        "bio": "",
+        "current": {
+          "position": 6,
+          "points": 26,
+          "played": 17,
+          "titleProb": 0.0,
+          "g4Prob": 6.8,
+          "relegationProb": 17.0,
+          "expectedPoints": 47.2,
+          "pointsRange": [
+            37,
+            59
+          ]
+        }
+      },
+      "value": 1,
       "detail": "jogos · encerrada"
     },
     {
@@ -674,57 +703,28 @@
         "slug": "athletico-pr",
         "name": "Athletico-PR",
         "shortName": "Athletico-PR",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "city": "Curitiba",
+        "state": "PR",
+        "founded": 1924,
+        "nickname": "Furacão",
         "division": "A",
-        "brand": "#888888",
+        "brand": "#CC0000",
         "bio": "",
         "current": {
-          "position": 4,
-          "points": 27,
-          "played": 17,
-          "titleProb": 0.2,
-          "g4Prob": 6.2,
-          "relegationProb": 36.6,
-          "expectedPoints": 44.5,
+          "position": 3,
+          "points": 30,
+          "played": 18,
+          "titleProb": 10.2,
+          "g4Prob": 87.2,
+          "relegationProb": 0.0,
+          "expectedPoints": 63.1,
           "pointsRange": [
-            30,
-            60
+            52,
+            75
           ]
         }
       },
-      "value": 0,
-      "detail": "jogos · encerrada"
-    },
-    {
-      "team": {
-        "slug": "bragantino",
-        "name": "Bragantino",
-        "shortName": "Bragantino",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
-        "division": "A",
-        "brand": "#888888",
-        "bio": "",
-        "current": {
-          "position": 5,
-          "points": 26,
-          "played": 17,
-          "titleProb": 10.0,
-          "g4Prob": 55.9,
-          "relegationProb": 2.2,
-          "expectedPoints": 58.4,
-          "pointsRange": [
-            43,
-            74
-          ]
-        }
-      },
-      "value": 0,
+      "value": 2,
       "detail": "jogos · encerrada"
     },
     {
@@ -732,28 +732,28 @@
         "slug": "coritiba",
         "name": "Coritiba",
         "shortName": "Coritiba",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "city": "Curitiba",
+        "state": "PR",
+        "founded": 1909,
+        "nickname": "Coxa-Branca",
         "division": "A",
         "brand": "#1A6B3A",
         "bio": "",
         "current": {
-          "position": 6,
+          "position": 7,
           "points": 26,
-          "played": 17,
+          "played": 18,
           "titleProb": 0.3,
-          "g4Prob": 5.9,
-          "relegationProb": 36.9,
-          "expectedPoints": 44.5,
+          "g4Prob": 34.7,
+          "relegationProb": 1.9,
+          "expectedPoints": 54.1,
           "pointsRange": [
-            30,
-            60
+            43,
+            65
           ]
         }
       },
-      "value": 0,
+      "value": 2,
       "detail": "jogos · encerrada"
     },
     {
@@ -761,231 +761,28 @@
         "slug": "sao-paulo",
         "name": "São Paulo",
         "shortName": "São Paulo",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "city": "São Paulo",
+        "state": "SP",
+        "founded": 1930,
+        "nickname": "Tricolor Paulista",
         "division": "A",
         "brand": "#A8232E",
-        "bio": "",
-        "current": {
-          "position": 7,
-          "points": 25,
-          "played": 17,
-          "titleProb": 10.4,
-          "g4Prob": 54.9,
-          "relegationProb": 2.3,
-          "expectedPoints": 58.5,
-          "pointsRange": [
-            43,
-            74
-          ]
-        }
-      },
-      "value": 0,
-      "detail": "jogos · encerrada"
-    },
-    {
-      "team": {
-        "slug": "bahia",
-        "name": "Bahia",
-        "shortName": "Bahia",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
-        "division": "A",
-        "brand": "#888888",
         "bio": "",
         "current": {
           "position": 8,
-          "points": 23,
-          "played": 16,
-          "titleProb": 0.1,
-          "g4Prob": 5.7,
-          "relegationProb": 37.1,
-          "expectedPoints": 44.5,
-          "pointsRange": [
-            30,
-            60
-          ]
-        }
-      },
-      "value": 0,
-      "detail": "jogos · encerrada"
-    },
-    {
-      "team": {
-        "slug": "cruzeiro",
-        "name": "Cruzeiro",
-        "shortName": "Cruzeiro",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
-        "division": "A",
-        "brand": "#1E3F8C",
-        "bio": "",
-        "current": {
-          "position": 9,
-          "points": 23,
-          "played": 17,
-          "titleProb": 9.5,
-          "g4Prob": 54.3,
-          "relegationProb": 2.1,
-          "expectedPoints": 58.5,
-          "pointsRange": [
-            43,
-            74
-          ]
-        }
-      },
-      "value": 0,
-      "detail": "jogos · encerrada"
-    },
-    {
-      "team": {
-        "slug": "botafogo",
-        "name": "Botafogo",
-        "shortName": "Botafogo",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
-        "division": "A",
-        "brand": "#1A1A1A",
-        "bio": "",
-        "current": {
-          "position": 10,
-          "points": 22,
-          "played": 16,
-          "titleProb": 0.2,
-          "g4Prob": 5.2,
-          "relegationProb": 37.0,
-          "expectedPoints": 44.5,
-          "pointsRange": [
-            30,
-            60
-          ]
-        }
-      },
-      "value": 0,
-      "detail": "jogos · encerrada"
-    },
-    {
-      "team": {
-        "slug": "vitoria",
-        "name": "Vitória",
-        "shortName": "Vitória",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
-        "division": "A",
-        "brand": "#888888",
-        "bio": "",
-        "current": {
-          "position": 11,
-          "points": 22,
-          "played": 16,
-          "titleProb": 9.5,
-          "g4Prob": 53.8,
-          "relegationProb": 2.1,
-          "expectedPoints": 58.4,
-          "pointsRange": [
-            43,
-            74
-          ]
-        }
-      },
-      "value": 0,
-      "detail": "jogos · encerrada"
-    },
-    {
-      "team": {
-        "slug": "atletico-mg",
-        "name": "Atlético-MG",
-        "shortName": "Atlético-MG",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
-        "division": "A",
-        "brand": "#2A2A2A",
-        "bio": "",
-        "current": {
-          "position": 12,
-          "points": 21,
+          "points": 25,
           "played": 17,
           "titleProb": 0.2,
-          "g4Prob": 5.3,
-          "relegationProb": 37.6,
-          "expectedPoints": 44.5,
+          "g4Prob": 22.7,
+          "relegationProb": 4.7,
+          "expectedPoints": 51.8,
           "pointsRange": [
-            30,
-            60
+            41,
+            63
           ]
         }
       },
-      "value": 0,
-      "detail": "jogos · encerrada"
-    },
-    {
-      "team": {
-        "slug": "internacional",
-        "name": "Internacional",
-        "shortName": "Internacional",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
-        "division": "A",
-        "brand": "#A8232E",
-        "bio": "",
-        "current": {
-          "position": 13,
-          "points": 21,
-          "played": 17,
-          "titleProb": 9.4,
-          "g4Prob": 53.4,
-          "relegationProb": 2.5,
-          "expectedPoints": 58.4,
-          "pointsRange": [
-            43,
-            74
-          ]
-        }
-      },
-      "value": 0,
-      "detail": "jogos · encerrada"
-    },
-    {
-      "team": {
-        "slug": "gremio",
-        "name": "Grêmio",
-        "shortName": "Grêmio",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
-        "division": "A",
-        "brand": "#888888",
-        "bio": "",
-        "current": {
-          "position": 14,
-          "points": 21,
-          "played": 17,
-          "titleProb": 0.1,
-          "g4Prob": 5.5,
-          "relegationProb": 37.9,
-          "expectedPoints": 44.6,
-          "pointsRange": [
-            30,
-            60
-          ]
-        }
-      },
-      "value": 0,
+      "value": 2,
       "detail": "jogos · encerrada"
     },
     {
@@ -993,57 +790,115 @@
         "slug": "corinthians",
         "name": "Corinthians",
         "shortName": "Corinthians",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "city": "São Paulo",
+        "state": "SP",
+        "founded": 1910,
+        "nickname": "Timão",
         "division": "A",
-        "brand": "#888888",
+        "brand": "#2A2A2A",
         "bio": "",
         "current": {
-          "position": 15,
-          "points": 21,
-          "played": 17,
-          "titleProb": 9.5,
-          "g4Prob": 54.0,
-          "relegationProb": 2.6,
-          "expectedPoints": 58.6,
+          "position": 9,
+          "points": 24,
+          "played": 18,
+          "titleProb": 1.3,
+          "g4Prob": 54.4,
+          "relegationProb": 0.8,
+          "expectedPoints": 57.3,
           "pointsRange": [
-            43,
-            74
+            46,
+            69
           ]
         }
       },
-      "value": 0,
+      "value": 2,
       "detail": "jogos · encerrada"
     },
     {
       "team": {
-        "slug": "vasco",
-        "name": "Vasco",
-        "shortName": "Vasco",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "slug": "cruzeiro",
+        "name": "Cruzeiro",
+        "shortName": "Cruzeiro",
+        "city": "Belo Horizonte",
+        "state": "MG",
+        "founded": 1921,
+        "nickname": "Raposa",
         "division": "A",
-        "brand": "#888888",
+        "brand": "#1E3F8C",
         "bio": "",
         "current": {
-          "position": 16,
-          "points": 20,
+          "position": 10,
+          "points": 23,
           "played": 17,
-          "titleProb": 0.2,
-          "g4Prob": 5.0,
-          "relegationProb": 39.4,
-          "expectedPoints": 44.4,
+          "titleProb": 0.0,
+          "g4Prob": 2.4,
+          "relegationProb": 33.7,
+          "expectedPoints": 44.5,
           "pointsRange": [
-            30,
-            60
+            34,
+            56
           ]
         }
       },
-      "value": 0,
+      "value": 2,
+      "detail": "jogos · encerrada"
+    },
+    {
+      "team": {
+        "slug": "vitoria",
+        "name": "Vitória",
+        "shortName": "Vitória",
+        "city": "Salvador",
+        "state": "BA",
+        "founded": 1899,
+        "nickname": "Leão",
+        "division": "A",
+        "brand": "#CC0000",
+        "bio": "",
+        "current": {
+          "position": 12,
+          "points": 22,
+          "played": 17,
+          "titleProb": 0.0,
+          "g4Prob": 0.5,
+          "relegationProb": 62.0,
+          "expectedPoints": 40.9,
+          "pointsRange": [
+            31,
+            52
+          ]
+        }
+      },
+      "value": 2,
+      "detail": "jogos · encerrada"
+    },
+    {
+      "team": {
+        "slug": "internacional",
+        "name": "Internacional",
+        "shortName": "Internacional",
+        "city": "Porto Alegre",
+        "state": "RS",
+        "founded": 1909,
+        "nickname": "Colorado",
+        "division": "A",
+        "brand": "#A8232E",
+        "bio": "",
+        "current": {
+          "position": 14,
+          "points": 21,
+          "played": 17,
+          "titleProb": 0.0,
+          "g4Prob": 4.2,
+          "relegationProb": 23.2,
+          "expectedPoints": 46.9,
+          "pointsRange": [
+            36,
+            58
+          ]
+        }
+      },
+      "value": 2,
       "detail": "jogos · encerrada"
     },
     {
@@ -1051,57 +906,144 @@
         "slug": "santos",
         "name": "Santos",
         "shortName": "Santos",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "city": "Santos",
+        "state": "SP",
+        "founded": 1912,
+        "nickname": "Peixe",
+        "division": "A",
+        "brand": "#2A2A2A",
+        "bio": "",
+        "current": {
+          "position": 15,
+          "points": 21,
+          "played": 18,
+          "titleProb": 0.4,
+          "g4Prob": 29.0,
+          "relegationProb": 4.0,
+          "expectedPoints": 53.8,
+          "pointsRange": [
+            42,
+            65
+          ]
+        }
+      },
+      "value": 2,
+      "detail": "jogos · encerrada"
+    },
+    {
+      "team": {
+        "slug": "gremio",
+        "name": "Grêmio",
+        "shortName": "Grêmio",
+        "city": "Porto Alegre",
+        "state": "RS",
+        "founded": 1903,
+        "nickname": "Tricolor Gaúcho",
+        "division": "A",
+        "brand": "#1A558C",
+        "bio": "",
+        "current": {
+          "position": 16,
+          "points": 21,
+          "played": 18,
+          "titleProb": 0.0,
+          "g4Prob": 1.3,
+          "relegationProb": 45.9,
+          "expectedPoints": 43.5,
+          "pointsRange": [
+            33,
+            55
+          ]
+        }
+      },
+      "value": 2,
+      "detail": "jogos · encerrada"
+    },
+    {
+      "team": {
+        "slug": "vasco",
+        "name": "Vasco",
+        "shortName": "Vasco",
+        "city": "Rio de Janeiro",
+        "state": "RJ",
+        "founded": 1898,
+        "nickname": "Cruz-Maltino",
         "division": "A",
         "brand": "#2A2A2A",
         "bio": "",
         "current": {
           "position": 17,
-          "points": 18,
+          "points": 20,
           "played": 17,
-          "titleProb": 9.0,
-          "g4Prob": 52.7,
-          "relegationProb": 2.5,
-          "expectedPoints": 58.5,
+          "titleProb": 0.2,
+          "g4Prob": 23.3,
+          "relegationProb": 6.4,
+          "expectedPoints": 52.9,
           "pointsRange": [
-            43,
-            74
+            41,
+            65
           ]
         }
       },
-      "value": 0,
+      "value": 2,
+      "detail": "jogos · ainda em curso"
+    },
+    {
+      "team": {
+        "slug": "bragantino",
+        "name": "Bragantino",
+        "shortName": "Bragantino",
+        "city": "Bragança Paulista",
+        "state": "SP",
+        "founded": 1928,
+        "nickname": "Massa Bruta",
+        "division": "A",
+        "brand": "#CC0000",
+        "bio": "",
+        "current": {
+          "position": 5,
+          "points": 26,
+          "played": 17,
+          "titleProb": 3.5,
+          "g4Prob": 73.0,
+          "relegationProb": 0.1,
+          "expectedPoints": 59.9,
+          "pointsRange": [
+            48,
+            71
+          ]
+        }
+      },
+      "value": 3,
       "detail": "jogos · encerrada"
     },
     {
       "team": {
-        "slug": "mirassol",
-        "name": "Mirassol",
-        "shortName": "Mirassol",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "slug": "atletico-mg",
+        "name": "Atlético-MG",
+        "shortName": "Atlético-MG",
+        "city": "Belo Horizonte",
+        "state": "MG",
+        "founded": 1908,
+        "nickname": "Galo",
         "division": "A",
-        "brand": "#888888",
+        "brand": "#2A2A2A",
         "bio": "",
         "current": {
-          "position": 18,
-          "points": 16,
-          "played": 16,
-          "titleProb": 0.2,
-          "g4Prob": 5.0,
-          "relegationProb": 39.5,
-          "expectedPoints": 44.5,
+          "position": 13,
+          "points": 21,
+          "played": 17,
+          "titleProb": 0.0,
+          "g4Prob": 10.5,
+          "relegationProb": 12.0,
+          "expectedPoints": 49.7,
           "pointsRange": [
-            30,
-            60
+            38,
+            61
           ]
         }
       },
-      "value": 0,
+      "value": 3,
       "detail": "jogos · encerrada"
     },
     {
@@ -1109,28 +1051,28 @@
         "slug": "remo",
         "name": "Remo",
         "shortName": "Remo",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "city": "Belém",
+        "state": "PA",
+        "founded": 1905,
+        "nickname": "Leão Azul",
         "division": "A",
-        "brand": "#888888",
+        "brand": "#003580",
         "bio": "",
         "current": {
           "position": 19,
           "points": 15,
           "played": 17,
-          "titleProb": 9.4,
-          "g4Prob": 51.4,
-          "relegationProb": 2.8,
-          "expectedPoints": 58.4,
+          "titleProb": 0.1,
+          "g4Prob": 23.3,
+          "relegationProb": 4.2,
+          "expectedPoints": 53.0,
           "pointsRange": [
-            43,
-            74
+            41,
+            64
           ]
         }
       },
-      "value": 0,
+      "value": 3,
       "detail": "jogos · encerrada"
     },
     {
@@ -1138,10 +1080,10 @@
         "slug": "chapecoense",
         "name": "Chapecoense",
         "shortName": "Chapecoense",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "city": "Chapecó",
+        "state": "SC",
+        "founded": 1973,
+        "nickname": "Verdão do Oeste",
         "division": "A",
         "brand": "#0F5F3F",
         "bio": "",
@@ -1149,17 +1091,75 @@
           "position": 20,
           "points": 9,
           "played": 16,
-          "titleProb": 0.2,
-          "g4Prob": 5.0,
-          "relegationProb": 39.2,
-          "expectedPoints": 44.6,
+          "titleProb": 0.0,
+          "g4Prob": 0.0,
+          "relegationProb": 99.5,
+          "expectedPoints": 26.9,
           "pointsRange": [
-            30,
-            60
+            17,
+            38
           ]
         }
       },
-      "value": 0,
+      "value": 4,
+      "detail": "jogos · encerrada"
+    },
+    {
+      "team": {
+        "slug": "botafogo",
+        "name": "Botafogo",
+        "shortName": "Botafogo",
+        "city": "Rio de Janeiro",
+        "state": "RJ",
+        "founded": 1904,
+        "nickname": "Estrela Solitária",
+        "division": "A",
+        "brand": "#1A1A1A",
+        "bio": "",
+        "current": {
+          "position": 11,
+          "points": 22,
+          "played": 17,
+          "titleProb": 2.8,
+          "g4Prob": 66.7,
+          "relegationProb": 0.4,
+          "expectedPoints": 59.3,
+          "pointsRange": [
+            48,
+            71
+          ]
+        }
+      },
+      "value": 5,
+      "detail": "jogos · encerrada"
+    },
+    {
+      "team": {
+        "slug": "mirassol",
+        "name": "Mirassol",
+        "shortName": "Mirassol",
+        "city": "Mirassol",
+        "state": "SP",
+        "founded": 1925,
+        "nickname": "Leão do Interior",
+        "division": "A",
+        "brand": "#C8A200",
+        "bio": "",
+        "current": {
+          "position": 18,
+          "points": 16,
+          "played": 17,
+          "titleProb": 0.0,
+          "g4Prob": 0.2,
+          "relegationProb": 80.1,
+          "expectedPoints": 38.4,
+          "pointsRange": [
+            28,
+            50
+          ]
+        }
+      },
+      "value": 6,
       "detail": "jogos · encerrada"
     }
   ],
@@ -1169,202 +1169,57 @@
         "slug": "palmeiras",
         "name": "Palmeiras",
         "shortName": "Palmeiras",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "city": "São Paulo",
+        "state": "SP",
+        "founded": 1914,
+        "nickname": "Verdão",
         "division": "A",
-        "brand": "#0E5C3A",
+        "brand": "#006B3E",
         "bio": "",
         "current": {
           "position": 1,
           "points": 38,
           "played": 17,
-          "titleProb": 10.8,
-          "g4Prob": 57.5,
-          "relegationProb": 1.8,
-          "expectedPoints": 58.5,
+          "titleProb": 77.4,
+          "g4Prob": 99.3,
+          "relegationProb": 0.0,
+          "expectedPoints": 71.8,
           "pointsRange": [
-            43,
-            74
+            60,
+            83
           ]
         }
       },
-      "value": 0,
-      "detail": "jogos · encerrada"
+      "value": 12,
+      "detail": "jogos · ainda em curso"
     },
     {
       "team": {
         "slug": "flamengo",
         "name": "Flamengo",
         "shortName": "Flamengo",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "city": "Rio de Janeiro",
+        "state": "RJ",
+        "founded": 1895,
+        "nickname": "Mengão",
         "division": "A",
-        "brand": "#B61E2B",
+        "brand": "#CC0000",
         "bio": "",
         "current": {
           "position": 2,
-          "points": 31,
-          "played": 16,
-          "titleProb": 0.2,
-          "g4Prob": 6.3,
-          "relegationProb": 35.5,
-          "expectedPoints": 44.5,
-          "pointsRange": [
-            30,
-            60
-          ]
-        }
-      },
-      "value": 0,
-      "detail": "jogos · encerrada"
-    },
-    {
-      "team": {
-        "slug": "fluminense",
-        "name": "Fluminense",
-        "shortName": "Fluminense",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
-        "division": "A",
-        "brand": "#7E1E3A",
-        "bio": "",
-        "current": {
-          "position": 3,
-          "points": 30,
+          "points": 34,
           "played": 17,
-          "titleProb": 10.4,
-          "g4Prob": 57.0,
-          "relegationProb": 2.4,
-          "expectedPoints": 58.6,
+          "titleProb": 3.4,
+          "g4Prob": 39.5,
+          "relegationProb": 0.6,
+          "expectedPoints": 55.0,
           "pointsRange": [
-            43,
-            74
+            44,
+            67
           ]
         }
       },
-      "value": 0,
-      "detail": "jogos · encerrada"
-    },
-    {
-      "team": {
-        "slug": "athletico-pr",
-        "name": "Athletico-PR",
-        "shortName": "Athletico-PR",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
-        "division": "A",
-        "brand": "#888888",
-        "bio": "",
-        "current": {
-          "position": 4,
-          "points": 27,
-          "played": 17,
-          "titleProb": 0.2,
-          "g4Prob": 6.2,
-          "relegationProb": 36.6,
-          "expectedPoints": 44.5,
-          "pointsRange": [
-            30,
-            60
-          ]
-        }
-      },
-      "value": 0,
-      "detail": "jogos · encerrada"
-    },
-    {
-      "team": {
-        "slug": "bragantino",
-        "name": "Bragantino",
-        "shortName": "Bragantino",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
-        "division": "A",
-        "brand": "#888888",
-        "bio": "",
-        "current": {
-          "position": 5,
-          "points": 26,
-          "played": 17,
-          "titleProb": 10.0,
-          "g4Prob": 55.9,
-          "relegationProb": 2.2,
-          "expectedPoints": 58.4,
-          "pointsRange": [
-            43,
-            74
-          ]
-        }
-      },
-      "value": 0,
-      "detail": "jogos · encerrada"
-    },
-    {
-      "team": {
-        "slug": "coritiba",
-        "name": "Coritiba",
-        "shortName": "Coritiba",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
-        "division": "A",
-        "brand": "#1A6B3A",
-        "bio": "",
-        "current": {
-          "position": 6,
-          "points": 26,
-          "played": 17,
-          "titleProb": 0.3,
-          "g4Prob": 5.9,
-          "relegationProb": 36.9,
-          "expectedPoints": 44.5,
-          "pointsRange": [
-            30,
-            60
-          ]
-        }
-      },
-      "value": 0,
-      "detail": "jogos · encerrada"
-    },
-    {
-      "team": {
-        "slug": "sao-paulo",
-        "name": "São Paulo",
-        "shortName": "São Paulo",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
-        "division": "A",
-        "brand": "#A8232E",
-        "bio": "",
-        "current": {
-          "position": 7,
-          "points": 25,
-          "played": 17,
-          "titleProb": 10.4,
-          "g4Prob": 54.9,
-          "relegationProb": 2.3,
-          "expectedPoints": 58.5,
-          "pointsRange": [
-            43,
-            74
-          ]
-        }
-      },
-      "value": 0,
+      "value": 7,
       "detail": "jogos · encerrada"
     },
     {
@@ -1372,57 +1227,57 @@
         "slug": "bahia",
         "name": "Bahia",
         "shortName": "Bahia",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "city": "Salvador",
+        "state": "BA",
+        "founded": 1931,
+        "nickname": "Esquadrão",
         "division": "A",
-        "brand": "#888888",
+        "brand": "#0044AA",
         "bio": "",
         "current": {
-          "position": 8,
-          "points": 23,
-          "played": 16,
-          "titleProb": 0.1,
-          "g4Prob": 5.7,
-          "relegationProb": 37.1,
-          "expectedPoints": 44.5,
+          "position": 6,
+          "points": 26,
+          "played": 17,
+          "titleProb": 0.0,
+          "g4Prob": 6.8,
+          "relegationProb": 17.0,
+          "expectedPoints": 47.2,
           "pointsRange": [
-            30,
-            60
+            37,
+            59
           ]
         }
       },
-      "value": 0,
+      "value": 6,
       "detail": "jogos · encerrada"
     },
     {
       "team": {
-        "slug": "cruzeiro",
-        "name": "Cruzeiro",
-        "shortName": "Cruzeiro",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "slug": "sao-paulo",
+        "name": "São Paulo",
+        "shortName": "São Paulo",
+        "city": "São Paulo",
+        "state": "SP",
+        "founded": 1930,
+        "nickname": "Tricolor Paulista",
         "division": "A",
-        "brand": "#1E3F8C",
+        "brand": "#A8232E",
         "bio": "",
         "current": {
-          "position": 9,
-          "points": 23,
+          "position": 8,
+          "points": 25,
           "played": 17,
-          "titleProb": 9.5,
-          "g4Prob": 54.3,
-          "relegationProb": 2.1,
-          "expectedPoints": 58.5,
+          "titleProb": 0.2,
+          "g4Prob": 22.7,
+          "relegationProb": 4.7,
+          "expectedPoints": 51.8,
           "pointsRange": [
-            43,
-            74
+            41,
+            63
           ]
         }
       },
-      "value": 0,
+      "value": 6,
       "detail": "jogos · encerrada"
     },
     {
@@ -1430,86 +1285,28 @@
         "slug": "botafogo",
         "name": "Botafogo",
         "shortName": "Botafogo",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "city": "Rio de Janeiro",
+        "state": "RJ",
+        "founded": 1904,
+        "nickname": "Estrela Solitária",
         "division": "A",
         "brand": "#1A1A1A",
         "bio": "",
         "current": {
-          "position": 10,
-          "points": 22,
-          "played": 16,
-          "titleProb": 0.2,
-          "g4Prob": 5.2,
-          "relegationProb": 37.0,
-          "expectedPoints": 44.5,
-          "pointsRange": [
-            30,
-            60
-          ]
-        }
-      },
-      "value": 0,
-      "detail": "jogos · encerrada"
-    },
-    {
-      "team": {
-        "slug": "vitoria",
-        "name": "Vitória",
-        "shortName": "Vitória",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
-        "division": "A",
-        "brand": "#888888",
-        "bio": "",
-        "current": {
           "position": 11,
           "points": 22,
-          "played": 16,
-          "titleProb": 9.5,
-          "g4Prob": 53.8,
-          "relegationProb": 2.1,
-          "expectedPoints": 58.4,
-          "pointsRange": [
-            43,
-            74
-          ]
-        }
-      },
-      "value": 0,
-      "detail": "jogos · encerrada"
-    },
-    {
-      "team": {
-        "slug": "atletico-mg",
-        "name": "Atlético-MG",
-        "shortName": "Atlético-MG",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
-        "division": "A",
-        "brand": "#2A2A2A",
-        "bio": "",
-        "current": {
-          "position": 12,
-          "points": 21,
           "played": 17,
-          "titleProb": 0.2,
-          "g4Prob": 5.3,
-          "relegationProb": 37.6,
-          "expectedPoints": 44.5,
+          "titleProb": 2.8,
+          "g4Prob": 66.7,
+          "relegationProb": 0.4,
+          "expectedPoints": 59.3,
           "pointsRange": [
-            30,
-            60
+            48,
+            71
           ]
         }
       },
-      "value": 0,
+      "value": 6,
       "detail": "jogos · encerrada"
     },
     {
@@ -1517,86 +1314,28 @@
         "slug": "internacional",
         "name": "Internacional",
         "shortName": "Internacional",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "city": "Porto Alegre",
+        "state": "RS",
+        "founded": 1909,
+        "nickname": "Colorado",
         "division": "A",
         "brand": "#A8232E",
-        "bio": "",
-        "current": {
-          "position": 13,
-          "points": 21,
-          "played": 17,
-          "titleProb": 9.4,
-          "g4Prob": 53.4,
-          "relegationProb": 2.5,
-          "expectedPoints": 58.4,
-          "pointsRange": [
-            43,
-            74
-          ]
-        }
-      },
-      "value": 0,
-      "detail": "jogos · encerrada"
-    },
-    {
-      "team": {
-        "slug": "gremio",
-        "name": "Grêmio",
-        "shortName": "Grêmio",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
-        "division": "A",
-        "brand": "#888888",
         "bio": "",
         "current": {
           "position": 14,
           "points": 21,
           "played": 17,
-          "titleProb": 0.1,
-          "g4Prob": 5.5,
-          "relegationProb": 37.9,
-          "expectedPoints": 44.6,
+          "titleProb": 0.0,
+          "g4Prob": 4.2,
+          "relegationProb": 23.2,
+          "expectedPoints": 46.9,
           "pointsRange": [
-            30,
-            60
+            36,
+            58
           ]
         }
       },
-      "value": 0,
-      "detail": "jogos · encerrada"
-    },
-    {
-      "team": {
-        "slug": "corinthians",
-        "name": "Corinthians",
-        "shortName": "Corinthians",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
-        "division": "A",
-        "brand": "#888888",
-        "bio": "",
-        "current": {
-          "position": 15,
-          "points": 21,
-          "played": 17,
-          "titleProb": 9.5,
-          "g4Prob": 54.0,
-          "relegationProb": 2.6,
-          "expectedPoints": 58.6,
-          "pointsRange": [
-            43,
-            74
-          ]
-        }
-      },
-      "value": 0,
+      "value": 5,
       "detail": "jogos · encerrada"
     },
     {
@@ -1604,57 +1343,86 @@
         "slug": "vasco",
         "name": "Vasco",
         "shortName": "Vasco",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
-        "division": "A",
-        "brand": "#888888",
-        "bio": "",
-        "current": {
-          "position": 16,
-          "points": 20,
-          "played": 17,
-          "titleProb": 0.2,
-          "g4Prob": 5.0,
-          "relegationProb": 39.4,
-          "expectedPoints": 44.4,
-          "pointsRange": [
-            30,
-            60
-          ]
-        }
-      },
-      "value": 0,
-      "detail": "jogos · encerrada"
-    },
-    {
-      "team": {
-        "slug": "santos",
-        "name": "Santos",
-        "shortName": "Santos",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "city": "Rio de Janeiro",
+        "state": "RJ",
+        "founded": 1898,
+        "nickname": "Cruz-Maltino",
         "division": "A",
         "brand": "#2A2A2A",
         "bio": "",
         "current": {
           "position": 17,
-          "points": 18,
+          "points": 20,
           "played": 17,
-          "titleProb": 9.0,
-          "g4Prob": 52.7,
-          "relegationProb": 2.5,
-          "expectedPoints": 58.5,
+          "titleProb": 0.2,
+          "g4Prob": 23.3,
+          "relegationProb": 6.4,
+          "expectedPoints": 52.9,
           "pointsRange": [
-            43,
-            74
+            41,
+            65
           ]
         }
       },
-      "value": 0,
+      "value": 5,
+      "detail": "jogos · encerrada"
+    },
+    {
+      "team": {
+        "slug": "coritiba",
+        "name": "Coritiba",
+        "shortName": "Coritiba",
+        "city": "Curitiba",
+        "state": "PR",
+        "founded": 1909,
+        "nickname": "Coxa-Branca",
+        "division": "A",
+        "brand": "#1A6B3A",
+        "bio": "",
+        "current": {
+          "position": 7,
+          "points": 26,
+          "played": 18,
+          "titleProb": 0.3,
+          "g4Prob": 34.7,
+          "relegationProb": 1.9,
+          "expectedPoints": 54.1,
+          "pointsRange": [
+            43,
+            65
+          ]
+        }
+      },
+      "value": 4,
+      "detail": "jogos · encerrada"
+    },
+    {
+      "team": {
+        "slug": "gremio",
+        "name": "Grêmio",
+        "shortName": "Grêmio",
+        "city": "Porto Alegre",
+        "state": "RS",
+        "founded": 1903,
+        "nickname": "Tricolor Gaúcho",
+        "division": "A",
+        "brand": "#1A558C",
+        "bio": "",
+        "current": {
+          "position": 16,
+          "points": 21,
+          "played": 18,
+          "titleProb": 0.0,
+          "g4Prob": 1.3,
+          "relegationProb": 45.9,
+          "expectedPoints": 43.5,
+          "pointsRange": [
+            33,
+            55
+          ]
+        }
+      },
+      "value": 4,
       "detail": "jogos · encerrada"
     },
     {
@@ -1662,28 +1430,231 @@
         "slug": "mirassol",
         "name": "Mirassol",
         "shortName": "Mirassol",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "city": "Mirassol",
+        "state": "SP",
+        "founded": 1925,
+        "nickname": "Leão do Interior",
         "division": "A",
-        "brand": "#888888",
+        "brand": "#C8A200",
         "bio": "",
         "current": {
           "position": 18,
           "points": 16,
-          "played": 16,
-          "titleProb": 0.2,
-          "g4Prob": 5.0,
-          "relegationProb": 39.5,
-          "expectedPoints": 44.5,
+          "played": 17,
+          "titleProb": 0.0,
+          "g4Prob": 0.2,
+          "relegationProb": 80.1,
+          "expectedPoints": 38.4,
           "pointsRange": [
-            30,
-            60
+            28,
+            50
           ]
         }
       },
-      "value": 0,
+      "value": 4,
+      "detail": "jogos · encerrada"
+    },
+    {
+      "team": {
+        "slug": "athletico-pr",
+        "name": "Athletico-PR",
+        "shortName": "Athletico-PR",
+        "city": "Curitiba",
+        "state": "PR",
+        "founded": 1924,
+        "nickname": "Furacão",
+        "division": "A",
+        "brand": "#CC0000",
+        "bio": "",
+        "current": {
+          "position": 3,
+          "points": 30,
+          "played": 18,
+          "titleProb": 10.2,
+          "g4Prob": 87.2,
+          "relegationProb": 0.0,
+          "expectedPoints": 63.1,
+          "pointsRange": [
+            52,
+            75
+          ]
+        }
+      },
+      "value": 3,
+      "detail": "jogos · ainda em curso"
+    },
+    {
+      "team": {
+        "slug": "fluminense",
+        "name": "Fluminense",
+        "shortName": "Fluminense",
+        "city": "Rio de Janeiro",
+        "state": "RJ",
+        "founded": 1902,
+        "nickname": "Tricolor",
+        "division": "A",
+        "brand": "#8B0032",
+        "bio": "",
+        "current": {
+          "position": 4,
+          "points": 30,
+          "played": 17,
+          "titleProb": 0.2,
+          "g4Prob": 21.0,
+          "relegationProb": 3.6,
+          "expectedPoints": 51.9,
+          "pointsRange": [
+            41,
+            63
+          ]
+        }
+      },
+      "value": 3,
+      "detail": "jogos · encerrada"
+    },
+    {
+      "team": {
+        "slug": "corinthians",
+        "name": "Corinthians",
+        "shortName": "Corinthians",
+        "city": "São Paulo",
+        "state": "SP",
+        "founded": 1910,
+        "nickname": "Timão",
+        "division": "A",
+        "brand": "#2A2A2A",
+        "bio": "",
+        "current": {
+          "position": 9,
+          "points": 24,
+          "played": 18,
+          "titleProb": 1.3,
+          "g4Prob": 54.4,
+          "relegationProb": 0.8,
+          "expectedPoints": 57.3,
+          "pointsRange": [
+            46,
+            69
+          ]
+        }
+      },
+      "value": 3,
+      "detail": "jogos · encerrada"
+    },
+    {
+      "team": {
+        "slug": "cruzeiro",
+        "name": "Cruzeiro",
+        "shortName": "Cruzeiro",
+        "city": "Belo Horizonte",
+        "state": "MG",
+        "founded": 1921,
+        "nickname": "Raposa",
+        "division": "A",
+        "brand": "#1E3F8C",
+        "bio": "",
+        "current": {
+          "position": 10,
+          "points": 23,
+          "played": 17,
+          "titleProb": 0.0,
+          "g4Prob": 2.4,
+          "relegationProb": 33.7,
+          "expectedPoints": 44.5,
+          "pointsRange": [
+            34,
+            56
+          ]
+        }
+      },
+      "value": 3,
+      "detail": "jogos · ainda em curso"
+    },
+    {
+      "team": {
+        "slug": "vitoria",
+        "name": "Vitória",
+        "shortName": "Vitória",
+        "city": "Salvador",
+        "state": "BA",
+        "founded": 1899,
+        "nickname": "Leão",
+        "division": "A",
+        "brand": "#CC0000",
+        "bio": "",
+        "current": {
+          "position": 12,
+          "points": 22,
+          "played": 17,
+          "titleProb": 0.0,
+          "g4Prob": 0.5,
+          "relegationProb": 62.0,
+          "expectedPoints": 40.9,
+          "pointsRange": [
+            31,
+            52
+          ]
+        }
+      },
+      "value": 3,
+      "detail": "jogos · encerrada"
+    },
+    {
+      "team": {
+        "slug": "atletico-mg",
+        "name": "Atlético-MG",
+        "shortName": "Atlético-MG",
+        "city": "Belo Horizonte",
+        "state": "MG",
+        "founded": 1908,
+        "nickname": "Galo",
+        "division": "A",
+        "brand": "#2A2A2A",
+        "bio": "",
+        "current": {
+          "position": 13,
+          "points": 21,
+          "played": 17,
+          "titleProb": 0.0,
+          "g4Prob": 10.5,
+          "relegationProb": 12.0,
+          "expectedPoints": 49.7,
+          "pointsRange": [
+            38,
+            61
+          ]
+        }
+      },
+      "value": 3,
+      "detail": "jogos · encerrada"
+    },
+    {
+      "team": {
+        "slug": "santos",
+        "name": "Santos",
+        "shortName": "Santos",
+        "city": "Santos",
+        "state": "SP",
+        "founded": 1912,
+        "nickname": "Peixe",
+        "division": "A",
+        "brand": "#2A2A2A",
+        "bio": "",
+        "current": {
+          "position": 15,
+          "points": 21,
+          "played": 18,
+          "titleProb": 0.4,
+          "g4Prob": 29.0,
+          "relegationProb": 4.0,
+          "expectedPoints": 53.8,
+          "pointsRange": [
+            42,
+            65
+          ]
+        }
+      },
+      "value": 3,
       "detail": "jogos · encerrada"
     },
     {
@@ -1691,28 +1662,28 @@
         "slug": "remo",
         "name": "Remo",
         "shortName": "Remo",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "city": "Belém",
+        "state": "PA",
+        "founded": 1905,
+        "nickname": "Leão Azul",
         "division": "A",
-        "brand": "#888888",
+        "brand": "#003580",
         "bio": "",
         "current": {
           "position": 19,
           "points": 15,
           "played": 17,
-          "titleProb": 9.4,
-          "g4Prob": 51.4,
-          "relegationProb": 2.8,
-          "expectedPoints": 58.4,
+          "titleProb": 0.1,
+          "g4Prob": 23.3,
+          "relegationProb": 4.2,
+          "expectedPoints": 53.0,
           "pointsRange": [
-            43,
-            74
+            41,
+            64
           ]
         }
       },
-      "value": 0,
+      "value": 3,
       "detail": "jogos · encerrada"
     },
     {
@@ -1720,10 +1691,10 @@
         "slug": "chapecoense",
         "name": "Chapecoense",
         "shortName": "Chapecoense",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "city": "Chapecó",
+        "state": "SC",
+        "founded": 1973,
+        "nickname": "Verdão do Oeste",
         "division": "A",
         "brand": "#0F5F3F",
         "bio": "",
@@ -1731,77 +1702,77 @@
           "position": 20,
           "points": 9,
           "played": 16,
-          "titleProb": 0.2,
-          "g4Prob": 5.0,
-          "relegationProb": 39.2,
-          "expectedPoints": 44.6,
+          "titleProb": 0.0,
+          "g4Prob": 0.0,
+          "relegationProb": 99.5,
+          "expectedPoints": 26.9,
           "pointsRange": [
-            30,
-            60
+            17,
+            38
           ]
         }
       },
-      "value": 0,
+      "value": 3,
       "detail": "jogos · encerrada"
+    },
+    {
+      "team": {
+        "slug": "bragantino",
+        "name": "Bragantino",
+        "shortName": "Bragantino",
+        "city": "Bragança Paulista",
+        "state": "SP",
+        "founded": 1928,
+        "nickname": "Massa Bruta",
+        "division": "A",
+        "brand": "#CC0000",
+        "bio": "",
+        "current": {
+          "position": 5,
+          "points": 26,
+          "played": 17,
+          "titleProb": 3.5,
+          "g4Prob": 73.0,
+          "relegationProb": 0.1,
+          "expectedPoints": 59.9,
+          "pointsRange": [
+            48,
+            71
+          ]
+        }
+      },
+      "value": 2,
+      "detail": "jogos · ainda em curso"
     }
   ],
   "sem-vitorias": [
     {
       "team": {
-        "slug": "palmeiras",
-        "name": "Palmeiras",
-        "shortName": "Palmeiras",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
-        "division": "A",
-        "brand": "#0E5C3A",
-        "bio": "",
-        "current": {
-          "position": 1,
-          "points": 38,
-          "played": 17,
-          "titleProb": 10.8,
-          "g4Prob": 57.5,
-          "relegationProb": 1.8,
-          "expectedPoints": 58.5,
-          "pointsRange": [
-            43,
-            74
-          ]
-        }
-      },
-      "value": 0,
-      "detail": "jogos · encerrada"
-    },
-    {
-      "team": {
         "slug": "flamengo",
         "name": "Flamengo",
         "shortName": "Flamengo",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "city": "Rio de Janeiro",
+        "state": "RJ",
+        "founded": 1895,
+        "nickname": "Mengão",
         "division": "A",
-        "brand": "#B61E2B",
+        "brand": "#CC0000",
         "bio": "",
         "current": {
           "position": 2,
-          "points": 31,
-          "played": 16,
-          "titleProb": 0.2,
-          "g4Prob": 6.3,
-          "relegationProb": 35.5,
-          "expectedPoints": 44.5,
+          "points": 34,
+          "played": 17,
+          "titleProb": 3.4,
+          "g4Prob": 39.5,
+          "relegationProb": 0.6,
+          "expectedPoints": 55.0,
           "pointsRange": [
-            30,
-            60
+            44,
+            67
           ]
         }
       },
-      "value": 0,
+      "value": 2,
       "detail": "jogos · encerrada"
     },
     {
@@ -1809,28 +1780,57 @@
         "slug": "fluminense",
         "name": "Fluminense",
         "shortName": "Fluminense",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "city": "Rio de Janeiro",
+        "state": "RJ",
+        "founded": 1902,
+        "nickname": "Tricolor",
         "division": "A",
-        "brand": "#7E1E3A",
+        "brand": "#8B0032",
         "bio": "",
         "current": {
-          "position": 3,
+          "position": 4,
           "points": 30,
           "played": 17,
-          "titleProb": 10.4,
-          "g4Prob": 57.0,
-          "relegationProb": 2.4,
-          "expectedPoints": 58.6,
+          "titleProb": 0.2,
+          "g4Prob": 21.0,
+          "relegationProb": 3.6,
+          "expectedPoints": 51.9,
           "pointsRange": [
-            43,
-            74
+            41,
+            63
           ]
         }
       },
-      "value": 0,
+      "value": 2,
+      "detail": "jogos · encerrada"
+    },
+    {
+      "team": {
+        "slug": "palmeiras",
+        "name": "Palmeiras",
+        "shortName": "Palmeiras",
+        "city": "São Paulo",
+        "state": "SP",
+        "founded": 1914,
+        "nickname": "Verdão",
+        "division": "A",
+        "brand": "#006B3E",
+        "bio": "",
+        "current": {
+          "position": 1,
+          "points": 38,
+          "played": 17,
+          "titleProb": 77.4,
+          "g4Prob": 99.3,
+          "relegationProb": 0.0,
+          "expectedPoints": 71.8,
+          "pointsRange": [
+            60,
+            83
+          ]
+        }
+      },
+      "value": 3,
       "detail": "jogos · encerrada"
     },
     {
@@ -1838,202 +1838,28 @@
         "slug": "athletico-pr",
         "name": "Athletico-PR",
         "shortName": "Athletico-PR",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "city": "Curitiba",
+        "state": "PR",
+        "founded": 1924,
+        "nickname": "Furacão",
         "division": "A",
-        "brand": "#888888",
+        "brand": "#CC0000",
         "bio": "",
         "current": {
-          "position": 4,
-          "points": 27,
-          "played": 17,
-          "titleProb": 0.2,
-          "g4Prob": 6.2,
-          "relegationProb": 36.6,
-          "expectedPoints": 44.5,
+          "position": 3,
+          "points": 30,
+          "played": 18,
+          "titleProb": 10.2,
+          "g4Prob": 87.2,
+          "relegationProb": 0.0,
+          "expectedPoints": 63.1,
           "pointsRange": [
-            30,
-            60
+            52,
+            75
           ]
         }
       },
-      "value": 0,
-      "detail": "jogos · encerrada"
-    },
-    {
-      "team": {
-        "slug": "bragantino",
-        "name": "Bragantino",
-        "shortName": "Bragantino",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
-        "division": "A",
-        "brand": "#888888",
-        "bio": "",
-        "current": {
-          "position": 5,
-          "points": 26,
-          "played": 17,
-          "titleProb": 10.0,
-          "g4Prob": 55.9,
-          "relegationProb": 2.2,
-          "expectedPoints": 58.4,
-          "pointsRange": [
-            43,
-            74
-          ]
-        }
-      },
-      "value": 0,
-      "detail": "jogos · encerrada"
-    },
-    {
-      "team": {
-        "slug": "coritiba",
-        "name": "Coritiba",
-        "shortName": "Coritiba",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
-        "division": "A",
-        "brand": "#1A6B3A",
-        "bio": "",
-        "current": {
-          "position": 6,
-          "points": 26,
-          "played": 17,
-          "titleProb": 0.3,
-          "g4Prob": 5.9,
-          "relegationProb": 36.9,
-          "expectedPoints": 44.5,
-          "pointsRange": [
-            30,
-            60
-          ]
-        }
-      },
-      "value": 0,
-      "detail": "jogos · encerrada"
-    },
-    {
-      "team": {
-        "slug": "sao-paulo",
-        "name": "São Paulo",
-        "shortName": "São Paulo",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
-        "division": "A",
-        "brand": "#A8232E",
-        "bio": "",
-        "current": {
-          "position": 7,
-          "points": 25,
-          "played": 17,
-          "titleProb": 10.4,
-          "g4Prob": 54.9,
-          "relegationProb": 2.3,
-          "expectedPoints": 58.5,
-          "pointsRange": [
-            43,
-            74
-          ]
-        }
-      },
-      "value": 0,
-      "detail": "jogos · encerrada"
-    },
-    {
-      "team": {
-        "slug": "bahia",
-        "name": "Bahia",
-        "shortName": "Bahia",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
-        "division": "A",
-        "brand": "#888888",
-        "bio": "",
-        "current": {
-          "position": 8,
-          "points": 23,
-          "played": 16,
-          "titleProb": 0.1,
-          "g4Prob": 5.7,
-          "relegationProb": 37.1,
-          "expectedPoints": 44.5,
-          "pointsRange": [
-            30,
-            60
-          ]
-        }
-      },
-      "value": 0,
-      "detail": "jogos · encerrada"
-    },
-    {
-      "team": {
-        "slug": "cruzeiro",
-        "name": "Cruzeiro",
-        "shortName": "Cruzeiro",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
-        "division": "A",
-        "brand": "#1E3F8C",
-        "bio": "",
-        "current": {
-          "position": 9,
-          "points": 23,
-          "played": 17,
-          "titleProb": 9.5,
-          "g4Prob": 54.3,
-          "relegationProb": 2.1,
-          "expectedPoints": 58.5,
-          "pointsRange": [
-            43,
-            74
-          ]
-        }
-      },
-      "value": 0,
-      "detail": "jogos · encerrada"
-    },
-    {
-      "team": {
-        "slug": "botafogo",
-        "name": "Botafogo",
-        "shortName": "Botafogo",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
-        "division": "A",
-        "brand": "#1A1A1A",
-        "bio": "",
-        "current": {
-          "position": 10,
-          "points": 22,
-          "played": 16,
-          "titleProb": 0.2,
-          "g4Prob": 5.2,
-          "relegationProb": 37.0,
-          "expectedPoints": 44.5,
-          "pointsRange": [
-            30,
-            60
-          ]
-        }
-      },
-      "value": 0,
+      "value": 3,
       "detail": "jogos · encerrada"
     },
     {
@@ -2041,173 +1867,115 @@
         "slug": "vitoria",
         "name": "Vitória",
         "shortName": "Vitória",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "city": "Salvador",
+        "state": "BA",
+        "founded": 1899,
+        "nickname": "Leão",
         "division": "A",
-        "brand": "#888888",
+        "brand": "#CC0000",
         "bio": "",
         "current": {
-          "position": 11,
+          "position": 12,
           "points": 22,
-          "played": 16,
-          "titleProb": 9.5,
-          "g4Prob": 53.8,
-          "relegationProb": 2.1,
-          "expectedPoints": 58.4,
+          "played": 17,
+          "titleProb": 0.0,
+          "g4Prob": 0.5,
+          "relegationProb": 62.0,
+          "expectedPoints": 40.9,
           "pointsRange": [
-            43,
-            74
+            31,
+            52
           ]
         }
       },
-      "value": 0,
+      "value": 3,
       "detail": "jogos · encerrada"
+    },
+    {
+      "team": {
+        "slug": "coritiba",
+        "name": "Coritiba",
+        "shortName": "Coritiba",
+        "city": "Curitiba",
+        "state": "PR",
+        "founded": 1909,
+        "nickname": "Coxa-Branca",
+        "division": "A",
+        "brand": "#1A6B3A",
+        "bio": "",
+        "current": {
+          "position": 7,
+          "points": 26,
+          "played": 18,
+          "titleProb": 0.3,
+          "g4Prob": 34.7,
+          "relegationProb": 1.9,
+          "expectedPoints": 54.1,
+          "pointsRange": [
+            43,
+            65
+          ]
+        }
+      },
+      "value": 4,
+      "detail": "jogos · encerrada"
+    },
+    {
+      "team": {
+        "slug": "sao-paulo",
+        "name": "São Paulo",
+        "shortName": "São Paulo",
+        "city": "São Paulo",
+        "state": "SP",
+        "founded": 1930,
+        "nickname": "Tricolor Paulista",
+        "division": "A",
+        "brand": "#A8232E",
+        "bio": "",
+        "current": {
+          "position": 8,
+          "points": 25,
+          "played": 17,
+          "titleProb": 0.2,
+          "g4Prob": 22.7,
+          "relegationProb": 4.7,
+          "expectedPoints": 51.8,
+          "pointsRange": [
+            41,
+            63
+          ]
+        }
+      },
+      "value": 4,
+      "detail": "jogos · ainda em curso"
     },
     {
       "team": {
         "slug": "atletico-mg",
         "name": "Atlético-MG",
         "shortName": "Atlético-MG",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "city": "Belo Horizonte",
+        "state": "MG",
+        "founded": 1908,
+        "nickname": "Galo",
         "division": "A",
         "brand": "#2A2A2A",
-        "bio": "",
-        "current": {
-          "position": 12,
-          "points": 21,
-          "played": 17,
-          "titleProb": 0.2,
-          "g4Prob": 5.3,
-          "relegationProb": 37.6,
-          "expectedPoints": 44.5,
-          "pointsRange": [
-            30,
-            60
-          ]
-        }
-      },
-      "value": 0,
-      "detail": "jogos · encerrada"
-    },
-    {
-      "team": {
-        "slug": "internacional",
-        "name": "Internacional",
-        "shortName": "Internacional",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
-        "division": "A",
-        "brand": "#A8232E",
         "bio": "",
         "current": {
           "position": 13,
           "points": 21,
           "played": 17,
-          "titleProb": 9.4,
-          "g4Prob": 53.4,
-          "relegationProb": 2.5,
-          "expectedPoints": 58.4,
+          "titleProb": 0.0,
+          "g4Prob": 10.5,
+          "relegationProb": 12.0,
+          "expectedPoints": 49.7,
           "pointsRange": [
-            43,
-            74
+            38,
+            61
           ]
         }
       },
-      "value": 0,
-      "detail": "jogos · encerrada"
-    },
-    {
-      "team": {
-        "slug": "gremio",
-        "name": "Grêmio",
-        "shortName": "Grêmio",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
-        "division": "A",
-        "brand": "#888888",
-        "bio": "",
-        "current": {
-          "position": 14,
-          "points": 21,
-          "played": 17,
-          "titleProb": 0.1,
-          "g4Prob": 5.5,
-          "relegationProb": 37.9,
-          "expectedPoints": 44.6,
-          "pointsRange": [
-            30,
-            60
-          ]
-        }
-      },
-      "value": 0,
-      "detail": "jogos · encerrada"
-    },
-    {
-      "team": {
-        "slug": "corinthians",
-        "name": "Corinthians",
-        "shortName": "Corinthians",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
-        "division": "A",
-        "brand": "#888888",
-        "bio": "",
-        "current": {
-          "position": 15,
-          "points": 21,
-          "played": 17,
-          "titleProb": 9.5,
-          "g4Prob": 54.0,
-          "relegationProb": 2.6,
-          "expectedPoints": 58.6,
-          "pointsRange": [
-            43,
-            74
-          ]
-        }
-      },
-      "value": 0,
-      "detail": "jogos · encerrada"
-    },
-    {
-      "team": {
-        "slug": "vasco",
-        "name": "Vasco",
-        "shortName": "Vasco",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
-        "division": "A",
-        "brand": "#888888",
-        "bio": "",
-        "current": {
-          "position": 16,
-          "points": 20,
-          "played": 17,
-          "titleProb": 0.2,
-          "g4Prob": 5.0,
-          "relegationProb": 39.4,
-          "expectedPoints": 44.4,
-          "pointsRange": [
-            30,
-            60
-          ]
-        }
-      },
-      "value": 0,
+      "value": 4,
       "detail": "jogos · encerrada"
     },
     {
@@ -2215,57 +1983,202 @@
         "slug": "santos",
         "name": "Santos",
         "shortName": "Santos",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "city": "Santos",
+        "state": "SP",
+        "founded": 1912,
+        "nickname": "Peixe",
+        "division": "A",
+        "brand": "#2A2A2A",
+        "bio": "",
+        "current": {
+          "position": 15,
+          "points": 21,
+          "played": 18,
+          "titleProb": 0.4,
+          "g4Prob": 29.0,
+          "relegationProb": 4.0,
+          "expectedPoints": 53.8,
+          "pointsRange": [
+            42,
+            65
+          ]
+        }
+      },
+      "value": 4,
+      "detail": "jogos · encerrada"
+    },
+    {
+      "team": {
+        "slug": "vasco",
+        "name": "Vasco",
+        "shortName": "Vasco",
+        "city": "Rio de Janeiro",
+        "state": "RJ",
+        "founded": 1898,
+        "nickname": "Cruz-Maltino",
         "division": "A",
         "brand": "#2A2A2A",
         "bio": "",
         "current": {
           "position": 17,
-          "points": 18,
+          "points": 20,
           "played": 17,
-          "titleProb": 9.0,
-          "g4Prob": 52.7,
-          "relegationProb": 2.5,
-          "expectedPoints": 58.5,
+          "titleProb": 0.2,
+          "g4Prob": 23.3,
+          "relegationProb": 6.4,
+          "expectedPoints": 52.9,
           "pointsRange": [
-            43,
-            74
+            41,
+            65
           ]
         }
       },
-      "value": 0,
+      "value": 4,
       "detail": "jogos · encerrada"
     },
     {
       "team": {
-        "slug": "mirassol",
-        "name": "Mirassol",
-        "shortName": "Mirassol",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "slug": "botafogo",
+        "name": "Botafogo",
+        "shortName": "Botafogo",
+        "city": "Rio de Janeiro",
+        "state": "RJ",
+        "founded": 1904,
+        "nickname": "Estrela Solitária",
         "division": "A",
-        "brand": "#888888",
+        "brand": "#1A1A1A",
         "bio": "",
         "current": {
-          "position": 18,
-          "points": 16,
-          "played": 16,
-          "titleProb": 0.2,
-          "g4Prob": 5.0,
-          "relegationProb": 39.5,
-          "expectedPoints": 44.5,
+          "position": 11,
+          "points": 22,
+          "played": 17,
+          "titleProb": 2.8,
+          "g4Prob": 66.7,
+          "relegationProb": 0.4,
+          "expectedPoints": 59.3,
           "pointsRange": [
-            30,
-            60
+            48,
+            71
           ]
         }
       },
-      "value": 0,
+      "value": 5,
+      "detail": "jogos · encerrada"
+    },
+    {
+      "team": {
+        "slug": "gremio",
+        "name": "Grêmio",
+        "shortName": "Grêmio",
+        "city": "Porto Alegre",
+        "state": "RS",
+        "founded": 1903,
+        "nickname": "Tricolor Gaúcho",
+        "division": "A",
+        "brand": "#1A558C",
+        "bio": "",
+        "current": {
+          "position": 16,
+          "points": 21,
+          "played": 18,
+          "titleProb": 0.0,
+          "g4Prob": 1.3,
+          "relegationProb": 45.9,
+          "expectedPoints": 43.5,
+          "pointsRange": [
+            33,
+            55
+          ]
+        }
+      },
+      "value": 5,
+      "detail": "jogos · encerrada"
+    },
+    {
+      "team": {
+        "slug": "bragantino",
+        "name": "Bragantino",
+        "shortName": "Bragantino",
+        "city": "Bragança Paulista",
+        "state": "SP",
+        "founded": 1928,
+        "nickname": "Massa Bruta",
+        "division": "A",
+        "brand": "#CC0000",
+        "bio": "",
+        "current": {
+          "position": 5,
+          "points": 26,
+          "played": 17,
+          "titleProb": 3.5,
+          "g4Prob": 73.0,
+          "relegationProb": 0.1,
+          "expectedPoints": 59.9,
+          "pointsRange": [
+            48,
+            71
+          ]
+        }
+      },
+      "value": 6,
+      "detail": "jogos · encerrada"
+    },
+    {
+      "team": {
+        "slug": "bahia",
+        "name": "Bahia",
+        "shortName": "Bahia",
+        "city": "Salvador",
+        "state": "BA",
+        "founded": 1931,
+        "nickname": "Esquadrão",
+        "division": "A",
+        "brand": "#0044AA",
+        "bio": "",
+        "current": {
+          "position": 6,
+          "points": 26,
+          "played": 17,
+          "titleProb": 0.0,
+          "g4Prob": 6.8,
+          "relegationProb": 17.0,
+          "expectedPoints": 47.2,
+          "pointsRange": [
+            37,
+            59
+          ]
+        }
+      },
+      "value": 6,
+      "detail": "jogos · encerrada"
+    },
+    {
+      "team": {
+        "slug": "internacional",
+        "name": "Internacional",
+        "shortName": "Internacional",
+        "city": "Porto Alegre",
+        "state": "RS",
+        "founded": 1909,
+        "nickname": "Colorado",
+        "division": "A",
+        "brand": "#A8232E",
+        "bio": "",
+        "current": {
+          "position": 14,
+          "points": 21,
+          "played": 17,
+          "titleProb": 0.0,
+          "g4Prob": 4.2,
+          "relegationProb": 23.2,
+          "expectedPoints": 46.9,
+          "pointsRange": [
+            36,
+            58
+          ]
+        }
+      },
+      "value": 6,
       "detail": "jogos · encerrada"
     },
     {
@@ -2273,28 +2186,115 @@
         "slug": "remo",
         "name": "Remo",
         "shortName": "Remo",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "city": "Belém",
+        "state": "PA",
+        "founded": 1905,
+        "nickname": "Leão Azul",
         "division": "A",
-        "brand": "#888888",
+        "brand": "#003580",
         "bio": "",
         "current": {
           "position": 19,
           "points": 15,
           "played": 17,
-          "titleProb": 9.4,
-          "g4Prob": 51.4,
-          "relegationProb": 2.8,
-          "expectedPoints": 58.4,
+          "titleProb": 0.1,
+          "g4Prob": 23.3,
+          "relegationProb": 4.2,
+          "expectedPoints": 53.0,
           "pointsRange": [
-            43,
-            74
+            41,
+            64
           ]
         }
       },
-      "value": 0,
+      "value": 7,
+      "detail": "jogos · encerrada"
+    },
+    {
+      "team": {
+        "slug": "cruzeiro",
+        "name": "Cruzeiro",
+        "shortName": "Cruzeiro",
+        "city": "Belo Horizonte",
+        "state": "MG",
+        "founded": 1921,
+        "nickname": "Raposa",
+        "division": "A",
+        "brand": "#1E3F8C",
+        "bio": "",
+        "current": {
+          "position": 10,
+          "points": 23,
+          "played": 17,
+          "titleProb": 0.0,
+          "g4Prob": 2.4,
+          "relegationProb": 33.7,
+          "expectedPoints": 44.5,
+          "pointsRange": [
+            34,
+            56
+          ]
+        }
+      },
+      "value": 8,
+      "detail": "jogos · encerrada"
+    },
+    {
+      "team": {
+        "slug": "corinthians",
+        "name": "Corinthians",
+        "shortName": "Corinthians",
+        "city": "São Paulo",
+        "state": "SP",
+        "founded": 1910,
+        "nickname": "Timão",
+        "division": "A",
+        "brand": "#2A2A2A",
+        "bio": "",
+        "current": {
+          "position": 9,
+          "points": 24,
+          "played": 18,
+          "titleProb": 1.3,
+          "g4Prob": 54.4,
+          "relegationProb": 0.8,
+          "expectedPoints": 57.3,
+          "pointsRange": [
+            46,
+            69
+          ]
+        }
+      },
+      "value": 9,
+      "detail": "jogos · encerrada"
+    },
+    {
+      "team": {
+        "slug": "mirassol",
+        "name": "Mirassol",
+        "shortName": "Mirassol",
+        "city": "Mirassol",
+        "state": "SP",
+        "founded": 1925,
+        "nickname": "Leão do Interior",
+        "division": "A",
+        "brand": "#C8A200",
+        "bio": "",
+        "current": {
+          "position": 18,
+          "points": 16,
+          "played": 17,
+          "titleProb": 0.0,
+          "g4Prob": 0.2,
+          "relegationProb": 80.1,
+          "expectedPoints": 38.4,
+          "pointsRange": [
+            28,
+            50
+          ]
+        }
+      },
+      "value": 9,
       "detail": "jogos · encerrada"
     },
     {
@@ -2302,10 +2302,10 @@
         "slug": "chapecoense",
         "name": "Chapecoense",
         "shortName": "Chapecoense",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "city": "Chapecó",
+        "state": "SC",
+        "founded": 1973,
+        "nickname": "Verdão do Oeste",
         "division": "A",
         "brand": "#0F5F3F",
         "bio": "",
@@ -2313,581 +2313,581 @@
           "position": 20,
           "points": 9,
           "played": 16,
-          "titleProb": 0.2,
-          "g4Prob": 5.0,
-          "relegationProb": 39.2,
-          "expectedPoints": 44.6,
+          "titleProb": 0.0,
+          "g4Prob": 0.0,
+          "relegationProb": 99.5,
+          "expectedPoints": 26.9,
           "pointsRange": [
-            30,
-            60
+            17,
+            38
           ]
         }
       },
-      "value": 0,
-      "detail": "jogos · encerrada"
+      "value": 15,
+      "detail": "jogos · ainda em curso"
     }
   ],
   "melhor-ataque": [
     {
       "team": {
-        "slug": "palmeiras",
-        "name": "Palmeiras",
-        "shortName": "Palmeiras",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
-        "division": "A",
-        "brand": "#0E5C3A",
-        "bio": "",
-        "current": {
-          "position": 1,
-          "points": 38,
-          "played": 17,
-          "titleProb": 10.8,
-          "g4Prob": 57.5,
-          "relegationProb": 1.8,
-          "expectedPoints": 58.5,
-          "pointsRange": [
-            43,
-            74
-          ]
-        }
-      },
-      "value": 0,
-      "detail": "gols marcados em 0 jogos"
-    },
-    {
-      "team": {
         "slug": "flamengo",
         "name": "Flamengo",
         "shortName": "Flamengo",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "city": "Rio de Janeiro",
+        "state": "RJ",
+        "founded": 1895,
+        "nickname": "Mengão",
         "division": "A",
-        "brand": "#B61E2B",
+        "brand": "#CC0000",
         "bio": "",
         "current": {
           "position": 2,
-          "points": 31,
-          "played": 16,
-          "titleProb": 0.2,
-          "g4Prob": 6.3,
-          "relegationProb": 35.5,
-          "expectedPoints": 44.5,
-          "pointsRange": [
-            30,
-            60
-          ]
-        }
-      },
-      "value": 0,
-      "detail": "gols marcados em 0 jogos"
-    },
-    {
-      "team": {
-        "slug": "fluminense",
-        "name": "Fluminense",
-        "shortName": "Fluminense",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
-        "division": "A",
-        "brand": "#7E1E3A",
-        "bio": "",
-        "current": {
-          "position": 3,
-          "points": 30,
+          "points": 34,
           "played": 17,
-          "titleProb": 10.4,
-          "g4Prob": 57.0,
-          "relegationProb": 2.4,
-          "expectedPoints": 58.6,
+          "titleProb": 3.4,
+          "g4Prob": 39.5,
+          "relegationProb": 0.6,
+          "expectedPoints": 55.0,
           "pointsRange": [
-            43,
-            74
+            44,
+            67
           ]
         }
       },
-      "value": 0,
-      "detail": "gols marcados em 0 jogos"
-    },
-    {
-      "team": {
-        "slug": "athletico-pr",
-        "name": "Athletico-PR",
-        "shortName": "Athletico-PR",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
-        "division": "A",
-        "brand": "#888888",
-        "bio": "",
-        "current": {
-          "position": 4,
-          "points": 27,
-          "played": 17,
-          "titleProb": 0.2,
-          "g4Prob": 6.2,
-          "relegationProb": 36.6,
-          "expectedPoints": 44.5,
-          "pointsRange": [
-            30,
-            60
-          ]
-        }
-      },
-      "value": 0,
-      "detail": "gols marcados em 0 jogos"
-    },
-    {
-      "team": {
-        "slug": "bragantino",
-        "name": "Bragantino",
-        "shortName": "Bragantino",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
-        "division": "A",
-        "brand": "#888888",
-        "bio": "",
-        "current": {
-          "position": 5,
-          "points": 26,
-          "played": 17,
-          "titleProb": 10.0,
-          "g4Prob": 55.9,
-          "relegationProb": 2.2,
-          "expectedPoints": 58.4,
-          "pointsRange": [
-            43,
-            74
-          ]
-        }
-      },
-      "value": 0,
-      "detail": "gols marcados em 0 jogos"
-    },
-    {
-      "team": {
-        "slug": "coritiba",
-        "name": "Coritiba",
-        "shortName": "Coritiba",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
-        "division": "A",
-        "brand": "#1A6B3A",
-        "bio": "",
-        "current": {
-          "position": 6,
-          "points": 26,
-          "played": 17,
-          "titleProb": 0.3,
-          "g4Prob": 5.9,
-          "relegationProb": 36.9,
-          "expectedPoints": 44.5,
-          "pointsRange": [
-            30,
-            60
-          ]
-        }
-      },
-      "value": 0,
-      "detail": "gols marcados em 0 jogos"
-    },
-    {
-      "team": {
-        "slug": "sao-paulo",
-        "name": "São Paulo",
-        "shortName": "São Paulo",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
-        "division": "A",
-        "brand": "#A8232E",
-        "bio": "",
-        "current": {
-          "position": 7,
-          "points": 25,
-          "played": 17,
-          "titleProb": 10.4,
-          "g4Prob": 54.9,
-          "relegationProb": 2.3,
-          "expectedPoints": 58.5,
-          "pointsRange": [
-            43,
-            74
-          ]
-        }
-      },
-      "value": 0,
-      "detail": "gols marcados em 0 jogos"
-    },
-    {
-      "team": {
-        "slug": "bahia",
-        "name": "Bahia",
-        "shortName": "Bahia",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
-        "division": "A",
-        "brand": "#888888",
-        "bio": "",
-        "current": {
-          "position": 8,
-          "points": 23,
-          "played": 16,
-          "titleProb": 0.1,
-          "g4Prob": 5.7,
-          "relegationProb": 37.1,
-          "expectedPoints": 44.5,
-          "pointsRange": [
-            30,
-            60
-          ]
-        }
-      },
-      "value": 0,
-      "detail": "gols marcados em 0 jogos"
-    },
-    {
-      "team": {
-        "slug": "cruzeiro",
-        "name": "Cruzeiro",
-        "shortName": "Cruzeiro",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
-        "division": "A",
-        "brand": "#1E3F8C",
-        "bio": "",
-        "current": {
-          "position": 9,
-          "points": 23,
-          "played": 17,
-          "titleProb": 9.5,
-          "g4Prob": 54.3,
-          "relegationProb": 2.1,
-          "expectedPoints": 58.5,
-          "pointsRange": [
-            43,
-            74
-          ]
-        }
-      },
-      "value": 0,
-      "detail": "gols marcados em 0 jogos"
+      "value": 31,
+      "detail": "gols marcados em 17 jogos"
     },
     {
       "team": {
         "slug": "botafogo",
         "name": "Botafogo",
         "shortName": "Botafogo",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "city": "Rio de Janeiro",
+        "state": "RJ",
+        "founded": 1904,
+        "nickname": "Estrela Solitária",
         "division": "A",
         "brand": "#1A1A1A",
         "bio": "",
         "current": {
-          "position": 10,
-          "points": 22,
-          "played": 16,
-          "titleProb": 0.2,
-          "g4Prob": 5.2,
-          "relegationProb": 37.0,
-          "expectedPoints": 44.5,
-          "pointsRange": [
-            30,
-            60
-          ]
-        }
-      },
-      "value": 0,
-      "detail": "gols marcados em 0 jogos"
-    },
-    {
-      "team": {
-        "slug": "vitoria",
-        "name": "Vitória",
-        "shortName": "Vitória",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
-        "division": "A",
-        "brand": "#888888",
-        "bio": "",
-        "current": {
           "position": 11,
           "points": 22,
-          "played": 16,
-          "titleProb": 9.5,
-          "g4Prob": 53.8,
-          "relegationProb": 2.1,
-          "expectedPoints": 58.4,
+          "played": 17,
+          "titleProb": 2.8,
+          "g4Prob": 66.7,
+          "relegationProb": 0.4,
+          "expectedPoints": 59.3,
           "pointsRange": [
-            43,
-            74
+            48,
+            71
           ]
         }
       },
-      "value": 0,
-      "detail": "gols marcados em 0 jogos"
+      "value": 31,
+      "detail": "gols marcados em 17 jogos"
     },
     {
       "team": {
-        "slug": "atletico-mg",
-        "name": "Atlético-MG",
-        "shortName": "Atlético-MG",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "slug": "palmeiras",
+        "name": "Palmeiras",
+        "shortName": "Palmeiras",
+        "city": "São Paulo",
+        "state": "SP",
+        "founded": 1914,
+        "nickname": "Verdão",
         "division": "A",
-        "brand": "#2A2A2A",
+        "brand": "#006B3E",
         "bio": "",
         "current": {
-          "position": 12,
-          "points": 21,
+          "position": 1,
+          "points": 38,
+          "played": 17,
+          "titleProb": 77.4,
+          "g4Prob": 99.3,
+          "relegationProb": 0.0,
+          "expectedPoints": 71.8,
+          "pointsRange": [
+            60,
+            83
+          ]
+        }
+      },
+      "value": 29,
+      "detail": "gols marcados em 17 jogos"
+    },
+    {
+      "team": {
+        "slug": "fluminense",
+        "name": "Fluminense",
+        "shortName": "Fluminense",
+        "city": "Rio de Janeiro",
+        "state": "RJ",
+        "founded": 1902,
+        "nickname": "Tricolor",
+        "division": "A",
+        "brand": "#8B0032",
+        "bio": "",
+        "current": {
+          "position": 4,
+          "points": 30,
           "played": 17,
           "titleProb": 0.2,
-          "g4Prob": 5.3,
-          "relegationProb": 37.6,
-          "expectedPoints": 44.5,
+          "g4Prob": 21.0,
+          "relegationProb": 3.6,
+          "expectedPoints": 51.9,
           "pointsRange": [
-            30,
-            60
+            41,
+            63
           ]
         }
       },
-      "value": 0,
-      "detail": "gols marcados em 0 jogos"
-    },
-    {
-      "team": {
-        "slug": "internacional",
-        "name": "Internacional",
-        "shortName": "Internacional",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
-        "division": "A",
-        "brand": "#A8232E",
-        "bio": "",
-        "current": {
-          "position": 13,
-          "points": 21,
-          "played": 17,
-          "titleProb": 9.4,
-          "g4Prob": 53.4,
-          "relegationProb": 2.5,
-          "expectedPoints": 58.4,
-          "pointsRange": [
-            43,
-            74
-          ]
-        }
-      },
-      "value": 0,
-      "detail": "gols marcados em 0 jogos"
-    },
-    {
-      "team": {
-        "slug": "gremio",
-        "name": "Grêmio",
-        "shortName": "Grêmio",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
-        "division": "A",
-        "brand": "#888888",
-        "bio": "",
-        "current": {
-          "position": 14,
-          "points": 21,
-          "played": 17,
-          "titleProb": 0.1,
-          "g4Prob": 5.5,
-          "relegationProb": 37.9,
-          "expectedPoints": 44.6,
-          "pointsRange": [
-            30,
-            60
-          ]
-        }
-      },
-      "value": 0,
-      "detail": "gols marcados em 0 jogos"
-    },
-    {
-      "team": {
-        "slug": "corinthians",
-        "name": "Corinthians",
-        "shortName": "Corinthians",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
-        "division": "A",
-        "brand": "#888888",
-        "bio": "",
-        "current": {
-          "position": 15,
-          "points": 21,
-          "played": 17,
-          "titleProb": 9.5,
-          "g4Prob": 54.0,
-          "relegationProb": 2.6,
-          "expectedPoints": 58.6,
-          "pointsRange": [
-            43,
-            74
-          ]
-        }
-      },
-      "value": 0,
-      "detail": "gols marcados em 0 jogos"
-    },
-    {
-      "team": {
-        "slug": "vasco",
-        "name": "Vasco",
-        "shortName": "Vasco",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
-        "division": "A",
-        "brand": "#888888",
-        "bio": "",
-        "current": {
-          "position": 16,
-          "points": 20,
-          "played": 17,
-          "titleProb": 0.2,
-          "g4Prob": 5.0,
-          "relegationProb": 39.4,
-          "expectedPoints": 44.4,
-          "pointsRange": [
-            30,
-            60
-          ]
-        }
-      },
-      "value": 0,
-      "detail": "gols marcados em 0 jogos"
+      "value": 27,
+      "detail": "gols marcados em 17 jogos"
     },
     {
       "team": {
         "slug": "santos",
         "name": "Santos",
         "shortName": "Santos",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "city": "Santos",
+        "state": "SP",
+        "founded": 1912,
+        "nickname": "Peixe",
+        "division": "A",
+        "brand": "#2A2A2A",
+        "bio": "",
+        "current": {
+          "position": 15,
+          "points": 21,
+          "played": 18,
+          "titleProb": 0.4,
+          "g4Prob": 29.0,
+          "relegationProb": 4.0,
+          "expectedPoints": 53.8,
+          "pointsRange": [
+            42,
+            65
+          ]
+        }
+      },
+      "value": 26,
+      "detail": "gols marcados em 18 jogos"
+    },
+    {
+      "team": {
+        "slug": "bahia",
+        "name": "Bahia",
+        "shortName": "Bahia",
+        "city": "Salvador",
+        "state": "BA",
+        "founded": 1931,
+        "nickname": "Esquadrão",
+        "division": "A",
+        "brand": "#0044AA",
+        "bio": "",
+        "current": {
+          "position": 6,
+          "points": 26,
+          "played": 17,
+          "titleProb": 0.0,
+          "g4Prob": 6.8,
+          "relegationProb": 17.0,
+          "expectedPoints": 47.2,
+          "pointsRange": [
+            37,
+            59
+          ]
+        }
+      },
+      "value": 25,
+      "detail": "gols marcados em 17 jogos"
+    },
+    {
+      "team": {
+        "slug": "athletico-pr",
+        "name": "Athletico-PR",
+        "shortName": "Athletico-PR",
+        "city": "Curitiba",
+        "state": "PR",
+        "founded": 1924,
+        "nickname": "Furacão",
+        "division": "A",
+        "brand": "#CC0000",
+        "bio": "",
+        "current": {
+          "position": 3,
+          "points": 30,
+          "played": 18,
+          "titleProb": 10.2,
+          "g4Prob": 87.2,
+          "relegationProb": 0.0,
+          "expectedPoints": 63.1,
+          "pointsRange": [
+            52,
+            75
+          ]
+        }
+      },
+      "value": 24,
+      "detail": "gols marcados em 18 jogos"
+    },
+    {
+      "team": {
+        "slug": "coritiba",
+        "name": "Coritiba",
+        "shortName": "Coritiba",
+        "city": "Curitiba",
+        "state": "PR",
+        "founded": 1909,
+        "nickname": "Coxa-Branca",
+        "division": "A",
+        "brand": "#1A6B3A",
+        "bio": "",
+        "current": {
+          "position": 7,
+          "points": 26,
+          "played": 18,
+          "titleProb": 0.3,
+          "g4Prob": 34.7,
+          "relegationProb": 1.9,
+          "expectedPoints": 54.1,
+          "pointsRange": [
+            43,
+            65
+          ]
+        }
+      },
+      "value": 24,
+      "detail": "gols marcados em 18 jogos"
+    },
+    {
+      "team": {
+        "slug": "sao-paulo",
+        "name": "São Paulo",
+        "shortName": "São Paulo",
+        "city": "São Paulo",
+        "state": "SP",
+        "founded": 1930,
+        "nickname": "Tricolor Paulista",
+        "division": "A",
+        "brand": "#A8232E",
+        "bio": "",
+        "current": {
+          "position": 8,
+          "points": 25,
+          "played": 17,
+          "titleProb": 0.2,
+          "g4Prob": 22.7,
+          "relegationProb": 4.7,
+          "expectedPoints": 51.8,
+          "pointsRange": [
+            41,
+            63
+          ]
+        }
+      },
+      "value": 23,
+      "detail": "gols marcados em 17 jogos"
+    },
+    {
+      "team": {
+        "slug": "cruzeiro",
+        "name": "Cruzeiro",
+        "shortName": "Cruzeiro",
+        "city": "Belo Horizonte",
+        "state": "MG",
+        "founded": 1921,
+        "nickname": "Raposa",
+        "division": "A",
+        "brand": "#1E3F8C",
+        "bio": "",
+        "current": {
+          "position": 10,
+          "points": 23,
+          "played": 17,
+          "titleProb": 0.0,
+          "g4Prob": 2.4,
+          "relegationProb": 33.7,
+          "expectedPoints": 44.5,
+          "pointsRange": [
+            34,
+            56
+          ]
+        }
+      },
+      "value": 23,
+      "detail": "gols marcados em 17 jogos"
+    },
+    {
+      "team": {
+        "slug": "bragantino",
+        "name": "Bragantino",
+        "shortName": "Bragantino",
+        "city": "Bragança Paulista",
+        "state": "SP",
+        "founded": 1928,
+        "nickname": "Massa Bruta",
+        "division": "A",
+        "brand": "#CC0000",
+        "bio": "",
+        "current": {
+          "position": 5,
+          "points": 26,
+          "played": 17,
+          "titleProb": 3.5,
+          "g4Prob": 73.0,
+          "relegationProb": 0.1,
+          "expectedPoints": 59.9,
+          "pointsRange": [
+            48,
+            71
+          ]
+        }
+      },
+      "value": 22,
+      "detail": "gols marcados em 17 jogos"
+    },
+    {
+      "team": {
+        "slug": "vasco",
+        "name": "Vasco",
+        "shortName": "Vasco",
+        "city": "Rio de Janeiro",
+        "state": "RJ",
+        "founded": 1898,
+        "nickname": "Cruz-Maltino",
         "division": "A",
         "brand": "#2A2A2A",
         "bio": "",
         "current": {
           "position": 17,
-          "points": 18,
+          "points": 20,
           "played": 17,
-          "titleProb": 9.0,
-          "g4Prob": 52.7,
-          "relegationProb": 2.5,
-          "expectedPoints": 58.5,
+          "titleProb": 0.2,
+          "g4Prob": 23.3,
+          "relegationProb": 6.4,
+          "expectedPoints": 52.9,
           "pointsRange": [
-            43,
-            74
+            41,
+            65
           ]
         }
       },
-      "value": 0,
-      "detail": "gols marcados em 0 jogos"
+      "value": 22,
+      "detail": "gols marcados em 17 jogos"
     },
     {
       "team": {
-        "slug": "mirassol",
-        "name": "Mirassol",
-        "shortName": "Mirassol",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "slug": "vitoria",
+        "name": "Vitória",
+        "shortName": "Vitória",
+        "city": "Salvador",
+        "state": "BA",
+        "founded": 1899,
+        "nickname": "Leão",
         "division": "A",
-        "brand": "#888888",
+        "brand": "#CC0000",
         "bio": "",
         "current": {
-          "position": 18,
-          "points": 16,
-          "played": 16,
-          "titleProb": 0.2,
-          "g4Prob": 5.0,
-          "relegationProb": 39.5,
-          "expectedPoints": 44.5,
+          "position": 12,
+          "points": 22,
+          "played": 17,
+          "titleProb": 0.0,
+          "g4Prob": 0.5,
+          "relegationProb": 62.0,
+          "expectedPoints": 40.9,
           "pointsRange": [
-            30,
-            60
+            31,
+            52
           ]
         }
       },
-      "value": 0,
-      "detail": "gols marcados em 0 jogos"
+      "value": 21,
+      "detail": "gols marcados em 17 jogos"
+    },
+    {
+      "team": {
+        "slug": "atletico-mg",
+        "name": "Atlético-MG",
+        "shortName": "Atlético-MG",
+        "city": "Belo Horizonte",
+        "state": "MG",
+        "founded": 1908,
+        "nickname": "Galo",
+        "division": "A",
+        "brand": "#2A2A2A",
+        "bio": "",
+        "current": {
+          "position": 13,
+          "points": 21,
+          "played": 17,
+          "titleProb": 0.0,
+          "g4Prob": 10.5,
+          "relegationProb": 12.0,
+          "expectedPoints": 49.7,
+          "pointsRange": [
+            38,
+            61
+          ]
+        }
+      },
+      "value": 21,
+      "detail": "gols marcados em 17 jogos"
+    },
+    {
+      "team": {
+        "slug": "internacional",
+        "name": "Internacional",
+        "shortName": "Internacional",
+        "city": "Porto Alegre",
+        "state": "RS",
+        "founded": 1909,
+        "nickname": "Colorado",
+        "division": "A",
+        "brand": "#A8232E",
+        "bio": "",
+        "current": {
+          "position": 14,
+          "points": 21,
+          "played": 17,
+          "titleProb": 0.0,
+          "g4Prob": 4.2,
+          "relegationProb": 23.2,
+          "expectedPoints": 46.9,
+          "pointsRange": [
+            36,
+            58
+          ]
+        }
+      },
+      "value": 20,
+      "detail": "gols marcados em 17 jogos"
+    },
+    {
+      "team": {
+        "slug": "gremio",
+        "name": "Grêmio",
+        "shortName": "Grêmio",
+        "city": "Porto Alegre",
+        "state": "RS",
+        "founded": 1903,
+        "nickname": "Tricolor Gaúcho",
+        "division": "A",
+        "brand": "#1A558C",
+        "bio": "",
+        "current": {
+          "position": 16,
+          "points": 21,
+          "played": 18,
+          "titleProb": 0.0,
+          "g4Prob": 1.3,
+          "relegationProb": 45.9,
+          "expectedPoints": 43.5,
+          "pointsRange": [
+            33,
+            55
+          ]
+        }
+      },
+      "value": 20,
+      "detail": "gols marcados em 18 jogos"
     },
     {
       "team": {
         "slug": "remo",
         "name": "Remo",
         "shortName": "Remo",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "city": "Belém",
+        "state": "PA",
+        "founded": 1905,
+        "nickname": "Leão Azul",
         "division": "A",
-        "brand": "#888888",
+        "brand": "#003580",
         "bio": "",
         "current": {
           "position": 19,
           "points": 15,
           "played": 17,
-          "titleProb": 9.4,
-          "g4Prob": 51.4,
-          "relegationProb": 2.8,
-          "expectedPoints": 58.4,
+          "titleProb": 0.1,
+          "g4Prob": 23.3,
+          "relegationProb": 4.2,
+          "expectedPoints": 53.0,
           "pointsRange": [
-            43,
-            74
+            41,
+            64
           ]
         }
       },
-      "value": 0,
-      "detail": "gols marcados em 0 jogos"
+      "value": 20,
+      "detail": "gols marcados em 17 jogos"
+    },
+    {
+      "team": {
+        "slug": "corinthians",
+        "name": "Corinthians",
+        "shortName": "Corinthians",
+        "city": "São Paulo",
+        "state": "SP",
+        "founded": 1910,
+        "nickname": "Timão",
+        "division": "A",
+        "brand": "#2A2A2A",
+        "bio": "",
+        "current": {
+          "position": 9,
+          "points": 24,
+          "played": 18,
+          "titleProb": 1.3,
+          "g4Prob": 54.4,
+          "relegationProb": 0.8,
+          "expectedPoints": 57.3,
+          "pointsRange": [
+            46,
+            69
+          ]
+        }
+      },
+      "value": 18,
+      "detail": "gols marcados em 18 jogos"
+    },
+    {
+      "team": {
+        "slug": "mirassol",
+        "name": "Mirassol",
+        "shortName": "Mirassol",
+        "city": "Mirassol",
+        "state": "SP",
+        "founded": 1925,
+        "nickname": "Leão do Interior",
+        "division": "A",
+        "brand": "#C8A200",
+        "bio": "",
+        "current": {
+          "position": 18,
+          "points": 16,
+          "played": 17,
+          "titleProb": 0.0,
+          "g4Prob": 0.2,
+          "relegationProb": 80.1,
+          "expectedPoints": 38.4,
+          "pointsRange": [
+            28,
+            50
+          ]
+        }
+      },
+      "value": 18,
+      "detail": "gols marcados em 17 jogos"
     },
     {
       "team": {
         "slug": "chapecoense",
         "name": "Chapecoense",
         "shortName": "Chapecoense",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "city": "Chapecó",
+        "state": "SC",
+        "founded": 1973,
+        "nickname": "Verdão do Oeste",
         "division": "A",
         "brand": "#0F5F3F",
         "bio": "",
@@ -2895,18 +2895,18 @@
           "position": 20,
           "points": 9,
           "played": 16,
-          "titleProb": 0.2,
-          "g4Prob": 5.0,
-          "relegationProb": 39.2,
-          "expectedPoints": 44.6,
+          "titleProb": 0.0,
+          "g4Prob": 0.0,
+          "relegationProb": 99.5,
+          "expectedPoints": 26.9,
           "pointsRange": [
-            30,
-            60
+            17,
+            38
           ]
         }
       },
-      "value": 0,
-      "detail": "gols marcados em 0 jogos"
+      "value": 17,
+      "detail": "gols marcados em 16 jogos"
     }
   ],
   "melhor-defesa": [
@@ -2915,561 +2915,561 @@
         "slug": "palmeiras",
         "name": "Palmeiras",
         "shortName": "Palmeiras",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "city": "São Paulo",
+        "state": "SP",
+        "founded": 1914,
+        "nickname": "Verdão",
         "division": "A",
-        "brand": "#0E5C3A",
+        "brand": "#006B3E",
         "bio": "",
         "current": {
           "position": 1,
           "points": 38,
           "played": 17,
-          "titleProb": 10.8,
-          "g4Prob": 57.5,
-          "relegationProb": 1.8,
-          "expectedPoints": 58.5,
+          "titleProb": 77.4,
+          "g4Prob": 99.3,
+          "relegationProb": 0.0,
+          "expectedPoints": 71.8,
           "pointsRange": [
-            43,
-            74
+            60,
+            83
           ]
         }
       },
-      "value": 0,
-      "detail": "gols sofridos em 0 jogos"
+      "value": 13,
+      "detail": "gols sofridos em 17 jogos"
     },
     {
       "team": {
         "slug": "flamengo",
         "name": "Flamengo",
         "shortName": "Flamengo",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "city": "Rio de Janeiro",
+        "state": "RJ",
+        "founded": 1895,
+        "nickname": "Mengão",
         "division": "A",
-        "brand": "#B61E2B",
+        "brand": "#CC0000",
         "bio": "",
         "current": {
           "position": 2,
-          "points": 31,
-          "played": 16,
-          "titleProb": 0.2,
-          "g4Prob": 6.3,
-          "relegationProb": 35.5,
-          "expectedPoints": 44.5,
-          "pointsRange": [
-            30,
-            60
-          ]
-        }
-      },
-      "value": 0,
-      "detail": "gols sofridos em 0 jogos"
-    },
-    {
-      "team": {
-        "slug": "fluminense",
-        "name": "Fluminense",
-        "shortName": "Fluminense",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
-        "division": "A",
-        "brand": "#7E1E3A",
-        "bio": "",
-        "current": {
-          "position": 3,
-          "points": 30,
+          "points": 34,
           "played": 17,
-          "titleProb": 10.4,
-          "g4Prob": 57.0,
-          "relegationProb": 2.4,
-          "expectedPoints": 58.6,
+          "titleProb": 3.4,
+          "g4Prob": 39.5,
+          "relegationProb": 0.6,
+          "expectedPoints": 55.0,
           "pointsRange": [
-            43,
-            74
+            44,
+            67
           ]
         }
       },
-      "value": 0,
-      "detail": "gols sofridos em 0 jogos"
+      "value": 16,
+      "detail": "gols sofridos em 17 jogos"
     },
     {
       "team": {
         "slug": "athletico-pr",
         "name": "Athletico-PR",
         "shortName": "Athletico-PR",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "city": "Curitiba",
+        "state": "PR",
+        "founded": 1924,
+        "nickname": "Furacão",
         "division": "A",
-        "brand": "#888888",
+        "brand": "#CC0000",
         "bio": "",
         "current": {
-          "position": 4,
-          "points": 27,
-          "played": 17,
-          "titleProb": 0.2,
-          "g4Prob": 6.2,
-          "relegationProb": 36.6,
-          "expectedPoints": 44.5,
+          "position": 3,
+          "points": 30,
+          "played": 18,
+          "titleProb": 10.2,
+          "g4Prob": 87.2,
+          "relegationProb": 0.0,
+          "expectedPoints": 63.1,
           "pointsRange": [
-            30,
-            60
+            52,
+            75
           ]
         }
       },
-      "value": 0,
-      "detail": "gols sofridos em 0 jogos"
+      "value": 18,
+      "detail": "gols sofridos em 18 jogos"
     },
     {
       "team": {
         "slug": "bragantino",
         "name": "Bragantino",
         "shortName": "Bragantino",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "city": "Bragança Paulista",
+        "state": "SP",
+        "founded": 1928,
+        "nickname": "Massa Bruta",
         "division": "A",
-        "brand": "#888888",
+        "brand": "#CC0000",
         "bio": "",
         "current": {
           "position": 5,
           "points": 26,
           "played": 17,
-          "titleProb": 10.0,
-          "g4Prob": 55.9,
-          "relegationProb": 2.2,
-          "expectedPoints": 58.4,
+          "titleProb": 3.5,
+          "g4Prob": 73.0,
+          "relegationProb": 0.1,
+          "expectedPoints": 59.9,
           "pointsRange": [
-            43,
-            74
+            48,
+            71
           ]
         }
       },
-      "value": 0,
-      "detail": "gols sofridos em 0 jogos"
-    },
-    {
-      "team": {
-        "slug": "coritiba",
-        "name": "Coritiba",
-        "shortName": "Coritiba",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
-        "division": "A",
-        "brand": "#1A6B3A",
-        "bio": "",
-        "current": {
-          "position": 6,
-          "points": 26,
-          "played": 17,
-          "titleProb": 0.3,
-          "g4Prob": 5.9,
-          "relegationProb": 36.9,
-          "expectedPoints": 44.5,
-          "pointsRange": [
-            30,
-            60
-          ]
-        }
-      },
-      "value": 0,
-      "detail": "gols sofridos em 0 jogos"
+      "value": 18,
+      "detail": "gols sofridos em 17 jogos"
     },
     {
       "team": {
         "slug": "sao-paulo",
         "name": "São Paulo",
         "shortName": "São Paulo",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "city": "São Paulo",
+        "state": "SP",
+        "founded": 1930,
+        "nickname": "Tricolor Paulista",
         "division": "A",
         "brand": "#A8232E",
-        "bio": "",
-        "current": {
-          "position": 7,
-          "points": 25,
-          "played": 17,
-          "titleProb": 10.4,
-          "g4Prob": 54.9,
-          "relegationProb": 2.3,
-          "expectedPoints": 58.5,
-          "pointsRange": [
-            43,
-            74
-          ]
-        }
-      },
-      "value": 0,
-      "detail": "gols sofridos em 0 jogos"
-    },
-    {
-      "team": {
-        "slug": "bahia",
-        "name": "Bahia",
-        "shortName": "Bahia",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
-        "division": "A",
-        "brand": "#888888",
         "bio": "",
         "current": {
           "position": 8,
-          "points": 23,
-          "played": 16,
-          "titleProb": 0.1,
-          "g4Prob": 5.7,
-          "relegationProb": 37.1,
-          "expectedPoints": 44.5,
-          "pointsRange": [
-            30,
-            60
-          ]
-        }
-      },
-      "value": 0,
-      "detail": "gols sofridos em 0 jogos"
-    },
-    {
-      "team": {
-        "slug": "cruzeiro",
-        "name": "Cruzeiro",
-        "shortName": "Cruzeiro",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
-        "division": "A",
-        "brand": "#1E3F8C",
-        "bio": "",
-        "current": {
-          "position": 9,
-          "points": 23,
-          "played": 17,
-          "titleProb": 9.5,
-          "g4Prob": 54.3,
-          "relegationProb": 2.1,
-          "expectedPoints": 58.5,
-          "pointsRange": [
-            43,
-            74
-          ]
-        }
-      },
-      "value": 0,
-      "detail": "gols sofridos em 0 jogos"
-    },
-    {
-      "team": {
-        "slug": "botafogo",
-        "name": "Botafogo",
-        "shortName": "Botafogo",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
-        "division": "A",
-        "brand": "#1A1A1A",
-        "bio": "",
-        "current": {
-          "position": 10,
-          "points": 22,
-          "played": 16,
-          "titleProb": 0.2,
-          "g4Prob": 5.2,
-          "relegationProb": 37.0,
-          "expectedPoints": 44.5,
-          "pointsRange": [
-            30,
-            60
-          ]
-        }
-      },
-      "value": 0,
-      "detail": "gols sofridos em 0 jogos"
-    },
-    {
-      "team": {
-        "slug": "vitoria",
-        "name": "Vitória",
-        "shortName": "Vitória",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
-        "division": "A",
-        "brand": "#888888",
-        "bio": "",
-        "current": {
-          "position": 11,
-          "points": 22,
-          "played": 16,
-          "titleProb": 9.5,
-          "g4Prob": 53.8,
-          "relegationProb": 2.1,
-          "expectedPoints": 58.4,
-          "pointsRange": [
-            43,
-            74
-          ]
-        }
-      },
-      "value": 0,
-      "detail": "gols sofridos em 0 jogos"
-    },
-    {
-      "team": {
-        "slug": "atletico-mg",
-        "name": "Atlético-MG",
-        "shortName": "Atlético-MG",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
-        "division": "A",
-        "brand": "#2A2A2A",
-        "bio": "",
-        "current": {
-          "position": 12,
-          "points": 21,
+          "points": 25,
           "played": 17,
           "titleProb": 0.2,
-          "g4Prob": 5.3,
-          "relegationProb": 37.6,
-          "expectedPoints": 44.5,
+          "g4Prob": 22.7,
+          "relegationProb": 4.7,
+          "expectedPoints": 51.8,
           "pointsRange": [
-            30,
-            60
+            41,
+            63
           ]
         }
       },
-      "value": 0,
-      "detail": "gols sofridos em 0 jogos"
-    },
-    {
-      "team": {
-        "slug": "internacional",
-        "name": "Internacional",
-        "shortName": "Internacional",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
-        "division": "A",
-        "brand": "#A8232E",
-        "bio": "",
-        "current": {
-          "position": 13,
-          "points": 21,
-          "played": 17,
-          "titleProb": 9.4,
-          "g4Prob": 53.4,
-          "relegationProb": 2.5,
-          "expectedPoints": 58.4,
-          "pointsRange": [
-            43,
-            74
-          ]
-        }
-      },
-      "value": 0,
-      "detail": "gols sofridos em 0 jogos"
-    },
-    {
-      "team": {
-        "slug": "gremio",
-        "name": "Grêmio",
-        "shortName": "Grêmio",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
-        "division": "A",
-        "brand": "#888888",
-        "bio": "",
-        "current": {
-          "position": 14,
-          "points": 21,
-          "played": 17,
-          "titleProb": 0.1,
-          "g4Prob": 5.5,
-          "relegationProb": 37.9,
-          "expectedPoints": 44.6,
-          "pointsRange": [
-            30,
-            60
-          ]
-        }
-      },
-      "value": 0,
-      "detail": "gols sofridos em 0 jogos"
+      "value": 19,
+      "detail": "gols sofridos em 17 jogos"
     },
     {
       "team": {
         "slug": "corinthians",
         "name": "Corinthians",
         "shortName": "Corinthians",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
-        "division": "A",
-        "brand": "#888888",
-        "bio": "",
-        "current": {
-          "position": 15,
-          "points": 21,
-          "played": 17,
-          "titleProb": 9.5,
-          "g4Prob": 54.0,
-          "relegationProb": 2.6,
-          "expectedPoints": 58.6,
-          "pointsRange": [
-            43,
-            74
-          ]
-        }
-      },
-      "value": 0,
-      "detail": "gols sofridos em 0 jogos"
-    },
-    {
-      "team": {
-        "slug": "vasco",
-        "name": "Vasco",
-        "shortName": "Vasco",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
-        "division": "A",
-        "brand": "#888888",
-        "bio": "",
-        "current": {
-          "position": 16,
-          "points": 20,
-          "played": 17,
-          "titleProb": 0.2,
-          "g4Prob": 5.0,
-          "relegationProb": 39.4,
-          "expectedPoints": 44.4,
-          "pointsRange": [
-            30,
-            60
-          ]
-        }
-      },
-      "value": 0,
-      "detail": "gols sofridos em 0 jogos"
-    },
-    {
-      "team": {
-        "slug": "santos",
-        "name": "Santos",
-        "shortName": "Santos",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "city": "São Paulo",
+        "state": "SP",
+        "founded": 1910,
+        "nickname": "Timão",
         "division": "A",
         "brand": "#2A2A2A",
         "bio": "",
         "current": {
-          "position": 17,
-          "points": 18,
-          "played": 17,
-          "titleProb": 9.0,
-          "g4Prob": 52.7,
-          "relegationProb": 2.5,
-          "expectedPoints": 58.5,
+          "position": 9,
+          "points": 24,
+          "played": 18,
+          "titleProb": 1.3,
+          "g4Prob": 54.4,
+          "relegationProb": 0.8,
+          "expectedPoints": 57.3,
           "pointsRange": [
-            43,
-            74
+            46,
+            69
           ]
         }
       },
-      "value": 0,
-      "detail": "gols sofridos em 0 jogos"
+      "value": 19,
+      "detail": "gols sofridos em 18 jogos"
+    },
+    {
+      "team": {
+        "slug": "internacional",
+        "name": "Internacional",
+        "shortName": "Internacional",
+        "city": "Porto Alegre",
+        "state": "RS",
+        "founded": 1909,
+        "nickname": "Colorado",
+        "division": "A",
+        "brand": "#A8232E",
+        "bio": "",
+        "current": {
+          "position": 14,
+          "points": 21,
+          "played": 17,
+          "titleProb": 0.0,
+          "g4Prob": 4.2,
+          "relegationProb": 23.2,
+          "expectedPoints": 46.9,
+          "pointsRange": [
+            36,
+            58
+          ]
+        }
+      },
+      "value": 19,
+      "detail": "gols sofridos em 17 jogos"
+    },
+    {
+      "team": {
+        "slug": "fluminense",
+        "name": "Fluminense",
+        "shortName": "Fluminense",
+        "city": "Rio de Janeiro",
+        "state": "RJ",
+        "founded": 1902,
+        "nickname": "Tricolor",
+        "division": "A",
+        "brand": "#8B0032",
+        "bio": "",
+        "current": {
+          "position": 4,
+          "points": 30,
+          "played": 17,
+          "titleProb": 0.2,
+          "g4Prob": 21.0,
+          "relegationProb": 3.6,
+          "expectedPoints": 51.9,
+          "pointsRange": [
+            41,
+            63
+          ]
+        }
+      },
+      "value": 22,
+      "detail": "gols sofridos em 17 jogos"
+    },
+    {
+      "team": {
+        "slug": "bahia",
+        "name": "Bahia",
+        "shortName": "Bahia",
+        "city": "Salvador",
+        "state": "BA",
+        "founded": 1931,
+        "nickname": "Esquadrão",
+        "division": "A",
+        "brand": "#0044AA",
+        "bio": "",
+        "current": {
+          "position": 6,
+          "points": 26,
+          "played": 17,
+          "titleProb": 0.0,
+          "g4Prob": 6.8,
+          "relegationProb": 17.0,
+          "expectedPoints": 47.2,
+          "pointsRange": [
+            37,
+            59
+          ]
+        }
+      },
+      "value": 23,
+      "detail": "gols sofridos em 17 jogos"
+    },
+    {
+      "team": {
+        "slug": "atletico-mg",
+        "name": "Atlético-MG",
+        "shortName": "Atlético-MG",
+        "city": "Belo Horizonte",
+        "state": "MG",
+        "founded": 1908,
+        "nickname": "Galo",
+        "division": "A",
+        "brand": "#2A2A2A",
+        "bio": "",
+        "current": {
+          "position": 13,
+          "points": 21,
+          "played": 17,
+          "titleProb": 0.0,
+          "g4Prob": 10.5,
+          "relegationProb": 12.0,
+          "expectedPoints": 49.7,
+          "pointsRange": [
+            38,
+            61
+          ]
+        }
+      },
+      "value": 23,
+      "detail": "gols sofridos em 17 jogos"
+    },
+    {
+      "team": {
+        "slug": "gremio",
+        "name": "Grêmio",
+        "shortName": "Grêmio",
+        "city": "Porto Alegre",
+        "state": "RS",
+        "founded": 1903,
+        "nickname": "Tricolor Gaúcho",
+        "division": "A",
+        "brand": "#1A558C",
+        "bio": "",
+        "current": {
+          "position": 16,
+          "points": 21,
+          "played": 18,
+          "titleProb": 0.0,
+          "g4Prob": 1.3,
+          "relegationProb": 45.9,
+          "expectedPoints": 43.5,
+          "pointsRange": [
+            33,
+            55
+          ]
+        }
+      },
+      "value": 23,
+      "detail": "gols sofridos em 18 jogos"
+    },
+    {
+      "team": {
+        "slug": "coritiba",
+        "name": "Coritiba",
+        "shortName": "Coritiba",
+        "city": "Curitiba",
+        "state": "PR",
+        "founded": 1909,
+        "nickname": "Coxa-Branca",
+        "division": "A",
+        "brand": "#1A6B3A",
+        "bio": "",
+        "current": {
+          "position": 7,
+          "points": 26,
+          "played": 18,
+          "titleProb": 0.3,
+          "g4Prob": 34.7,
+          "relegationProb": 1.9,
+          "expectedPoints": 54.1,
+          "pointsRange": [
+            43,
+            65
+          ]
+        }
+      },
+      "value": 24,
+      "detail": "gols sofridos em 18 jogos"
     },
     {
       "team": {
         "slug": "mirassol",
         "name": "Mirassol",
         "shortName": "Mirassol",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "city": "Mirassol",
+        "state": "SP",
+        "founded": 1925,
+        "nickname": "Leão do Interior",
         "division": "A",
-        "brand": "#888888",
+        "brand": "#C8A200",
         "bio": "",
         "current": {
           "position": 18,
           "points": 16,
-          "played": 16,
-          "titleProb": 0.2,
-          "g4Prob": 5.0,
-          "relegationProb": 39.5,
-          "expectedPoints": 44.5,
+          "played": 17,
+          "titleProb": 0.0,
+          "g4Prob": 0.2,
+          "relegationProb": 80.1,
+          "expectedPoints": 38.4,
           "pointsRange": [
-            30,
-            60
+            28,
+            50
           ]
         }
       },
-      "value": 0,
-      "detail": "gols sofridos em 0 jogos"
+      "value": 24,
+      "detail": "gols sofridos em 17 jogos"
+    },
+    {
+      "team": {
+        "slug": "vitoria",
+        "name": "Vitória",
+        "shortName": "Vitória",
+        "city": "Salvador",
+        "state": "BA",
+        "founded": 1899,
+        "nickname": "Leão",
+        "division": "A",
+        "brand": "#CC0000",
+        "bio": "",
+        "current": {
+          "position": 12,
+          "points": 22,
+          "played": 17,
+          "titleProb": 0.0,
+          "g4Prob": 0.5,
+          "relegationProb": 62.0,
+          "expectedPoints": 40.9,
+          "pointsRange": [
+            31,
+            52
+          ]
+        }
+      },
+      "value": 25,
+      "detail": "gols sofridos em 17 jogos"
+    },
+    {
+      "team": {
+        "slug": "cruzeiro",
+        "name": "Cruzeiro",
+        "shortName": "Cruzeiro",
+        "city": "Belo Horizonte",
+        "state": "MG",
+        "founded": 1921,
+        "nickname": "Raposa",
+        "division": "A",
+        "brand": "#1E3F8C",
+        "bio": "",
+        "current": {
+          "position": 10,
+          "points": 23,
+          "played": 17,
+          "titleProb": 0.0,
+          "g4Prob": 2.4,
+          "relegationProb": 33.7,
+          "expectedPoints": 44.5,
+          "pointsRange": [
+            34,
+            56
+          ]
+        }
+      },
+      "value": 27,
+      "detail": "gols sofridos em 17 jogos"
+    },
+    {
+      "team": {
+        "slug": "vasco",
+        "name": "Vasco",
+        "shortName": "Vasco",
+        "city": "Rio de Janeiro",
+        "state": "RJ",
+        "founded": 1898,
+        "nickname": "Cruz-Maltino",
+        "division": "A",
+        "brand": "#2A2A2A",
+        "bio": "",
+        "current": {
+          "position": 17,
+          "points": 20,
+          "played": 17,
+          "titleProb": 0.2,
+          "g4Prob": 23.3,
+          "relegationProb": 6.4,
+          "expectedPoints": 52.9,
+          "pointsRange": [
+            41,
+            65
+          ]
+        }
+      },
+      "value": 28,
+      "detail": "gols sofridos em 17 jogos"
+    },
+    {
+      "team": {
+        "slug": "santos",
+        "name": "Santos",
+        "shortName": "Santos",
+        "city": "Santos",
+        "state": "SP",
+        "founded": 1912,
+        "nickname": "Peixe",
+        "division": "A",
+        "brand": "#2A2A2A",
+        "bio": "",
+        "current": {
+          "position": 15,
+          "points": 21,
+          "played": 18,
+          "titleProb": 0.4,
+          "g4Prob": 29.0,
+          "relegationProb": 4.0,
+          "expectedPoints": 53.8,
+          "pointsRange": [
+            42,
+            65
+          ]
+        }
+      },
+      "value": 29,
+      "detail": "gols sofridos em 18 jogos"
     },
     {
       "team": {
         "slug": "remo",
         "name": "Remo",
         "shortName": "Remo",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "city": "Belém",
+        "state": "PA",
+        "founded": 1905,
+        "nickname": "Leão Azul",
         "division": "A",
-        "brand": "#888888",
+        "brand": "#003580",
         "bio": "",
         "current": {
           "position": 19,
           "points": 15,
           "played": 17,
-          "titleProb": 9.4,
-          "g4Prob": 51.4,
-          "relegationProb": 2.8,
-          "expectedPoints": 58.4,
+          "titleProb": 0.1,
+          "g4Prob": 23.3,
+          "relegationProb": 4.2,
+          "expectedPoints": 53.0,
           "pointsRange": [
-            43,
-            74
+            41,
+            64
           ]
         }
       },
-      "value": 0,
-      "detail": "gols sofridos em 0 jogos"
+      "value": 29,
+      "detail": "gols sofridos em 17 jogos"
+    },
+    {
+      "team": {
+        "slug": "botafogo",
+        "name": "Botafogo",
+        "shortName": "Botafogo",
+        "city": "Rio de Janeiro",
+        "state": "RJ",
+        "founded": 1904,
+        "nickname": "Estrela Solitária",
+        "division": "A",
+        "brand": "#1A1A1A",
+        "bio": "",
+        "current": {
+          "position": 11,
+          "points": 22,
+          "played": 17,
+          "titleProb": 2.8,
+          "g4Prob": 66.7,
+          "relegationProb": 0.4,
+          "expectedPoints": 59.3,
+          "pointsRange": [
+            48,
+            71
+          ]
+        }
+      },
+      "value": 31,
+      "detail": "gols sofridos em 17 jogos"
     },
     {
       "team": {
         "slug": "chapecoense",
         "name": "Chapecoense",
         "shortName": "Chapecoense",
-        "city": "",
-        "state": "",
-        "founded": 0,
-        "nickname": "",
+        "city": "Chapecó",
+        "state": "SC",
+        "founded": 1973,
+        "nickname": "Verdão do Oeste",
         "division": "A",
         "brand": "#0F5F3F",
         "bio": "",
@@ -3477,18 +3477,18 @@
           "position": 20,
           "points": 9,
           "played": 16,
-          "titleProb": 0.2,
-          "g4Prob": 5.0,
-          "relegationProb": 39.2,
-          "expectedPoints": 44.6,
+          "titleProb": 0.0,
+          "g4Prob": 0.0,
+          "relegationProb": 99.5,
+          "expectedPoints": 26.9,
           "pointsRange": [
-            30,
-            60
+            17,
+            38
           ]
         }
       },
-      "value": 0,
-      "detail": "gols sofridos em 0 jogos"
+      "value": 32,
+      "detail": "gols sofridos em 16 jogos"
     }
   ]
 }
