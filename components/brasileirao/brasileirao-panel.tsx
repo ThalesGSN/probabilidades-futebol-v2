@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useParams, useNavigate, Link } from "react-router-dom"
 import { ChevronDown } from "lucide-react"
 import type { Division } from "@/lib/teams"
 import type { StandingMode, StatKey } from "@/lib/brasileirao"
@@ -88,10 +88,54 @@ const sectionDescriptions: Record<SectionKey, string> = {
   estatisticas: "Rankings e marcas da temporada em curso.",
 }
 
+// URL slug → { section, item }
+const VIEW_MAP: Record<string, { section: SectionKey; item: ItemKey }> = {
+  "campeao":               { section: "prob-time",      item: "champion" },
+  "libertadores":          { section: "prob-time",      item: "libertadores" },
+  "sulamericana":          { section: "prob-time",      item: "sulamericana" },
+  "rebaixamento":          { section: "prob-time",      item: "relegation" },
+  "pontos-campeao":        { section: "prob-pontuacao", item: "champion" },
+  "pontos-libertadores":   { section: "prob-pontuacao", item: "libertadores" },
+  "pontos-sulamericana":   { section: "prob-pontuacao", item: "sulamericana" },
+  "pontos-rebaixamento":   { section: "prob-pontuacao", item: "relegation" },
+  "classificacao":         { section: "classificacao",  item: "geral" },
+  "ultimas-rodadas":       { section: "classificacao",  item: "ultimas-10" },
+  "mandante":              { section: "classificacao",  item: "mandante" },
+  "visitante":             { section: "classificacao",  item: "visitante" },
+  "turno":                 { section: "classificacao",  item: "turno" },
+  "returno":               { section: "classificacao",  item: "returno" },
+  "proxima-rodada":        { section: "proxima-rodada", item: "fixtures" },
+  "proxima-probabilidades":{ section: "proxima-rodada", item: "probabilities" },
+  "vitorias":              { section: "estatisticas",   item: "vitorias" },
+  "derrotas":              { section: "estatisticas",   item: "derrotas" },
+  "invencibilidade":       { section: "estatisticas",   item: "invencibilidade" },
+  "sem-vitorias":          { section: "estatisticas",   item: "sem-vitorias" },
+  "melhor-ataque":         { section: "estatisticas",   item: "melhor-ataque" },
+  "melhor-defesa":         { section: "estatisticas",   item: "melhor-defesa" },
+}
+
+// { section::item } → URL slug
+const SLUG_MAP: Record<string, string> = Object.fromEntries(
+  Object.entries(VIEW_MAP).map(([slug, { section, item }]) => [`${section}::${item}`, slug])
+)
+
+function toSlug(section: SectionKey, item: ItemKey): string {
+  return SLUG_MAP[`${section}::${item}`] ?? "campeao"
+}
+
+function toHref(div: Division, sec: SectionKey, itm: ItemKey): string {
+  return `/brasileirao/${div === "B" ? "serie-b" : "serie-a"}/${toSlug(sec, itm)}`
+}
+
 export function BrasileiraoPanel() {
-  const [division, setDivision] = useState<Division>("A")
-  const [section, setSection] = useState<SectionKey>("prob-time")
-  const [item, setItem] = useState<ItemKey>("champion")
+  const { division: divisionParam, view: viewParam } = useParams<{ division?: string; view?: string }>()
+  const navigate = useNavigate()
+
+  const division: Division = divisionParam === "serie-b" ? "B" : "A"
+  const viewData = viewParam ? VIEW_MAP[viewParam] : null
+  const section: SectionKey = viewData?.section ?? "prob-time"
+  const item: ItemKey = viewData?.item ?? "champion"
+
   const { data: meta } = useMetadata(division)
   const updatedAt = meta?.generatedAt ? formatGeneratedAt(meta.generatedAt) : null
 
@@ -99,14 +143,7 @@ export function BrasileiraoPanel() {
   const currentItem = currentSection.items.find((i) => i.key === item) ?? currentSection.items[0]
 
   const onSelectItem = (sectionKey: SectionKey, itemKey: ItemKey) => {
-    setSection(sectionKey)
-    setItem(itemKey)
-  }
-
-  const onSelectSection = (sectionKey: SectionKey) => {
-    const target = SECTIONS.find((s) => s.key === sectionKey)!
-    setSection(sectionKey)
-    setItem(target.items[0].key)
+    navigate(toHref(division, sectionKey, itemKey), { replace: true })
   }
 
   return (
@@ -138,11 +175,12 @@ export function BrasileiraoPanel() {
           className="mt-10 inline-flex items-center gap-0 rounded-sm border border-border bg-card p-1"
         >
           {(["A", "B"] as const).map((d) => (
-            <button
+            <Link
               key={d}
+              to={toHref(d, section, item)}
               role="tab"
               aria-selected={division === d}
-              onClick={() => setDivision(d)}
+              replace
               className={`relative px-5 py-2 font-mono text-xs uppercase tracking-[0.18em] transition-colors ${
                 division === d
                   ? "bg-primary text-primary-foreground"
@@ -150,7 +188,7 @@ export function BrasileiraoPanel() {
               }`}
             >
               Série {d}
-            </button>
+            </Link>
           ))}
         </div>
 
@@ -161,23 +199,25 @@ export function BrasileiraoPanel() {
             <div className="sticky top-24 space-y-7 border-l border-border pl-5">
               {SECTIONS.map((s) => (
                 <div key={s.key}>
-                  <button
-                    onClick={() => onSelectSection(s.key)}
+                  <Link
+                    to={toHref(division, s.key, s.items[0].key)}
+                    replace
                     className={`block text-left font-serif text-base leading-tight transition-colors ${
                       section === s.key ? "text-foreground" : "text-foreground/80 hover:text-foreground"
                     }`}
                   >
                     {s.label}
-                  </button>
+                  </Link>
                   <ul className="mt-2 space-y-1.5">
                     {s.items.map((it) => {
                       const active = section === s.key && item === it.key
                       const label = division === "B" && it.labelB ? it.labelB : it.label
                       return (
                         <li key={it.key}>
-                          <button
-                            onClick={() => onSelectItem(s.key, it.key)}
-                            className={`block text-left text-sm leading-snug transition-colors ${
+                          <Link
+                            to={toHref(division, s.key, it.key)}
+                            replace
+                            className={`block text-sm leading-snug transition-colors ${
                               active
                                 ? "font-medium text-primary"
                                 : "text-muted-foreground hover:text-foreground"
@@ -185,7 +225,7 @@ export function BrasileiraoPanel() {
                           >
                             {active && <span aria-hidden>· </span>}
                             {label}
-                          </button>
+                          </Link>
                         </li>
                       )
                     })}
@@ -206,8 +246,7 @@ export function BrasileiraoPanel() {
                 value={`${section}::${item}`}
                 onChange={(e) => {
                   const [s, i] = e.target.value.split("::") as [SectionKey, ItemKey]
-                  setSection(s)
-                  setItem(i)
+                  onSelectItem(s, i)
                 }}
                 className="w-full appearance-none rounded-sm border border-border bg-card px-4 py-3 pr-10 text-sm text-foreground focus:outline-none focus:ring-2 focus:ring-primary/40"
               >

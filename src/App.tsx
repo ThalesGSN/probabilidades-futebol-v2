@@ -11,7 +11,7 @@ export default function App() {
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/brasileirao" element={<BrasileiraoPage />} />
+        <Route path="/brasileirao/:division?/:view?" element={<BrasileiraoPage />} />
         <Route path="/clubes" element={<ClubesPage />} />
         <Route path="/times/:slug" element={<TeamPage />} />
       </Routes>
