@@ -733,5 +733,33 @@
     "awaySlug": "nautico",
     "homeGoals": 2,
     "awayGoals": 0
+  },
+  {
+    "round": 11,
+    "homeSlug": "sao-bernardo",
+    "awaySlug": "novorizontino",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 11,
+    "homeSlug": "londrina",
+    "awaySlug": "vila-nova",
+    "homeGoals": 0,
+    "awayGoals": 1
+  },
+  {
+    "round": 11,
+    "homeSlug": "ceara",
+    "awaySlug": "operario-pr",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "round": 11,
+    "homeSlug": "cuiaba",
+    "awaySlug": "crb",
+    "homeGoals": 2,
+    "awayGoals": 0
   }
 ]

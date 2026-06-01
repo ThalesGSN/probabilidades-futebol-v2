@@ -1,19 +1,9 @@
 {
   "teams": [
     {
-      "slug": "fortaleza",
-      "shortName": "Fortaleza",
-      "brand": "#0033A0"
-    },
-    {
-      "slug": "nautico",
-      "shortName": "Náutico",
+      "slug": "sao-bernardo",
+      "shortName": "São Bernardo",
       "brand": "#CC0000"
-    },
-    {
-      "slug": "botafogo-sp",
-      "shortName": "Botafogo-SP",
-      "brand": "#2A2A2A"
     },
     {
       "slug": "sport",
@@ -21,9 +11,14 @@
       "brand": "#CC0000"
     },
     {
-      "slug": "crb",
-      "shortName": "CRB",
-      "brand": "#CC0000"
+      "slug": "fortaleza",
+      "shortName": "Fortaleza",
+      "brand": "#0033A0"
+    },
+    {
+      "slug": "botafogo-sp",
+      "shortName": "Botafogo-SP",
+      "brand": "#2A2A2A"
     },
     {
       "slug": "ponte-preta",
@@ -31,43 +26,18 @@
       "brand": "#1A1A1A"
     },
     {
-      "slug": "criciuma",
-      "shortName": "Criciúma",
-      "brand": "#C8A200"
-    },
-    {
-      "slug": "atletico-go",
-      "shortName": "Atlético-GO",
-      "brand": "#CC0000"
-    },
-    {
-      "slug": "sao-bernardo",
-      "shortName": "São Bernardo",
-      "brand": "#CC0000"
-    },
-    {
       "slug": "novorizontino",
       "shortName": "Novorizontino",
       "brand": "#1E3F8C"
     },
     {
-      "slug": "vila-nova",
-      "shortName": "Vila Nova",
-      "brand": "#CC0000"
+      "slug": "cuiaba",
+      "shortName": "Cuiabá",
+      "brand": "#C8A200"
     },
     {
-      "slug": "juventude",
-      "shortName": "Juventude",
-      "brand": "#0F5F3F"
-    },
-    {
-      "slug": "goias",
-      "shortName": "Goiás",
-      "brand": "#0F5F3F"
-    },
-    {
-      "slug": "athletic-club",
-      "shortName": "Athletic Club",
+      "slug": "operario-pr",
+      "shortName": "Operário-PR",
       "brand": "#1A1A1A"
     },
     {
@@ -76,19 +46,49 @@
       "brand": "#2A2A2A"
     },
     {
-      "slug": "operario-pr",
-      "shortName": "Operário-PR",
+      "slug": "athletic-club",
+      "shortName": "Athletic Club",
       "brand": "#1A1A1A"
+    },
+    {
+      "slug": "crb",
+      "shortName": "CRB",
+      "brand": "#CC0000"
+    },
+    {
+      "slug": "vila-nova",
+      "shortName": "Vila Nova",
+      "brand": "#CC0000"
+    },
+    {
+      "slug": "nautico",
+      "shortName": "Náutico",
+      "brand": "#CC0000"
+    },
+    {
+      "slug": "goias",
+      "shortName": "Goiás",
+      "brand": "#0F5F3F"
+    },
+    {
+      "slug": "criciuma",
+      "shortName": "Criciúma",
+      "brand": "#C8A200"
+    },
+    {
+      "slug": "juventude",
+      "shortName": "Juventude",
+      "brand": "#0F5F3F"
+    },
+    {
+      "slug": "atletico-go",
+      "shortName": "Atlético-GO",
+      "brand": "#CC0000"
     },
     {
       "slug": "avai",
       "shortName": "Avaí",
       "brand": "#1E5BA3"
-    },
-    {
-      "slug": "cuiaba",
-      "shortName": "Cuiabá",
-      "brand": "#C8A200"
     },
     {
       "slug": "londrina",
@@ -167,66 +167,66 @@
     },
     {
       "rodada": 11,
-      "fortaleza_titulo": 37.6,
-      "fortaleza_g4": 79.0,
-      "fortaleza_rebaixamento": 0.0,
-      "nautico_titulo": 12.3,
-      "nautico_g4": 50.4,
-      "nautico_rebaixamento": 0.1,
-      "botafogo-sp_titulo": 11.9,
-      "botafogo-sp_g4": 52.0,
-      "botafogo-sp_rebaixamento": 0.1,
-      "sport_titulo": 9.8,
-      "sport_g4": 46.1,
+      "sao-bernardo_titulo": 39.8,
+      "sao-bernardo_g4": 90.2,
+      "sao-bernardo_rebaixamento": 0.0,
+      "sport_titulo": 34.8,
+      "sport_g4": 88.0,
       "sport_rebaixamento": 0.0,
-      "crb_titulo": 8.7,
-      "crb_g4": 42.4,
-      "crb_rebaixamento": 0.2,
-      "ponte-preta_titulo": 8.1,
-      "ponte-preta_g4": 44.1,
+      "fortaleza_titulo": 15.1,
+      "fortaleza_g4": 74.6,
+      "fortaleza_rebaixamento": 0.0,
+      "botafogo-sp_titulo": 4.9,
+      "botafogo-sp_g4": 48.1,
+      "botafogo-sp_rebaixamento": 0.0,
+      "ponte-preta_titulo": 2.9,
+      "ponte-preta_g4": 35.5,
       "ponte-preta_rebaixamento": 0.1,
-      "criciuma_titulo": 6.8,
-      "criciuma_g4": 38.2,
-      "criciuma_rebaixamento": 0.1,
-      "atletico-go_titulo": 3.2,
-      "atletico-go_g4": 23.1,
-      "atletico-go_rebaixamento": 0.7,
-      "sao-bernardo_titulo": 0.7,
-      "sao-bernardo_g4": 9.5,
-      "sao-bernardo_rebaixamento": 1.5,
-      "novorizontino_titulo": 0.4,
-      "novorizontino_g4": 6.2,
-      "novorizontino_rebaixamento": 1.7,
-      "vila-nova_titulo": 0.3,
-      "vila-nova_g4": 4.8,
-      "vila-nova_rebaixamento": 4.8,
-      "juventude_titulo": 0.1,
-      "juventude_g4": 2.5,
-      "juventude_rebaixamento": 3.9,
+      "novorizontino_titulo": 0.9,
+      "novorizontino_g4": 19.1,
+      "novorizontino_rebaixamento": 0.3,
+      "cuiaba_titulo": 0.7,
+      "cuiaba_g4": 17.1,
+      "cuiaba_rebaixamento": 0.4,
+      "operario-pr_titulo": 0.5,
+      "operario-pr_g4": 9.8,
+      "operario-pr_rebaixamento": 1.1,
+      "ceara_titulo": 0.2,
+      "ceara_g4": 7.0,
+      "ceara_rebaixamento": 1.4,
+      "athletic-club_titulo": 0.1,
+      "athletic-club_g4": 3.0,
+      "athletic-club_rebaixamento": 2.0,
+      "crb_titulo": 0.1,
+      "crb_g4": 2.1,
+      "crb_rebaixamento": 7.1,
+      "vila-nova_titulo": 0.0,
+      "vila-nova_g4": 0.7,
+      "vila-nova_rebaixamento": 9.3,
+      "nautico_titulo": 0.0,
+      "nautico_g4": 0.1,
+      "nautico_rebaixamento": 29.9,
       "goias_titulo": 0.0,
-      "goias_g4": 0.2,
+      "goias_g4": 0.1,
       "goias_rebaixamento": 37.5,
-      "athletic-club_titulo": 0.0,
-      "athletic-club_g4": 0.9,
-      "athletic-club_rebaixamento": 12.0,
-      "ceara_titulo": 0.0,
-      "ceara_g4": 0.1,
-      "ceara_rebaixamento": 44.0,
-      "operario-pr_titulo": 0.0,
-      "operario-pr_g4": 0.1,
-      "operario-pr_rebaixamento": 42.8,
+      "criciuma_titulo": 0.0,
+      "criciuma_g4": 1.5,
+      "criciuma_rebaixamento": 6.0,
+      "juventude_titulo": 0.0,
+      "juventude_g4": 2.8,
+      "juventude_rebaixamento": 2.5,
+      "atletico-go_titulo": 0.0,
+      "atletico-go_g4": 0.2,
+      "atletico-go_rebaixamento": 21.6,
       "avai_titulo": 0.0,
-      "avai_g4": 0.4,
-      "avai_rebaixamento": 17.2,
-      "cuiaba_titulo": 0.0,
-      "cuiaba_g4": 0.0,
-      "cuiaba_rebaixamento": 37.8,
+      "avai_g4": 0.0,
+      "avai_rebaixamento": 84.4,
       "londrina_titulo": 0.0,
       "londrina_g4": 0.0,
-      "londrina_rebaixamento": 96.2,
+      "londrina_rebaixamento": 97.0,
       "america-mg_titulo": 0.0,
       "america-mg_g4": 0.0,
-      "america-mg_rebaixamento": 99.5
+      "america-mg_rebaixamento": 99.6
     }
   ]
 }

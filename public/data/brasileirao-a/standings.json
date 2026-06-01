@@ -14,27 +14,27 @@
         "bio": "",
         "current": {
           "position": 1,
-          "points": 38,
-          "played": 17,
-          "titleProb": 77.4,
-          "g4Prob": 99.3,
+          "points": 41,
+          "played": 18,
+          "titleProb": 87.4,
+          "g4Prob": 99.9,
           "relegationProb": 0.0,
-          "expectedPoints": 71.8,
+          "expectedPoints": 75.3,
           "pointsRange": [
-            60,
-            83
+            64,
+            87
           ]
         }
       },
       "position": 1,
-      "played": 17,
-      "wins": 11,
+      "played": 18,
+      "wins": 12,
       "draws": 5,
       "losses": 1,
-      "goalsFor": 29,
+      "goalsFor": 30,
       "goalsAgainst": 13,
-      "goalDiff": 16,
-      "points": 38
+      "goalDiff": 17,
+      "points": 41
     },
     {
       "team": {
@@ -52,13 +52,13 @@
           "position": 2,
           "points": 34,
           "played": 17,
-          "titleProb": 3.4,
-          "g4Prob": 39.5,
-          "relegationProb": 0.6,
-          "expectedPoints": 55.0,
+          "titleProb": 1.5,
+          "g4Prob": 36.4,
+          "relegationProb": 1.6,
+          "expectedPoints": 54.4,
           "pointsRange": [
             44,
-            67
+            66
           ]
         }
       },
@@ -74,42 +74,6 @@
     },
     {
       "team": {
-        "slug": "athletico-pr",
-        "name": "Athletico-PR",
-        "shortName": "Athletico-PR",
-        "city": "Curitiba",
-        "state": "PR",
-        "founded": 1924,
-        "nickname": "Furacão",
-        "division": "A",
-        "brand": "#CC0000",
-        "bio": "",
-        "current": {
-          "position": 3,
-          "points": 30,
-          "played": 18,
-          "titleProb": 10.2,
-          "g4Prob": 87.2,
-          "relegationProb": 0.0,
-          "expectedPoints": 63.1,
-          "pointsRange": [
-            52,
-            75
-          ]
-        }
-      },
-      "position": 3,
-      "played": 18,
-      "wins": 9,
-      "draws": 3,
-      "losses": 6,
-      "goalsFor": 24,
-      "goalsAgainst": 18,
-      "goalDiff": 6,
-      "points": 30
-    },
-    {
-      "team": {
         "slug": "fluminense",
         "name": "Fluminense",
         "shortName": "Fluminense",
@@ -121,27 +85,63 @@
         "brand": "#8B0032",
         "bio": "",
         "current": {
+          "position": 3,
+          "points": 31,
+          "played": 18,
+          "titleProb": 2.6,
+          "g4Prob": 75.9,
+          "relegationProb": 0.1,
+          "expectedPoints": 60.9,
+          "pointsRange": [
+            49,
+            73
+          ]
+        }
+      },
+      "position": 3,
+      "played": 18,
+      "wins": 9,
+      "draws": 4,
+      "losses": 5,
+      "goalsFor": 28,
+      "goalsAgainst": 23,
+      "goalDiff": 5,
+      "points": 31
+    },
+    {
+      "team": {
+        "slug": "athletico-pr",
+        "name": "Athletico-PR",
+        "shortName": "Athletico-PR",
+        "city": "Curitiba",
+        "state": "PR",
+        "founded": 1924,
+        "nickname": "Furacão",
+        "division": "A",
+        "brand": "#CC0000",
+        "bio": "",
+        "current": {
           "position": 4,
           "points": 30,
-          "played": 17,
-          "titleProb": 0.2,
-          "g4Prob": 21.0,
-          "relegationProb": 3.6,
-          "expectedPoints": 51.9,
+          "played": 18,
+          "titleProb": 0.3,
+          "g4Prob": 39.4,
+          "relegationProb": 1.9,
+          "expectedPoints": 55.0,
           "pointsRange": [
-            41,
-            63
+            44,
+            67
           ]
         }
       },
       "position": 4,
-      "played": 17,
+      "played": 18,
       "wins": 9,
       "draws": 3,
-      "losses": 5,
-      "goalsFor": 27,
-      "goalsAgainst": 22,
-      "goalDiff": 5,
+      "losses": 6,
+      "goalsFor": 24,
+      "goalsAgainst": 18,
+      "goalDiff": 6,
       "points": 30
     },
     {
@@ -158,27 +158,27 @@
         "bio": "",
         "current": {
           "position": 5,
-          "points": 26,
-          "played": 17,
-          "titleProb": 3.5,
-          "g4Prob": 73.0,
-          "relegationProb": 0.1,
-          "expectedPoints": 59.9,
+          "points": 29,
+          "played": 18,
+          "titleProb": 7.3,
+          "g4Prob": 91.8,
+          "relegationProb": 0.0,
+          "expectedPoints": 64.6,
           "pointsRange": [
-            48,
-            71
+            53,
+            76
           ]
         }
       },
       "position": 5,
-      "played": 17,
-      "wins": 8,
+      "played": 18,
+      "wins": 9,
       "draws": 2,
       "losses": 7,
-      "goalsFor": 22,
-      "goalsAgainst": 18,
-      "goalDiff": 4,
-      "points": 26
+      "goalsFor": 25,
+      "goalsAgainst": 19,
+      "goalDiff": 6,
+      "points": 29
     },
     {
       "team": {
@@ -197,12 +197,12 @@
           "points": 26,
           "played": 17,
           "titleProb": 0.0,
-          "g4Prob": 6.8,
-          "relegationProb": 17.0,
-          "expectedPoints": 47.2,
+          "g4Prob": 3.7,
+          "relegationProb": 33.8,
+          "expectedPoints": 45.7,
           "pointsRange": [
-            37,
-            59
+            35,
+            57
           ]
         }
       },
@@ -232,13 +232,13 @@
           "position": 7,
           "points": 26,
           "played": 18,
-          "titleProb": 0.3,
-          "g4Prob": 34.7,
-          "relegationProb": 1.9,
-          "expectedPoints": 54.1,
+          "titleProb": 0.2,
+          "g4Prob": 40.7,
+          "relegationProb": 2.7,
+          "expectedPoints": 54.9,
           "pointsRange": [
             43,
-            65
+            66
           ]
         }
       },
@@ -267,26 +267,62 @@
         "current": {
           "position": 8,
           "points": 25,
-          "played": 17,
-          "titleProb": 0.2,
-          "g4Prob": 22.7,
-          "relegationProb": 4.7,
-          "expectedPoints": 51.8,
+          "played": 18,
+          "titleProb": 0.0,
+          "g4Prob": 18.4,
+          "relegationProb": 9.8,
+          "expectedPoints": 50.9,
           "pointsRange": [
-            41,
+            40,
             63
           ]
         }
       },
       "position": 8,
-      "played": 17,
+      "played": 18,
       "wins": 7,
       "draws": 4,
-      "losses": 6,
+      "losses": 7,
       "goalsFor": 23,
-      "goalsAgainst": 19,
-      "goalDiff": 4,
+      "goalsAgainst": 20,
+      "goalDiff": 3,
       "points": 25
+    },
+    {
+      "team": {
+        "slug": "atletico-mg",
+        "name": "Atlético-MG",
+        "shortName": "Atlético-MG",
+        "city": "Belo Horizonte",
+        "state": "MG",
+        "founded": 1908,
+        "nickname": "Galo",
+        "division": "A",
+        "brand": "#2A2A2A",
+        "bio": "",
+        "current": {
+          "position": 9,
+          "points": 24,
+          "played": 18,
+          "titleProb": 0.2,
+          "g4Prob": 37.9,
+          "relegationProb": 2.9,
+          "expectedPoints": 54.9,
+          "pointsRange": [
+            44,
+            66
+          ]
+        }
+      },
+      "position": 9,
+      "played": 18,
+      "wins": 7,
+      "draws": 3,
+      "losses": 8,
+      "goalsFor": 22,
+      "goalsAgainst": 23,
+      "goalDiff": -1,
+      "points": 24
     },
     {
       "team": {
@@ -301,20 +337,20 @@
         "brand": "#2A2A2A",
         "bio": "",
         "current": {
-          "position": 9,
+          "position": 10,
           "points": 24,
           "played": 18,
-          "titleProb": 1.3,
-          "g4Prob": 54.4,
-          "relegationProb": 0.8,
-          "expectedPoints": 57.3,
+          "titleProb": 0.0,
+          "g4Prob": 5.8,
+          "relegationProb": 25.1,
+          "expectedPoints": 47.3,
           "pointsRange": [
-            46,
-            69
+            37,
+            58
           ]
         }
       },
-      "position": 9,
+      "position": 10,
       "played": 18,
       "wins": 6,
       "draws": 6,
@@ -337,28 +373,28 @@
         "brand": "#1E3F8C",
         "bio": "",
         "current": {
-          "position": 10,
-          "points": 23,
-          "played": 17,
-          "titleProb": 0.0,
-          "g4Prob": 2.4,
-          "relegationProb": 33.7,
-          "expectedPoints": 44.5,
+          "position": 11,
+          "points": 24,
+          "played": 18,
+          "titleProb": 0.2,
+          "g4Prob": 30.7,
+          "relegationProb": 5.1,
+          "expectedPoints": 53.7,
           "pointsRange": [
-            34,
-            56
+            42,
+            66
           ]
         }
       },
-      "position": 10,
-      "played": 17,
+      "position": 11,
+      "played": 18,
       "wins": 6,
-      "draws": 5,
+      "draws": 6,
       "losses": 6,
-      "goalsFor": 23,
-      "goalsAgainst": 27,
+      "goalsFor": 24,
+      "goalsAgainst": 28,
       "goalDiff": -4,
-      "points": 23
+      "points": 24
     },
     {
       "team": {
@@ -373,20 +409,20 @@
         "brand": "#1A1A1A",
         "bio": "",
         "current": {
-          "position": 11,
+          "position": 12,
           "points": 22,
           "played": 17,
-          "titleProb": 2.8,
-          "g4Prob": 66.7,
-          "relegationProb": 0.4,
-          "expectedPoints": 59.3,
+          "titleProb": 0.0,
+          "g4Prob": 8.9,
+          "relegationProb": 21.5,
+          "expectedPoints": 48.3,
           "pointsRange": [
-            48,
-            71
+            37,
+            60
           ]
         }
       },
-      "position": 11,
+      "position": 12,
       "played": 17,
       "wins": 6,
       "draws": 4,
@@ -409,20 +445,20 @@
         "brand": "#CC0000",
         "bio": "",
         "current": {
-          "position": 12,
+          "position": 13,
           "points": 22,
           "played": 17,
           "titleProb": 0.0,
-          "g4Prob": 0.5,
-          "relegationProb": 62.0,
-          "expectedPoints": 40.9,
+          "g4Prob": 15.6,
+          "relegationProb": 12.0,
+          "expectedPoints": 51.2,
           "pointsRange": [
-            31,
-            52
+            40,
+            63
           ]
         }
       },
-      "position": 12,
+      "position": 13,
       "played": 17,
       "wins": 6,
       "draws": 4,
@@ -447,61 +483,25 @@
         "current": {
           "position": 14,
           "points": 21,
-          "played": 17,
+          "played": 18,
           "titleProb": 0.0,
-          "g4Prob": 4.2,
-          "relegationProb": 23.2,
-          "expectedPoints": 46.9,
+          "g4Prob": 4.3,
+          "relegationProb": 32.9,
+          "expectedPoints": 46.7,
           "pointsRange": [
             36,
             58
           ]
         }
       },
-      "position": 13,
-      "played": 17,
+      "position": 14,
+      "played": 18,
       "wins": 5,
       "draws": 6,
-      "losses": 6,
-      "goalsFor": 20,
-      "goalsAgainst": 19,
-      "goalDiff": 1,
-      "points": 21
-    },
-    {
-      "team": {
-        "slug": "atletico-mg",
-        "name": "Atlético-MG",
-        "shortName": "Atlético-MG",
-        "city": "Belo Horizonte",
-        "state": "MG",
-        "founded": 1908,
-        "nickname": "Galo",
-        "division": "A",
-        "brand": "#2A2A2A",
-        "bio": "",
-        "current": {
-          "position": 13,
-          "points": 21,
-          "played": 17,
-          "titleProb": 0.0,
-          "g4Prob": 10.5,
-          "relegationProb": 12.0,
-          "expectedPoints": 49.7,
-          "pointsRange": [
-            38,
-            61
-          ]
-        }
-      },
-      "position": 14,
-      "played": 17,
-      "wins": 6,
-      "draws": 3,
-      "losses": 8,
+      "losses": 7,
       "goalsFor": 21,
-      "goalsAgainst": 23,
-      "goalDiff": -2,
+      "goalsAgainst": 22,
+      "goalDiff": -1,
       "points": 21
     },
     {
@@ -520,13 +520,13 @@
           "position": 15,
           "points": 21,
           "played": 18,
-          "titleProb": 0.4,
-          "g4Prob": 29.0,
-          "relegationProb": 4.0,
-          "expectedPoints": 53.8,
+          "titleProb": 0.1,
+          "g4Prob": 27.9,
+          "relegationProb": 7.1,
+          "expectedPoints": 53.6,
           "pointsRange": [
             42,
-            65
+            66
           ]
         }
       },
@@ -557,9 +557,9 @@
           "points": 21,
           "played": 18,
           "titleProb": 0.0,
-          "g4Prob": 1.3,
-          "relegationProb": 45.9,
-          "expectedPoints": 43.5,
+          "g4Prob": 1.6,
+          "relegationProb": 54.3,
+          "expectedPoints": 43.7,
           "pointsRange": [
             33,
             55
@@ -591,11 +591,11 @@
         "current": {
           "position": 17,
           "points": 20,
-          "played": 17,
-          "titleProb": 0.2,
-          "g4Prob": 23.3,
-          "relegationProb": 6.4,
-          "expectedPoints": 52.9,
+          "played": 18,
+          "titleProb": 0.1,
+          "g4Prob": 25.0,
+          "relegationProb": 9.2,
+          "expectedPoints": 53.2,
           "pointsRange": [
             41,
             65
@@ -603,50 +603,14 @@
         }
       },
       "position": 17,
-      "played": 17,
+      "played": 18,
       "wins": 5,
       "draws": 5,
-      "losses": 7,
+      "losses": 8,
       "goalsFor": 22,
-      "goalsAgainst": 28,
-      "goalDiff": -6,
+      "goalsAgainst": 29,
+      "goalDiff": -7,
       "points": 20
-    },
-    {
-      "team": {
-        "slug": "mirassol",
-        "name": "Mirassol",
-        "shortName": "Mirassol",
-        "city": "Mirassol",
-        "state": "SP",
-        "founded": 1925,
-        "nickname": "Leão do Interior",
-        "division": "A",
-        "brand": "#C8A200",
-        "bio": "",
-        "current": {
-          "position": 18,
-          "points": 16,
-          "played": 17,
-          "titleProb": 0.0,
-          "g4Prob": 0.2,
-          "relegationProb": 80.1,
-          "expectedPoints": 38.4,
-          "pointsRange": [
-            28,
-            50
-          ]
-        }
-      },
-      "position": 18,
-      "played": 17,
-      "wins": 4,
-      "draws": 4,
-      "losses": 9,
-      "goalsFor": 18,
-      "goalsAgainst": 24,
-      "goalDiff": -6,
-      "points": 16
     },
     {
       "team": {
@@ -661,28 +625,64 @@
         "brand": "#003580",
         "bio": "",
         "current": {
+          "position": 18,
+          "points": 18,
+          "played": 18,
+          "titleProb": 0.0,
+          "g4Prob": 0.3,
+          "relegationProb": 76.8,
+          "expectedPoints": 40.3,
+          "pointsRange": [
+            29,
+            52
+          ]
+        }
+      },
+      "position": 18,
+      "played": 18,
+      "wins": 4,
+      "draws": 6,
+      "losses": 8,
+      "goalsFor": 21,
+      "goalsAgainst": 29,
+      "goalDiff": -8,
+      "points": 18
+    },
+    {
+      "team": {
+        "slug": "mirassol",
+        "name": "Mirassol",
+        "shortName": "Mirassol",
+        "city": "Mirassol",
+        "state": "SP",
+        "founded": 1925,
+        "nickname": "Leão do Interior",
+        "division": "A",
+        "brand": "#C8A200",
+        "bio": "",
+        "current": {
           "position": 19,
-          "points": 15,
+          "points": 16,
           "played": 17,
           "titleProb": 0.1,
-          "g4Prob": 23.3,
-          "relegationProb": 4.2,
-          "expectedPoints": 53.0,
+          "g4Prob": 35.9,
+          "relegationProb": 3.2,
+          "expectedPoints": 55.0,
           "pointsRange": [
-            41,
-            64
+            43,
+            66
           ]
         }
       },
       "position": 19,
       "played": 17,
-      "wins": 3,
-      "draws": 6,
-      "losses": 8,
-      "goalsFor": 20,
-      "goalsAgainst": 29,
-      "goalDiff": -9,
-      "points": 15
+      "wins": 4,
+      "draws": 4,
+      "losses": 9,
+      "goalsFor": 18,
+      "goalsAgainst": 24,
+      "goalDiff": -6,
+      "points": 16
     },
     {
       "team": {
@@ -699,25 +699,25 @@
         "current": {
           "position": 20,
           "points": 9,
-          "played": 16,
+          "played": 17,
           "titleProb": 0.0,
           "g4Prob": 0.0,
-          "relegationProb": 99.5,
-          "expectedPoints": 26.9,
+          "relegationProb": 99.9,
+          "expectedPoints": 25.6,
           "pointsRange": [
-            17,
-            38
+            16,
+            36
           ]
         }
       },
       "position": 20,
-      "played": 16,
+      "played": 17,
       "wins": 1,
       "draws": 6,
-      "losses": 9,
+      "losses": 10,
       "goalsFor": 17,
-      "goalsAgainst": 32,
-      "goalDiff": -15,
+      "goalsAgainst": 33,
+      "goalDiff": -16,
       "points": 9
     }
   ],
@@ -735,16 +735,16 @@
         "brand": "#CC0000",
         "bio": "",
         "current": {
-          "position": 3,
+          "position": 4,
           "points": 30,
           "played": 18,
-          "titleProb": 10.2,
-          "g4Prob": 87.2,
-          "relegationProb": 0.0,
-          "expectedPoints": 63.1,
+          "titleProb": 0.3,
+          "g4Prob": 39.4,
+          "relegationProb": 1.9,
+          "expectedPoints": 55.0,
           "pointsRange": [
-            52,
-            75
+            44,
+            67
           ]
         }
       },
@@ -760,42 +760,6 @@
     },
     {
       "team": {
-        "slug": "fluminense",
-        "name": "Fluminense",
-        "shortName": "Fluminense",
-        "city": "Rio de Janeiro",
-        "state": "RJ",
-        "founded": 1902,
-        "nickname": "Tricolor",
-        "division": "A",
-        "brand": "#8B0032",
-        "bio": "",
-        "current": {
-          "position": 4,
-          "points": 30,
-          "played": 17,
-          "titleProb": 0.2,
-          "g4Prob": 21.0,
-          "relegationProb": 3.6,
-          "expectedPoints": 51.9,
-          "pointsRange": [
-            41,
-            63
-          ]
-        }
-      },
-      "position": 2,
-      "played": 9,
-      "wins": 7,
-      "draws": 1,
-      "losses": 1,
-      "goalsFor": 17,
-      "goalsAgainst": 10,
-      "goalDiff": 7,
-      "points": 22
-    },
-    {
-      "team": {
         "slug": "palmeiras",
         "name": "Palmeiras",
         "shortName": "Palmeiras",
@@ -808,27 +772,63 @@
         "bio": "",
         "current": {
           "position": 1,
-          "points": 38,
-          "played": 17,
-          "titleProb": 77.4,
-          "g4Prob": 99.3,
+          "points": 41,
+          "played": 18,
+          "titleProb": 87.4,
+          "g4Prob": 99.9,
           "relegationProb": 0.0,
-          "expectedPoints": 71.8,
+          "expectedPoints": 75.3,
           "pointsRange": [
-            60,
-            83
+            64,
+            87
+          ]
+        }
+      },
+      "position": 2,
+      "played": 9,
+      "wins": 7,
+      "draws": 2,
+      "losses": 0,
+      "goalsFor": 16,
+      "goalsAgainst": 6,
+      "goalDiff": 10,
+      "points": 23
+    },
+    {
+      "team": {
+        "slug": "fluminense",
+        "name": "Fluminense",
+        "shortName": "Fluminense",
+        "city": "Rio de Janeiro",
+        "state": "RJ",
+        "founded": 1902,
+        "nickname": "Tricolor",
+        "division": "A",
+        "brand": "#8B0032",
+        "bio": "",
+        "current": {
+          "position": 3,
+          "points": 31,
+          "played": 18,
+          "titleProb": 2.6,
+          "g4Prob": 75.9,
+          "relegationProb": 0.1,
+          "expectedPoints": 60.9,
+          "pointsRange": [
+            49,
+            73
           ]
         }
       },
       "position": 3,
-      "played": 8,
-      "wins": 6,
-      "draws": 2,
-      "losses": 0,
-      "goalsFor": 15,
-      "goalsAgainst": 6,
-      "goalDiff": 9,
-      "points": 20
+      "played": 9,
+      "wins": 7,
+      "draws": 1,
+      "losses": 1,
+      "goalsFor": 17,
+      "goalsAgainst": 10,
+      "goalDiff": 7,
+      "points": 22
     },
     {
       "team": {
@@ -843,16 +843,16 @@
         "brand": "#CC0000",
         "bio": "",
         "current": {
-          "position": 12,
+          "position": 13,
           "points": 22,
           "played": 17,
           "titleProb": 0.0,
-          "g4Prob": 0.5,
-          "relegationProb": 62.0,
-          "expectedPoints": 40.9,
+          "g4Prob": 15.6,
+          "relegationProb": 12.0,
+          "expectedPoints": 51.2,
           "pointsRange": [
-            31,
-            52
+            40,
+            63
           ]
         }
       },
@@ -882,13 +882,13 @@
           "position": 2,
           "points": 34,
           "played": 17,
-          "titleProb": 3.4,
-          "g4Prob": 39.5,
-          "relegationProb": 0.6,
-          "expectedPoints": 55.0,
+          "titleProb": 1.5,
+          "g4Prob": 36.4,
+          "relegationProb": 1.6,
+          "expectedPoints": 54.4,
           "pointsRange": [
             44,
-            67
+            66
           ]
         }
       },
@@ -917,13 +917,13 @@
         "current": {
           "position": 8,
           "points": 25,
-          "played": 17,
-          "titleProb": 0.2,
-          "g4Prob": 22.7,
-          "relegationProb": 4.7,
-          "expectedPoints": 51.8,
+          "played": 18,
+          "titleProb": 0.0,
+          "g4Prob": 18.4,
+          "relegationProb": 9.8,
+          "expectedPoints": 50.9,
           "pointsRange": [
-            41,
+            40,
             63
           ]
         }
@@ -955,9 +955,9 @@
           "points": 21,
           "played": 18,
           "titleProb": 0.0,
-          "g4Prob": 1.3,
-          "relegationProb": 45.9,
-          "expectedPoints": 43.5,
+          "g4Prob": 1.6,
+          "relegationProb": 54.3,
+          "expectedPoints": 43.7,
           "pointsRange": [
             33,
             55
@@ -990,13 +990,13 @@
           "position": 15,
           "points": 21,
           "played": 18,
-          "titleProb": 0.4,
-          "g4Prob": 29.0,
-          "relegationProb": 4.0,
-          "expectedPoints": 53.8,
+          "titleProb": 0.1,
+          "g4Prob": 27.9,
+          "relegationProb": 7.1,
+          "expectedPoints": 53.6,
           "pointsRange": [
             42,
-            65
+            66
           ]
         }
       },
@@ -1009,6 +1009,78 @@
       "goalsAgainst": 12,
       "goalDiff": 3,
       "points": 17
+    },
+    {
+      "team": {
+        "slug": "bragantino",
+        "name": "Bragantino",
+        "shortName": "Bragantino",
+        "city": "Bragança Paulista",
+        "state": "SP",
+        "founded": 1928,
+        "nickname": "Massa Bruta",
+        "division": "A",
+        "brand": "#CC0000",
+        "bio": "",
+        "current": {
+          "position": 5,
+          "points": 29,
+          "played": 18,
+          "titleProb": 7.3,
+          "g4Prob": 91.8,
+          "relegationProb": 0.0,
+          "expectedPoints": 64.6,
+          "pointsRange": [
+            53,
+            76
+          ]
+        }
+      },
+      "position": 9,
+      "played": 9,
+      "wins": 5,
+      "draws": 1,
+      "losses": 3,
+      "goalsFor": 16,
+      "goalsAgainst": 9,
+      "goalDiff": 7,
+      "points": 16
+    },
+    {
+      "team": {
+        "slug": "cruzeiro",
+        "name": "Cruzeiro",
+        "shortName": "Cruzeiro",
+        "city": "Belo Horizonte",
+        "state": "MG",
+        "founded": 1921,
+        "nickname": "Raposa",
+        "division": "A",
+        "brand": "#1E3F8C",
+        "bio": "",
+        "current": {
+          "position": 11,
+          "points": 24,
+          "played": 18,
+          "titleProb": 0.2,
+          "g4Prob": 30.7,
+          "relegationProb": 5.1,
+          "expectedPoints": 53.7,
+          "pointsRange": [
+            42,
+            66
+          ]
+        }
+      },
+      "position": 10,
+      "played": 10,
+      "wins": 4,
+      "draws": 4,
+      "losses": 2,
+      "goalsFor": 16,
+      "goalsAgainst": 12,
+      "goalDiff": 4,
+      "points": 16
     },
     {
       "team": {
@@ -1025,62 +1097,26 @@
         "current": {
           "position": 17,
           "points": 20,
-          "played": 17,
-          "titleProb": 0.2,
-          "g4Prob": 23.3,
-          "relegationProb": 6.4,
-          "expectedPoints": 52.9,
+          "played": 18,
+          "titleProb": 0.1,
+          "g4Prob": 25.0,
+          "relegationProb": 9.2,
+          "expectedPoints": 53.2,
           "pointsRange": [
             41,
             65
           ]
         }
       },
-      "position": 9,
-      "played": 9,
+      "position": 11,
+      "played": 10,
       "wins": 5,
       "draws": 1,
-      "losses": 3,
+      "losses": 4,
       "goalsFor": 12,
-      "goalsAgainst": 12,
-      "goalDiff": 0,
+      "goalsAgainst": 13,
+      "goalDiff": -1,
       "points": 16
-    },
-    {
-      "team": {
-        "slug": "cruzeiro",
-        "name": "Cruzeiro",
-        "shortName": "Cruzeiro",
-        "city": "Belo Horizonte",
-        "state": "MG",
-        "founded": 1921,
-        "nickname": "Raposa",
-        "division": "A",
-        "brand": "#1E3F8C",
-        "bio": "",
-        "current": {
-          "position": 10,
-          "points": 23,
-          "played": 17,
-          "titleProb": 0.0,
-          "g4Prob": 2.4,
-          "relegationProb": 33.7,
-          "expectedPoints": 44.5,
-          "pointsRange": [
-            34,
-            56
-          ]
-        }
-      },
-      "position": 10,
-      "played": 9,
-      "wins": 4,
-      "draws": 3,
-      "losses": 2,
-      "goalsFor": 15,
-      "goalsAgainst": 11,
-      "goalDiff": 4,
-      "points": 15
     },
     {
       "team": {
@@ -1095,20 +1131,20 @@
         "brand": "#2A2A2A",
         "bio": "",
         "current": {
-          "position": 13,
-          "points": 21,
-          "played": 17,
-          "titleProb": 0.0,
-          "g4Prob": 10.5,
-          "relegationProb": 12.0,
-          "expectedPoints": 49.7,
+          "position": 9,
+          "points": 24,
+          "played": 18,
+          "titleProb": 0.2,
+          "g4Prob": 37.9,
+          "relegationProb": 2.9,
+          "expectedPoints": 54.9,
           "pointsRange": [
-            38,
-            61
+            44,
+            66
           ]
         }
       },
-      "position": 11,
+      "position": 12,
       "played": 8,
       "wins": 4,
       "draws": 3,
@@ -1131,20 +1167,20 @@
         "brand": "#2A2A2A",
         "bio": "",
         "current": {
-          "position": 9,
+          "position": 10,
           "points": 24,
           "played": 18,
-          "titleProb": 1.3,
-          "g4Prob": 54.4,
-          "relegationProb": 0.8,
-          "expectedPoints": 57.3,
+          "titleProb": 0.0,
+          "g4Prob": 5.8,
+          "relegationProb": 25.1,
+          "expectedPoints": 47.3,
           "pointsRange": [
-            46,
-            69
+            37,
+            58
           ]
         }
       },
-      "position": 12,
+      "position": 13,
       "played": 9,
       "wins": 4,
       "draws": 2,
@@ -1153,42 +1189,6 @@
       "goalsAgainst": 8,
       "goalDiff": 1,
       "points": 14
-    },
-    {
-      "team": {
-        "slug": "bragantino",
-        "name": "Bragantino",
-        "shortName": "Bragantino",
-        "city": "Bragança Paulista",
-        "state": "SP",
-        "founded": 1928,
-        "nickname": "Massa Bruta",
-        "division": "A",
-        "brand": "#CC0000",
-        "bio": "",
-        "current": {
-          "position": 5,
-          "points": 26,
-          "played": 17,
-          "titleProb": 3.5,
-          "g4Prob": 73.0,
-          "relegationProb": 0.1,
-          "expectedPoints": 59.9,
-          "pointsRange": [
-            48,
-            71
-          ]
-        }
-      },
-      "position": 13,
-      "played": 8,
-      "wins": 4,
-      "draws": 1,
-      "losses": 3,
-      "goalsFor": 13,
-      "goalsAgainst": 8,
-      "goalDiff": 5,
-      "points": 13
     },
     {
       "team": {
@@ -1207,12 +1207,12 @@
           "points": 26,
           "played": 17,
           "titleProb": 0.0,
-          "g4Prob": 6.8,
-          "relegationProb": 17.0,
-          "expectedPoints": 47.2,
+          "g4Prob": 3.7,
+          "relegationProb": 33.8,
+          "expectedPoints": 45.7,
           "pointsRange": [
-            37,
-            59
+            35,
+            57
           ]
         }
       },
@@ -1242,13 +1242,13 @@
           "position": 7,
           "points": 26,
           "played": 18,
-          "titleProb": 0.3,
-          "g4Prob": 34.7,
-          "relegationProb": 1.9,
-          "expectedPoints": 54.1,
+          "titleProb": 0.2,
+          "g4Prob": 40.7,
+          "relegationProb": 2.7,
+          "expectedPoints": 54.9,
           "pointsRange": [
             43,
-            65
+            66
           ]
         }
       },
@@ -1275,16 +1275,16 @@
         "brand": "#C8A200",
         "bio": "",
         "current": {
-          "position": 18,
+          "position": 19,
           "points": 16,
           "played": 17,
-          "titleProb": 0.0,
-          "g4Prob": 0.2,
-          "relegationProb": 80.1,
-          "expectedPoints": 38.4,
+          "titleProb": 0.1,
+          "g4Prob": 35.9,
+          "relegationProb": 3.2,
+          "expectedPoints": 55.0,
           "pointsRange": [
-            28,
-            50
+            43,
+            66
           ]
         }
       },
@@ -1311,16 +1311,16 @@
         "brand": "#1A1A1A",
         "bio": "",
         "current": {
-          "position": 11,
+          "position": 12,
           "points": 22,
           "played": 17,
-          "titleProb": 2.8,
-          "g4Prob": 66.7,
-          "relegationProb": 0.4,
-          "expectedPoints": 59.3,
+          "titleProb": 0.0,
+          "g4Prob": 8.9,
+          "relegationProb": 21.5,
+          "expectedPoints": 48.3,
           "pointsRange": [
-            48,
-            71
+            37,
+            60
           ]
         }
       },
@@ -1349,11 +1349,11 @@
         "current": {
           "position": 14,
           "points": 21,
-          "played": 17,
+          "played": 18,
           "titleProb": 0.0,
-          "g4Prob": 4.2,
-          "relegationProb": 23.2,
-          "expectedPoints": 46.9,
+          "g4Prob": 4.3,
+          "relegationProb": 32.9,
+          "expectedPoints": 46.7,
           "pointsRange": [
             36,
             58
@@ -1383,28 +1383,28 @@
         "brand": "#003580",
         "bio": "",
         "current": {
-          "position": 19,
-          "points": 15,
-          "played": 17,
-          "titleProb": 0.1,
-          "g4Prob": 23.3,
-          "relegationProb": 4.2,
-          "expectedPoints": 53.0,
+          "position": 18,
+          "points": 18,
+          "played": 18,
+          "titleProb": 0.0,
+          "g4Prob": 0.3,
+          "relegationProb": 76.8,
+          "expectedPoints": 40.3,
           "pointsRange": [
-            41,
-            64
+            29,
+            52
           ]
         }
       },
       "position": 19,
-      "played": 8,
-      "wins": 1,
+      "played": 9,
+      "wins": 2,
       "draws": 4,
       "losses": 3,
-      "goalsFor": 10,
+      "goalsFor": 11,
       "goalsAgainst": 11,
-      "goalDiff": -1,
-      "points": 7
+      "goalDiff": 0,
+      "points": 10
     },
     {
       "team": {
@@ -1421,14 +1421,14 @@
         "current": {
           "position": 20,
           "points": 9,
-          "played": 16,
+          "played": 17,
           "titleProb": 0.0,
           "g4Prob": 0.0,
-          "relegationProb": 99.5,
-          "expectedPoints": 26.9,
+          "relegationProb": 99.9,
+          "expectedPoints": 25.6,
           "pointsRange": [
-            17,
-            38
+            16,
+            36
           ]
         }
       },
@@ -1458,15 +1458,15 @@
         "bio": "",
         "current": {
           "position": 1,
-          "points": 38,
-          "played": 17,
-          "titleProb": 77.4,
-          "g4Prob": 99.3,
+          "points": 41,
+          "played": 18,
+          "titleProb": 87.4,
+          "g4Prob": 99.9,
           "relegationProb": 0.0,
-          "expectedPoints": 71.8,
+          "expectedPoints": 75.3,
           "pointsRange": [
-            60,
-            83
+            64,
+            87
           ]
         }
       },
@@ -1496,13 +1496,13 @@
           "position": 2,
           "points": 34,
           "played": 17,
-          "titleProb": 3.4,
-          "g4Prob": 39.5,
-          "relegationProb": 0.6,
-          "expectedPoints": 55.0,
+          "titleProb": 1.5,
+          "g4Prob": 36.4,
+          "relegationProb": 1.6,
+          "expectedPoints": 54.4,
           "pointsRange": [
             44,
-            67
+            66
           ]
         }
       },
@@ -1532,13 +1532,13 @@
           "position": 7,
           "points": 26,
           "played": 18,
-          "titleProb": 0.3,
-          "g4Prob": 34.7,
-          "relegationProb": 1.9,
-          "expectedPoints": 54.1,
+          "titleProb": 0.2,
+          "g4Prob": 40.7,
+          "relegationProb": 2.7,
+          "expectedPoints": 54.9,
           "pointsRange": [
             43,
-            65
+            66
           ]
         }
       },
@@ -1566,15 +1566,15 @@
         "bio": "",
         "current": {
           "position": 5,
-          "points": 26,
-          "played": 17,
-          "titleProb": 3.5,
-          "g4Prob": 73.0,
-          "relegationProb": 0.1,
-          "expectedPoints": 59.9,
+          "points": 29,
+          "played": 18,
+          "titleProb": 7.3,
+          "g4Prob": 91.8,
+          "relegationProb": 0.0,
+          "expectedPoints": 64.6,
           "pointsRange": [
-            48,
-            71
+            53,
+            76
           ]
         }
       },
@@ -1605,12 +1605,12 @@
           "points": 26,
           "played": 17,
           "titleProb": 0.0,
-          "g4Prob": 6.8,
-          "relegationProb": 17.0,
-          "expectedPoints": 47.2,
+          "g4Prob": 3.7,
+          "relegationProb": 33.8,
+          "expectedPoints": 45.7,
           "pointsRange": [
-            37,
-            59
+            35,
+            57
           ]
         }
       },
@@ -1637,16 +1637,16 @@
         "brand": "#1A1A1A",
         "bio": "",
         "current": {
-          "position": 11,
+          "position": 12,
           "points": 22,
           "played": 17,
-          "titleProb": 2.8,
-          "g4Prob": 66.7,
-          "relegationProb": 0.4,
-          "expectedPoints": 59.3,
+          "titleProb": 0.0,
+          "g4Prob": 8.9,
+          "relegationProb": 21.5,
+          "expectedPoints": 48.3,
           "pointsRange": [
-            48,
-            71
+            37,
+            60
           ]
         }
       },
@@ -1659,6 +1659,42 @@
       "goalsAgainst": 19,
       "goalDiff": -3,
       "points": 11
+    },
+    {
+      "team": {
+        "slug": "corinthians",
+        "name": "Corinthians",
+        "shortName": "Corinthians",
+        "city": "São Paulo",
+        "state": "SP",
+        "founded": 1910,
+        "nickname": "Timão",
+        "division": "A",
+        "brand": "#2A2A2A",
+        "bio": "",
+        "current": {
+          "position": 10,
+          "points": 24,
+          "played": 18,
+          "titleProb": 0.0,
+          "g4Prob": 5.8,
+          "relegationProb": 25.1,
+          "expectedPoints": 47.3,
+          "pointsRange": [
+            37,
+            58
+          ]
+        }
+      },
+      "position": 7,
+      "played": 9,
+      "wins": 2,
+      "draws": 4,
+      "losses": 3,
+      "goalsFor": 9,
+      "goalsAgainst": 11,
+      "goalDiff": -2,
+      "points": 10
     },
     {
       "team": {
@@ -1675,50 +1711,14 @@
         "current": {
           "position": 14,
           "points": 21,
-          "played": 17,
+          "played": 18,
           "titleProb": 0.0,
-          "g4Prob": 4.2,
-          "relegationProb": 23.2,
-          "expectedPoints": 46.9,
+          "g4Prob": 4.3,
+          "relegationProb": 32.9,
+          "expectedPoints": 46.7,
           "pointsRange": [
             36,
             58
-          ]
-        }
-      },
-      "position": 7,
-      "played": 8,
-      "wins": 2,
-      "draws": 4,
-      "losses": 2,
-      "goalsFor": 9,
-      "goalsAgainst": 10,
-      "goalDiff": -1,
-      "points": 10
-    },
-    {
-      "team": {
-        "slug": "corinthians",
-        "name": "Corinthians",
-        "shortName": "Corinthians",
-        "city": "São Paulo",
-        "state": "SP",
-        "founded": 1910,
-        "nickname": "Timão",
-        "division": "A",
-        "brand": "#2A2A2A",
-        "bio": "",
-        "current": {
-          "position": 9,
-          "points": 24,
-          "played": 18,
-          "titleProb": 1.3,
-          "g4Prob": 54.4,
-          "relegationProb": 0.8,
-          "expectedPoints": 57.3,
-          "pointsRange": [
-            46,
-            69
           ]
         }
       },
@@ -1727,9 +1727,9 @@
       "wins": 2,
       "draws": 4,
       "losses": 3,
-      "goalsFor": 9,
-      "goalsAgainst": 11,
-      "goalDiff": -2,
+      "goalsFor": 10,
+      "goalsAgainst": 13,
+      "goalDiff": -3,
       "points": 10
     },
     {
@@ -1745,28 +1745,64 @@
         "brand": "#8B0032",
         "bio": "",
         "current": {
-          "position": 4,
-          "points": 30,
-          "played": 17,
-          "titleProb": 0.2,
-          "g4Prob": 21.0,
-          "relegationProb": 3.6,
-          "expectedPoints": 51.9,
+          "position": 3,
+          "points": 31,
+          "played": 18,
+          "titleProb": 2.6,
+          "g4Prob": 75.9,
+          "relegationProb": 0.1,
+          "expectedPoints": 60.9,
           "pointsRange": [
-            41,
-            63
+            49,
+            73
           ]
         }
       },
       "position": 9,
-      "played": 8,
+      "played": 9,
       "wins": 2,
-      "draws": 2,
+      "draws": 3,
       "losses": 4,
-      "goalsFor": 10,
-      "goalsAgainst": 12,
+      "goalsFor": 11,
+      "goalsAgainst": 13,
       "goalDiff": -2,
-      "points": 8
+      "points": 9
+    },
+    {
+      "team": {
+        "slug": "atletico-mg",
+        "name": "Atlético-MG",
+        "shortName": "Atlético-MG",
+        "city": "Belo Horizonte",
+        "state": "MG",
+        "founded": 1908,
+        "nickname": "Galo",
+        "division": "A",
+        "brand": "#2A2A2A",
+        "bio": "",
+        "current": {
+          "position": 9,
+          "points": 24,
+          "played": 18,
+          "titleProb": 0.2,
+          "g4Prob": 37.9,
+          "relegationProb": 2.9,
+          "expectedPoints": 54.9,
+          "pointsRange": [
+            44,
+            66
+          ]
+        }
+      },
+      "position": 10,
+      "played": 10,
+      "wins": 3,
+      "draws": 0,
+      "losses": 7,
+      "goalsFor": 9,
+      "goalsAgainst": 11,
+      "goalDiff": -2,
+      "points": 9
     },
     {
       "team": {
@@ -1783,25 +1819,25 @@
         "current": {
           "position": 8,
           "points": 25,
-          "played": 17,
-          "titleProb": 0.2,
-          "g4Prob": 22.7,
-          "relegationProb": 4.7,
-          "expectedPoints": 51.8,
+          "played": 18,
+          "titleProb": 0.0,
+          "g4Prob": 18.4,
+          "relegationProb": 9.8,
+          "expectedPoints": 50.9,
           "pointsRange": [
-            41,
+            40,
             63
           ]
         }
       },
-      "position": 10,
-      "played": 9,
+      "position": 11,
+      "played": 10,
       "wins": 2,
       "draws": 2,
-      "losses": 5,
+      "losses": 6,
       "goalsFor": 9,
-      "goalsAgainst": 13,
-      "goalDiff": -4,
+      "goalsAgainst": 14,
+      "goalDiff": -5,
       "points": 8
     },
     {
@@ -1817,20 +1853,20 @@
         "brand": "#003580",
         "bio": "",
         "current": {
-          "position": 19,
-          "points": 15,
-          "played": 17,
-          "titleProb": 0.1,
-          "g4Prob": 23.3,
-          "relegationProb": 4.2,
-          "expectedPoints": 53.0,
+          "position": 18,
+          "points": 18,
+          "played": 18,
+          "titleProb": 0.0,
+          "g4Prob": 0.3,
+          "relegationProb": 76.8,
+          "expectedPoints": 40.3,
           "pointsRange": [
-            41,
-            64
+            29,
+            52
           ]
         }
       },
-      "position": 11,
+      "position": 12,
       "played": 9,
       "wins": 2,
       "draws": 2,
@@ -1853,20 +1889,20 @@
         "brand": "#1E3F8C",
         "bio": "",
         "current": {
-          "position": 10,
-          "points": 23,
-          "played": 17,
-          "titleProb": 0.0,
-          "g4Prob": 2.4,
-          "relegationProb": 33.7,
-          "expectedPoints": 44.5,
+          "position": 11,
+          "points": 24,
+          "played": 18,
+          "titleProb": 0.2,
+          "g4Prob": 30.7,
+          "relegationProb": 5.1,
+          "expectedPoints": 53.7,
           "pointsRange": [
-            34,
-            56
+            42,
+            66
           ]
         }
       },
-      "position": 12,
+      "position": 13,
       "played": 8,
       "wins": 2,
       "draws": 2,
@@ -1889,20 +1925,20 @@
         "brand": "#CC0000",
         "bio": "",
         "current": {
-          "position": 3,
+          "position": 4,
           "points": 30,
           "played": 18,
-          "titleProb": 10.2,
-          "g4Prob": 87.2,
-          "relegationProb": 0.0,
-          "expectedPoints": 63.1,
+          "titleProb": 0.3,
+          "g4Prob": 39.4,
+          "relegationProb": 1.9,
+          "expectedPoints": 55.0,
           "pointsRange": [
-            52,
-            75
+            44,
+            67
           ]
         }
       },
-      "position": 13,
+      "position": 14,
       "played": 8,
       "wins": 2,
       "draws": 1,
@@ -1911,42 +1947,6 @@
       "goalsAgainst": 12,
       "goalDiff": -5,
       "points": 7
-    },
-    {
-      "team": {
-        "slug": "atletico-mg",
-        "name": "Atlético-MG",
-        "shortName": "Atlético-MG",
-        "city": "Belo Horizonte",
-        "state": "MG",
-        "founded": 1908,
-        "nickname": "Galo",
-        "division": "A",
-        "brand": "#2A2A2A",
-        "bio": "",
-        "current": {
-          "position": 13,
-          "points": 21,
-          "played": 17,
-          "titleProb": 0.0,
-          "g4Prob": 10.5,
-          "relegationProb": 12.0,
-          "expectedPoints": 49.7,
-          "pointsRange": [
-            38,
-            61
-          ]
-        }
-      },
-      "position": 14,
-      "played": 9,
-      "wins": 2,
-      "draws": 0,
-      "losses": 7,
-      "goalsFor": 8,
-      "goalsAgainst": 11,
-      "goalDiff": -3,
-      "points": 6
     },
     {
       "team": {
@@ -1964,13 +1964,13 @@
           "position": 15,
           "points": 21,
           "played": 18,
-          "titleProb": 0.4,
-          "g4Prob": 29.0,
-          "relegationProb": 4.0,
-          "expectedPoints": 53.8,
+          "titleProb": 0.1,
+          "g4Prob": 27.9,
+          "relegationProb": 7.1,
+          "expectedPoints": 53.6,
           "pointsRange": [
             42,
-            65
+            66
           ]
         }
       },
@@ -1999,11 +1999,11 @@
         "current": {
           "position": 17,
           "points": 20,
-          "played": 17,
-          "titleProb": 0.2,
-          "g4Prob": 23.3,
-          "relegationProb": 6.4,
-          "expectedPoints": 52.9,
+          "played": 18,
+          "titleProb": 0.1,
+          "g4Prob": 25.0,
+          "relegationProb": 9.2,
+          "expectedPoints": 53.2,
           "pointsRange": [
             41,
             65
@@ -2033,16 +2033,16 @@
         "brand": "#C8A200",
         "bio": "",
         "current": {
-          "position": 18,
+          "position": 19,
           "points": 16,
           "played": 17,
-          "titleProb": 0.0,
-          "g4Prob": 0.2,
-          "relegationProb": 80.1,
-          "expectedPoints": 38.4,
+          "titleProb": 0.1,
+          "g4Prob": 35.9,
+          "relegationProb": 3.2,
+          "expectedPoints": 55.0,
           "pointsRange": [
-            28,
-            50
+            43,
+            66
           ]
         }
       },
@@ -2073,9 +2073,9 @@
           "points": 21,
           "played": 18,
           "titleProb": 0.0,
-          "g4Prob": 1.3,
-          "relegationProb": 45.9,
-          "expectedPoints": 43.5,
+          "g4Prob": 1.6,
+          "relegationProb": 54.3,
+          "expectedPoints": 43.7,
           "pointsRange": [
             33,
             55
@@ -2105,16 +2105,16 @@
         "brand": "#CC0000",
         "bio": "",
         "current": {
-          "position": 12,
+          "position": 13,
           "points": 22,
           "played": 17,
           "titleProb": 0.0,
-          "g4Prob": 0.5,
-          "relegationProb": 62.0,
-          "expectedPoints": 40.9,
+          "g4Prob": 15.6,
+          "relegationProb": 12.0,
+          "expectedPoints": 51.2,
           "pointsRange": [
-            31,
-            52
+            40,
+            63
           ]
         }
       },
@@ -2143,25 +2143,25 @@
         "current": {
           "position": 20,
           "points": 9,
-          "played": 16,
+          "played": 17,
           "titleProb": 0.0,
           "g4Prob": 0.0,
-          "relegationProb": 99.5,
-          "expectedPoints": 26.9,
+          "relegationProb": 99.9,
+          "expectedPoints": 25.6,
           "pointsRange": [
-            17,
-            38
+            16,
+            36
           ]
         }
       },
       "position": 20,
-      "played": 7,
+      "played": 8,
       "wins": 0,
       "draws": 2,
-      "losses": 5,
+      "losses": 6,
       "goalsFor": 4,
-      "goalsAgainst": 12,
-      "goalDiff": -8,
+      "goalsAgainst": 13,
+      "goalDiff": -9,
       "points": 2
     }
   ],
@@ -2180,27 +2180,27 @@
         "bio": "",
         "current": {
           "position": 1,
-          "points": 38,
-          "played": 17,
-          "titleProb": 77.4,
-          "g4Prob": 99.3,
+          "points": 41,
+          "played": 18,
+          "titleProb": 87.4,
+          "g4Prob": 99.9,
           "relegationProb": 0.0,
-          "expectedPoints": 71.8,
+          "expectedPoints": 75.3,
           "pointsRange": [
-            60,
-            83
+            64,
+            87
           ]
         }
       },
       "position": 1,
-      "played": 17,
-      "wins": 11,
+      "played": 18,
+      "wins": 12,
       "draws": 5,
       "losses": 1,
-      "goalsFor": 29,
+      "goalsFor": 30,
       "goalsAgainst": 13,
-      "goalDiff": 16,
-      "points": 38
+      "goalDiff": 17,
+      "points": 41
     },
     {
       "team": {
@@ -2218,13 +2218,13 @@
           "position": 2,
           "points": 34,
           "played": 17,
-          "titleProb": 3.4,
-          "g4Prob": 39.5,
-          "relegationProb": 0.6,
-          "expectedPoints": 55.0,
+          "titleProb": 1.5,
+          "g4Prob": 36.4,
+          "relegationProb": 1.6,
+          "expectedPoints": 54.4,
           "pointsRange": [
             44,
-            67
+            66
           ]
         }
       },
@@ -2240,42 +2240,6 @@
     },
     {
       "team": {
-        "slug": "athletico-pr",
-        "name": "Athletico-PR",
-        "shortName": "Athletico-PR",
-        "city": "Curitiba",
-        "state": "PR",
-        "founded": 1924,
-        "nickname": "Furacão",
-        "division": "A",
-        "brand": "#CC0000",
-        "bio": "",
-        "current": {
-          "position": 3,
-          "points": 30,
-          "played": 18,
-          "titleProb": 10.2,
-          "g4Prob": 87.2,
-          "relegationProb": 0.0,
-          "expectedPoints": 63.1,
-          "pointsRange": [
-            52,
-            75
-          ]
-        }
-      },
-      "position": 3,
-      "played": 18,
-      "wins": 9,
-      "draws": 3,
-      "losses": 6,
-      "goalsFor": 24,
-      "goalsAgainst": 18,
-      "goalDiff": 6,
-      "points": 30
-    },
-    {
-      "team": {
         "slug": "fluminense",
         "name": "Fluminense",
         "shortName": "Fluminense",
@@ -2287,27 +2251,63 @@
         "brand": "#8B0032",
         "bio": "",
         "current": {
+          "position": 3,
+          "points": 31,
+          "played": 18,
+          "titleProb": 2.6,
+          "g4Prob": 75.9,
+          "relegationProb": 0.1,
+          "expectedPoints": 60.9,
+          "pointsRange": [
+            49,
+            73
+          ]
+        }
+      },
+      "position": 3,
+      "played": 18,
+      "wins": 9,
+      "draws": 4,
+      "losses": 5,
+      "goalsFor": 28,
+      "goalsAgainst": 23,
+      "goalDiff": 5,
+      "points": 31
+    },
+    {
+      "team": {
+        "slug": "athletico-pr",
+        "name": "Athletico-PR",
+        "shortName": "Athletico-PR",
+        "city": "Curitiba",
+        "state": "PR",
+        "founded": 1924,
+        "nickname": "Furacão",
+        "division": "A",
+        "brand": "#CC0000",
+        "bio": "",
+        "current": {
           "position": 4,
           "points": 30,
-          "played": 17,
-          "titleProb": 0.2,
-          "g4Prob": 21.0,
-          "relegationProb": 3.6,
-          "expectedPoints": 51.9,
+          "played": 18,
+          "titleProb": 0.3,
+          "g4Prob": 39.4,
+          "relegationProb": 1.9,
+          "expectedPoints": 55.0,
           "pointsRange": [
-            41,
-            63
+            44,
+            67
           ]
         }
       },
       "position": 4,
-      "played": 17,
+      "played": 18,
       "wins": 9,
       "draws": 3,
-      "losses": 5,
-      "goalsFor": 27,
-      "goalsAgainst": 22,
-      "goalDiff": 5,
+      "losses": 6,
+      "goalsFor": 24,
+      "goalsAgainst": 18,
+      "goalDiff": 6,
       "points": 30
     },
     {
@@ -2324,27 +2324,27 @@
         "bio": "",
         "current": {
           "position": 5,
-          "points": 26,
-          "played": 17,
-          "titleProb": 3.5,
-          "g4Prob": 73.0,
-          "relegationProb": 0.1,
-          "expectedPoints": 59.9,
+          "points": 29,
+          "played": 18,
+          "titleProb": 7.3,
+          "g4Prob": 91.8,
+          "relegationProb": 0.0,
+          "expectedPoints": 64.6,
           "pointsRange": [
-            48,
-            71
+            53,
+            76
           ]
         }
       },
       "position": 5,
-      "played": 17,
-      "wins": 8,
+      "played": 18,
+      "wins": 9,
       "draws": 2,
       "losses": 7,
-      "goalsFor": 22,
-      "goalsAgainst": 18,
-      "goalDiff": 4,
-      "points": 26
+      "goalsFor": 25,
+      "goalsAgainst": 19,
+      "goalDiff": 6,
+      "points": 29
     },
     {
       "team": {
@@ -2363,12 +2363,12 @@
           "points": 26,
           "played": 17,
           "titleProb": 0.0,
-          "g4Prob": 6.8,
-          "relegationProb": 17.0,
-          "expectedPoints": 47.2,
+          "g4Prob": 3.7,
+          "relegationProb": 33.8,
+          "expectedPoints": 45.7,
           "pointsRange": [
-            37,
-            59
+            35,
+            57
           ]
         }
       },
@@ -2398,13 +2398,13 @@
           "position": 7,
           "points": 26,
           "played": 18,
-          "titleProb": 0.3,
-          "g4Prob": 34.7,
-          "relegationProb": 1.9,
-          "expectedPoints": 54.1,
+          "titleProb": 0.2,
+          "g4Prob": 40.7,
+          "relegationProb": 2.7,
+          "expectedPoints": 54.9,
           "pointsRange": [
             43,
-            65
+            66
           ]
         }
       },
@@ -2433,26 +2433,62 @@
         "current": {
           "position": 8,
           "points": 25,
-          "played": 17,
-          "titleProb": 0.2,
-          "g4Prob": 22.7,
-          "relegationProb": 4.7,
-          "expectedPoints": 51.8,
+          "played": 18,
+          "titleProb": 0.0,
+          "g4Prob": 18.4,
+          "relegationProb": 9.8,
+          "expectedPoints": 50.9,
           "pointsRange": [
-            41,
+            40,
             63
           ]
         }
       },
       "position": 8,
-      "played": 17,
+      "played": 18,
       "wins": 7,
       "draws": 4,
-      "losses": 6,
+      "losses": 7,
       "goalsFor": 23,
-      "goalsAgainst": 19,
-      "goalDiff": 4,
+      "goalsAgainst": 20,
+      "goalDiff": 3,
       "points": 25
+    },
+    {
+      "team": {
+        "slug": "atletico-mg",
+        "name": "Atlético-MG",
+        "shortName": "Atlético-MG",
+        "city": "Belo Horizonte",
+        "state": "MG",
+        "founded": 1908,
+        "nickname": "Galo",
+        "division": "A",
+        "brand": "#2A2A2A",
+        "bio": "",
+        "current": {
+          "position": 9,
+          "points": 24,
+          "played": 18,
+          "titleProb": 0.2,
+          "g4Prob": 37.9,
+          "relegationProb": 2.9,
+          "expectedPoints": 54.9,
+          "pointsRange": [
+            44,
+            66
+          ]
+        }
+      },
+      "position": 9,
+      "played": 18,
+      "wins": 7,
+      "draws": 3,
+      "losses": 8,
+      "goalsFor": 22,
+      "goalsAgainst": 23,
+      "goalDiff": -1,
+      "points": 24
     },
     {
       "team": {
@@ -2467,20 +2503,20 @@
         "brand": "#2A2A2A",
         "bio": "",
         "current": {
-          "position": 9,
+          "position": 10,
           "points": 24,
           "played": 18,
-          "titleProb": 1.3,
-          "g4Prob": 54.4,
-          "relegationProb": 0.8,
-          "expectedPoints": 57.3,
+          "titleProb": 0.0,
+          "g4Prob": 5.8,
+          "relegationProb": 25.1,
+          "expectedPoints": 47.3,
           "pointsRange": [
-            46,
-            69
+            37,
+            58
           ]
         }
       },
-      "position": 9,
+      "position": 10,
       "played": 18,
       "wins": 6,
       "draws": 6,
@@ -2503,28 +2539,28 @@
         "brand": "#1E3F8C",
         "bio": "",
         "current": {
-          "position": 10,
-          "points": 23,
-          "played": 17,
-          "titleProb": 0.0,
-          "g4Prob": 2.4,
-          "relegationProb": 33.7,
-          "expectedPoints": 44.5,
+          "position": 11,
+          "points": 24,
+          "played": 18,
+          "titleProb": 0.2,
+          "g4Prob": 30.7,
+          "relegationProb": 5.1,
+          "expectedPoints": 53.7,
           "pointsRange": [
-            34,
-            56
+            42,
+            66
           ]
         }
       },
-      "position": 10,
-      "played": 17,
+      "position": 11,
+      "played": 18,
       "wins": 6,
-      "draws": 5,
+      "draws": 6,
       "losses": 6,
-      "goalsFor": 23,
-      "goalsAgainst": 27,
+      "goalsFor": 24,
+      "goalsAgainst": 28,
       "goalDiff": -4,
-      "points": 23
+      "points": 24
     },
     {
       "team": {
@@ -2539,20 +2575,20 @@
         "brand": "#1A1A1A",
         "bio": "",
         "current": {
-          "position": 11,
+          "position": 12,
           "points": 22,
           "played": 17,
-          "titleProb": 2.8,
-          "g4Prob": 66.7,
-          "relegationProb": 0.4,
-          "expectedPoints": 59.3,
+          "titleProb": 0.0,
+          "g4Prob": 8.9,
+          "relegationProb": 21.5,
+          "expectedPoints": 48.3,
           "pointsRange": [
-            48,
-            71
+            37,
+            60
           ]
         }
       },
-      "position": 11,
+      "position": 12,
       "played": 17,
       "wins": 6,
       "draws": 4,
@@ -2575,20 +2611,20 @@
         "brand": "#CC0000",
         "bio": "",
         "current": {
-          "position": 12,
+          "position": 13,
           "points": 22,
           "played": 17,
           "titleProb": 0.0,
-          "g4Prob": 0.5,
-          "relegationProb": 62.0,
-          "expectedPoints": 40.9,
+          "g4Prob": 15.6,
+          "relegationProb": 12.0,
+          "expectedPoints": 51.2,
           "pointsRange": [
-            31,
-            52
+            40,
+            63
           ]
         }
       },
-      "position": 12,
+      "position": 13,
       "played": 17,
       "wins": 6,
       "draws": 4,
@@ -2613,61 +2649,25 @@
         "current": {
           "position": 14,
           "points": 21,
-          "played": 17,
+          "played": 18,
           "titleProb": 0.0,
-          "g4Prob": 4.2,
-          "relegationProb": 23.2,
-          "expectedPoints": 46.9,
+          "g4Prob": 4.3,
+          "relegationProb": 32.9,
+          "expectedPoints": 46.7,
           "pointsRange": [
             36,
             58
           ]
         }
       },
-      "position": 13,
-      "played": 17,
+      "position": 14,
+      "played": 18,
       "wins": 5,
       "draws": 6,
-      "losses": 6,
-      "goalsFor": 20,
-      "goalsAgainst": 19,
-      "goalDiff": 1,
-      "points": 21
-    },
-    {
-      "team": {
-        "slug": "atletico-mg",
-        "name": "Atlético-MG",
-        "shortName": "Atlético-MG",
-        "city": "Belo Horizonte",
-        "state": "MG",
-        "founded": 1908,
-        "nickname": "Galo",
-        "division": "A",
-        "brand": "#2A2A2A",
-        "bio": "",
-        "current": {
-          "position": 13,
-          "points": 21,
-          "played": 17,
-          "titleProb": 0.0,
-          "g4Prob": 10.5,
-          "relegationProb": 12.0,
-          "expectedPoints": 49.7,
-          "pointsRange": [
-            38,
-            61
-          ]
-        }
-      },
-      "position": 14,
-      "played": 17,
-      "wins": 6,
-      "draws": 3,
-      "losses": 8,
+      "losses": 7,
       "goalsFor": 21,
-      "goalsAgainst": 23,
-      "goalDiff": -2,
+      "goalsAgainst": 22,
+      "goalDiff": -1,
       "points": 21
     },
     {
@@ -2686,13 +2686,13 @@
           "position": 15,
           "points": 21,
           "played": 18,
-          "titleProb": 0.4,
-          "g4Prob": 29.0,
-          "relegationProb": 4.0,
-          "expectedPoints": 53.8,
+          "titleProb": 0.1,
+          "g4Prob": 27.9,
+          "relegationProb": 7.1,
+          "expectedPoints": 53.6,
           "pointsRange": [
             42,
-            65
+            66
           ]
         }
       },
@@ -2723,9 +2723,9 @@
           "points": 21,
           "played": 18,
           "titleProb": 0.0,
-          "g4Prob": 1.3,
-          "relegationProb": 45.9,
-          "expectedPoints": 43.5,
+          "g4Prob": 1.6,
+          "relegationProb": 54.3,
+          "expectedPoints": 43.7,
           "pointsRange": [
             33,
             55
@@ -2757,11 +2757,11 @@
         "current": {
           "position": 17,
           "points": 20,
-          "played": 17,
-          "titleProb": 0.2,
-          "g4Prob": 23.3,
-          "relegationProb": 6.4,
-          "expectedPoints": 52.9,
+          "played": 18,
+          "titleProb": 0.1,
+          "g4Prob": 25.0,
+          "relegationProb": 9.2,
+          "expectedPoints": 53.2,
           "pointsRange": [
             41,
             65
@@ -2769,50 +2769,14 @@
         }
       },
       "position": 17,
-      "played": 17,
+      "played": 18,
       "wins": 5,
       "draws": 5,
-      "losses": 7,
+      "losses": 8,
       "goalsFor": 22,
-      "goalsAgainst": 28,
-      "goalDiff": -6,
+      "goalsAgainst": 29,
+      "goalDiff": -7,
       "points": 20
-    },
-    {
-      "team": {
-        "slug": "mirassol",
-        "name": "Mirassol",
-        "shortName": "Mirassol",
-        "city": "Mirassol",
-        "state": "SP",
-        "founded": 1925,
-        "nickname": "Leão do Interior",
-        "division": "A",
-        "brand": "#C8A200",
-        "bio": "",
-        "current": {
-          "position": 18,
-          "points": 16,
-          "played": 17,
-          "titleProb": 0.0,
-          "g4Prob": 0.2,
-          "relegationProb": 80.1,
-          "expectedPoints": 38.4,
-          "pointsRange": [
-            28,
-            50
-          ]
-        }
-      },
-      "position": 18,
-      "played": 17,
-      "wins": 4,
-      "draws": 4,
-      "losses": 9,
-      "goalsFor": 18,
-      "goalsAgainst": 24,
-      "goalDiff": -6,
-      "points": 16
     },
     {
       "team": {
@@ -2827,28 +2791,64 @@
         "brand": "#003580",
         "bio": "",
         "current": {
+          "position": 18,
+          "points": 18,
+          "played": 18,
+          "titleProb": 0.0,
+          "g4Prob": 0.3,
+          "relegationProb": 76.8,
+          "expectedPoints": 40.3,
+          "pointsRange": [
+            29,
+            52
+          ]
+        }
+      },
+      "position": 18,
+      "played": 18,
+      "wins": 4,
+      "draws": 6,
+      "losses": 8,
+      "goalsFor": 21,
+      "goalsAgainst": 29,
+      "goalDiff": -8,
+      "points": 18
+    },
+    {
+      "team": {
+        "slug": "mirassol",
+        "name": "Mirassol",
+        "shortName": "Mirassol",
+        "city": "Mirassol",
+        "state": "SP",
+        "founded": 1925,
+        "nickname": "Leão do Interior",
+        "division": "A",
+        "brand": "#C8A200",
+        "bio": "",
+        "current": {
           "position": 19,
-          "points": 15,
+          "points": 16,
           "played": 17,
           "titleProb": 0.1,
-          "g4Prob": 23.3,
-          "relegationProb": 4.2,
-          "expectedPoints": 53.0,
+          "g4Prob": 35.9,
+          "relegationProb": 3.2,
+          "expectedPoints": 55.0,
           "pointsRange": [
-            41,
-            64
+            43,
+            66
           ]
         }
       },
       "position": 19,
       "played": 17,
-      "wins": 3,
-      "draws": 6,
-      "losses": 8,
-      "goalsFor": 20,
-      "goalsAgainst": 29,
-      "goalDiff": -9,
-      "points": 15
+      "wins": 4,
+      "draws": 4,
+      "losses": 9,
+      "goalsFor": 18,
+      "goalsAgainst": 24,
+      "goalDiff": -6,
+      "points": 16
     },
     {
       "team": {
@@ -2865,25 +2865,25 @@
         "current": {
           "position": 20,
           "points": 9,
-          "played": 16,
+          "played": 17,
           "titleProb": 0.0,
           "g4Prob": 0.0,
-          "relegationProb": 99.5,
-          "expectedPoints": 26.9,
+          "relegationProb": 99.9,
+          "expectedPoints": 25.6,
           "pointsRange": [
-            17,
-            38
+            16,
+            36
           ]
         }
       },
       "position": 20,
-      "played": 16,
+      "played": 17,
       "wins": 1,
       "draws": 6,
-      "losses": 9,
+      "losses": 10,
       "goalsFor": 17,
-      "goalsAgainst": 32,
-      "goalDiff": -15,
+      "goalsAgainst": 33,
+      "goalDiff": -16,
       "points": 9
     }
   ],
@@ -2902,15 +2902,15 @@
         "bio": "",
         "current": {
           "position": 1,
-          "points": 38,
-          "played": 17,
-          "titleProb": 77.4,
-          "g4Prob": 99.3,
+          "points": 41,
+          "played": 18,
+          "titleProb": 87.4,
+          "g4Prob": 99.9,
           "relegationProb": 0.0,
-          "expectedPoints": 71.8,
+          "expectedPoints": 75.3,
           "pointsRange": [
-            60,
-            83
+            64,
+            87
           ]
         }
       },
@@ -2940,53 +2940,17 @@
           "position": 2,
           "points": 34,
           "played": 17,
-          "titleProb": 3.4,
-          "g4Prob": 39.5,
-          "relegationProb": 0.6,
-          "expectedPoints": 55.0,
+          "titleProb": 1.5,
+          "g4Prob": 36.4,
+          "relegationProb": 1.6,
+          "expectedPoints": 54.4,
           "pointsRange": [
             44,
-            67
+            66
           ]
         }
       },
       "position": 2,
-      "played": 0,
-      "wins": 0,
-      "draws": 0,
-      "losses": 0,
-      "goalsFor": 0,
-      "goalsAgainst": 0,
-      "goalDiff": 0,
-      "points": 0
-    },
-    {
-      "team": {
-        "slug": "athletico-pr",
-        "name": "Athletico-PR",
-        "shortName": "Athletico-PR",
-        "city": "Curitiba",
-        "state": "PR",
-        "founded": 1924,
-        "nickname": "Furacão",
-        "division": "A",
-        "brand": "#CC0000",
-        "bio": "",
-        "current": {
-          "position": 3,
-          "points": 30,
-          "played": 18,
-          "titleProb": 10.2,
-          "g4Prob": 87.2,
-          "relegationProb": 0.0,
-          "expectedPoints": 63.1,
-          "pointsRange": [
-            52,
-            75
-          ]
-        }
-      },
-      "position": 3,
       "played": 0,
       "wins": 0,
       "draws": 0,
@@ -3009,16 +2973,52 @@
         "brand": "#8B0032",
         "bio": "",
         "current": {
+          "position": 3,
+          "points": 31,
+          "played": 18,
+          "titleProb": 2.6,
+          "g4Prob": 75.9,
+          "relegationProb": 0.1,
+          "expectedPoints": 60.9,
+          "pointsRange": [
+            49,
+            73
+          ]
+        }
+      },
+      "position": 3,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "athletico-pr",
+        "name": "Athletico-PR",
+        "shortName": "Athletico-PR",
+        "city": "Curitiba",
+        "state": "PR",
+        "founded": 1924,
+        "nickname": "Furacão",
+        "division": "A",
+        "brand": "#CC0000",
+        "bio": "",
+        "current": {
           "position": 4,
           "points": 30,
-          "played": 17,
-          "titleProb": 0.2,
-          "g4Prob": 21.0,
-          "relegationProb": 3.6,
-          "expectedPoints": 51.9,
+          "played": 18,
+          "titleProb": 0.3,
+          "g4Prob": 39.4,
+          "relegationProb": 1.9,
+          "expectedPoints": 55.0,
           "pointsRange": [
-            41,
-            63
+            44,
+            67
           ]
         }
       },
@@ -3046,15 +3046,15 @@
         "bio": "",
         "current": {
           "position": 5,
-          "points": 26,
-          "played": 17,
-          "titleProb": 3.5,
-          "g4Prob": 73.0,
-          "relegationProb": 0.1,
-          "expectedPoints": 59.9,
+          "points": 29,
+          "played": 18,
+          "titleProb": 7.3,
+          "g4Prob": 91.8,
+          "relegationProb": 0.0,
+          "expectedPoints": 64.6,
           "pointsRange": [
-            48,
-            71
+            53,
+            76
           ]
         }
       },
@@ -3085,12 +3085,12 @@
           "points": 26,
           "played": 17,
           "titleProb": 0.0,
-          "g4Prob": 6.8,
-          "relegationProb": 17.0,
-          "expectedPoints": 47.2,
+          "g4Prob": 3.7,
+          "relegationProb": 33.8,
+          "expectedPoints": 45.7,
           "pointsRange": [
-            37,
-            59
+            35,
+            57
           ]
         }
       },
@@ -3120,13 +3120,13 @@
           "position": 7,
           "points": 26,
           "played": 18,
-          "titleProb": 0.3,
-          "g4Prob": 34.7,
-          "relegationProb": 1.9,
-          "expectedPoints": 54.1,
+          "titleProb": 0.2,
+          "g4Prob": 40.7,
+          "relegationProb": 2.7,
+          "expectedPoints": 54.9,
           "pointsRange": [
             43,
-            65
+            66
           ]
         }
       },
@@ -3155,162 +3155,18 @@
         "current": {
           "position": 8,
           "points": 25,
-          "played": 17,
-          "titleProb": 0.2,
-          "g4Prob": 22.7,
-          "relegationProb": 4.7,
-          "expectedPoints": 51.8,
+          "played": 18,
+          "titleProb": 0.0,
+          "g4Prob": 18.4,
+          "relegationProb": 9.8,
+          "expectedPoints": 50.9,
           "pointsRange": [
-            41,
+            40,
             63
           ]
         }
       },
       "position": 8,
-      "played": 0,
-      "wins": 0,
-      "draws": 0,
-      "losses": 0,
-      "goalsFor": 0,
-      "goalsAgainst": 0,
-      "goalDiff": 0,
-      "points": 0
-    },
-    {
-      "team": {
-        "slug": "corinthians",
-        "name": "Corinthians",
-        "shortName": "Corinthians",
-        "city": "São Paulo",
-        "state": "SP",
-        "founded": 1910,
-        "nickname": "Timão",
-        "division": "A",
-        "brand": "#2A2A2A",
-        "bio": "",
-        "current": {
-          "position": 9,
-          "points": 24,
-          "played": 18,
-          "titleProb": 1.3,
-          "g4Prob": 54.4,
-          "relegationProb": 0.8,
-          "expectedPoints": 57.3,
-          "pointsRange": [
-            46,
-            69
-          ]
-        }
-      },
-      "position": 9,
-      "played": 0,
-      "wins": 0,
-      "draws": 0,
-      "losses": 0,
-      "goalsFor": 0,
-      "goalsAgainst": 0,
-      "goalDiff": 0,
-      "points": 0
-    },
-    {
-      "team": {
-        "slug": "cruzeiro",
-        "name": "Cruzeiro",
-        "shortName": "Cruzeiro",
-        "city": "Belo Horizonte",
-        "state": "MG",
-        "founded": 1921,
-        "nickname": "Raposa",
-        "division": "A",
-        "brand": "#1E3F8C",
-        "bio": "",
-        "current": {
-          "position": 10,
-          "points": 23,
-          "played": 17,
-          "titleProb": 0.0,
-          "g4Prob": 2.4,
-          "relegationProb": 33.7,
-          "expectedPoints": 44.5,
-          "pointsRange": [
-            34,
-            56
-          ]
-        }
-      },
-      "position": 10,
-      "played": 0,
-      "wins": 0,
-      "draws": 0,
-      "losses": 0,
-      "goalsFor": 0,
-      "goalsAgainst": 0,
-      "goalDiff": 0,
-      "points": 0
-    },
-    {
-      "team": {
-        "slug": "botafogo",
-        "name": "Botafogo",
-        "shortName": "Botafogo",
-        "city": "Rio de Janeiro",
-        "state": "RJ",
-        "founded": 1904,
-        "nickname": "Estrela Solitária",
-        "division": "A",
-        "brand": "#1A1A1A",
-        "bio": "",
-        "current": {
-          "position": 11,
-          "points": 22,
-          "played": 17,
-          "titleProb": 2.8,
-          "g4Prob": 66.7,
-          "relegationProb": 0.4,
-          "expectedPoints": 59.3,
-          "pointsRange": [
-            48,
-            71
-          ]
-        }
-      },
-      "position": 11,
-      "played": 0,
-      "wins": 0,
-      "draws": 0,
-      "losses": 0,
-      "goalsFor": 0,
-      "goalsAgainst": 0,
-      "goalDiff": 0,
-      "points": 0
-    },
-    {
-      "team": {
-        "slug": "vitoria",
-        "name": "Vitória",
-        "shortName": "Vitória",
-        "city": "Salvador",
-        "state": "BA",
-        "founded": 1899,
-        "nickname": "Leão",
-        "division": "A",
-        "brand": "#CC0000",
-        "bio": "",
-        "current": {
-          "position": 12,
-          "points": 22,
-          "played": 17,
-          "titleProb": 0.0,
-          "g4Prob": 0.5,
-          "relegationProb": 62.0,
-          "expectedPoints": 40.9,
-          "pointsRange": [
-            31,
-            52
-          ]
-        }
-      },
-      "position": 12,
       "played": 0,
       "wins": 0,
       "draws": 0,
@@ -3333,16 +3189,160 @@
         "brand": "#2A2A2A",
         "bio": "",
         "current": {
-          "position": 13,
-          "points": 21,
+          "position": 9,
+          "points": 24,
+          "played": 18,
+          "titleProb": 0.2,
+          "g4Prob": 37.9,
+          "relegationProb": 2.9,
+          "expectedPoints": 54.9,
+          "pointsRange": [
+            44,
+            66
+          ]
+        }
+      },
+      "position": 9,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "corinthians",
+        "name": "Corinthians",
+        "shortName": "Corinthians",
+        "city": "São Paulo",
+        "state": "SP",
+        "founded": 1910,
+        "nickname": "Timão",
+        "division": "A",
+        "brand": "#2A2A2A",
+        "bio": "",
+        "current": {
+          "position": 10,
+          "points": 24,
+          "played": 18,
+          "titleProb": 0.0,
+          "g4Prob": 5.8,
+          "relegationProb": 25.1,
+          "expectedPoints": 47.3,
+          "pointsRange": [
+            37,
+            58
+          ]
+        }
+      },
+      "position": 10,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "cruzeiro",
+        "name": "Cruzeiro",
+        "shortName": "Cruzeiro",
+        "city": "Belo Horizonte",
+        "state": "MG",
+        "founded": 1921,
+        "nickname": "Raposa",
+        "division": "A",
+        "brand": "#1E3F8C",
+        "bio": "",
+        "current": {
+          "position": 11,
+          "points": 24,
+          "played": 18,
+          "titleProb": 0.2,
+          "g4Prob": 30.7,
+          "relegationProb": 5.1,
+          "expectedPoints": 53.7,
+          "pointsRange": [
+            42,
+            66
+          ]
+        }
+      },
+      "position": 11,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "botafogo",
+        "name": "Botafogo",
+        "shortName": "Botafogo",
+        "city": "Rio de Janeiro",
+        "state": "RJ",
+        "founded": 1904,
+        "nickname": "Estrela Solitária",
+        "division": "A",
+        "brand": "#1A1A1A",
+        "bio": "",
+        "current": {
+          "position": 12,
+          "points": 22,
           "played": 17,
           "titleProb": 0.0,
-          "g4Prob": 10.5,
-          "relegationProb": 12.0,
-          "expectedPoints": 49.7,
+          "g4Prob": 8.9,
+          "relegationProb": 21.5,
+          "expectedPoints": 48.3,
           "pointsRange": [
-            38,
-            61
+            37,
+            60
+          ]
+        }
+      },
+      "position": 12,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "vitoria",
+        "name": "Vitória",
+        "shortName": "Vitória",
+        "city": "Salvador",
+        "state": "BA",
+        "founded": 1899,
+        "nickname": "Leão",
+        "division": "A",
+        "brand": "#CC0000",
+        "bio": "",
+        "current": {
+          "position": 13,
+          "points": 22,
+          "played": 17,
+          "titleProb": 0.0,
+          "g4Prob": 15.6,
+          "relegationProb": 12.0,
+          "expectedPoints": 51.2,
+          "pointsRange": [
+            40,
+            63
           ]
         }
       },
@@ -3371,11 +3371,11 @@
         "current": {
           "position": 14,
           "points": 21,
-          "played": 17,
+          "played": 18,
           "titleProb": 0.0,
-          "g4Prob": 4.2,
-          "relegationProb": 23.2,
-          "expectedPoints": 46.9,
+          "g4Prob": 4.3,
+          "relegationProb": 32.9,
+          "expectedPoints": 46.7,
           "pointsRange": [
             36,
             58
@@ -3408,13 +3408,13 @@
           "position": 15,
           "points": 21,
           "played": 18,
-          "titleProb": 0.4,
-          "g4Prob": 29.0,
-          "relegationProb": 4.0,
-          "expectedPoints": 53.8,
+          "titleProb": 0.1,
+          "g4Prob": 27.9,
+          "relegationProb": 7.1,
+          "expectedPoints": 53.6,
           "pointsRange": [
             42,
-            65
+            66
           ]
         }
       },
@@ -3445,9 +3445,9 @@
           "points": 21,
           "played": 18,
           "titleProb": 0.0,
-          "g4Prob": 1.3,
-          "relegationProb": 45.9,
-          "expectedPoints": 43.5,
+          "g4Prob": 1.6,
+          "relegationProb": 54.3,
+          "expectedPoints": 43.7,
           "pointsRange": [
             33,
             55
@@ -3479,11 +3479,11 @@
         "current": {
           "position": 17,
           "points": 20,
-          "played": 17,
-          "titleProb": 0.2,
-          "g4Prob": 23.3,
-          "relegationProb": 6.4,
-          "expectedPoints": 52.9,
+          "played": 18,
+          "titleProb": 0.1,
+          "g4Prob": 25.0,
+          "relegationProb": 9.2,
+          "expectedPoints": 53.2,
           "pointsRange": [
             41,
             65
@@ -3491,42 +3491,6 @@
         }
       },
       "position": 17,
-      "played": 0,
-      "wins": 0,
-      "draws": 0,
-      "losses": 0,
-      "goalsFor": 0,
-      "goalsAgainst": 0,
-      "goalDiff": 0,
-      "points": 0
-    },
-    {
-      "team": {
-        "slug": "mirassol",
-        "name": "Mirassol",
-        "shortName": "Mirassol",
-        "city": "Mirassol",
-        "state": "SP",
-        "founded": 1925,
-        "nickname": "Leão do Interior",
-        "division": "A",
-        "brand": "#C8A200",
-        "bio": "",
-        "current": {
-          "position": 18,
-          "points": 16,
-          "played": 17,
-          "titleProb": 0.0,
-          "g4Prob": 0.2,
-          "relegationProb": 80.1,
-          "expectedPoints": 38.4,
-          "pointsRange": [
-            28,
-            50
-          ]
-        }
-      },
-      "position": 18,
       "played": 0,
       "wins": 0,
       "draws": 0,
@@ -3549,16 +3513,52 @@
         "brand": "#003580",
         "bio": "",
         "current": {
+          "position": 18,
+          "points": 18,
+          "played": 18,
+          "titleProb": 0.0,
+          "g4Prob": 0.3,
+          "relegationProb": 76.8,
+          "expectedPoints": 40.3,
+          "pointsRange": [
+            29,
+            52
+          ]
+        }
+      },
+      "position": 18,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDiff": 0,
+      "points": 0
+    },
+    {
+      "team": {
+        "slug": "mirassol",
+        "name": "Mirassol",
+        "shortName": "Mirassol",
+        "city": "Mirassol",
+        "state": "SP",
+        "founded": 1925,
+        "nickname": "Leão do Interior",
+        "division": "A",
+        "brand": "#C8A200",
+        "bio": "",
+        "current": {
           "position": 19,
-          "points": 15,
+          "points": 16,
           "played": 17,
           "titleProb": 0.1,
-          "g4Prob": 23.3,
-          "relegationProb": 4.2,
-          "expectedPoints": 53.0,
+          "g4Prob": 35.9,
+          "relegationProb": 3.2,
+          "expectedPoints": 55.0,
           "pointsRange": [
-            41,
-            64
+            43,
+            66
           ]
         }
       },
@@ -3587,14 +3587,14 @@
         "current": {
           "position": 20,
           "points": 9,
-          "played": 16,
+          "played": 17,
           "titleProb": 0.0,
           "g4Prob": 0.0,
-          "relegationProb": 99.5,
-          "expectedPoints": 26.9,
+          "relegationProb": 99.9,
+          "expectedPoints": 25.6,
           "pointsRange": [
-            17,
-            38
+            16,
+            36
           ]
         }
       },

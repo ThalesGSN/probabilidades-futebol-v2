@@ -1,96 +1,34 @@
 [
   {
     "team": {
-      "slug": "fortaleza",
-      "name": "Fortaleza",
-      "shortName": "Fortaleza",
-      "city": "Fortaleza",
-      "state": "CE",
-      "founded": 1918,
-      "nickname": "Leão do Pici",
-      "division": "B",
-      "brand": "#0033A0",
-      "bio": "",
-      "current": {
-        "position": 5,
-        "points": 18,
-        "played": 11,
-        "titleProb": 37.6,
-        "g4Prob": 79.0,
-        "relegationProb": 0.0,
-        "expectedPoints": 68.0,
-        "pointsRange": [
-          55,
-          81
-        ]
-      }
-    },
-    "champion": 37.6,
-    "libertadores": 79.0,
-    "sulamericana": 32.6,
-    "relegation": 0.0
-  },
-  {
-    "team": {
-      "slug": "nautico",
-      "name": "Náutico",
-      "shortName": "Náutico",
-      "city": "Recife",
-      "state": "PE",
-      "founded": 1901,
-      "nickname": "Timbu",
+      "slug": "sao-bernardo",
+      "name": "São Bernardo",
+      "shortName": "São Bernardo",
+      "city": "São Bernardo do Campo",
+      "state": "SP",
+      "founded": 2005,
+      "nickname": "Tigre",
       "division": "B",
       "brand": "#CC0000",
       "bio": "",
       "current": {
         "position": 3,
-        "points": 19,
+        "points": 21,
         "played": 11,
-        "titleProb": 12.3,
-        "g4Prob": 50.4,
-        "relegationProb": 0.1,
-        "expectedPoints": 62.5,
+        "titleProb": 39.8,
+        "g4Prob": 90.2,
+        "relegationProb": 0.0,
+        "expectedPoints": 72.4,
         "pointsRange": [
-          49,
-          76
+          59,
+          85
         ]
       }
     },
-    "champion": 12.3,
-    "libertadores": 50.4,
-    "sulamericana": 49.7,
-    "relegation": 0.1
-  },
-  {
-    "team": {
-      "slug": "botafogo-sp",
-      "name": "Botafogo-SP",
-      "shortName": "Botafogo-SP",
-      "city": "Ribeirão Preto",
-      "state": "SP",
-      "founded": 1898,
-      "nickname": "Pantera",
-      "division": "B",
-      "brand": "#2A2A2A",
-      "bio": "",
-      "current": {
-        "position": 17,
-        "points": 9,
-        "played": 10,
-        "titleProb": 11.9,
-        "g4Prob": 52.0,
-        "relegationProb": 0.1,
-        "expectedPoints": 63.3,
-        "pointsRange": [
-          50,
-          76
-        ]
-      }
-    },
-    "champion": 11.9,
-    "libertadores": 52.0,
-    "sulamericana": 48.8,
-    "relegation": 0.1
+    "champion": 39.8,
+    "libertadores": 90.2,
+    "sulamericana": 25.9,
+    "relegation": 0.0
   },
   {
     "team": {
@@ -108,51 +46,82 @@
         "position": 1,
         "points": 22,
         "played": 11,
-        "titleProb": 9.8,
-        "g4Prob": 46.1,
+        "titleProb": 34.8,
+        "g4Prob": 88.0,
         "relegationProb": 0.0,
-        "expectedPoints": 61.6,
+        "expectedPoints": 71.4,
         "pointsRange": [
-          49,
-          75
+          58,
+          84
         ]
       }
     },
-    "champion": 9.8,
-    "libertadores": 46.1,
-    "sulamericana": 52.3,
+    "champion": 34.8,
+    "libertadores": 88.0,
+    "sulamericana": 27.2,
     "relegation": 0.0
   },
   {
     "team": {
-      "slug": "crb",
-      "name": "CRB",
-      "shortName": "CRB",
-      "city": "Maceió",
-      "state": "AL",
-      "founded": 1912,
-      "nickname": "Regatas",
+      "slug": "fortaleza",
+      "name": "Fortaleza",
+      "shortName": "Fortaleza",
+      "city": "Fortaleza",
+      "state": "CE",
+      "founded": 1918,
+      "nickname": "Leão do Pici",
       "division": "B",
-      "brand": "#CC0000",
+      "brand": "#0033A0",
       "bio": "",
       "current": {
-        "position": 11,
-        "points": 14,
-        "played": 10,
-        "titleProb": 8.7,
-        "g4Prob": 42.4,
-        "relegationProb": 0.2,
-        "expectedPoints": 61.6,
+        "position": 5,
+        "points": 18,
+        "played": 11,
+        "titleProb": 15.1,
+        "g4Prob": 74.6,
+        "relegationProb": 0.0,
+        "expectedPoints": 68.1,
         "pointsRange": [
-          48,
-          75
+          55,
+          81
         ]
       }
     },
-    "champion": 8.7,
-    "libertadores": 42.4,
-    "sulamericana": 54.5,
-    "relegation": 0.2
+    "champion": 15.1,
+    "libertadores": 74.6,
+    "sulamericana": 35.2,
+    "relegation": 0.0
+  },
+  {
+    "team": {
+      "slug": "botafogo-sp",
+      "name": "Botafogo-SP",
+      "shortName": "Botafogo-SP",
+      "city": "Ribeirão Preto",
+      "state": "SP",
+      "founded": 1898,
+      "nickname": "Pantera",
+      "division": "B",
+      "brand": "#2A2A2A",
+      "bio": "",
+      "current": {
+        "position": 17,
+        "points": 9,
+        "played": 10,
+        "titleProb": 4.9,
+        "g4Prob": 48.1,
+        "relegationProb": 0.0,
+        "expectedPoints": 64.1,
+        "pointsRange": [
+          51,
+          76
+        ]
+      }
+    },
+    "champion": 4.9,
+    "libertadores": 48.1,
+    "sulamericana": 51.1,
+    "relegation": 0.0
   },
   {
     "team": {
@@ -170,113 +139,20 @@
         "position": 19,
         "points": 7,
         "played": 10,
-        "titleProb": 8.1,
-        "g4Prob": 44.1,
+        "titleProb": 2.9,
+        "g4Prob": 35.5,
         "relegationProb": 0.1,
-        "expectedPoints": 62.1,
+        "expectedPoints": 62.4,
         "pointsRange": [
           49,
-          74
+          75
         ]
       }
     },
-    "champion": 8.1,
-    "libertadores": 44.1,
-    "sulamericana": 53.5,
+    "champion": 2.9,
+    "libertadores": 35.5,
+    "sulamericana": 58.7,
     "relegation": 0.1
-  },
-  {
-    "team": {
-      "slug": "criciuma",
-      "name": "Criciúma",
-      "shortName": "Criciúma",
-      "city": "Criciúma",
-      "state": "SC",
-      "founded": 1947,
-      "nickname": "Tigre",
-      "division": "B",
-      "brand": "#C8A200",
-      "bio": "",
-      "current": {
-        "position": 7,
-        "points": 17,
-        "played": 11,
-        "titleProb": 6.8,
-        "g4Prob": 38.2,
-        "relegationProb": 0.1,
-        "expectedPoints": 60.8,
-        "pointsRange": [
-          48,
-          74
-        ]
-      }
-    },
-    "champion": 6.8,
-    "libertadores": 38.2,
-    "sulamericana": 57.1,
-    "relegation": 0.1
-  },
-  {
-    "team": {
-      "slug": "atletico-go",
-      "name": "Atlético-GO",
-      "shortName": "Atlético-GO",
-      "city": "Goiânia",
-      "state": "GO",
-      "founded": 1937,
-      "nickname": "Dragão",
-      "division": "B",
-      "brand": "#CC0000",
-      "bio": "",
-      "current": {
-        "position": 13,
-        "points": 13,
-        "played": 11,
-        "titleProb": 3.2,
-        "g4Prob": 23.1,
-        "relegationProb": 0.7,
-        "expectedPoints": 58.2,
-        "pointsRange": [
-          45,
-          71
-        ]
-      }
-    },
-    "champion": 3.2,
-    "libertadores": 23.1,
-    "sulamericana": 66.0,
-    "relegation": 0.7
-  },
-  {
-    "team": {
-      "slug": "sao-bernardo",
-      "name": "São Bernardo",
-      "shortName": "São Bernardo",
-      "city": "São Bernardo do Campo",
-      "state": "SP",
-      "founded": 2005,
-      "nickname": "Tigre",
-      "division": "B",
-      "brand": "#CC0000",
-      "bio": "",
-      "current": {
-        "position": 2,
-        "points": 20,
-        "played": 10,
-        "titleProb": 0.7,
-        "g4Prob": 9.5,
-        "relegationProb": 1.5,
-        "expectedPoints": 53.0,
-        "pointsRange": [
-          41,
-          66
-        ]
-      }
-    },
-    "champion": 0.7,
-    "libertadores": 9.5,
-    "sulamericana": 74.0,
-    "relegation": 1.5
   },
   {
     "team": {
@@ -291,23 +167,178 @@
       "brand": "#1E3F8C",
       "bio": "",
       "current": {
-        "position": 9,
-        "points": 16,
-        "played": 10,
-        "titleProb": 0.4,
-        "g4Prob": 6.2,
-        "relegationProb": 1.7,
-        "expectedPoints": 53.0,
+        "position": 7,
+        "points": 17,
+        "played": 11,
+        "titleProb": 0.9,
+        "g4Prob": 19.1,
+        "relegationProb": 0.3,
+        "expectedPoints": 58.5,
         "pointsRange": [
-          41,
-          66
+          45,
+          72
         ]
       }
     },
-    "champion": 0.4,
-    "libertadores": 6.2,
-    "sulamericana": 76.0,
-    "relegation": 1.7
+    "champion": 0.9,
+    "libertadores": 19.1,
+    "sulamericana": 68.5,
+    "relegation": 0.3
+  },
+  {
+    "team": {
+      "slug": "cuiaba",
+      "name": "Cuiabá",
+      "shortName": "Cuiabá",
+      "city": "Cuiabá",
+      "state": "MT",
+      "founded": 2001,
+      "nickname": "Dourado",
+      "division": "B",
+      "brand": "#C8A200",
+      "bio": "",
+      "current": {
+        "position": 15,
+        "points": 13,
+        "played": 11,
+        "titleProb": 0.7,
+        "g4Prob": 17.1,
+        "relegationProb": 0.4,
+        "expectedPoints": 58.8,
+        "pointsRange": [
+          47,
+          71
+        ]
+      }
+    },
+    "champion": 0.7,
+    "libertadores": 17.1,
+    "sulamericana": 69.7,
+    "relegation": 0.4
+  },
+  {
+    "team": {
+      "slug": "operario-pr",
+      "name": "Operário-PR",
+      "shortName": "Operário-PR",
+      "city": "Ponta Grossa",
+      "state": "PR",
+      "founded": 1912,
+      "nickname": "Fantasma",
+      "division": "B",
+      "brand": "#1A1A1A",
+      "bio": "",
+      "current": {
+        "position": 11,
+        "points": 16,
+        "played": 11,
+        "titleProb": 0.5,
+        "g4Prob": 9.8,
+        "relegationProb": 1.1,
+        "expectedPoints": 55.6,
+        "pointsRange": [
+          42,
+          69
+        ]
+      }
+    },
+    "champion": 0.5,
+    "libertadores": 9.8,
+    "sulamericana": 73.9,
+    "relegation": 1.1
+  },
+  {
+    "team": {
+      "slug": "ceara",
+      "name": "Ceará",
+      "shortName": "Ceará",
+      "city": "Fortaleza",
+      "state": "CE",
+      "founded": 1914,
+      "nickname": "Vozão",
+      "division": "B",
+      "brand": "#2A2A2A",
+      "bio": "",
+      "current": {
+        "position": 13,
+        "points": 13,
+        "played": 11,
+        "titleProb": 0.2,
+        "g4Prob": 7.0,
+        "relegationProb": 1.4,
+        "expectedPoints": 54.7,
+        "pointsRange": [
+          42,
+          67
+        ]
+      }
+    },
+    "champion": 0.2,
+    "libertadores": 7.0,
+    "sulamericana": 75.5,
+    "relegation": 1.4
+  },
+  {
+    "team": {
+      "slug": "athletic-club",
+      "name": "Athletic Club",
+      "shortName": "Athletic Club",
+      "city": "São João del-Rei",
+      "state": "MG",
+      "founded": 1909,
+      "nickname": "Máquina",
+      "division": "B",
+      "brand": "#1A1A1A",
+      "bio": "",
+      "current": {
+        "position": 9,
+        "points": 17,
+        "played": 11,
+        "titleProb": 0.1,
+        "g4Prob": 3.0,
+        "relegationProb": 2.0,
+        "expectedPoints": 52.0,
+        "pointsRange": [
+          40,
+          65
+        ]
+      }
+    },
+    "champion": 0.1,
+    "libertadores": 3.0,
+    "sulamericana": 77.8,
+    "relegation": 2.0
+  },
+  {
+    "team": {
+      "slug": "crb",
+      "name": "CRB",
+      "shortName": "CRB",
+      "city": "Maceió",
+      "state": "AL",
+      "founded": 1912,
+      "nickname": "Regatas",
+      "division": "B",
+      "brand": "#CC0000",
+      "bio": "",
+      "current": {
+        "position": 12,
+        "points": 14,
+        "played": 11,
+        "titleProb": 0.1,
+        "g4Prob": 2.1,
+        "relegationProb": 7.1,
+        "expectedPoints": 49.5,
+        "pointsRange": [
+          36,
+          64
+        ]
+      }
+    },
+    "champion": 0.1,
+    "libertadores": 2.1,
+    "sulamericana": 77.5,
+    "relegation": 7.1
   },
   {
     "team": {
@@ -322,54 +353,54 @@
       "brand": "#CC0000",
       "bio": "",
       "current": {
-        "position": 4,
-        "points": 19,
-        "played": 10,
-        "titleProb": 0.3,
-        "g4Prob": 4.8,
-        "relegationProb": 4.8,
-        "expectedPoints": 50.2,
+        "position": 2,
+        "points": 22,
+        "played": 11,
+        "titleProb": 0.0,
+        "g4Prob": 0.7,
+        "relegationProb": 9.3,
+        "expectedPoints": 46.6,
         "pointsRange": [
-          37,
-          64
+          35,
+          59
         ]
       }
     },
-    "champion": 0.3,
-    "libertadores": 4.8,
-    "sulamericana": 76.3,
-    "relegation": 4.8
+    "champion": 0.0,
+    "libertadores": 0.7,
+    "sulamericana": 77.9,
+    "relegation": 9.3
   },
   {
     "team": {
-      "slug": "juventude",
-      "name": "Juventude",
-      "shortName": "Juventude",
-      "city": "Caxias do Sul",
-      "state": "RS",
-      "founded": 1913,
-      "nickname": "Papo",
+      "slug": "nautico",
+      "name": "Náutico",
+      "shortName": "Náutico",
+      "city": "Recife",
+      "state": "PE",
+      "founded": 1901,
+      "nickname": "Timbu",
       "division": "B",
-      "brand": "#0F5F3F",
+      "brand": "#CC0000",
       "bio": "",
       "current": {
-        "position": 10,
-        "points": 16,
+        "position": 4,
+        "points": 19,
         "played": 11,
-        "titleProb": 0.1,
-        "g4Prob": 2.5,
-        "relegationProb": 3.9,
-        "expectedPoints": 50.1,
+        "titleProb": 0.0,
+        "g4Prob": 0.1,
+        "relegationProb": 29.9,
+        "expectedPoints": 42.1,
         "pointsRange": [
-          38,
-          63
+          31,
+          54
         ]
       }
     },
-    "champion": 0.1,
-    "libertadores": 2.5,
-    "sulamericana": 77.8,
-    "relegation": 3.9
+    "champion": 0.0,
+    "libertadores": 0.1,
+    "sulamericana": 74.6,
+    "relegation": 29.9
   },
   {
     "team": {
@@ -388,9 +419,9 @@
         "points": 17,
         "played": 11,
         "titleProb": 0.0,
-        "g4Prob": 0.2,
+        "g4Prob": 0.1,
         "relegationProb": 37.5,
-        "expectedPoints": 41.4,
+        "expectedPoints": 41.3,
         "pointsRange": [
           30,
           54
@@ -398,102 +429,102 @@
       }
     },
     "champion": 0.0,
-    "libertadores": 0.2,
-    "sulamericana": 73.1,
+    "libertadores": 0.1,
+    "sulamericana": 73.2,
     "relegation": 37.5
   },
   {
     "team": {
-      "slug": "athletic-club",
-      "name": "Athletic Club",
-      "shortName": "Athletic Club",
-      "city": "São João del-Rei",
-      "state": "MG",
-      "founded": 1909,
-      "nickname": "Máquina",
+      "slug": "criciuma",
+      "name": "Criciúma",
+      "shortName": "Criciúma",
+      "city": "Criciúma",
+      "state": "SC",
+      "founded": 1947,
+      "nickname": "Tigre",
       "division": "B",
-      "brand": "#1A1A1A",
+      "brand": "#C8A200",
       "bio": "",
       "current": {
         "position": 8,
         "points": 17,
         "played": 11,
         "titleProb": 0.0,
-        "g4Prob": 0.9,
-        "relegationProb": 12.0,
-        "expectedPoints": 46.6,
+        "g4Prob": 1.5,
+        "relegationProb": 6.0,
+        "expectedPoints": 49.0,
         "pointsRange": [
-          34,
-          59
+          37,
+          62
         ]
       }
     },
     "champion": 0.0,
-    "libertadores": 0.9,
-    "sulamericana": 77.3,
-    "relegation": 12.0
+    "libertadores": 1.5,
+    "sulamericana": 78.0,
+    "relegation": 6.0
   },
   {
     "team": {
-      "slug": "ceara",
-      "name": "Ceará",
-      "shortName": "Ceará",
-      "city": "Fortaleza",
-      "state": "CE",
-      "founded": 1914,
-      "nickname": "Vozão",
+      "slug": "juventude",
+      "name": "Juventude",
+      "shortName": "Juventude",
+      "city": "Caxias do Sul",
+      "state": "RS",
+      "founded": 1913,
+      "nickname": "Papo",
       "division": "B",
-      "brand": "#2A2A2A",
+      "brand": "#0F5F3F",
       "bio": "",
       "current": {
-        "position": 12,
-        "points": 13,
-        "played": 10,
+        "position": 10,
+        "points": 16,
+        "played": 11,
         "titleProb": 0.0,
-        "g4Prob": 0.1,
-        "relegationProb": 44.0,
-        "expectedPoints": 40.7,
+        "g4Prob": 2.8,
+        "relegationProb": 2.5,
+        "expectedPoints": 51.8,
         "pointsRange": [
-          28,
-          54
+          40,
+          64
         ]
       }
     },
     "champion": 0.0,
-    "libertadores": 0.1,
-    "sulamericana": 72.0,
-    "relegation": 44.0
+    "libertadores": 2.8,
+    "sulamericana": 77.9,
+    "relegation": 2.5
   },
   {
     "team": {
-      "slug": "operario-pr",
-      "name": "Operário-PR",
-      "shortName": "Operário-PR",
-      "city": "Ponta Grossa",
-      "state": "PR",
-      "founded": 1912,
-      "nickname": "Fantasma",
+      "slug": "atletico-go",
+      "name": "Atlético-GO",
+      "shortName": "Atlético-GO",
+      "city": "Goiânia",
+      "state": "GO",
+      "founded": 1937,
+      "nickname": "Dragão",
       "division": "B",
-      "brand": "#1A1A1A",
+      "brand": "#CC0000",
       "bio": "",
       "current": {
         "position": 14,
         "points": 13,
-        "played": 10,
+        "played": 11,
         "titleProb": 0.0,
-        "g4Prob": 0.1,
-        "relegationProb": 42.8,
-        "expectedPoints": 41.1,
+        "g4Prob": 0.2,
+        "relegationProb": 21.6,
+        "expectedPoints": 44.4,
         "pointsRange": [
-          29,
-          54
+          32,
+          57
         ]
       }
     },
     "champion": 0.0,
-    "libertadores": 0.1,
-    "sulamericana": 72.2,
-    "relegation": 42.8
+    "libertadores": 0.2,
+    "sulamericana": 76.0,
+    "relegation": 21.6
   },
   {
     "team": {
@@ -508,54 +539,23 @@
       "brand": "#1E5BA3",
       "bio": "",
       "current": {
-        "position": 15,
+        "position": 16,
         "points": 10,
         "played": 11,
         "titleProb": 0.0,
-        "g4Prob": 0.4,
-        "relegationProb": 17.2,
-        "expectedPoints": 46.3,
-        "pointsRange": [
-          35,
-          58
-        ]
-      }
-    },
-    "champion": 0.0,
-    "libertadores": 0.4,
-    "sulamericana": 76.7,
-    "relegation": 17.2
-  },
-  {
-    "team": {
-      "slug": "cuiaba",
-      "name": "Cuiabá",
-      "shortName": "Cuiabá",
-      "city": "Cuiabá",
-      "state": "MT",
-      "founded": 2001,
-      "nickname": "Dourado",
-      "division": "B",
-      "brand": "#C8A200",
-      "bio": "",
-      "current": {
-        "position": 16,
-        "points": 10,
-        "played": 10,
-        "titleProb": 0.0,
         "g4Prob": 0.0,
-        "relegationProb": 37.8,
-        "expectedPoints": 42.4,
+        "relegationProb": 84.4,
+        "expectedPoints": 34.5,
         "pointsRange": [
-          31,
-          54
+          24,
+          46
         ]
       }
     },
     "champion": 0.0,
     "libertadores": 0.0,
-    "sulamericana": 73.2,
-    "relegation": 37.8
+    "sulamericana": 64.8,
+    "relegation": 84.4
   },
   {
     "team": {
@@ -572,21 +572,21 @@
       "current": {
         "position": 18,
         "points": 8,
-        "played": 10,
+        "played": 11,
         "titleProb": 0.0,
         "g4Prob": 0.0,
-        "relegationProb": 96.2,
-        "expectedPoints": 29.2,
+        "relegationProb": 97.0,
+        "expectedPoints": 28.4,
         "pointsRange": [
           18,
-          42
+          41
         ]
       }
     },
     "champion": 0.0,
     "libertadores": 0.0,
-    "sulamericana": 62.7,
-    "relegation": 96.2
+    "sulamericana": 62.5,
+    "relegation": 97.0
   },
   {
     "team": {
@@ -606,10 +606,10 @@
         "played": 11,
         "titleProb": 0.0,
         "g4Prob": 0.0,
-        "relegationProb": 99.5,
-        "expectedPoints": 23.1,
+        "relegationProb": 99.6,
+        "expectedPoints": 22.9,
         "pointsRange": [
-          13,
+          12,
           35
         ]
       }
@@ -617,6 +617,6 @@
     "champion": 0.0,
     "libertadores": 0.0,
     "sulamericana": 62.1,
-    "relegation": 99.5
+    "relegation": 99.6
   }
 ]

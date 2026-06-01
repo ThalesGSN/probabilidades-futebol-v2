@@ -1202,5 +1202,40 @@
     "awaySlug": "vitoria",
     "homeGoals": 3,
     "awayGoals": 1
+  },
+  {
+    "round": 18,
+    "homeSlug": "bragantino",
+    "awaySlug": "internacional",
+    "homeGoals": 3,
+    "awayGoals": 1
+  },
+  {
+    "round": 18,
+    "homeSlug": "vasco",
+    "awaySlug": "atletico-mg",
+    "homeGoals": 0,
+    "awayGoals": 1
+  },
+  {
+    "round": 18,
+    "homeSlug": "palmeiras",
+    "awaySlug": "chapecoense",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "round": 18,
+    "homeSlug": "cruzeiro",
+    "awaySlug": "fluminense",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "round": 18,
+    "homeSlug": "remo",
+    "awaySlug": "sao-paulo",
+    "homeGoals": 1,
+    "awayGoals": 0
   }
 ]

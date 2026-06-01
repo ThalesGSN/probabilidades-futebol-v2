@@ -13,16 +13,16 @@
         "brand": "#CC0000",
         "bio": "",
         "current": {
-          "position": 2,
-          "points": 20,
-          "played": 10,
-          "titleProb": 0.7,
-          "g4Prob": 9.5,
-          "relegationProb": 1.5,
-          "expectedPoints": 53.0,
+          "position": 3,
+          "points": 21,
+          "played": 11,
+          "titleProb": 39.8,
+          "g4Prob": 90.2,
+          "relegationProb": 0.0,
+          "expectedPoints": 72.4,
           "pointsRange": [
-            41,
-            66
+            59,
+            85
           ]
         }
       },
@@ -42,21 +42,21 @@
         "brand": "#CC0000",
         "bio": "",
         "current": {
-          "position": 11,
+          "position": 12,
           "points": 14,
-          "played": 10,
-          "titleProb": 8.7,
-          "g4Prob": 42.4,
-          "relegationProb": 0.2,
-          "expectedPoints": 61.6,
+          "played": 11,
+          "titleProb": 0.1,
+          "g4Prob": 2.1,
+          "relegationProb": 7.1,
+          "expectedPoints": 49.5,
           "pointsRange": [
-            48,
-            75
+            36,
+            64
           ]
         }
       },
       "value": 4,
-      "detail": "jogos · ainda em curso"
+      "detail": "jogos · encerrada"
     },
     {
       "team": {
@@ -74,42 +74,13 @@
           "position": 1,
           "points": 22,
           "played": 11,
-          "titleProb": 9.8,
-          "g4Prob": 46.1,
+          "titleProb": 34.8,
+          "g4Prob": 88.0,
           "relegationProb": 0.0,
-          "expectedPoints": 61.6,
+          "expectedPoints": 71.4,
           "pointsRange": [
-            49,
-            75
-          ]
-        }
-      },
-      "value": 3,
-      "detail": "jogos · encerrada"
-    },
-    {
-      "team": {
-        "slug": "nautico",
-        "name": "Náutico",
-        "shortName": "Náutico",
-        "city": "Recife",
-        "state": "PE",
-        "founded": 1901,
-        "nickname": "Timbu",
-        "division": "B",
-        "brand": "#CC0000",
-        "bio": "",
-        "current": {
-          "position": 3,
-          "points": 19,
-          "played": 11,
-          "titleProb": 12.3,
-          "g4Prob": 50.4,
-          "relegationProb": 0.1,
-          "expectedPoints": 62.5,
-          "pointsRange": [
-            49,
-            76
+            58,
+            84
           ]
         }
       },
@@ -129,16 +100,45 @@
         "brand": "#CC0000",
         "bio": "",
         "current": {
+          "position": 2,
+          "points": 22,
+          "played": 11,
+          "titleProb": 0.0,
+          "g4Prob": 0.7,
+          "relegationProb": 9.3,
+          "expectedPoints": 46.6,
+          "pointsRange": [
+            35,
+            59
+          ]
+        }
+      },
+      "value": 3,
+      "detail": "jogos · ainda em curso"
+    },
+    {
+      "team": {
+        "slug": "nautico",
+        "name": "Náutico",
+        "shortName": "Náutico",
+        "city": "Recife",
+        "state": "PE",
+        "founded": 1901,
+        "nickname": "Timbu",
+        "division": "B",
+        "brand": "#CC0000",
+        "bio": "",
+        "current": {
           "position": 4,
           "points": 19,
-          "played": 10,
-          "titleProb": 0.3,
-          "g4Prob": 4.8,
-          "relegationProb": 4.8,
-          "expectedPoints": 50.2,
+          "played": 11,
+          "titleProb": 0.0,
+          "g4Prob": 0.1,
+          "relegationProb": 29.9,
+          "expectedPoints": 42.1,
           "pointsRange": [
-            37,
-            64
+            31,
+            54
           ]
         }
       },
@@ -161,10 +161,10 @@
           "position": 5,
           "points": 18,
           "played": 11,
-          "titleProb": 37.6,
-          "g4Prob": 79.0,
+          "titleProb": 15.1,
+          "g4Prob": 74.6,
           "relegationProb": 0.0,
-          "expectedPoints": 68.0,
+          "expectedPoints": 68.1,
           "pointsRange": [
             55,
             81
@@ -191,9 +191,9 @@
           "points": 17,
           "played": 11,
           "titleProb": 0.0,
-          "g4Prob": 0.2,
+          "g4Prob": 0.1,
           "relegationProb": 37.5,
-          "expectedPoints": 41.4,
+          "expectedPoints": 41.3,
           "pointsRange": [
             30,
             54
@@ -219,17 +219,46 @@
           "position": 10,
           "points": 16,
           "played": 11,
-          "titleProb": 0.1,
-          "g4Prob": 2.5,
-          "relegationProb": 3.9,
-          "expectedPoints": 50.1,
+          "titleProb": 0.0,
+          "g4Prob": 2.8,
+          "relegationProb": 2.5,
+          "expectedPoints": 51.8,
           "pointsRange": [
-            38,
-            63
+            40,
+            64
           ]
         }
       },
       "value": 3,
+      "detail": "jogos · encerrada"
+    },
+    {
+      "team": {
+        "slug": "novorizontino",
+        "name": "Novorizontino",
+        "shortName": "Novorizontino",
+        "city": "Novo Horizonte",
+        "state": "SP",
+        "founded": 1930,
+        "nickname": "Tigre",
+        "division": "B",
+        "brand": "#1E3F8C",
+        "bio": "",
+        "current": {
+          "position": 7,
+          "points": 17,
+          "played": 11,
+          "titleProb": 0.9,
+          "g4Prob": 19.1,
+          "relegationProb": 0.3,
+          "expectedPoints": 58.5,
+          "pointsRange": [
+            45,
+            72
+          ]
+        }
+      },
+      "value": 2,
       "detail": "jogos · encerrada"
     },
     {
@@ -245,16 +274,16 @@
         "brand": "#1A1A1A",
         "bio": "",
         "current": {
-          "position": 8,
+          "position": 9,
           "points": 17,
           "played": 11,
-          "titleProb": 0.0,
-          "g4Prob": 0.9,
-          "relegationProb": 12.0,
-          "expectedPoints": 46.6,
+          "titleProb": 0.1,
+          "g4Prob": 3.0,
+          "relegationProb": 2.0,
+          "expectedPoints": 52.0,
           "pointsRange": [
-            34,
-            59
+            40,
+            65
           ]
         }
       },
@@ -263,27 +292,27 @@
     },
     {
       "team": {
-        "slug": "novorizontino",
-        "name": "Novorizontino",
-        "shortName": "Novorizontino",
-        "city": "Novo Horizonte",
-        "state": "SP",
-        "founded": 1930,
-        "nickname": "Tigre",
+        "slug": "operario-pr",
+        "name": "Operário-PR",
+        "shortName": "Operário-PR",
+        "city": "Ponta Grossa",
+        "state": "PR",
+        "founded": 1912,
+        "nickname": "Fantasma",
         "division": "B",
-        "brand": "#1E3F8C",
+        "brand": "#1A1A1A",
         "bio": "",
         "current": {
-          "position": 9,
+          "position": 11,
           "points": 16,
-          "played": 10,
-          "titleProb": 0.4,
-          "g4Prob": 6.2,
-          "relegationProb": 1.7,
-          "expectedPoints": 53.0,
+          "played": 11,
+          "titleProb": 0.5,
+          "g4Prob": 9.8,
+          "relegationProb": 1.1,
+          "expectedPoints": 55.6,
           "pointsRange": [
-            41,
-            66
+            42,
+            69
           ]
         }
       },
@@ -303,45 +332,16 @@
         "brand": "#2A2A2A",
         "bio": "",
         "current": {
-          "position": 12,
+          "position": 13,
           "points": 13,
-          "played": 10,
-          "titleProb": 0.0,
-          "g4Prob": 0.1,
-          "relegationProb": 44.0,
-          "expectedPoints": 40.7,
+          "played": 11,
+          "titleProb": 0.2,
+          "g4Prob": 7.0,
+          "relegationProb": 1.4,
+          "expectedPoints": 54.7,
           "pointsRange": [
-            28,
-            54
-          ]
-        }
-      },
-      "value": 2,
-      "detail": "jogos · encerrada"
-    },
-    {
-      "team": {
-        "slug": "operario-pr",
-        "name": "Operário-PR",
-        "shortName": "Operário-PR",
-        "city": "Ponta Grossa",
-        "state": "PR",
-        "founded": 1912,
-        "nickname": "Fantasma",
-        "division": "B",
-        "brand": "#1A1A1A",
-        "bio": "",
-        "current": {
-          "position": 14,
-          "points": 13,
-          "played": 10,
-          "titleProb": 0.0,
-          "g4Prob": 0.1,
-          "relegationProb": 42.8,
-          "expectedPoints": 41.1,
-          "pointsRange": [
-            29,
-            54
+            42,
+            67
           ]
         }
       },
@@ -361,16 +361,16 @@
         "brand": "#1E5BA3",
         "bio": "",
         "current": {
-          "position": 15,
+          "position": 16,
           "points": 10,
           "played": 11,
           "titleProb": 0.0,
-          "g4Prob": 0.4,
-          "relegationProb": 17.2,
-          "expectedPoints": 46.3,
+          "g4Prob": 0.0,
+          "relegationProb": 84.4,
+          "expectedPoints": 34.5,
           "pointsRange": [
-            35,
-            58
+            24,
+            46
           ]
         }
       },
@@ -393,12 +393,12 @@
           "position": 17,
           "points": 9,
           "played": 10,
-          "titleProb": 11.9,
-          "g4Prob": 52.0,
-          "relegationProb": 0.1,
-          "expectedPoints": 63.3,
+          "titleProb": 4.9,
+          "g4Prob": 48.1,
+          "relegationProb": 0.0,
+          "expectedPoints": 64.1,
           "pointsRange": [
-            50,
+            51,
             76
           ]
         }
@@ -422,13 +422,13 @@
           "position": 19,
           "points": 7,
           "played": 10,
-          "titleProb": 8.1,
-          "g4Prob": 44.1,
+          "titleProb": 2.9,
+          "g4Prob": 35.5,
           "relegationProb": 0.1,
-          "expectedPoints": 62.1,
+          "expectedPoints": 62.4,
           "pointsRange": [
             49,
-            74
+            75
           ]
         }
       },
@@ -448,16 +448,16 @@
         "brand": "#C8A200",
         "bio": "",
         "current": {
-          "position": 7,
+          "position": 8,
           "points": 17,
           "played": 11,
-          "titleProb": 6.8,
-          "g4Prob": 38.2,
-          "relegationProb": 0.1,
-          "expectedPoints": 60.8,
+          "titleProb": 0.0,
+          "g4Prob": 1.5,
+          "relegationProb": 6.0,
+          "expectedPoints": 49.0,
           "pointsRange": [
-            48,
-            74
+            37,
+            62
           ]
         }
       },
@@ -477,16 +477,16 @@
         "brand": "#CC0000",
         "bio": "",
         "current": {
-          "position": 13,
+          "position": 14,
           "points": 13,
           "played": 11,
-          "titleProb": 3.2,
-          "g4Prob": 23.1,
-          "relegationProb": 0.7,
-          "expectedPoints": 58.2,
+          "titleProb": 0.0,
+          "g4Prob": 0.2,
+          "relegationProb": 21.6,
+          "expectedPoints": 44.4,
           "pointsRange": [
-            45,
-            71
+            32,
+            57
           ]
         }
       },
@@ -506,21 +506,21 @@
         "brand": "#C8A200",
         "bio": "",
         "current": {
-          "position": 16,
-          "points": 10,
-          "played": 10,
-          "titleProb": 0.0,
-          "g4Prob": 0.0,
-          "relegationProb": 37.8,
-          "expectedPoints": 42.4,
+          "position": 15,
+          "points": 13,
+          "played": 11,
+          "titleProb": 0.7,
+          "g4Prob": 17.1,
+          "relegationProb": 0.4,
+          "expectedPoints": 58.8,
           "pointsRange": [
-            31,
-            54
+            47,
+            71
           ]
         }
       },
       "value": 1,
-      "detail": "jogos · encerrada"
+      "detail": "jogos · ainda em curso"
     },
     {
       "team": {
@@ -537,14 +537,14 @@
         "current": {
           "position": 18,
           "points": 8,
-          "played": 10,
+          "played": 11,
           "titleProb": 0.0,
           "g4Prob": 0.0,
-          "relegationProb": 96.2,
-          "expectedPoints": 29.2,
+          "relegationProb": 97.0,
+          "expectedPoints": 28.4,
           "pointsRange": [
             18,
-            42
+            41
           ]
         }
       },
@@ -569,10 +569,10 @@
           "played": 11,
           "titleProb": 0.0,
           "g4Prob": 0.0,
-          "relegationProb": 99.5,
-          "expectedPoints": 23.1,
+          "relegationProb": 99.6,
+          "expectedPoints": 22.9,
           "pointsRange": [
-            13,
+            12,
             35
           ]
         }
@@ -598,42 +598,13 @@
           "position": 1,
           "points": 22,
           "played": 11,
-          "titleProb": 9.8,
-          "g4Prob": 46.1,
+          "titleProb": 34.8,
+          "g4Prob": 88.0,
           "relegationProb": 0.0,
-          "expectedPoints": 61.6,
+          "expectedPoints": 71.4,
           "pointsRange": [
-            49,
-            75
-          ]
-        }
-      },
-      "value": 1,
-      "detail": "jogos · encerrada"
-    },
-    {
-      "team": {
-        "slug": "sao-bernardo",
-        "name": "São Bernardo",
-        "shortName": "São Bernardo",
-        "city": "São Bernardo do Campo",
-        "state": "SP",
-        "founded": 2005,
-        "nickname": "Tigre",
-        "division": "B",
-        "brand": "#CC0000",
-        "bio": "",
-        "current": {
-          "position": 2,
-          "points": 20,
-          "played": 10,
-          "titleProb": 0.7,
-          "g4Prob": 9.5,
-          "relegationProb": 1.5,
-          "expectedPoints": 53.0,
-          "pointsRange": [
-            41,
-            66
+            58,
+            84
           ]
         }
       },
@@ -653,16 +624,45 @@
         "brand": "#CC0000",
         "bio": "",
         "current": {
-          "position": 4,
-          "points": 19,
-          "played": 10,
-          "titleProb": 0.3,
-          "g4Prob": 4.8,
-          "relegationProb": 4.8,
-          "expectedPoints": 50.2,
+          "position": 2,
+          "points": 22,
+          "played": 11,
+          "titleProb": 0.0,
+          "g4Prob": 0.7,
+          "relegationProb": 9.3,
+          "expectedPoints": 46.6,
           "pointsRange": [
-            37,
-            64
+            35,
+            59
+          ]
+        }
+      },
+      "value": 1,
+      "detail": "jogos · encerrada"
+    },
+    {
+      "team": {
+        "slug": "sao-bernardo",
+        "name": "São Bernardo",
+        "shortName": "São Bernardo",
+        "city": "São Bernardo do Campo",
+        "state": "SP",
+        "founded": 2005,
+        "nickname": "Tigre",
+        "division": "B",
+        "brand": "#CC0000",
+        "bio": "",
+        "current": {
+          "position": 3,
+          "points": 21,
+          "played": 11,
+          "titleProb": 39.8,
+          "g4Prob": 90.2,
+          "relegationProb": 0.0,
+          "expectedPoints": 72.4,
+          "pointsRange": [
+            59,
+            85
           ]
         }
       },
@@ -685,10 +685,10 @@
           "position": 5,
           "points": 18,
           "played": 11,
-          "titleProb": 37.6,
-          "g4Prob": 79.0,
+          "titleProb": 15.1,
+          "g4Prob": 74.6,
           "relegationProb": 0.0,
-          "expectedPoints": 68.0,
+          "expectedPoints": 68.1,
           "pointsRange": [
             55,
             81
@@ -697,35 +697,6 @@
       },
       "value": 1,
       "detail": "jogos · ainda em curso"
-    },
-    {
-      "team": {
-        "slug": "criciuma",
-        "name": "Criciúma",
-        "shortName": "Criciúma",
-        "city": "Criciúma",
-        "state": "SC",
-        "founded": 1947,
-        "nickname": "Tigre",
-        "division": "B",
-        "brand": "#C8A200",
-        "bio": "",
-        "current": {
-          "position": 7,
-          "points": 17,
-          "played": 11,
-          "titleProb": 6.8,
-          "g4Prob": 38.2,
-          "relegationProb": 0.1,
-          "expectedPoints": 60.8,
-          "pointsRange": [
-            48,
-            74
-          ]
-        }
-      },
-      "value": 1,
-      "detail": "jogos · encerrada"
     },
     {
       "team": {
@@ -740,16 +711,45 @@
         "brand": "#1E3F8C",
         "bio": "",
         "current": {
-          "position": 9,
-          "points": 16,
-          "played": 10,
-          "titleProb": 0.4,
-          "g4Prob": 6.2,
-          "relegationProb": 1.7,
-          "expectedPoints": 53.0,
+          "position": 7,
+          "points": 17,
+          "played": 11,
+          "titleProb": 0.9,
+          "g4Prob": 19.1,
+          "relegationProb": 0.3,
+          "expectedPoints": 58.5,
           "pointsRange": [
-            41,
-            66
+            45,
+            72
+          ]
+        }
+      },
+      "value": 1,
+      "detail": "jogos · encerrada"
+    },
+    {
+      "team": {
+        "slug": "criciuma",
+        "name": "Criciúma",
+        "shortName": "Criciúma",
+        "city": "Criciúma",
+        "state": "SC",
+        "founded": 1947,
+        "nickname": "Tigre",
+        "division": "B",
+        "brand": "#C8A200",
+        "bio": "",
+        "current": {
+          "position": 8,
+          "points": 17,
+          "played": 11,
+          "titleProb": 0.0,
+          "g4Prob": 1.5,
+          "relegationProb": 6.0,
+          "expectedPoints": 49.0,
+          "pointsRange": [
+            37,
+            62
           ]
         }
       },
@@ -772,13 +772,13 @@
           "position": 10,
           "points": 16,
           "played": 11,
-          "titleProb": 0.1,
-          "g4Prob": 2.5,
-          "relegationProb": 3.9,
-          "expectedPoints": 50.1,
+          "titleProb": 0.0,
+          "g4Prob": 2.8,
+          "relegationProb": 2.5,
+          "expectedPoints": 51.8,
           "pointsRange": [
-            38,
-            63
+            40,
+            64
           ]
         }
       },
@@ -798,21 +798,21 @@
         "brand": "#C8A200",
         "bio": "",
         "current": {
-          "position": 16,
-          "points": 10,
-          "played": 10,
-          "titleProb": 0.0,
-          "g4Prob": 0.0,
-          "relegationProb": 37.8,
-          "expectedPoints": 42.4,
+          "position": 15,
+          "points": 13,
+          "played": 11,
+          "titleProb": 0.7,
+          "g4Prob": 17.1,
+          "relegationProb": 0.4,
+          "expectedPoints": 58.8,
           "pointsRange": [
-            31,
-            54
+            47,
+            71
           ]
         }
       },
       "value": 1,
-      "detail": "jogos · ainda em curso"
+      "detail": "jogos · encerrada"
     },
     {
       "team": {
@@ -827,16 +827,16 @@
         "brand": "#CC0000",
         "bio": "",
         "current": {
-          "position": 3,
+          "position": 4,
           "points": 19,
           "played": 11,
-          "titleProb": 12.3,
-          "g4Prob": 50.4,
-          "relegationProb": 0.1,
-          "expectedPoints": 62.5,
+          "titleProb": 0.0,
+          "g4Prob": 0.1,
+          "relegationProb": 29.9,
+          "expectedPoints": 42.1,
           "pointsRange": [
-            49,
-            76
+            31,
+            54
           ]
         }
       },
@@ -856,45 +856,16 @@
         "brand": "#1A1A1A",
         "bio": "",
         "current": {
-          "position": 8,
+          "position": 9,
           "points": 17,
           "played": 11,
-          "titleProb": 0.0,
-          "g4Prob": 0.9,
-          "relegationProb": 12.0,
-          "expectedPoints": 46.6,
+          "titleProb": 0.1,
+          "g4Prob": 3.0,
+          "relegationProb": 2.0,
+          "expectedPoints": 52.0,
           "pointsRange": [
-            34,
-            59
-          ]
-        }
-      },
-      "value": 2,
-      "detail": "jogos · encerrada"
-    },
-    {
-      "team": {
-        "slug": "ceara",
-        "name": "Ceará",
-        "shortName": "Ceará",
-        "city": "Fortaleza",
-        "state": "CE",
-        "founded": 1914,
-        "nickname": "Vozão",
-        "division": "B",
-        "brand": "#2A2A2A",
-        "bio": "",
-        "current": {
-          "position": 12,
-          "points": 13,
-          "played": 10,
-          "titleProb": 0.0,
-          "g4Prob": 0.1,
-          "relegationProb": 44.0,
-          "expectedPoints": 40.7,
-          "pointsRange": [
-            28,
-            54
+            40,
+            65
           ]
         }
       },
@@ -914,21 +885,50 @@
         "brand": "#1A1A1A",
         "bio": "",
         "current": {
-          "position": 14,
-          "points": 13,
-          "played": 10,
-          "titleProb": 0.0,
-          "g4Prob": 0.1,
-          "relegationProb": 42.8,
-          "expectedPoints": 41.1,
+          "position": 11,
+          "points": 16,
+          "played": 11,
+          "titleProb": 0.5,
+          "g4Prob": 9.8,
+          "relegationProb": 1.1,
+          "expectedPoints": 55.6,
           "pointsRange": [
-            29,
-            54
+            42,
+            69
           ]
         }
       },
       "value": 2,
       "detail": "jogos · encerrada"
+    },
+    {
+      "team": {
+        "slug": "ceara",
+        "name": "Ceará",
+        "shortName": "Ceará",
+        "city": "Fortaleza",
+        "state": "CE",
+        "founded": 1914,
+        "nickname": "Vozão",
+        "division": "B",
+        "brand": "#2A2A2A",
+        "bio": "",
+        "current": {
+          "position": 13,
+          "points": 13,
+          "played": 11,
+          "titleProb": 0.2,
+          "g4Prob": 7.0,
+          "relegationProb": 1.4,
+          "expectedPoints": 54.7,
+          "pointsRange": [
+            42,
+            67
+          ]
+        }
+      },
+      "value": 2,
+      "detail": "jogos · ainda em curso"
     },
     {
       "team": {
@@ -943,16 +943,16 @@
         "brand": "#CC0000",
         "bio": "",
         "current": {
-          "position": 11,
+          "position": 12,
           "points": 14,
-          "played": 10,
-          "titleProb": 8.7,
-          "g4Prob": 42.4,
-          "relegationProb": 0.2,
-          "expectedPoints": 61.6,
+          "played": 11,
+          "titleProb": 0.1,
+          "g4Prob": 2.1,
+          "relegationProb": 7.1,
+          "expectedPoints": 49.5,
           "pointsRange": [
-            48,
-            75
+            36,
+            64
           ]
         }
       },
@@ -972,16 +972,16 @@
         "brand": "#CC0000",
         "bio": "",
         "current": {
-          "position": 13,
+          "position": 14,
           "points": 13,
           "played": 11,
-          "titleProb": 3.2,
-          "g4Prob": 23.1,
-          "relegationProb": 0.7,
-          "expectedPoints": 58.2,
+          "titleProb": 0.0,
+          "g4Prob": 0.2,
+          "relegationProb": 21.6,
+          "expectedPoints": 44.4,
           "pointsRange": [
-            45,
-            71
+            32,
+            57
           ]
         }
       },
@@ -1001,16 +1001,16 @@
         "brand": "#1E5BA3",
         "bio": "",
         "current": {
-          "position": 15,
+          "position": 16,
           "points": 10,
           "played": 11,
           "titleProb": 0.0,
-          "g4Prob": 0.4,
-          "relegationProb": 17.2,
-          "expectedPoints": 46.3,
+          "g4Prob": 0.0,
+          "relegationProb": 84.4,
+          "expectedPoints": 34.5,
           "pointsRange": [
-            35,
-            58
+            24,
+            46
           ]
         }
       },
@@ -1033,12 +1033,12 @@
           "position": 17,
           "points": 9,
           "played": 10,
-          "titleProb": 11.9,
-          "g4Prob": 52.0,
-          "relegationProb": 0.1,
-          "expectedPoints": 63.3,
+          "titleProb": 4.9,
+          "g4Prob": 48.1,
+          "relegationProb": 0.0,
+          "expectedPoints": 64.1,
           "pointsRange": [
-            50,
+            51,
             76
           ]
         }
@@ -1061,14 +1061,14 @@
         "current": {
           "position": 18,
           "points": 8,
-          "played": 10,
+          "played": 11,
           "titleProb": 0.0,
           "g4Prob": 0.0,
-          "relegationProb": 96.2,
-          "expectedPoints": 29.2,
+          "relegationProb": 97.0,
+          "expectedPoints": 28.4,
           "pointsRange": [
             18,
-            42
+            41
           ]
         }
       },
@@ -1093,10 +1093,10 @@
           "played": 11,
           "titleProb": 0.0,
           "g4Prob": 0.0,
-          "relegationProb": 99.5,
-          "expectedPoints": 23.1,
+          "relegationProb": 99.6,
+          "expectedPoints": 22.9,
           "pointsRange": [
-            13,
+            12,
             35
           ]
         }
@@ -1121,9 +1121,9 @@
           "points": 17,
           "played": 11,
           "titleProb": 0.0,
-          "g4Prob": 0.2,
+          "g4Prob": 0.1,
           "relegationProb": 37.5,
-          "expectedPoints": 41.4,
+          "expectedPoints": 41.3,
           "pointsRange": [
             30,
             54
@@ -1149,13 +1149,13 @@
           "position": 19,
           "points": 7,
           "played": 10,
-          "titleProb": 8.1,
-          "g4Prob": 44.1,
+          "titleProb": 2.9,
+          "g4Prob": 35.5,
           "relegationProb": 0.1,
-          "expectedPoints": 62.1,
+          "expectedPoints": 62.4,
           "pointsRange": [
             49,
-            74
+            75
           ]
         }
       },
@@ -1180,13 +1180,13 @@
           "position": 1,
           "points": 22,
           "played": 11,
-          "titleProb": 9.8,
-          "g4Prob": 46.1,
+          "titleProb": 34.8,
+          "g4Prob": 88.0,
           "relegationProb": 0.0,
-          "expectedPoints": 61.6,
+          "expectedPoints": 71.4,
           "pointsRange": [
-            49,
-            75
+            58,
+            84
           ]
         }
       },
@@ -1206,45 +1206,16 @@
         "brand": "#CC0000",
         "bio": "",
         "current": {
-          "position": 4,
-          "points": 19,
-          "played": 10,
-          "titleProb": 0.3,
-          "g4Prob": 4.8,
-          "relegationProb": 4.8,
-          "expectedPoints": 50.2,
-          "pointsRange": [
-            37,
-            64
-          ]
-        }
-      },
-      "value": 7,
-      "detail": "jogos · encerrada"
-    },
-    {
-      "team": {
-        "slug": "fortaleza",
-        "name": "Fortaleza",
-        "shortName": "Fortaleza",
-        "city": "Fortaleza",
-        "state": "CE",
-        "founded": 1918,
-        "nickname": "Leão do Pici",
-        "division": "B",
-        "brand": "#0033A0",
-        "bio": "",
-        "current": {
-          "position": 5,
-          "points": 18,
+          "position": 2,
+          "points": 22,
           "played": 11,
-          "titleProb": 37.6,
-          "g4Prob": 79.0,
-          "relegationProb": 0.0,
-          "expectedPoints": 68.0,
+          "titleProb": 0.0,
+          "g4Prob": 0.7,
+          "relegationProb": 9.3,
+          "expectedPoints": 46.6,
           "pointsRange": [
-            55,
-            81
+            35,
+            59
           ]
         }
       },
@@ -1264,21 +1235,50 @@
         "brand": "#CC0000",
         "bio": "",
         "current": {
-          "position": 2,
-          "points": 20,
-          "played": 10,
-          "titleProb": 0.7,
-          "g4Prob": 9.5,
-          "relegationProb": 1.5,
-          "expectedPoints": 53.0,
+          "position": 3,
+          "points": 21,
+          "played": 11,
+          "titleProb": 39.8,
+          "g4Prob": 90.2,
+          "relegationProb": 0.0,
+          "expectedPoints": 72.4,
           "pointsRange": [
-            41,
-            66
+            59,
+            85
           ]
         }
       },
-      "value": 6,
+      "value": 7,
       "detail": "jogos · ainda em curso"
+    },
+    {
+      "team": {
+        "slug": "fortaleza",
+        "name": "Fortaleza",
+        "shortName": "Fortaleza",
+        "city": "Fortaleza",
+        "state": "CE",
+        "founded": 1918,
+        "nickname": "Leão do Pici",
+        "division": "B",
+        "brand": "#0033A0",
+        "bio": "",
+        "current": {
+          "position": 5,
+          "points": 18,
+          "played": 11,
+          "titleProb": 15.1,
+          "g4Prob": 74.6,
+          "relegationProb": 0.0,
+          "expectedPoints": 68.1,
+          "pointsRange": [
+            55,
+            81
+          ]
+        }
+      },
+      "value": 7,
+      "detail": "jogos · encerrada"
     },
     {
       "team": {
@@ -1293,16 +1293,16 @@
         "brand": "#C8A200",
         "bio": "",
         "current": {
-          "position": 7,
+          "position": 8,
           "points": 17,
           "played": 11,
-          "titleProb": 6.8,
-          "g4Prob": 38.2,
-          "relegationProb": 0.1,
-          "expectedPoints": 60.8,
+          "titleProb": 0.0,
+          "g4Prob": 1.5,
+          "relegationProb": 6.0,
+          "expectedPoints": 49.0,
           "pointsRange": [
-            48,
-            74
+            37,
+            62
           ]
         }
       },
@@ -1325,13 +1325,13 @@
           "position": 10,
           "points": 16,
           "played": 11,
-          "titleProb": 0.1,
-          "g4Prob": 2.5,
-          "relegationProb": 3.9,
-          "expectedPoints": 50.1,
+          "titleProb": 0.0,
+          "g4Prob": 2.8,
+          "relegationProb": 2.5,
+          "expectedPoints": 51.8,
           "pointsRange": [
-            38,
-            63
+            40,
+            64
           ]
         }
       },
@@ -1351,16 +1351,16 @@
         "brand": "#2A2A2A",
         "bio": "",
         "current": {
-          "position": 12,
+          "position": 13,
           "points": 13,
-          "played": 10,
-          "titleProb": 0.0,
-          "g4Prob": 0.1,
-          "relegationProb": 44.0,
-          "expectedPoints": 40.7,
+          "played": 11,
+          "titleProb": 0.2,
+          "g4Prob": 7.0,
+          "relegationProb": 1.4,
+          "expectedPoints": 54.7,
           "pointsRange": [
-            28,
-            54
+            42,
+            67
           ]
         }
       },
@@ -1380,16 +1380,16 @@
         "brand": "#CC0000",
         "bio": "",
         "current": {
-          "position": 13,
+          "position": 14,
           "points": 13,
           "played": 11,
-          "titleProb": 3.2,
-          "g4Prob": 23.1,
-          "relegationProb": 0.7,
-          "expectedPoints": 58.2,
+          "titleProb": 0.0,
+          "g4Prob": 0.2,
+          "relegationProb": 21.6,
+          "expectedPoints": 44.4,
           "pointsRange": [
-            45,
-            71
+            32,
+            57
           ]
         }
       },
@@ -1409,16 +1409,16 @@
         "brand": "#C8A200",
         "bio": "",
         "current": {
-          "position": 16,
-          "points": 10,
-          "played": 10,
-          "titleProb": 0.0,
-          "g4Prob": 0.0,
-          "relegationProb": 37.8,
-          "expectedPoints": 42.4,
+          "position": 15,
+          "points": 13,
+          "played": 11,
+          "titleProb": 0.7,
+          "g4Prob": 17.1,
+          "relegationProb": 0.4,
+          "expectedPoints": 58.8,
           "pointsRange": [
-            31,
-            54
+            47,
+            71
           ]
         }
       },
@@ -1438,21 +1438,50 @@
         "brand": "#CC0000",
         "bio": "",
         "current": {
-          "position": 3,
+          "position": 4,
           "points": 19,
           "played": 11,
-          "titleProb": 12.3,
-          "g4Prob": 50.4,
-          "relegationProb": 0.1,
-          "expectedPoints": 62.5,
+          "titleProb": 0.0,
+          "g4Prob": 0.1,
+          "relegationProb": 29.9,
+          "expectedPoints": 42.1,
           "pointsRange": [
-            49,
-            76
+            31,
+            54
           ]
         }
       },
       "value": 5,
       "detail": "jogos · encerrada"
+    },
+    {
+      "team": {
+        "slug": "novorizontino",
+        "name": "Novorizontino",
+        "shortName": "Novorizontino",
+        "city": "Novo Horizonte",
+        "state": "SP",
+        "founded": 1930,
+        "nickname": "Tigre",
+        "division": "B",
+        "brand": "#1E3F8C",
+        "bio": "",
+        "current": {
+          "position": 7,
+          "points": 17,
+          "played": 11,
+          "titleProb": 0.9,
+          "g4Prob": 19.1,
+          "relegationProb": 0.3,
+          "expectedPoints": 58.5,
+          "pointsRange": [
+            45,
+            72
+          ]
+        }
+      },
+      "value": 5,
+      "detail": "jogos · ainda em curso"
     },
     {
       "team": {
@@ -1467,16 +1496,16 @@
         "brand": "#1A1A1A",
         "bio": "",
         "current": {
-          "position": 8,
+          "position": 9,
           "points": 17,
           "played": 11,
-          "titleProb": 0.0,
-          "g4Prob": 0.9,
-          "relegationProb": 12.0,
-          "expectedPoints": 46.6,
+          "titleProb": 0.1,
+          "g4Prob": 3.0,
+          "relegationProb": 2.0,
+          "expectedPoints": 52.0,
           "pointsRange": [
-            34,
-            59
+            40,
+            65
           ]
         }
       },
@@ -1500,70 +1529,12 @@
           "points": 17,
           "played": 11,
           "titleProb": 0.0,
-          "g4Prob": 0.2,
+          "g4Prob": 0.1,
           "relegationProb": 37.5,
-          "expectedPoints": 41.4,
+          "expectedPoints": 41.3,
           "pointsRange": [
             30,
             54
-          ]
-        }
-      },
-      "value": 4,
-      "detail": "jogos · ainda em curso"
-    },
-    {
-      "team": {
-        "slug": "novorizontino",
-        "name": "Novorizontino",
-        "shortName": "Novorizontino",
-        "city": "Novo Horizonte",
-        "state": "SP",
-        "founded": 1930,
-        "nickname": "Tigre",
-        "division": "B",
-        "brand": "#1E3F8C",
-        "bio": "",
-        "current": {
-          "position": 9,
-          "points": 16,
-          "played": 10,
-          "titleProb": 0.4,
-          "g4Prob": 6.2,
-          "relegationProb": 1.7,
-          "expectedPoints": 53.0,
-          "pointsRange": [
-            41,
-            66
-          ]
-        }
-      },
-      "value": 4,
-      "detail": "jogos · ainda em curso"
-    },
-    {
-      "team": {
-        "slug": "crb",
-        "name": "CRB",
-        "shortName": "CRB",
-        "city": "Maceió",
-        "state": "AL",
-        "founded": 1912,
-        "nickname": "Regatas",
-        "division": "B",
-        "brand": "#CC0000",
-        "bio": "",
-        "current": {
-          "position": 11,
-          "points": 14,
-          "played": 10,
-          "titleProb": 8.7,
-          "g4Prob": 42.4,
-          "relegationProb": 0.2,
-          "expectedPoints": 61.6,
-          "pointsRange": [
-            48,
-            75
           ]
         }
       },
@@ -1583,16 +1554,45 @@
         "brand": "#1A1A1A",
         "bio": "",
         "current": {
-          "position": 14,
-          "points": 13,
-          "played": 10,
-          "titleProb": 0.0,
-          "g4Prob": 0.1,
-          "relegationProb": 42.8,
-          "expectedPoints": 41.1,
+          "position": 11,
+          "points": 16,
+          "played": 11,
+          "titleProb": 0.5,
+          "g4Prob": 9.8,
+          "relegationProb": 1.1,
+          "expectedPoints": 55.6,
           "pointsRange": [
-            29,
-            54
+            42,
+            69
+          ]
+        }
+      },
+      "value": 4,
+      "detail": "jogos · encerrada"
+    },
+    {
+      "team": {
+        "slug": "crb",
+        "name": "CRB",
+        "shortName": "CRB",
+        "city": "Maceió",
+        "state": "AL",
+        "founded": 1912,
+        "nickname": "Regatas",
+        "division": "B",
+        "brand": "#CC0000",
+        "bio": "",
+        "current": {
+          "position": 12,
+          "points": 14,
+          "played": 11,
+          "titleProb": 0.1,
+          "g4Prob": 2.1,
+          "relegationProb": 7.1,
+          "expectedPoints": 49.5,
+          "pointsRange": [
+            36,
+            64
           ]
         }
       },
@@ -1612,16 +1612,16 @@
         "brand": "#1E5BA3",
         "bio": "",
         "current": {
-          "position": 15,
+          "position": 16,
           "points": 10,
           "played": 11,
           "titleProb": 0.0,
-          "g4Prob": 0.4,
-          "relegationProb": 17.2,
-          "expectedPoints": 46.3,
+          "g4Prob": 0.0,
+          "relegationProb": 84.4,
+          "expectedPoints": 34.5,
           "pointsRange": [
-            35,
-            58
+            24,
+            46
           ]
         }
       },
@@ -1644,12 +1644,12 @@
           "position": 17,
           "points": 9,
           "played": 10,
-          "titleProb": 11.9,
-          "g4Prob": 52.0,
-          "relegationProb": 0.1,
-          "expectedPoints": 63.3,
+          "titleProb": 4.9,
+          "g4Prob": 48.1,
+          "relegationProb": 0.0,
+          "expectedPoints": 64.1,
           "pointsRange": [
-            50,
+            51,
             76
           ]
         }
@@ -1672,14 +1672,14 @@
         "current": {
           "position": 18,
           "points": 8,
-          "played": 10,
+          "played": 11,
           "titleProb": 0.0,
           "g4Prob": 0.0,
-          "relegationProb": 96.2,
-          "expectedPoints": 29.2,
+          "relegationProb": 97.0,
+          "expectedPoints": 28.4,
           "pointsRange": [
             18,
-            42
+            41
           ]
         }
       },
@@ -1702,13 +1702,13 @@
           "position": 19,
           "points": 7,
           "played": 10,
-          "titleProb": 8.1,
-          "g4Prob": 44.1,
+          "titleProb": 2.9,
+          "g4Prob": 35.5,
           "relegationProb": 0.1,
-          "expectedPoints": 62.1,
+          "expectedPoints": 62.4,
           "pointsRange": [
             49,
-            74
+            75
           ]
         }
       },
@@ -1733,10 +1733,10 @@
           "played": 11,
           "titleProb": 0.0,
           "g4Prob": 0.0,
-          "relegationProb": 99.5,
-          "expectedPoints": 23.1,
+          "relegationProb": 99.6,
+          "expectedPoints": 22.9,
           "pointsRange": [
-            13,
+            12,
             35
           ]
         }
@@ -1762,13 +1762,13 @@
           "position": 1,
           "points": 22,
           "played": 11,
-          "titleProb": 9.8,
-          "g4Prob": 46.1,
+          "titleProb": 34.8,
+          "g4Prob": 88.0,
           "relegationProb": 0.0,
-          "expectedPoints": 61.6,
+          "expectedPoints": 71.4,
           "pointsRange": [
-            49,
-            75
+            58,
+            84
           ]
         }
       },
@@ -1788,16 +1788,16 @@
         "brand": "#CC0000",
         "bio": "",
         "current": {
-          "position": 2,
-          "points": 20,
-          "played": 10,
-          "titleProb": 0.7,
-          "g4Prob": 9.5,
-          "relegationProb": 1.5,
-          "expectedPoints": 53.0,
+          "position": 3,
+          "points": 21,
+          "played": 11,
+          "titleProb": 39.8,
+          "g4Prob": 90.2,
+          "relegationProb": 0.0,
+          "expectedPoints": 72.4,
           "pointsRange": [
-            41,
-            66
+            59,
+            85
           ]
         }
       },
@@ -1817,16 +1817,16 @@
         "brand": "#CC0000",
         "bio": "",
         "current": {
-          "position": 3,
+          "position": 4,
           "points": 19,
           "played": 11,
-          "titleProb": 12.3,
-          "g4Prob": 50.4,
-          "relegationProb": 0.1,
-          "expectedPoints": 62.5,
+          "titleProb": 0.0,
+          "g4Prob": 0.1,
+          "relegationProb": 29.9,
+          "expectedPoints": 42.1,
           "pointsRange": [
-            49,
-            76
+            31,
+            54
           ]
         }
       },
@@ -1849,10 +1849,10 @@
           "position": 5,
           "points": 18,
           "played": 11,
-          "titleProb": 37.6,
-          "g4Prob": 79.0,
+          "titleProb": 15.1,
+          "g4Prob": 74.6,
           "relegationProb": 0.0,
-          "expectedPoints": 68.0,
+          "expectedPoints": 68.1,
           "pointsRange": [
             55,
             81
@@ -1875,16 +1875,16 @@
         "brand": "#CC0000",
         "bio": "",
         "current": {
-          "position": 4,
-          "points": 19,
-          "played": 10,
-          "titleProb": 0.3,
-          "g4Prob": 4.8,
-          "relegationProb": 4.8,
-          "expectedPoints": 50.2,
+          "position": 2,
+          "points": 22,
+          "played": 11,
+          "titleProb": 0.0,
+          "g4Prob": 0.7,
+          "relegationProb": 9.3,
+          "expectedPoints": 46.6,
           "pointsRange": [
-            37,
-            64
+            35,
+            59
           ]
         }
       },
@@ -1904,16 +1904,16 @@
         "brand": "#1E3F8C",
         "bio": "",
         "current": {
-          "position": 9,
-          "points": 16,
-          "played": 10,
-          "titleProb": 0.4,
-          "g4Prob": 6.2,
-          "relegationProb": 1.7,
-          "expectedPoints": 53.0,
+          "position": 7,
+          "points": 17,
+          "played": 11,
+          "titleProb": 0.9,
+          "g4Prob": 19.1,
+          "relegationProb": 0.3,
+          "expectedPoints": 58.5,
           "pointsRange": [
-            41,
-            66
+            45,
+            72
           ]
         }
       },
@@ -1933,16 +1933,16 @@
         "brand": "#CC0000",
         "bio": "",
         "current": {
-          "position": 13,
+          "position": 14,
           "points": 13,
           "played": 11,
-          "titleProb": 3.2,
-          "g4Prob": 23.1,
-          "relegationProb": 0.7,
-          "expectedPoints": 58.2,
+          "titleProb": 0.0,
+          "g4Prob": 0.2,
+          "relegationProb": 21.6,
+          "expectedPoints": 44.4,
           "pointsRange": [
-            45,
-            71
+            32,
+            57
           ]
         }
       },
@@ -1966,9 +1966,9 @@
           "points": 17,
           "played": 11,
           "titleProb": 0.0,
-          "g4Prob": 0.2,
+          "g4Prob": 0.1,
           "relegationProb": 37.5,
-          "expectedPoints": 41.4,
+          "expectedPoints": 41.3,
           "pointsRange": [
             30,
             54
@@ -1991,16 +1991,16 @@
         "brand": "#C8A200",
         "bio": "",
         "current": {
-          "position": 7,
+          "position": 8,
           "points": 17,
           "played": 11,
-          "titleProb": 6.8,
-          "g4Prob": 38.2,
-          "relegationProb": 0.1,
-          "expectedPoints": 60.8,
+          "titleProb": 0.0,
+          "g4Prob": 1.5,
+          "relegationProb": 6.0,
+          "expectedPoints": 49.0,
           "pointsRange": [
-            48,
-            74
+            37,
+            62
           ]
         }
       },
@@ -2023,42 +2023,13 @@
           "position": 10,
           "points": 16,
           "played": 11,
-          "titleProb": 0.1,
-          "g4Prob": 2.5,
-          "relegationProb": 3.9,
-          "expectedPoints": 50.1,
-          "pointsRange": [
-            38,
-            63
-          ]
-        }
-      },
-      "value": 4,
-      "detail": "jogos · encerrada"
-    },
-    {
-      "team": {
-        "slug": "ceara",
-        "name": "Ceará",
-        "shortName": "Ceará",
-        "city": "Fortaleza",
-        "state": "CE",
-        "founded": 1914,
-        "nickname": "Vozão",
-        "division": "B",
-        "brand": "#2A2A2A",
-        "bio": "",
-        "current": {
-          "position": 12,
-          "points": 13,
-          "played": 10,
           "titleProb": 0.0,
-          "g4Prob": 0.1,
-          "relegationProb": 44.0,
-          "expectedPoints": 40.7,
+          "g4Prob": 2.8,
+          "relegationProb": 2.5,
+          "expectedPoints": 51.8,
           "pointsRange": [
-            28,
-            54
+            40,
+            64
           ]
         }
       },
@@ -2078,16 +2049,45 @@
         "brand": "#1A1A1A",
         "bio": "",
         "current": {
-          "position": 14,
-          "points": 13,
-          "played": 10,
-          "titleProb": 0.0,
-          "g4Prob": 0.1,
-          "relegationProb": 42.8,
-          "expectedPoints": 41.1,
+          "position": 11,
+          "points": 16,
+          "played": 11,
+          "titleProb": 0.5,
+          "g4Prob": 9.8,
+          "relegationProb": 1.1,
+          "expectedPoints": 55.6,
           "pointsRange": [
-            29,
-            54
+            42,
+            69
+          ]
+        }
+      },
+      "value": 4,
+      "detail": "jogos · encerrada"
+    },
+    {
+      "team": {
+        "slug": "ceara",
+        "name": "Ceará",
+        "shortName": "Ceará",
+        "city": "Fortaleza",
+        "state": "CE",
+        "founded": 1914,
+        "nickname": "Vozão",
+        "division": "B",
+        "brand": "#2A2A2A",
+        "bio": "",
+        "current": {
+          "position": 13,
+          "points": 13,
+          "played": 11,
+          "titleProb": 0.2,
+          "g4Prob": 7.0,
+          "relegationProb": 1.4,
+          "expectedPoints": 54.7,
+          "pointsRange": [
+            42,
+            67
           ]
         }
       },
@@ -2110,13 +2110,13 @@
           "position": 19,
           "points": 7,
           "played": 10,
-          "titleProb": 8.1,
-          "g4Prob": 44.1,
+          "titleProb": 2.9,
+          "g4Prob": 35.5,
           "relegationProb": 0.1,
-          "expectedPoints": 62.1,
+          "expectedPoints": 62.4,
           "pointsRange": [
             49,
-            74
+            75
           ]
         }
       },
@@ -2136,16 +2136,16 @@
         "brand": "#1A1A1A",
         "bio": "",
         "current": {
-          "position": 8,
+          "position": 9,
           "points": 17,
           "played": 11,
-          "titleProb": 0.0,
-          "g4Prob": 0.9,
-          "relegationProb": 12.0,
-          "expectedPoints": 46.6,
+          "titleProb": 0.1,
+          "g4Prob": 3.0,
+          "relegationProb": 2.0,
+          "expectedPoints": 52.0,
           "pointsRange": [
-            34,
-            59
+            40,
+            65
           ]
         }
       },
@@ -2165,21 +2165,21 @@
         "brand": "#C8A200",
         "bio": "",
         "current": {
-          "position": 16,
-          "points": 10,
-          "played": 10,
-          "titleProb": 0.0,
-          "g4Prob": 0.0,
-          "relegationProb": 37.8,
-          "expectedPoints": 42.4,
+          "position": 15,
+          "points": 13,
+          "played": 11,
+          "titleProb": 0.7,
+          "g4Prob": 17.1,
+          "relegationProb": 0.4,
+          "expectedPoints": 58.8,
           "pointsRange": [
-            31,
-            54
+            47,
+            71
           ]
         }
       },
       "value": 5,
-      "detail": "jogos · ainda em curso"
+      "detail": "jogos · encerrada"
     },
     {
       "team": {
@@ -2194,16 +2194,16 @@
         "brand": "#CC0000",
         "bio": "",
         "current": {
-          "position": 11,
+          "position": 12,
           "points": 14,
-          "played": 10,
-          "titleProb": 8.7,
-          "g4Prob": 42.4,
-          "relegationProb": 0.2,
-          "expectedPoints": 61.6,
+          "played": 11,
+          "titleProb": 0.1,
+          "g4Prob": 2.1,
+          "relegationProb": 7.1,
+          "expectedPoints": 49.5,
           "pointsRange": [
-            48,
-            75
+            36,
+            64
           ]
         }
       },
@@ -2225,14 +2225,14 @@
         "current": {
           "position": 18,
           "points": 8,
-          "played": 10,
+          "played": 11,
           "titleProb": 0.0,
           "g4Prob": 0.0,
-          "relegationProb": 96.2,
-          "expectedPoints": 29.2,
+          "relegationProb": 97.0,
+          "expectedPoints": 28.4,
           "pointsRange": [
             18,
-            42
+            41
           ]
         }
       },
@@ -2255,12 +2255,12 @@
           "position": 17,
           "points": 9,
           "played": 10,
-          "titleProb": 11.9,
-          "g4Prob": 52.0,
-          "relegationProb": 0.1,
-          "expectedPoints": 63.3,
+          "titleProb": 4.9,
+          "g4Prob": 48.1,
+          "relegationProb": 0.0,
+          "expectedPoints": 64.1,
           "pointsRange": [
-            50,
+            51,
             76
           ]
         }
@@ -2281,16 +2281,16 @@
         "brand": "#1E5BA3",
         "bio": "",
         "current": {
-          "position": 15,
+          "position": 16,
           "points": 10,
           "played": 11,
           "titleProb": 0.0,
-          "g4Prob": 0.4,
-          "relegationProb": 17.2,
-          "expectedPoints": 46.3,
+          "g4Prob": 0.0,
+          "relegationProb": 84.4,
+          "expectedPoints": 34.5,
           "pointsRange": [
-            35,
-            58
+            24,
+            46
           ]
         }
       },
@@ -2315,10 +2315,10 @@
           "played": 11,
           "titleProb": 0.0,
           "g4Prob": 0.0,
-          "relegationProb": 99.5,
-          "expectedPoints": 23.1,
+          "relegationProb": 99.6,
+          "expectedPoints": 22.9,
           "pointsRange": [
-            13,
+            12,
             35
           ]
         }
@@ -2330,32 +2330,32 @@
   "melhor-ataque": [
     {
       "team": {
-        "slug": "crb",
-        "name": "CRB",
-        "shortName": "CRB",
-        "city": "Maceió",
-        "state": "AL",
-        "founded": 1912,
-        "nickname": "Regatas",
+        "slug": "vila-nova",
+        "name": "Vila Nova",
+        "shortName": "Vila Nova",
+        "city": "Goiânia",
+        "state": "GO",
+        "founded": 1943,
+        "nickname": "Tigre",
         "division": "B",
         "brand": "#CC0000",
         "bio": "",
         "current": {
-          "position": 11,
-          "points": 14,
-          "played": 10,
-          "titleProb": 8.7,
-          "g4Prob": 42.4,
-          "relegationProb": 0.2,
-          "expectedPoints": 61.6,
+          "position": 2,
+          "points": 22,
+          "played": 11,
+          "titleProb": 0.0,
+          "g4Prob": 0.7,
+          "relegationProb": 9.3,
+          "expectedPoints": 46.6,
           "pointsRange": [
-            48,
-            75
+            35,
+            59
           ]
         }
       },
       "value": 17,
-      "detail": "gols marcados em 10 jogos"
+      "detail": "gols marcados em 11 jogos"
     },
     {
       "team": {
@@ -2370,21 +2370,50 @@
         "brand": "#CC0000",
         "bio": "",
         "current": {
-          "position": 2,
-          "points": 20,
-          "played": 10,
-          "titleProb": 0.7,
-          "g4Prob": 9.5,
-          "relegationProb": 1.5,
-          "expectedPoints": 53.0,
+          "position": 3,
+          "points": 21,
+          "played": 11,
+          "titleProb": 39.8,
+          "g4Prob": 90.2,
+          "relegationProb": 0.0,
+          "expectedPoints": 72.4,
           "pointsRange": [
-            41,
-            66
+            59,
+            85
           ]
         }
       },
-      "value": 16,
-      "detail": "gols marcados em 10 jogos"
+      "value": 17,
+      "detail": "gols marcados em 11 jogos"
+    },
+    {
+      "team": {
+        "slug": "crb",
+        "name": "CRB",
+        "shortName": "CRB",
+        "city": "Maceió",
+        "state": "AL",
+        "founded": 1912,
+        "nickname": "Regatas",
+        "division": "B",
+        "brand": "#CC0000",
+        "bio": "",
+        "current": {
+          "position": 12,
+          "points": 14,
+          "played": 11,
+          "titleProb": 0.1,
+          "g4Prob": 2.1,
+          "relegationProb": 7.1,
+          "expectedPoints": 49.5,
+          "pointsRange": [
+            36,
+            64
+          ]
+        }
+      },
+      "value": 17,
+      "detail": "gols marcados em 11 jogos"
     },
     {
       "team": {
@@ -2399,50 +2428,21 @@
         "brand": "#CC0000",
         "bio": "",
         "current": {
-          "position": 3,
+          "position": 4,
           "points": 19,
           "played": 11,
-          "titleProb": 12.3,
-          "g4Prob": 50.4,
-          "relegationProb": 0.1,
-          "expectedPoints": 62.5,
+          "titleProb": 0.0,
+          "g4Prob": 0.1,
+          "relegationProb": 29.9,
+          "expectedPoints": 42.1,
           "pointsRange": [
-            49,
-            76
+            31,
+            54
           ]
         }
       },
       "value": 16,
       "detail": "gols marcados em 11 jogos"
-    },
-    {
-      "team": {
-        "slug": "vila-nova",
-        "name": "Vila Nova",
-        "shortName": "Vila Nova",
-        "city": "Goiânia",
-        "state": "GO",
-        "founded": 1943,
-        "nickname": "Tigre",
-        "division": "B",
-        "brand": "#CC0000",
-        "bio": "",
-        "current": {
-          "position": 4,
-          "points": 19,
-          "played": 10,
-          "titleProb": 0.3,
-          "g4Prob": 4.8,
-          "relegationProb": 4.8,
-          "expectedPoints": 50.2,
-          "pointsRange": [
-            37,
-            64
-          ]
-        }
-      },
-      "value": 16,
-      "detail": "gols marcados em 10 jogos"
     },
     {
       "team": {
@@ -2460,13 +2460,13 @@
           "position": 1,
           "points": 22,
           "played": 11,
-          "titleProb": 9.8,
-          "g4Prob": 46.1,
+          "titleProb": 34.8,
+          "g4Prob": 88.0,
           "relegationProb": 0.0,
-          "expectedPoints": 61.6,
+          "expectedPoints": 71.4,
           "pointsRange": [
-            49,
-            75
+            58,
+            84
           ]
         }
       },
@@ -2489,13 +2489,42 @@
           "position": 5,
           "points": 18,
           "played": 11,
-          "titleProb": 37.6,
-          "g4Prob": 79.0,
+          "titleProb": 15.1,
+          "g4Prob": 74.6,
           "relegationProb": 0.0,
-          "expectedPoints": 68.0,
+          "expectedPoints": 68.1,
           "pointsRange": [
             55,
             81
+          ]
+        }
+      },
+      "value": 14,
+      "detail": "gols marcados em 11 jogos"
+    },
+    {
+      "team": {
+        "slug": "novorizontino",
+        "name": "Novorizontino",
+        "shortName": "Novorizontino",
+        "city": "Novo Horizonte",
+        "state": "SP",
+        "founded": 1930,
+        "nickname": "Tigre",
+        "division": "B",
+        "brand": "#1E3F8C",
+        "bio": "",
+        "current": {
+          "position": 7,
+          "points": 17,
+          "played": 11,
+          "titleProb": 0.9,
+          "g4Prob": 19.1,
+          "relegationProb": 0.3,
+          "expectedPoints": 58.5,
+          "pointsRange": [
+            45,
+            72
           ]
         }
       },
@@ -2515,16 +2544,16 @@
         "brand": "#C8A200",
         "bio": "",
         "current": {
-          "position": 7,
+          "position": 8,
           "points": 17,
           "played": 11,
-          "titleProb": 6.8,
-          "g4Prob": 38.2,
-          "relegationProb": 0.1,
-          "expectedPoints": 60.8,
+          "titleProb": 0.0,
+          "g4Prob": 1.5,
+          "relegationProb": 6.0,
+          "expectedPoints": 49.0,
           "pointsRange": [
-            48,
-            74
+            37,
+            62
           ]
         }
       },
@@ -2544,50 +2573,21 @@
         "brand": "#1A1A1A",
         "bio": "",
         "current": {
-          "position": 8,
+          "position": 9,
           "points": 17,
           "played": 11,
-          "titleProb": 0.0,
-          "g4Prob": 0.9,
-          "relegationProb": 12.0,
-          "expectedPoints": 46.6,
+          "titleProb": 0.1,
+          "g4Prob": 3.0,
+          "relegationProb": 2.0,
+          "expectedPoints": 52.0,
           "pointsRange": [
-            34,
-            59
+            40,
+            65
           ]
         }
       },
       "value": 13,
       "detail": "gols marcados em 11 jogos"
-    },
-    {
-      "team": {
-        "slug": "novorizontino",
-        "name": "Novorizontino",
-        "shortName": "Novorizontino",
-        "city": "Novo Horizonte",
-        "state": "SP",
-        "founded": 1930,
-        "nickname": "Tigre",
-        "division": "B",
-        "brand": "#1E3F8C",
-        "bio": "",
-        "current": {
-          "position": 9,
-          "points": 16,
-          "played": 10,
-          "titleProb": 0.4,
-          "g4Prob": 6.2,
-          "relegationProb": 1.7,
-          "expectedPoints": 53.0,
-          "pointsRange": [
-            41,
-            66
-          ]
-        }
-      },
-      "value": 13,
-      "detail": "gols marcados em 10 jogos"
     },
     {
       "team": {
@@ -2606,12 +2606,70 @@
           "points": 17,
           "played": 11,
           "titleProb": 0.0,
-          "g4Prob": 0.2,
+          "g4Prob": 0.1,
           "relegationProb": 37.5,
-          "expectedPoints": 41.4,
+          "expectedPoints": 41.3,
           "pointsRange": [
             30,
             54
+          ]
+        }
+      },
+      "value": 12,
+      "detail": "gols marcados em 11 jogos"
+    },
+    {
+      "team": {
+        "slug": "operario-pr",
+        "name": "Operário-PR",
+        "shortName": "Operário-PR",
+        "city": "Ponta Grossa",
+        "state": "PR",
+        "founded": 1912,
+        "nickname": "Fantasma",
+        "division": "B",
+        "brand": "#1A1A1A",
+        "bio": "",
+        "current": {
+          "position": 11,
+          "points": 16,
+          "played": 11,
+          "titleProb": 0.5,
+          "g4Prob": 9.8,
+          "relegationProb": 1.1,
+          "expectedPoints": 55.6,
+          "pointsRange": [
+            42,
+            69
+          ]
+        }
+      },
+      "value": 12,
+      "detail": "gols marcados em 11 jogos"
+    },
+    {
+      "team": {
+        "slug": "ceara",
+        "name": "Ceará",
+        "shortName": "Ceará",
+        "city": "Fortaleza",
+        "state": "CE",
+        "founded": 1914,
+        "nickname": "Vozão",
+        "division": "B",
+        "brand": "#2A2A2A",
+        "bio": "",
+        "current": {
+          "position": 13,
+          "points": 13,
+          "played": 11,
+          "titleProb": 0.2,
+          "g4Prob": 7.0,
+          "relegationProb": 1.4,
+          "expectedPoints": 54.7,
+          "pointsRange": [
+            42,
+            67
           ]
         }
       },
@@ -2633,48 +2691,19 @@
         "current": {
           "position": 18,
           "points": 8,
-          "played": 10,
+          "played": 11,
           "titleProb": 0.0,
           "g4Prob": 0.0,
-          "relegationProb": 96.2,
-          "expectedPoints": 29.2,
+          "relegationProb": 97.0,
+          "expectedPoints": 28.4,
           "pointsRange": [
             18,
-            42
+            41
           ]
         }
       },
       "value": 12,
-      "detail": "gols marcados em 10 jogos"
-    },
-    {
-      "team": {
-        "slug": "ceara",
-        "name": "Ceará",
-        "shortName": "Ceará",
-        "city": "Fortaleza",
-        "state": "CE",
-        "founded": 1914,
-        "nickname": "Vozão",
-        "division": "B",
-        "brand": "#2A2A2A",
-        "bio": "",
-        "current": {
-          "position": 12,
-          "points": 13,
-          "played": 10,
-          "titleProb": 0.0,
-          "g4Prob": 0.1,
-          "relegationProb": 44.0,
-          "expectedPoints": 40.7,
-          "pointsRange": [
-            28,
-            54
-          ]
-        }
-      },
-      "value": 11,
-      "detail": "gols marcados em 10 jogos"
+      "detail": "gols marcados em 11 jogos"
     },
     {
       "team": {
@@ -2689,16 +2718,16 @@
         "brand": "#1E5BA3",
         "bio": "",
         "current": {
-          "position": 15,
+          "position": 16,
           "points": 10,
           "played": 11,
           "titleProb": 0.0,
-          "g4Prob": 0.4,
-          "relegationProb": 17.2,
-          "expectedPoints": 46.3,
+          "g4Prob": 0.0,
+          "relegationProb": 84.4,
+          "expectedPoints": 34.5,
           "pointsRange": [
-            35,
-            58
+            24,
+            46
           ]
         }
       },
@@ -2721,12 +2750,12 @@
           "position": 17,
           "points": 9,
           "played": 10,
-          "titleProb": 11.9,
-          "g4Prob": 52.0,
-          "relegationProb": 0.1,
-          "expectedPoints": 63.3,
+          "titleProb": 4.9,
+          "g4Prob": 48.1,
+          "relegationProb": 0.0,
+          "expectedPoints": 64.1,
           "pointsRange": [
-            50,
+            51,
             76
           ]
         }
@@ -2747,50 +2776,21 @@
         "brand": "#CC0000",
         "bio": "",
         "current": {
-          "position": 13,
+          "position": 14,
           "points": 13,
           "played": 11,
-          "titleProb": 3.2,
-          "g4Prob": 23.1,
-          "relegationProb": 0.7,
-          "expectedPoints": 58.2,
+          "titleProb": 0.0,
+          "g4Prob": 0.2,
+          "relegationProb": 21.6,
+          "expectedPoints": 44.4,
           "pointsRange": [
-            45,
-            71
+            32,
+            57
           ]
         }
       },
       "value": 10,
       "detail": "gols marcados em 11 jogos"
-    },
-    {
-      "team": {
-        "slug": "operario-pr",
-        "name": "Operário-PR",
-        "shortName": "Operário-PR",
-        "city": "Ponta Grossa",
-        "state": "PR",
-        "founded": 1912,
-        "nickname": "Fantasma",
-        "division": "B",
-        "brand": "#1A1A1A",
-        "bio": "",
-        "current": {
-          "position": 14,
-          "points": 13,
-          "played": 10,
-          "titleProb": 0.0,
-          "g4Prob": 0.1,
-          "relegationProb": 42.8,
-          "expectedPoints": 41.1,
-          "pointsRange": [
-            29,
-            54
-          ]
-        }
-      },
-      "value": 10,
-      "detail": "gols marcados em 10 jogos"
     },
     {
       "team": {
@@ -2808,13 +2808,13 @@
           "position": 10,
           "points": 16,
           "played": 11,
-          "titleProb": 0.1,
-          "g4Prob": 2.5,
-          "relegationProb": 3.9,
-          "expectedPoints": 50.1,
+          "titleProb": 0.0,
+          "g4Prob": 2.8,
+          "relegationProb": 2.5,
+          "expectedPoints": 51.8,
           "pointsRange": [
-            38,
-            63
+            40,
+            64
           ]
         }
       },
@@ -2837,18 +2837,47 @@
           "position": 19,
           "points": 7,
           "played": 10,
-          "titleProb": 8.1,
-          "g4Prob": 44.1,
+          "titleProb": 2.9,
+          "g4Prob": 35.5,
           "relegationProb": 0.1,
-          "expectedPoints": 62.1,
+          "expectedPoints": 62.4,
           "pointsRange": [
             49,
-            74
+            75
           ]
         }
       },
       "value": 9,
       "detail": "gols marcados em 10 jogos"
+    },
+    {
+      "team": {
+        "slug": "cuiaba",
+        "name": "Cuiabá",
+        "shortName": "Cuiabá",
+        "city": "Cuiabá",
+        "state": "MT",
+        "founded": 2001,
+        "nickname": "Dourado",
+        "division": "B",
+        "brand": "#C8A200",
+        "bio": "",
+        "current": {
+          "position": 15,
+          "points": 13,
+          "played": 11,
+          "titleProb": 0.7,
+          "g4Prob": 17.1,
+          "relegationProb": 0.4,
+          "expectedPoints": 58.8,
+          "pointsRange": [
+            47,
+            71
+          ]
+        }
+      },
+      "value": 6,
+      "detail": "gols marcados em 11 jogos"
     },
     {
       "team": {
@@ -2868,45 +2897,16 @@
           "played": 11,
           "titleProb": 0.0,
           "g4Prob": 0.0,
-          "relegationProb": 99.5,
-          "expectedPoints": 23.1,
+          "relegationProb": 99.6,
+          "expectedPoints": 22.9,
           "pointsRange": [
-            13,
+            12,
             35
           ]
         }
       },
       "value": 6,
       "detail": "gols marcados em 11 jogos"
-    },
-    {
-      "team": {
-        "slug": "cuiaba",
-        "name": "Cuiabá",
-        "shortName": "Cuiabá",
-        "city": "Cuiabá",
-        "state": "MT",
-        "founded": 2001,
-        "nickname": "Dourado",
-        "division": "B",
-        "brand": "#C8A200",
-        "bio": "",
-        "current": {
-          "position": 16,
-          "points": 10,
-          "played": 10,
-          "titleProb": 0.0,
-          "g4Prob": 0.0,
-          "relegationProb": 37.8,
-          "expectedPoints": 42.4,
-          "pointsRange": [
-            31,
-            54
-          ]
-        }
-      },
-      "value": 4,
-      "detail": "gols marcados em 10 jogos"
     }
   ],
   "melhor-defesa": [
@@ -2923,21 +2923,21 @@
         "brand": "#C8A200",
         "bio": "",
         "current": {
-          "position": 16,
-          "points": 10,
-          "played": 10,
-          "titleProb": 0.0,
-          "g4Prob": 0.0,
-          "relegationProb": 37.8,
-          "expectedPoints": 42.4,
+          "position": 15,
+          "points": 13,
+          "played": 11,
+          "titleProb": 0.7,
+          "g4Prob": 17.1,
+          "relegationProb": 0.4,
+          "expectedPoints": 58.8,
           "pointsRange": [
-            31,
-            54
+            47,
+            71
           ]
         }
       },
       "value": 5,
-      "detail": "gols sofridos em 10 jogos"
+      "detail": "gols sofridos em 11 jogos"
     },
     {
       "team": {
@@ -2955,13 +2955,13 @@
           "position": 10,
           "points": 16,
           "played": 11,
-          "titleProb": 0.1,
-          "g4Prob": 2.5,
-          "relegationProb": 3.9,
-          "expectedPoints": 50.1,
+          "titleProb": 0.0,
+          "g4Prob": 2.8,
+          "relegationProb": 2.5,
+          "expectedPoints": 51.8,
           "pointsRange": [
-            38,
-            63
+            40,
+            64
           ]
         }
       },
@@ -2984,13 +2984,13 @@
           "position": 1,
           "points": 22,
           "played": 11,
-          "titleProb": 9.8,
-          "g4Prob": 46.1,
+          "titleProb": 34.8,
+          "g4Prob": 88.0,
           "relegationProb": 0.0,
-          "expectedPoints": 61.6,
+          "expectedPoints": 71.4,
           "pointsRange": [
-            49,
-            75
+            58,
+            84
           ]
         }
       },
@@ -3010,21 +3010,21 @@
         "brand": "#CC0000",
         "bio": "",
         "current": {
-          "position": 2,
-          "points": 20,
-          "played": 10,
-          "titleProb": 0.7,
-          "g4Prob": 9.5,
-          "relegationProb": 1.5,
-          "expectedPoints": 53.0,
+          "position": 3,
+          "points": 21,
+          "played": 11,
+          "titleProb": 39.8,
+          "g4Prob": 90.2,
+          "relegationProb": 0.0,
+          "expectedPoints": 72.4,
           "pointsRange": [
-            41,
-            66
+            59,
+            85
           ]
         }
       },
-      "value": 7,
-      "detail": "gols sofridos em 10 jogos"
+      "value": 8,
+      "detail": "gols sofridos em 11 jogos"
     },
     {
       "team": {
@@ -3039,78 +3039,20 @@
         "brand": "#C8A200",
         "bio": "",
         "current": {
-          "position": 7,
+          "position": 8,
           "points": 17,
           "played": 11,
-          "titleProb": 6.8,
-          "g4Prob": 38.2,
-          "relegationProb": 0.1,
-          "expectedPoints": 60.8,
+          "titleProb": 0.0,
+          "g4Prob": 1.5,
+          "relegationProb": 6.0,
+          "expectedPoints": 49.0,
           "pointsRange": [
-            48,
-            74
+            37,
+            62
           ]
         }
       },
       "value": 10,
-      "detail": "gols sofridos em 11 jogos"
-    },
-    {
-      "team": {
-        "slug": "novorizontino",
-        "name": "Novorizontino",
-        "shortName": "Novorizontino",
-        "city": "Novo Horizonte",
-        "state": "SP",
-        "founded": 1930,
-        "nickname": "Tigre",
-        "division": "B",
-        "brand": "#1E3F8C",
-        "bio": "",
-        "current": {
-          "position": 9,
-          "points": 16,
-          "played": 10,
-          "titleProb": 0.4,
-          "g4Prob": 6.2,
-          "relegationProb": 1.7,
-          "expectedPoints": 53.0,
-          "pointsRange": [
-            41,
-            66
-          ]
-        }
-      },
-      "value": 10,
-      "detail": "gols sofridos em 10 jogos"
-    },
-    {
-      "team": {
-        "slug": "nautico",
-        "name": "Náutico",
-        "shortName": "Náutico",
-        "city": "Recife",
-        "state": "PE",
-        "founded": 1901,
-        "nickname": "Timbu",
-        "division": "B",
-        "brand": "#CC0000",
-        "bio": "",
-        "current": {
-          "position": 3,
-          "points": 19,
-          "played": 11,
-          "titleProb": 12.3,
-          "g4Prob": 50.4,
-          "relegationProb": 0.1,
-          "expectedPoints": 62.5,
-          "pointsRange": [
-            49,
-            76
-          ]
-        }
-      },
-      "value": 11,
       "detail": "gols sofridos em 11 jogos"
     },
     {
@@ -3126,21 +3068,50 @@
         "brand": "#CC0000",
         "bio": "",
         "current": {
-          "position": 4,
-          "points": 19,
-          "played": 10,
-          "titleProb": 0.3,
-          "g4Prob": 4.8,
-          "relegationProb": 4.8,
-          "expectedPoints": 50.2,
+          "position": 2,
+          "points": 22,
+          "played": 11,
+          "titleProb": 0.0,
+          "g4Prob": 0.7,
+          "relegationProb": 9.3,
+          "expectedPoints": 46.6,
           "pointsRange": [
-            37,
-            64
+            35,
+            59
           ]
         }
       },
       "value": 11,
-      "detail": "gols sofridos em 10 jogos"
+      "detail": "gols sofridos em 11 jogos"
+    },
+    {
+      "team": {
+        "slug": "nautico",
+        "name": "Náutico",
+        "shortName": "Náutico",
+        "city": "Recife",
+        "state": "PE",
+        "founded": 1901,
+        "nickname": "Timbu",
+        "division": "B",
+        "brand": "#CC0000",
+        "bio": "",
+        "current": {
+          "position": 4,
+          "points": 19,
+          "played": 11,
+          "titleProb": 0.0,
+          "g4Prob": 0.1,
+          "relegationProb": 29.9,
+          "expectedPoints": 42.1,
+          "pointsRange": [
+            31,
+            54
+          ]
+        }
+      },
+      "value": 11,
+      "detail": "gols sofridos em 11 jogos"
     },
     {
       "team": {
@@ -3158,13 +3129,42 @@
           "position": 5,
           "points": 18,
           "played": 11,
-          "titleProb": 37.6,
-          "g4Prob": 79.0,
+          "titleProb": 15.1,
+          "g4Prob": 74.6,
           "relegationProb": 0.0,
-          "expectedPoints": 68.0,
+          "expectedPoints": 68.1,
           "pointsRange": [
             55,
             81
+          ]
+        }
+      },
+      "value": 11,
+      "detail": "gols sofridos em 11 jogos"
+    },
+    {
+      "team": {
+        "slug": "novorizontino",
+        "name": "Novorizontino",
+        "shortName": "Novorizontino",
+        "city": "Novo Horizonte",
+        "state": "SP",
+        "founded": 1930,
+        "nickname": "Tigre",
+        "division": "B",
+        "brand": "#1E3F8C",
+        "bio": "",
+        "current": {
+          "position": 7,
+          "points": 17,
+          "played": 11,
+          "titleProb": 0.9,
+          "g4Prob": 19.1,
+          "relegationProb": 0.3,
+          "expectedPoints": 58.5,
+          "pointsRange": [
+            45,
+            72
           ]
         }
       },
@@ -3184,50 +3184,21 @@
         "brand": "#1A1A1A",
         "bio": "",
         "current": {
-          "position": 8,
+          "position": 9,
           "points": 17,
           "played": 11,
-          "titleProb": 0.0,
-          "g4Prob": 0.9,
-          "relegationProb": 12.0,
-          "expectedPoints": 46.6,
+          "titleProb": 0.1,
+          "g4Prob": 3.0,
+          "relegationProb": 2.0,
+          "expectedPoints": 52.0,
           "pointsRange": [
-            34,
-            59
+            40,
+            65
           ]
         }
       },
       "value": 11,
       "detail": "gols sofridos em 11 jogos"
-    },
-    {
-      "team": {
-        "slug": "ceara",
-        "name": "Ceará",
-        "shortName": "Ceará",
-        "city": "Fortaleza",
-        "state": "CE",
-        "founded": 1914,
-        "nickname": "Vozão",
-        "division": "B",
-        "brand": "#2A2A2A",
-        "bio": "",
-        "current": {
-          "position": 12,
-          "points": 13,
-          "played": 10,
-          "titleProb": 0.0,
-          "g4Prob": 0.1,
-          "relegationProb": 44.0,
-          "expectedPoints": 40.7,
-          "pointsRange": [
-            28,
-            54
-          ]
-        }
-      },
-      "value": 11,
-      "detail": "gols sofridos em 10 jogos"
     },
     {
       "team": {
@@ -3242,16 +3213,16 @@
         "brand": "#CC0000",
         "bio": "",
         "current": {
-          "position": 13,
+          "position": 14,
           "points": 13,
           "played": 11,
-          "titleProb": 3.2,
-          "g4Prob": 23.1,
-          "relegationProb": 0.7,
-          "expectedPoints": 58.2,
+          "titleProb": 0.0,
+          "g4Prob": 0.2,
+          "relegationProb": 21.6,
+          "expectedPoints": 44.4,
           "pointsRange": [
-            45,
-            71
+            32,
+            57
           ]
         }
       },
@@ -3274,12 +3245,12 @@
           "position": 17,
           "points": 9,
           "played": 10,
-          "titleProb": 11.9,
-          "g4Prob": 52.0,
-          "relegationProb": 0.1,
-          "expectedPoints": 63.3,
+          "titleProb": 4.9,
+          "g4Prob": 48.1,
+          "relegationProb": 0.0,
+          "expectedPoints": 64.1,
           "pointsRange": [
-            50,
+            51,
             76
           ]
         }
@@ -3304,12 +3275,41 @@
           "points": 17,
           "played": 11,
           "titleProb": 0.0,
-          "g4Prob": 0.2,
+          "g4Prob": 0.1,
           "relegationProb": 37.5,
-          "expectedPoints": 41.4,
+          "expectedPoints": 41.3,
           "pointsRange": [
             30,
             54
+          ]
+        }
+      },
+      "value": 13,
+      "detail": "gols sofridos em 11 jogos"
+    },
+    {
+      "team": {
+        "slug": "ceara",
+        "name": "Ceará",
+        "shortName": "Ceará",
+        "city": "Fortaleza",
+        "state": "CE",
+        "founded": 1914,
+        "nickname": "Vozão",
+        "division": "B",
+        "brand": "#2A2A2A",
+        "bio": "",
+        "current": {
+          "position": 13,
+          "points": 13,
+          "played": 11,
+          "titleProb": 0.2,
+          "g4Prob": 7.0,
+          "relegationProb": 1.4,
+          "expectedPoints": 54.7,
+          "pointsRange": [
+            42,
+            67
           ]
         }
       },
@@ -3329,50 +3329,21 @@
         "brand": "#1A1A1A",
         "bio": "",
         "current": {
-          "position": 14,
-          "points": 13,
-          "played": 10,
-          "titleProb": 0.0,
-          "g4Prob": 0.1,
-          "relegationProb": 42.8,
-          "expectedPoints": 41.1,
-          "pointsRange": [
-            29,
-            54
-          ]
-        }
-      },
-      "value": 13,
-      "detail": "gols sofridos em 10 jogos"
-    },
-    {
-      "team": {
-        "slug": "crb",
-        "name": "CRB",
-        "shortName": "CRB",
-        "city": "Maceió",
-        "state": "AL",
-        "founded": 1912,
-        "nickname": "Regatas",
-        "division": "B",
-        "brand": "#CC0000",
-        "bio": "",
-        "current": {
           "position": 11,
-          "points": 14,
-          "played": 10,
-          "titleProb": 8.7,
-          "g4Prob": 42.4,
-          "relegationProb": 0.2,
-          "expectedPoints": 61.6,
+          "points": 16,
+          "played": 11,
+          "titleProb": 0.5,
+          "g4Prob": 9.8,
+          "relegationProb": 1.1,
+          "expectedPoints": 55.6,
           "pointsRange": [
-            48,
-            75
+            42,
+            69
           ]
         }
       },
-      "value": 15,
-      "detail": "gols sofridos em 10 jogos"
+      "value": 14,
+      "detail": "gols sofridos em 11 jogos"
     },
     {
       "team": {
@@ -3387,20 +3358,49 @@
         "brand": "#1E5BA3",
         "bio": "",
         "current": {
-          "position": 15,
+          "position": 16,
           "points": 10,
           "played": 11,
           "titleProb": 0.0,
-          "g4Prob": 0.4,
-          "relegationProb": 17.2,
-          "expectedPoints": 46.3,
+          "g4Prob": 0.0,
+          "relegationProb": 84.4,
+          "expectedPoints": 34.5,
           "pointsRange": [
-            35,
-            58
+            24,
+            46
           ]
         }
       },
       "value": 15,
+      "detail": "gols sofridos em 11 jogos"
+    },
+    {
+      "team": {
+        "slug": "crb",
+        "name": "CRB",
+        "shortName": "CRB",
+        "city": "Maceió",
+        "state": "AL",
+        "founded": 1912,
+        "nickname": "Regatas",
+        "division": "B",
+        "brand": "#CC0000",
+        "bio": "",
+        "current": {
+          "position": 12,
+          "points": 14,
+          "played": 11,
+          "titleProb": 0.1,
+          "g4Prob": 2.1,
+          "relegationProb": 7.1,
+          "expectedPoints": 49.5,
+          "pointsRange": [
+            36,
+            64
+          ]
+        }
+      },
+      "value": 17,
       "detail": "gols sofridos em 11 jogos"
     },
     {
@@ -3418,19 +3418,19 @@
         "current": {
           "position": 18,
           "points": 8,
-          "played": 10,
+          "played": 11,
           "titleProb": 0.0,
           "g4Prob": 0.0,
-          "relegationProb": 96.2,
-          "expectedPoints": 29.2,
+          "relegationProb": 97.0,
+          "expectedPoints": 28.4,
           "pointsRange": [
             18,
-            42
+            41
           ]
         }
       },
-      "value": 18,
-      "detail": "gols sofridos em 10 jogos"
+      "value": 19,
+      "detail": "gols sofridos em 11 jogos"
     },
     {
       "team": {
@@ -3448,13 +3448,13 @@
           "position": 19,
           "points": 7,
           "played": 10,
-          "titleProb": 8.1,
-          "g4Prob": 44.1,
+          "titleProb": 2.9,
+          "g4Prob": 35.5,
           "relegationProb": 0.1,
-          "expectedPoints": 62.1,
+          "expectedPoints": 62.4,
           "pointsRange": [
             49,
-            74
+            75
           ]
         }
       },
@@ -3479,10 +3479,10 @@
           "played": 11,
           "titleProb": 0.0,
           "g4Prob": 0.0,
-          "relegationProb": 99.5,
-          "expectedPoints": 23.1,
+          "relegationProb": 99.6,
+          "expectedPoints": 22.9,
           "pointsRange": [
-            13,
+            12,
             35
           ]
         }
