@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { Link } from "react-router-dom"
 import type { Division } from "@/lib/teams"
 import { computeStandingsFromResults, type StandingMode, type StandingRow } from "@/lib/brasileirao"
@@ -21,12 +21,22 @@ export function StandingsTable({
   division: Division
   mode: StandingMode
 }) {
-  const [range, setRange] = useState<[number, number]>([29, 38])
+  const [range, setRange] = useState<[number, number]>([1, 38])
   const [rangeStart, rangeEnd] = range
 
   const { data: standingsJson, isLoading: standingsLoading } = useStandings(division)
   const { data: results, isLoading: resultsLoading } = useMatchResults(division)
   const { data: allTeams, isLoading: teamsLoading } = useTeams()
+
+  const maxRound = results && results.length > 0
+    ? results.reduce((max, r) => Math.max(max, r.round), 0)
+    : 0
+
+  useEffect(() => {
+    if (maxRound > 0) {
+      setRange([Math.max(1, maxRound - 9), maxRound])
+    }
+  }, [maxRound])
 
   const divisionTeams = allTeams?.filter((t) => t.division === division) ?? []
 
@@ -91,7 +101,7 @@ export function StandingsTable({
           </div>
           <Slider
             min={1}
-            max={38}
+            max={maxRound || 38}
             step={1}
             value={range}
             onValueChange={(v) => {
@@ -102,7 +112,7 @@ export function StandingsTable({
           <div className="mt-2 flex justify-between font-mono text-[10px] text-muted-foreground">
             <span>Rd. 1</span>
             <span>{rangeEnd - rangeStart + 1} rodada{rangeEnd - rangeStart + 1 !== 1 ? "s" : ""}</span>
-            <span>Rd. 38</span>
+            <span>Rd. {maxRound || 38}</span>
           </div>
         </div>
       )}
