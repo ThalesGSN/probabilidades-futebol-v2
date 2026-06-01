@@ -44,9 +44,6 @@ export function SiteHeader() {
           <Button variant="ghost" size="icon" aria-label="Buscar">
             <Search className="h-4 w-4" />
           </Button>
-          <Button variant="default" size="sm" className="bg-primary text-primary-foreground hover:bg-primary/90">
-            Meu time
-          </Button>
         </div>
 
         <button
@@ -71,7 +68,6 @@ export function SiteHeader() {
                 {item.label}
               </Link>
             ))}
-            <Button className="mt-2 w-full bg-primary text-primary-foreground hover:bg-primary/90">Meu time</Button>
           </nav>
         </div>
       )}
