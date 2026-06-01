@@ -1,9 +1,10 @@
 name: Data Pipeline
 
 on:
-  schedule:
-    # 01:00 UTC = 22:00 BRT
-    - cron: "0 1 * * *"
+  # Temporada pausada até julho/2026 — cron desabilitado para reduzir custos.
+  # Para rodar manualmente: Actions → Data Pipeline → Run workflow.
+  # schedule:
+  #   - cron: "0 1 * * *"
   workflow_dispatch: {}
 
 jobs:
